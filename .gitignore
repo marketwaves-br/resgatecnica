@@ -1,0 +1,36 @@
+# Dados de licitações — volume grande, não versionar
+editais/
+editais_processados/
+
+# Cache de embeddings — gerado automaticamente
+.embeddings_cache/
+
+# Dados gerados em runtime
+pncp_licitacoes.json
+pncp_documentos.json
+pncp_similaridades.json
+pncp_aderencias.json
+pncp_telemetria.jsonl
+municipios_coords.json
+powerbi_licitacoes.csv
+powerbi_itens.csv
+powerbi_resumo.txt
+radar_licitacoes.html
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Backups e temporários
+*.zip
+bkp_*/
+
+# Configurações locais do Claude
+.claude/settings.local.json
+
+# Ambiente virtual
+.venv/
+venv/
+env/
