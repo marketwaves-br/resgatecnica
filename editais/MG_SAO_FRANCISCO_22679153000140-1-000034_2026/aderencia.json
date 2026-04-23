@@ -1,0 +1,119 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 6,
+      "descricao": "Açúcar Cristal, superior, livre de fermentação, isento de matéria terrosa, isento de sujidade, parasitos e de detritos animais ou vegetais, contendo na rotulagem tipo e classificação, embalagem plástica transparente atóxica de 1 KG. Açúcar cristal igual ou superior as marcas Delta, Cristal de Minas, Alto Alegre, União.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentacao escolar', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentacao escolar', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 14,
+      "descricao": "Arroz Agulhinha, grupo beneficiado, subgrupo polido, classe longo fino, tipo 1, 80% de peso de grãos inteiros, isento de sujidades e materiais estranhos, validade mínima de 6 meses, a contar da data de entrega embalagem plástica atóxica, transparente de 5KG. Produto igual ou superior a marca, Codil, Vasconcellos, Camil, Tio João.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentacao escolar', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentacao escolar', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 27,
+      "descricao": "Carne Bovina de 2ª, limpa, sem pele, sem gordura, sem pelanca, picada em cubos, embaladas em pacotes de 1kg,  apresentar consistência firme, isentas de aditivos ou substâncias estranhas ao produto que sejam impróprias ao consumo e que alterem suas características naturais (físico, química  ou organoléptico). Apresentar amostra.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentacao escolar', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentacao escolar', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 29,
+      "descricao": "Carne Bovina de 2ª, limpa, sem pele, sem gordura, sem pelanca, MOÍDA, isentas de aditivos ou substâncias estranhas ao produto que sejam impróprias ao consumo e que alterem suas características naturais (físico,  química  ou organoléptico). Apresentar amostra.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentacao escolar', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentacao escolar', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 31,
+      "descricao": "Carne Suína, congelada, tipo lombo, sem osso – IQF Características: Deverá apresentar-se com aspectos próprios na cor, no cheiro e sabor, sem manchas esverdeadas, livres de parasitas e sujidades. A carne não deverá apresentar-se amolecida e nem pegajosa. Com teor máximo de 10% de gordura em cada kg. Embalagem: À vácuo, em pacotes atóxicos, transparentes e resistentes e não violados, com peso mínimo de 01 kg. Rotulagem: De acordo com a legislação vigente, com registro de inspeção e carimbo do órgão competente. Deverá ser fornecido por estabelecimento com alvará sanitário atualizado. Temperatura: A carne deverá estar à temperatura de -18°c (dezoito graus centígrados negativos) ou inferior e transportada em carro adequado que conserve tanto as características do alimento congelado, como também a qualidade do mesmo, conforme legislação vigente.   Apresentar amostra.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentacao escolar', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentacao escolar', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 48,
+      "descricao": "Filé de Peito de Frango, - Características: A carne do frango não deverá ter pele, nem ossos (mesmo que pequenos) e não poderá ser temperada. Deverá apresentar-se com aspectos próprios na cor, no cheiro e sabor, sem manchas esverdeadas, livres de parasitas e sujidades. A carne não deverá apresentar-se amolecida e nem pegajosa. Com teor máximo de 5% de gordura em cada kg. Embalagem: À vácuo, em pacotes atóxicos, transparentes e resistentes e não violados, com peso mínimo de 01kg. Rotulagem: De acordo com a legislação vigente, com registro de inspeção e carimbo do órgão competente. Deverá ser fornecido por estabelecimento com alvará sanitário atualizado. Temperatura: A carne deverá estar à temperatura de -18°c (dezoito graus centígrados negativos) ou inferior e transportada em carro adequado que conserve tanto as características do alimento congelado, como também a qualidade do mesmo, conforme legislação vigente. Validade: Mínima de 11 (onze) meses. No ato da entrega, a validade mínima deverá ser igual ou superior a 80% do prazo total da validade, contado a partir da data de\r\nfabricação. Apresentar amostra.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentacao escolar', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentacao escolar', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 6
+  },
+  "_pre_filtrado": true,
+  "_score_pre_filtro": -2.0,
+  "_termos_negativos": [
+    "alimentacao escolar",
+    "generos alimenticios"
+  ],
+  "_processo": "22679153000140-1-000034/2026",
+  "_analisado_em": "2026-04-22T00:59:25.450418+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "heuristica"
+}

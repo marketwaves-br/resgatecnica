@@ -1,0 +1,435 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "ARMARIO DE ACO 2 PORTAS (1980X900X400)MM",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "ARQUIVO PARA ESCRITORIO - TIPO: VERTICAL; FINALIDADE: ARQUIVO DE PASTAS SUSPENSAS TAMANHO OFICIO; GAVETAS: 04 GAVETAS; MATERIA-PRIMA: ACO CHAPA 22; DIMENSOES: 133 CM (ALT.) X 47 CM (LARG.) X 71 CM (PROF.)COMPLEMENTACAO DA ESPECIFICACAO: ARQUIVO DE ACO, ALTURA 133 CM, LARGURA 47 CM, PROFUNDIDADE 71 CM, CONFECCIONADO TOTALMENTE EM ACO CHAPA 22; PESO TOTAL DO ARQUIVO 47 KG E 400 G; COM 4 GAVETAS PARA ARQUIVAMENTO DE PASTAS SUSPENSAS TAMANHO OFICIO; CARRINHOS TELESCOPICOS 500 MM EM CHAPA PESADA, COM FUNCIONAMENTO PROGRESSIVO E TRAVA DE SEGURANCA, SISTEMA DE TRAVAMENTO uNICO DAS GAVETAS POR MEIO DE FECHADURA TIPO YALE, PUXADORES EM ZAMAC CROMADO E PORTA-ETIQUETAS EM METAL OU ESTAMPADA NA PROPRIA CHAPA, EM CADA GAVETA; TOTALMENTE PINTADO EM ESMALTE SINTETICO COM ESPESSURA DE 30 MiCRONS, ELETROSTATICA COM SECAGEM EM ESTUFA A 150 GRAUS CENTIGRADOS, NA COR CINZA CLARO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 3,
+      "descricao": "BALDE A PEDAL DE ACO 60L INDUSTRIAL HOSPITALAR BRANCO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "BEBEDOURO PURIFICADOR DE COLUNA. PRESSAO. INDUSTRIAL REFRIGERADO ACO INOX. 110V OU BIVOLT",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 5,
+      "descricao": "CADEIRA PARA ESCRITORIO TIPO: GIRATORIA; ESPALDAR:ALTO; APOIA-BRACOS: REGULAVEL; ASSENTO/ENCOSTO: COMPENSADO ANATOMICO MOLDADO A QUENTE; ESTRUTURA: CHAPA DE ACO; PES: RODiZIOS; CONTRA-ASSENTO: POLIESTIRENO; CONTRA- ENCOSTO:POLIESTIRENO; REGULAGEM: SISTEMA A GAS.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 6,
+      "descricao": "CADEIRA DE RODAS PARA OBESO COM BRACOS ESCAMOTEAVEIS E ELEVACAO DE PANTURRILHA ATE 160KG",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7,
+      "descricao": "CAIXA TERMICA 32 LITROS COM ALCA E TAMPA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 8,
+      "descricao": "CAMARA CONSERVADORA DE VACINAS 510 LITROS - 110W - 473W - DIMENSOES EXTERNAS (CM) A; 210, L: 73,5, P: 85 - DIMENSOES INTERNAS (CM) A: 137, L: 58,5, P: 66,9; COM DISCADORA TELEFONICA - PAINEL LCD",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 9,
+      "descricao": "COMPRESSOR 5 BPO RCH 50L C/R PI S/OLEO 127 OU 220V (TENSAO A SER DEFINIDA NA EMISSAO DA NOTA FISCAL)",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 10,
+      "descricao": "COMPRESSOR 5 BPO RCH 100L C/R PI S/OLEO 127 OU 220V (TENSAO A SER DEFINIDA NA EMISSAO DA NOTA FISCAL)",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 11,
+      "descricao": "COMPUTADOR COMPLETO - CPU PROCESSADOR CORE I5, MiNIMO 12 GERACAO, 8 GB DE MEMORIA RAM DDR4, SSD 240 GB, TECLADO MULTIMiDIA USB, MOUSE USB, MONITOR 19/\" LCD",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 12,
+      "descricao": "DETECTOR FETAL CONF EDITAL",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 13,
+      "descricao": "ELETROCARDIOGRAFO CARDIOCARE 2000 COMPLETO 12 CANAIS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 14,
+      "descricao": "ESCADA HOSPITALAR AUXILIAR ACO 2 DEGRAUS EMBORRACHADA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 15,
+      "descricao": "APARELHO DE PRESSAO ADULTO (ESFIGMOMANOMETRO): BRACADEIRA:  CONFECCIONADA EM TECIDO NYLON RESISTENTE; SISTEMA DE FECHO EM VELCRO; MANOMETRO: COM ESCALA DE 0 A 300 MMHG COM ANEL DE PROTECAO AFERIDO PELO CONTROLE DE QUALIDADE CBEMED E COM SELO DE VERIFICACAO INICIAL INDIVIDUAL PELO INMETRO; PERA INSUFLADORA: FABRICADA EM PVC, COM ACABAMENTO LISO; VALVULA PRECISA E EXCLUSIVA EM METAL CROMADO E PROTEGIDA CONTRA VAZAMENTOS DE AR. EMBALAGEM INDIVIDUAL COM ACOMPANHAMENTO DE BOLSA PARA A GUARDA DO PRODUTO E CONDICIONADO EM CAIXA DE PAPELAO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 16,
+      "descricao": "APARELHO DE PRESSAO OBESO (ESFIGMOMANOMETRO): BRACADEIRA CONFECCIONADA EM TECIDO NYLON RESISTENTE; SISTEMA DE FECHO EM VELCRO; MANOMETRO: COM ESCALA DE 0 A 300 MMHG COM ANEL DE PROTECAO AFERIDO PELO CONTROLE DE QUALIDADE CBEMED E COM SELO DE VERIFICACAO INICIAL INDIVIDUAL PELO INMETRO; PERA INSUFLADORA: FABRICADA EM PVC, COM ACABAMENTO LISO; VALVULA PRECISA E EXCLUSIVA EM METAL CROMADO E PROTEGIDA CONTRA VAZAMENTOS DE AR. EMBALAGEM INDIVIDUAL COM ACOMPANHAMENTO DE BOLSA PARA A GUARDA DO PRODUTO E CONDICIONADO EM CAIXA DE PAPELAO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 17,
+      "descricao": "ESTETOSCOPIO ADULTO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 18,
+      "descricao": "GLICOSiMETRO OK PRO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 19,
+      "descricao": "IMPRESSORA MULTIFUNCIONAL JATO DE TINTA COM TANQUE INTEGRADO, IMPRESSAO COLORIDA E PRETO E BRANCO, DIGITALIZACAO, COPIA. RESOLUCAO MAXIMA ATE 5.760 X 1.440 DPI. VELOCIDADE DE IMPRESSAO PRETO: ATE 13 PPM; COLORIDOR: ATE 6,5 PPM, FORMATO DE PAPEL: A4, A5, A6, B5, CARTA, OFiCIO, FOTO (10 X 15 CM), CAPACIDAE DE PAPEL: ENTRADA ATE 100 FOLHAS; SAiDA: ATE 30 FOLHAS, UBS 2.0, WI-FI INTEGRADO, FUNCAO FRENTE E VERSO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 20,
+      "descricao": "LONGARINA 4 LUGARES - ASSENTO E ENCOSTO FABRICADOS EM POLIPROPILENO DE ALTA RESISTENCIA, NA COR PRETA OU EM OUTRA COR A SER DEFINIDA. BASE DE ACO, COM ENCAIXES PARA OS A/E FABRICADOS EM TUBO OBLONGO 16X30, CHAPA #16. BASE LONGARINA COMPOSTA POR DUAS TRAVESSAS DE PERFIL 50X30, CHAPA #18. COLUNAS QUE LIGAM AS TRAVESSAS AOS PES EM PERFIL 50X30, CHAPA #18. PES FABRICADOS EM PERFIL 50X30, CHAPA #18. PINTURA DA BASE ELETROSTATICA NA COR PRETA. PONTEIRAS E SAPATAS EM POLIPROPILENO. GARANTIA DO FABRICANTE/FORNECEDOR 12 MESES",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 21,
+      "descricao": "MESA DELTA ESTACAO  PARA ESCRITORIO TAMANHO MiNIMO 1,40M EM L",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 22,
+      "descricao": "MESA DE EXAME CLiNICO COM ARMARIO 3 OU 4 GAVETAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 23,
+      "descricao": "NOTEBOOK, TELA 15.6/\" FULL HD (1920X1080), VOLTAGEM 127V OU BIVOLT, BATERIA DE 3 CELULAS (50 WH), ADAPTADOR AC, CABO DE FORCA, MANUAIS INCLUSOS, ALTO-FALANTES ESTEREO, WEBCAM HD (1280X720) COM MICROFONE DUPLO, PROCESSADOR INTEL CORE I5 1335U, PLACA DE VIDEO INTEGRADA, 8GB RAM DDR4, SSD 512GB NVME, 2 PORTAS USB 3.2",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 24,
+      "descricao": "ROTEADOR -  VELOCIDADE WIRELESS: 300 MBPS, QUANTIDADE DE ANTENAS: 4, QUANTIDADE DE PORTAS LAN: 4, TIPOS DE ANTENA: QUATRO ANTENAS FIXAS DE 5DBI, FREQUENCIA: 2.4 GHZ, PADRAO WIRELESS: IEEE 802.11N",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 25,
+      "descricao": "TELEVISOR, TAMANHO TELA 40 POL, VOLTAGEM 110/220 V, CARACTERiSTICAS ADICIONAISFUL HD, SMART TV, DVT, WIDESCREEN, 2 ENTRADAS RF, TIPO TELA LED, ACESSORIOSCONTROLE REMOTO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 26,
+      "descricao": "VENTILADOR TIPO: PAREDE, POTENCIA MOTOR: 110/220 W, TENSAO ALIMENTACAO: 110/220 V, CARACTERiSTICAS ADICIONAIS: GRADE REMOViVEL/CONTROLE GRADUAL DE VELOCIDADE, TIPO HELICE: 03 PAS, DIAMETRO: 60 C",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 26
+  },
+  "_meepp": true,
+  "_motivo": "Todos os itens são exclusivos ou cota reservada para ME/EPP",
+  "_processo": "16854531000181-1-000050/2026",
+  "_analisado_em": "2026-04-23T00:03:48.992268+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "meepp"
+}

@@ -1,0 +1,92 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua como fornecedora de equipamentos hospitalares genéricos ou de uso clínico rotineiro."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de equipamentos hospitalares para universidade: cama motorizada e maca clínica para uso em ambiente hospitalar/clínico",
+    "mercados_predominantes": [
+      "Saúde hospitalar",
+      "Equipamentos clínicos de rotina",
+      "Mobiliário hospitalar genérico"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de equipamentos hospitalares genéricos. Resgatécnica atua em operações críticas/emergências, não em fornecimento de camas e macas clínicas de rotina hospitalar."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cama hospitalar motorizada é equipamento clínico de rotina, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Uso clínico rotineiro, não emergencial"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": "Resgate e Evacuação",
+      "justificativa": "Palavra 'maca' gera falso positivo. Portfolio contém macas de resgate em altura (envelope, técnicas). Item é maca clínica hospitalar genérica.",
+      "motivos_pro_match": [
+        "Termo 'maca' presente no portfolio"
+      ],
+      "motivos_contra_match": [
+        "Contexto clínico, não resgate",
+        "Maca clínica ≠ maca de resgate técnica"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 1,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "contexto_operacional"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo operacional. Resgatécnica não é fornecedora de equipamentos hospitalares clínicos genéricos."
+  },
+  "_processo": "46068425000133-1-000698/2026",
+  "_analisado_em": "2026-04-21T19:36:15.125306+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

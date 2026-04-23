@@ -1,0 +1,35 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "TINTA ACRÍLICA À BASE DE ÁGUA PARA DEMARCAÇÃO DE CAMPOS DE FUTEBOL – BALDE 18 L:  Tinta acrílica à base de água, indicada para demarcação de linhas em gramados naturais de campos de futebol. Produto de fácil aplicação, com boa cobertura, alto rendimento e desempenho, formulado para preservar o gramado, com baixo teor de derivados de petróleo, não agressivo à vegetação, substituindo o uso de cal e tintas convencionais. Fornecida em recipiente tipo balde com capacidade de 18 (dezoito) litros. Disponível em cores padrão, admitindo-se variações de tonalidades conforme necessidade da Administração. Composição: água, emulsão acrílica, cargas minerais, pigmentos orgânicos, dispersantes, biocidas, espessantes, alifáticos e glicóis.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "_meepp": true,
+  "_motivo": "Todos os itens são exclusivos ou cota reservada para ME/EPP",
+  "_processo": "18244376000107-1-000067/2026",
+  "_analisado_em": "2026-04-22T00:59:23.017036+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "meepp"
+}

@@ -1,0 +1,517 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não é distribuidora genérica de equipamentos hospitalares de rotina. Portfólio focado em operações críticas, não em infraestrutura hospitalar permanente."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para fornecimento de equipamentos médico-hospitalares, mobiliários e instrumentais para Hospital Municipal e Secretaria de Saúde. Foco em infraestrutura hospitalar permanente, atendimento clínico de rotina e diagnóstico.",
+    "mercados_predominantes": [
+      "Equipamentos médico-hospitalares genéricos",
+      "Mobiliário hospitalar",
+      "Instrumentais cirúrgicos e diagnósticos",
+      "Distribuição hospitalar convencional"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/34 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Equipamento de neonatologia hospitalar. Fora do escopo de operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura hospitalar permanente",
+        "Neonatologia de rotina"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Aspirador cirúrgico para sala de operação. Equipamento hospitalar genérico, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento cirúrgico hospitalar",
+        "Uso em sala de operação"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": "Proteção Individual",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Avental radiológico é EPI genérico hospitalar, não EPI técnico-operacional de emergência.",
+      "motivos_pro_match": [
+        "Palavra 'avental' e 'proteção'"
+      ],
+      "motivos_contra_match": [
+        "EPI hospitalar genérico, não técnico-operacional",
+        "Contexto: radiologia de rotina"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Balança antropométrica para avaliação clínica de rotina. Equipamento hospitalar genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de diagnóstico hospitalar",
+        "Uso clínico de rotina"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Balança pediátrica para avaliação clínica. Equipamento hospitalar de rotina.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de diagnóstico hospitalar",
+        "Uso pediátrico de rotina"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mobiliário hospitalar genérico. Fora do escopo de equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Sem função operacional"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Berço aquecido para neonatologia. Equipamento hospitalar de infraestrutura permanente.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento neonatal hospitalar",
+        "Infraestrutura permanente"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Berço para recém-nascido. Equipamento hospitalar de infraestrutura permanente.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento neonatal hospitalar",
+        "Infraestrutura permanente"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bisturi elétrico para sala de operação. Equipamento cirúrgico hospitalar genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento cirúrgico hospitalar",
+        "Uso em sala de operação"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bomba de infusão para administração de medicamentos. Equipamento hospitalar de rotina.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar de rotina",
+        "Uso clínico permanente"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Braçadeira para injeção. Insumo hospitalar genérico de consumo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo hospitalar genérico",
+        "Consumo de rotina"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de banho hospitalar. Mobiliário hospitalar genérico de infraestrutura.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Infraestrutura permanente"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de rodas manual. Equipamento hospitalar genérico de mobilidade.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar genérico",
+        "Mobilidade de rotina"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Câmara fria para conservação de sangue. Equipamento de infraestrutura hospitalar.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de infraestrutura hospitalar",
+        "Armazenamento de sangue"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caneta para eletrocautério. Instrumental cirúrgico hospitalar genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Instrumental cirúrgico hospitalar",
+        "Uso em sala de operação"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carro para curativo. Mobiliário hospitalar genérico de infraestrutura.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Infraestrutura permanente"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.55,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": "Coletes",
+      "justificativa": "Carro de emergência é equipamento de resposta a parada cardíaca. Resgatécnica tem portfólio APH, mas este é equipamento hospitalar fixo, não operacional móvel.",
+      "motivos_pro_match": [
+        "Contexto de emergência",
+        "Portfólio APH da empresa"
+      ],
+      "motivos_contra_match": [
+        "Equipamento hospitalar fixo",
+        "Não é equipamento operacional móvel"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "CPAP nasal infantil. Equipamento respiratório hospitalar de rotina neonatal.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento respiratório hospitalar",
+        "Uso neonatal de rotina"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Laringoscópio adulto. Instrumental diagnóstico hospitalar genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Instrumental diagnóstico hospitalar",
+        "Uso clínico de rotina"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Laringoscópio pediátrico. Instrumental diagnóstico hospitalar genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Instrumental diagnóstico hospitalar",
+        "Uso clínico de rotina"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": "Proteção Individual",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva plumbífera é EPI radiológico hospitalar genérico, não EPI técnico-operacional de emergência.",
+      "motivos_pro_match": [
+        "Palavra 'luva' e 'proteção'"
+      ],
+      "motivos_contra_match": [
+        "EPI radiológico hospitalar genérico",
+        "Contexto: proteção radiológica"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Monitor de sinais vitais multiparâmetros. Equipamento hospitalar de monitoramento de rotina.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar de monitoramento",
+        "Uso clínico de rotina"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cardioversor/desfibrilador. Equipamento hospitalar de emergência clínica, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar de emergência",
+        "Uso clínico de rotina"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": "Proteção Individual",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Óculos radiológicos são EPI hospitalar genérico, não EPI técnico-operacional de emergência.",
+      "motivos_pro_match": [
+        "Palavra 'óculos' e 'proteção'"
+      ],
+      "motivos_contra_match": [
+        "EPI radiológico hospitalar genérico",
+        "Contexto: proteção radiológica"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Otoscópio clínico. Instrumental diagnóstico hospitalar genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Instrumental diagnóstico hospitalar",
+        "Uso clínico de rotina"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bomba de infusão é equipamento hospitalar de internação. Resgatécnica não fornece equipamentos médicos de rotina.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar genérico",
+        "Fora do nicho de emergências"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Braçadeira para injeção é insumo médico hospitalar genérico. Não relacionado a operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo hospitalar genérico",
+        "Sem contexto de emergência"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de banho hospitalar é mobiliário de internação. Resgatécnica fornece cadeira de resgate/evacuação, não mobiliário hospitalar de rotina.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Contexto de internação, não resgate"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de rodas manual é mobiliário hospitalar genérico. Não é equipamento de resgate ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Sem especialização operacional"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Câmara fria para sangue é equipamento de laboratório/banco de sangue hospitalar. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento laboratorial hospitalar",
+        "Sem relação com operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caneta para eletrocautério é instrumental cirúrgico hospitalar. Não relacionado a resgate ou emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Instrumental cirúrgico hospitalar",
+        "Contexto de sala de operação"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carro para curativo é mobiliário hospitalar de internação. Resgatécnica fornece carros de emergência/parada, não carros de curativo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar de internação",
+        "Contexto de enfermaria, não emergência"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.55,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": "Coletes",
+      "justificativa": "Carro de emergência e parada tem semelhança lexical com portfólio APH. Porém, contexto é hospitalar (internação), não operacional de resgate.",
+      "motivos_pro_match": [
+        "Termo 'emergência' presente",
+        "Portfólio tem APH"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é equipamento de resgate operacional"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "CPAP nasal infantil é equipamento respiratório hospitalar de internação. Não relacionado a operações críticas ou resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar de internação",
+        "Sem contexto de emergência"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 2,
+    "falso_positivo_lexical": 3,
+    "nao_aderente": 29
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação pertence a mercado completamente distinto. Resgatécnica é especializada em operações críticas e emergências técnicas. Esta licitação é para infraestrutura hospitalar permanente e equipamentos de rotina clínica. Nenhuma sinergia comercial real."
+  },
+  "_processo": "18385112000173-1-000016/2026",
+  "_analisado_em": "2026-04-22T01:10:27.638112+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

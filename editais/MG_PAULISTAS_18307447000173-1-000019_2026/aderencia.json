@@ -1,0 +1,824 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "ABACAXI UNIDADE MEDIA PONTO MEDIO DE MATURACAO DE 1 QUALIDADE COM CASCA SEM RUPTURAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "ABOBORA TIPO MORANGA FRESCA EM BOM ESTADO LIVRE DE SUJIDADES CASCA INTEGRA SEM MANCHAS SUJIDADES OU RUPTURAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 3,
+      "descricao": "ACHOCOLATADO MISTURA EM PO PARA O PREPARO DE ACHOCOLATADO ENRIQUECIDO COM VITAMINAS E MINERAIS O PRODUTO DEVE ESTAR COM SUAS CARACTERISTICAS DE COR  SABOR CHEIRO PRESERVADAS DEVE SER FORMULADO A PARTIR DE MATERIAS PRIMAS SELECIONADAS EMBALAGEM DEVE ESTAR ACONDICIONADA EM PACOTES ATOXICOS HERMETICAMENTE SELADOSCOM PESO LIQUIDO DE 1KG CADA.PRAZO DE VALIDADE MINIMO DE 06 MESES A CONTAR A PARTIR DA DATA DE ENTREGA MARCA IGUAL OU SUPERIOR A ITALAC  APTI ETC",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "ACUCAR CRISTAL BRANCO PACOTE COM 5KG LIVRE DE SUJIDADES E IMPUREZAS PRAZO DE VALIDADE MINIMA DE 1 ANO MARCA IGUAL OU SUPERIOR A MINASCUCAR UNIAO  DELTA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 5,
+      "descricao": "AMENDOIM DESCASCADO E MOIDO PACOTE COM 500 GRAMAS TIPO 1 PRAZO DE VALIDADE MINIMO DE 6 MESES MARCA DE BOA QUALIDADE SENDO IGUAL OU SUPERIOR A ANCHIETA YOKI PACHA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 6,
+      "descricao": "AMENDOIM DESCASCADO E TORRADO PACOTE COM 500 GRAMAS TIPO 1 PRAZO DE VALIDADE MINIMO DE 6 MESES MARCA DE BOA QUALIDADE SENDO IGUAL OU SUPERIOR A ANCHIETA YOKI PACHA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7,
+      "descricao": "ARROZ BRANCO  CARACTERISTICAS BRANCO POLIDO LONGO FINO TIPO 1 CARACTERISTICAS O PRODUTO NAO DEVE APRESENTAR GRAOS DISFORMES PERCENTUAL DE IMPUREZA ACIMA DE 5 GRAOS QUEIMADOS PEDRAS CASCAS E CARUNCHOS CHEIRO FORTE INTENSO E NO CARACTERISTICO PREPARACAO DIETETICA FINAL INADEQUADA. EMBALAGEM DEVE ESTAR INTACTA ACONDICIONADA EM PACOTES DE 5KG EM POLIETILENO TRANSPARENTE FABRICACAO MAXIMA DE 30 DIAS VALIDADE MINIMO DE 6 MESES MARCA IGUAL OU SUPERIOR A CEEL COOPATRIGO REI ARTHUR PRATO FINO  SEMPRE BOM NAO SERA PERMITIDO O ARROZ PARBOILIZADO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 8,
+      "descricao": "AVEIA EM FLOCOS MEDIOS DE 1 QUALIDADE PACOTE DE 1KG MARCA COM QUALIDADE IGUAL OU SUPERIOR A JASMINE NUTRI",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 9,
+      "descricao": "BANANA PRATA TAMANHO PADRONIZADO EM PENCA NIVEL DE AMADURECIMENTO MEDIO LIVRE DE AMASSADOS E PARASITAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 10,
+      "descricao": "BATATA INGLESA FRESCA EM BOM ESTADO DE CONSERVACAO LIVRE DE SUJUDADES E PARASITAS TAMANHO PADRONIZADO MEDIO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 11,
+      "descricao": "BATATA DOCE FRESCA EM BOM ESTADO DE CONSERVACAO LIVRE DE SUJIDADES E PARASITAS TAMANHO PADRONIZADO MEDIO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 12,
+      "descricao": "BOLACHA DOCE TIPO MARIA MAISENA SABOR COCO LEITE OU CHOCOLATE PACOTE COM 1,5 KG MARCA COM QUALIDADE IGUAL OU SUPERIOR A KROKERO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 13,
+      "descricao": "CANELA EM PO MARCA DE 1 LINHA PRAZO DE VALIDADE MINIMO DE 6 MESES.PACOTE COM 100G MARCA IGUAL OU SUPERIOR A PACHA KITANO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 14,
+      "descricao": "CANJICA GROSSA BRANCA PACOTE COM 500 GRAMAS 1 LINHA PRAZO DE VALIDADE MINIMO DE 6 MESES MARCA IGUAL OU SUPERIOR A YOKI SINHA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 15,
+      "descricao": "CANJIQUINHA AMARELA FINA PACOTE COM 1KG 1 LINHA PRAZO DE VALIDADE MINIMO DE 6 MESES MARCA IGUAL OU SUPERIOR A SAO JOAO YOKI SINHA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 16,
+      "descricao": "ACEM PICADO CARNE BOVINA DE 2 EM CUBOS DE TAMANHOS PADRONIZADOS E UNIFORMESAPROXIMADAMENTE 3 X3 CM MAGRA E NO MAXIMO COM 10 DE SEBO E GORDURA COM ASPECTO COR  CHEIRO E SABOR PROPRIOS EMBALADA EM SACO PLASTICO TRANSPARENTEATOXICO ISENTA DE ADITIVOS OU SUBSTANCIAS ESTRANHAS AO PRODUTO QUE SEJAM IMPROPRIAS AO CONSUMO E QUE ALTEREM SUAS CARACTERISTICAS NATURAIS FISICAS QUIMICAS E ORGANOLEPTICAS INSPECIONADAS PELO MINISTERIO DA AGRICULTURA. VALIDADE  MÍNIMA: 01 ANO A PARTIR DA DATA DE FABRICAÇÃO. A DATA DE ENTREGA NÃO PODERÁ SER SUPERIOR A 60 DIAS DA DATA DE EMBALAGEM. RESFRIADA A NO MÁXIMO 4ºC.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 17,
+      "descricao": "CARNE BOVINA DE 2 MOIDA MAGRA ACEM  CARNE BOVINA ACEM MOIDA RESFRIADA E NO MÁXIMO 10 DE SEBO E GORDURA COM ASPECTO COR CHEIRO E SABOR PROPRIOS EMBALADA EM SACO PLASTICO TRANSPARENTE ATOXICO ISENTA DE ADITIVOS OU SUBSTANCIAS ESTRANHAS AO PRODUTO QUE SEJAM IMPROPRIAS AO CONSUMO E QUE ALTEREM SUAS CARACTERISTICAS NATURAIS FISICAS QUIMICAS E ORGANOLEPTICAS INSPECIONADAS PELO MINISTERIO DA AGRICULTURA. VALIDADE MINIMA 01 ANO A PARTIR DA DATA DE FABRICACAO A DATA DE ENTREGA NAO PODERA SER SUPERIOR A 60 DIAS DA DATA DE EMBALAGEM RESFRIADA A NO MAXIMO 4ºC",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 18,
+      "descricao": "CARNE SUINA  LOMBO FRESCA TEOR MAXIMO DE GORDURA 10 COM ASPECTO, COR CHEIRO E SABOR PROPRIOS EMBALADA EM SACO PLASTICO TRANSPARENTE,ATOXICO ISENTA DE ADITIVOS OU SUBSTANCIAS ESTRANHAS AO PRODUTO QUE SEJAM IMPROPRIAS AO CONSUMO E QUE ALTEREM SUAS CARACTERISTICAS NATURAIS FISICAS QUIMICAS E ORGANOLEPTICAS INSPECIONADAS PELO MINISTERIO DA AGRICULTURA VALIDADE MÍNIMA 01 ANO A PARTIR DA DATA DE FABRICACAO A DATA DE ENTREGA NAO PODER SER SUPERIOR A 60 DIAS DA DATA DE EMBALAGEM RESFRIADA A NO MÁXIMO 4ºC",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 19,
+      "descricao": "CARNE SUINA  FRESCA PERNIL SEM OSSO. COM ASPECTO COR CHEIRO E SABOR PROPRIOSEMBALADA EM SACO PLASTICO TRANSPARENTE ATOXICO ISENTA DE ADITIVOS OU SUBSTANCIAS ESTRANHAS AO PRODUTO QUE SEJAM IMPROPRIAS AO CONSUMO E QUE ALTEREM SUAS CARACTERISTICAS NATURAIS FISICAS QUIMICAS E ORGANOLEPTICAS INSPECIONADAS PELO MINISTERIO DA AGRICULTURA. VALIDADE MINIMO 01 ANO A PARTIR DA DATA DE FABRICACAO A DATA DE ENTREGA NAO PODERA SER SUPERIOR A 60 DIAS DA DATA DE EMBALAGEM RESFRIADA A NO MAXIMO 4ºC",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 20,
+      "descricao": "CEBOLA DE CABEÇA BRANCA TAMANHO PADRONIZADO MEDIO FRESCA. NAO DEVERA APRESENTAR DANOS DE ORIGEM FISICA OU MECANICA QUE AFETE SUA APARENCIA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 21,
+      "descricao": "CENOURA VERMELHA FRESCA EM BOM ESTADO LIVRE DE SUJIDADES PARASITASPUTREFACAO DEFORMIDADES NAO DEVERA APRESENTAR DANOS DE ORIGEM FIÍSICA OU MECANICA QUE AFETE SUA APARANCIA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 22,
+      "descricao": "CHUCHU FRESCO EM BOM ESTADO LIVRE DE SUJIDADES PARASITAS  PUTREFACAO DEFORMIDADES  NAO DEVERA APRESENTAR DANOS DE ORIGEM FISICA OU MECANICA QUE AFETE SUA APARENCIA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 23,
+      "descricao": "COCO RALADO COCO RALADO SECO SEM ACUCAR PROCEDENTE DE FRUTOS SAOS E MADUROS NAO PODERA APRESENTAR CHEIRO ALTERADO OU RANCOSO COM ASPECTOS DE FRAGMENTOS SOLTOS E DE COR BRANCA. PARCIALMENTE DESENGORDURADO COM TEOR MINIMO DE LIPIDIO DE 3G EM 100G PRAZO DE VALIDADE MINIMO DE 3 MESES MARCA IGUAL OU SUPERIOR A DUCOCO SOCOCO MENINA PACOTE DE 200 G",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 24,
+      "descricao": "CORANTE PARA ALIMENTOS URUCUM PACOTE CONTENDO 500G EMBALAGEM RESISTENTE E APROPRIADA. PRODUTO LIVRE DE SUJIDADES E REGISTRADO SINHA KITANO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 25,
+      "descricao": "EXTRATO DE TOMATE  SACHE COM 350G  1 LINHA MARCA IGUAL OU SUPERIOR A QUEROPOMAROLA. PRODUTO ENTREGUE COM PRAZO DE VALIDADE MÍNIMO DE 3 MESES A VENCER  A CONTAR DA DATA DE ENTREGA EMBALAGEM RESISTENTE E APROPRIADA. PRODUTO LIVRE DE SUJIDADES E REGISTRADO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 26,
+      "descricao": "FARINHA DE TRIGO ESPECIAL COM FERMENTO ENRIQUECIDA COM FERRO E ACIDO FOLICO, PACOTE CONTENDO 1 KG PRAZO DE VALIDADE MINIMA DE 6 MESES A CONTAR DA DATA DE ENTREGA  MARCA IGUAL OU SUPERIOR A VILMA DONA BENTA EMBALAGEM RESISTENTE E APROPRIADA PRODUTO LIVRE DE SUJIDADES E REGISTRADO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 27,
+      "descricao": "FARINHA DE TRIGO ESPECIAL SEM FERMENTO ENRIQUECIDA COM FERRO E ACIDO FOLICO, PACOTE CONTENDO 1 KG PRAZO DE VALIDADE MINIMO DE 6 MESES A CONTAR DA DATA DE ENTREGA MARCA IGUAL OU SUPERIOR A VILMA DONA BENTA  EMBALAGEM RESISTENTE E APROPRIADA PRODUTO LIVRE DE SUJIDADES E REGISTRADO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 28,
+      "descricao": "FARINHA DE MILHO PACOTE 1 KG PRAZO DE VALIDADE MÍNIMO DE 6 MESES A CONTAR DA DATA DE ENTREGA MARCA IGUAL OU SUPERIOR A AMAFIL YOKI SINHA EMBALAGEM RESISTENTE E APROPRIADA  PRODUTO LIVRE DE SUJIDADES E REGISTRADO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 29,
+      "descricao": "FARINHA DE MANDIOCA FINA TORRADA  PACOTE DE 1 KG VALIDADE MINIMA DE 01 ANO EMBALAGEM RESISTENTE E APROPRIADA. PRODUTO LIVRE DE SUJIDADES E REGISTRADO MARCA IGUAL OU SUPERIOR A ANCHIETA YOKI",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 30,
+      "descricao": "FEIJAO,CARIOCA TIPO 1 PRAZO DE VALIDADE MINIMO DE 01 ANO PACOTE DE 1 KG MARCA  IGUAL OU SUPERIOR A CAMIL KICALDO PRODUTO LIVRE DE SUJIDADES E PARASITAS ACONDICIONADO EM EMBALAGEM APROPRIADA E INTEGRA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 31,
+      "descricao": "FEIJAO PRETO TIPO 1 PRAZO DE VALIDADE MINIMO DE 01 ANO PACOTE DE 1 KG MARCA IGUAL OU SUPERIOR A CAMIL  KICALDO PRODUTO LIVRE DE SUJIDADES E PARASITAS ACONDICIONADO EM EMBALAGEM APROPRIADA E INTEGRA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 32,
+      "descricao": "FERMENTO EM PO QUIMICO EMBALAGEM DE 250G CONTENDO AMIDO DE MILHO OU FECULA DE MANDIOCA FOSFATO MONOSSODICO BICARBONATO DE SODIO E CARBONATO DE CALCIO VALIDADE MINIMA DE 6 MESES A CONTAR DA DATA DA ENTREGA DO PRODUTO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 33,
+      "descricao": "FILE DE FRANGO RESFRIADO KG FILE DE FRANGO COM ESPESSURA MEDIA EM CORTES UNIFORMES E PADRONIZADOS DE APROXIMADAMENTE 150G CADA SEM PELE SEM OSSO DEVERA SER ENTREGUE A NO MAXIMO 4ºC ENTREGAR EMBALAGENS DE 01KG ROTULAGEM O PRODUTO DEVERA SER ROTULADO DE ACORDO COM A LEGISLACAO VIGENTE NO ROTULO DA EMBALAGEM DEVERAO SER IMPRESSAS DE FORMA CLARA AS SEGUINTES INFORMACOES IDENTIFICACAO DO PRODUTO INCLUSIVE A MARCA NOME E ENDERECO DO FABRICANTE DATA DE FABRICACAO E PRAZO DE VALIDADE OU DATA DE VENCIMENTO E NUMERO DO LOTE PESO FILE DE FRANGO RESFRIADO KG FILE DE FRANGO COM ESPESSURA MEDIA EM CORTES UNIFORMES E PADRONIZADOS DE APROXIMADAMENTE 150G CADA SEM PELE SEM OSSO DEVERA SER ENTREGUE A NO MAXIMO 4ºC ENTREGAR EMBALAGENS DE 01KG  ROTULAGEM O PRODUTO DEVERA SER ROTULADO DE ACORDO COM A LEGISLACAO VIGENTE  NO ROTULO DA EMBALAGEM DEVERAO SER IMPRESSAS DE FORMA CLARA AS SEGUINTES INFORMACOES IDENTIFICACAO DO PRODUTO INCLUSIVE A MARCA NOME E ENDEREÇO DO F",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 34,
+      "descricao": "FRANGO PEITO COM OSSO  MANIPULADA EM CONDICOES HIGIENICAS PROVENIENTES DE ANIMAIS SADIOS ABATIDOS SOB INSPECAO VETERINARIA DEVENDO SER ENTREGUE A TEMPERATURA ENTRE 0 A 4ºC PRAZO DE VALIDADE MINIMO DE 6 MESES NA ENTREGA DO PRODUTO DEVERA TER DATA DE FABRICACAO MAXIMA DE 30 DIAS EMBALAGEM O PRODUTO DEVERA ESTAR ACONDICIONADO EM EMBALAGEM PLASTICA FLEXIVEL ATOXICA RESISTENTE TRANSPARENTE ROTULAGEM O PRODUTO DEVERA SER ROTULADO DE ACORDO COM A LEGISLACAO VIGENTE NO ROTULO DA EMBALAGEM DEVERAO SER IMPRESSAS DE FORMA CLARA AS SEGUINTES INFORMACOES IDENTIFICACAO DO PRODUTO INCLUSIVE A MARCA NOME E ENDEREÇO DO FABRICANTE DATA DE FABRICACAO E PRAZO DE VALIDADE OU DATA DE VENCIMENTO E NÚMERO DO LOTE PESO LIQUIDO CONDICOES DE ARMAZENAMENTO INCLUSIVE  EMPILHAMENTO MAXIMO NA EMBALAGEM SECUNDARIA NUMERO DE REGISTRO DO PRODUTO NO ORGAO COMPETENTE. PACOTES DE 2 A 2,5KG",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 35,
+      "descricao": "COXA E SOBRECOXA DE FRANGO SEM ADICAO DE SAL E DE TEMPEROS MANIPULADA EM CONDICOES HIGIENICAS PROVENIENTES DE ANIMAIS SADIOS ABATIDOS SOB INSPECAO VETERINARIA DEVENDO SER ENTREGUE A TEMPERATURA ENTRE 0 A 4ºC APROXIMADAMENTE ENTRE 300 A 350G CADA PORCAO PRAZO DE VALIDADE MÍNIMO DE 6 MESES  NA ENTREGA DO PRODUTO DEVERA TER DATA DE FABRICACAO MAXIMA DE 30 DIAS EMBALAGEM O PRODUTO DEVERA ESTAR ACONDICIONADO EM EMBALAGEM PLASTICA FLEXIVEL ATOXICA RESISTENTE TRANSPARENTE ROTULAGEM O PRODUTO DEVERÁ SER ROTULADO DE ACORDO COM A LEGISLACAO VIGENTE NO ROTULO DA EMBALAGEM DEVERAO SER IMPRESSAS DE FORMA CLARA AS SEGUINTES INFORMACOES IDENTIFICACAO DO PRODUTO INCLUSIVE A MARCA NOME E ENDEREÇO DO FABRICANTE DATA DE FABRICACAO E PRAZO DE VALIDADE OU DATA DE VENCIMENTO E NÚMERO DO LOTE PESO LiQUIDO CONDICOES DE ARMAZENAMENTO INCLUSIVE EMPILHAMENTO MAXIMO (NA EMBALAGEM SECUNDRIA NUMERO DE REGISTRO DO PRODUTO NO ORGAO COMPETENTE PACOTES DE 2 A 2,5KG",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 36,
+      "descricao": "FUBA AMARELO PENEIRADO TIPO 1 VALIDADE MINIMA DE 6 MESES A CONTAR DA DATA DE ENTREGA. PACOTE COM 1 KG MARCA IGUAL OU SUPIOROR A YOKI SINHA PRODUTO LIVRE DE SUJIDADES E PARASITAS ACONDICIONADO EM EMBALAGEM APROPRIADA E INTEGRA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 37,
+      "descricao": "GELATINA SABORES VARIADOS UNIDADES DE 30G PRODUTO LIVRE DE SUJIDADES E PARASITAS ACONDICIONADO EM EMBALAGEM APROPRIADA E INTEGRA. MARCA OU IGUAL OU SUPERIOR A DR OETKER ROYAL SOL.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 38,
+      "descricao": "INHAME FRESCO EM BOM ESTADO DE CONSERVACAO TAMANHO PADRONIZADO MEDIO LIVRE DE SUJIDADES E PARASITAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 39,
+      "descricao": "LARANJA DE 1 QUALIDADE TAMANHO MEDIO GRAU MEDIO DE AMADURECIMENTO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 40,
+      "descricao": "LEITE EM PO INTEGRAL INSTANTANEO EMBALAGEM ALUMINIZADA COM VALOR ENERGETICO MEDIO DE 100 A 140 KCAL E VALOR E PROTEICO DE 6 A 8G POR PORCAO DE 26G MARCA IGUAL OU SUPERIOR A NUTRIL  CEMIL. PACOTE CONTENDO 400 GRS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 41,
+      "descricao": "LEITE LIQUIDO INTEGRAL UHT EMBALAGEM EM CAIXA DE 1 LITRO TETRAPAQUE  COM PRAZO DE VENCIMENTO DE NO MINIMO 3 MESES A CONTAR DA DATA DE ENTREGA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 42,
+      "descricao": "LEITE LIQUIDO INTEGRAL UHT SEM LACTOSE EMBALAGEM EM CAIXA DE 1 LITRO TETRAPAQUECOM PRAZO DE VENCIMENTO DE NO MINIMO 3 MESES A CONTAR DA DATA DE ENTREGA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 43,
+      "descricao": "LENTILHA PACOTE DE 500G O PRODUTO DEVERA ESTAR EM BOM ESTADO DE CONSERVACAO,ISENTO DE PROCESSOS DE FERMENTACAO MOFO ODOR ESTRANHO E SUBSTANCIAS NOCIVAS A SAUDE DEVE POSSUIR REGISTRO NO MINISTERIO DA AGRICULTURA O PRODUTO DEVERA SER DA SAFRA CORRENTE CARACTERISTICAS SENSORIAIS ORGANOLEPTICAS ASPECTO DE GRAOS COR ODOR E SABOR PROPRIOS EMBALAGEM DEVE SER LIMPA  RESISTENTE E ESTAR INTACTA EM BOM ESTADO DE CONSERVACAO E HIGIENEPRAZO DE FABRICACAO MAXIMO 30 DIAS PACOTE COM 500G MARCA IGUAL OU SUPERIOR A YOKI AMAFIL.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 44,
+      "descricao": "LINGUIÇA DEFUMADA TIPO CALABRESA MANIPULADA EM CONDICOES HIGIENICASPROVENIENTES DE ANIMAIS SADIOS ABATIDOS SOB INSPECAO VETERINARIA DEVENDO SER ENTREGUE A TEMPERATURA ENTRE 0 A 4ºC COM PESO DE 1000G CADA PORCAO PRAZO DE VALIDADE MÍNIMO DE 6 MESES NA ENTREGA DO PRODUTO DEVERA TER DATA DE FABRICACAO  MAXIMA DE 15 DIAS. EMBALAGEM O PRODUTO DEVERA ESTAR ACONDICIONADO EM EMBALAGEM PLASTICA,FLEXIVEL, ATOXICA RESISTENTE TRANSPARENTE ROTULAGEM O PRODUTO DEVERA SER ROTULADO DE ACORDO COM A LEGISLACAO VIGENTE NO ROTULO DA EMBALAGEM DEVERAO SER IMPRESSAS DE FORMA CLARA AS SEGUINTES INFORMACOES IDENTIFICACAO DO PRODUTO INCLUSIVE A MARCA NOME E ENDERECO DO FABRICANTE DATA DE FABRICACAO E PRAZO DE VALIDADE OU DATA DE VENCIMENTO E NÚMERO DO LOTE PESO LÍQUIDO CONDICOES DE ARMAZENAMENTO INCLUSIVE EMPILHAMENTO MAXIMO NA EMBALAGEM SECUNDARIA  NÚMERO DE REGISTRO DO PRODUTO NO ORGAO COMPETENTE",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 45,
+      "descricao": "MACA NACIONAL  FRUTA DE BOA QUALIDADE SEM DEFEITOS SERIOS APRESENTANDO TAMANHO COR E CONFORMACAO UNIFORME FRUTA BEM DESENVOLVIDA E MADURA A CASCA DEVE ESTAR LIVRE DE RACHADURAS PERFURACOES OU APODRECIMENTOS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 46,
+      "descricao": "MARGARINA COM 60 A 80 DE LIPIDIOS APRESENTACAO ASPECTO CHEIRO SABOR E COR PECULIARES AOS MESMOS E DEVERAO ESTAR ISENTOS DE RANCO E DE OUTRAS CARACTERISTICAS INDESEJAVEIS  EMBALAGEM DE 500G ENTREGAR O PRODUTO REFRIGERADO MARCA IGUAL OU SUPERIOR A QUALY DORIANA DELICIA. LIVRE DE GORDURA TRANS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 47,
+      "descricao": "MACARRAO LETRINHA  EMBALAGEM PADRONIZADA DE 500G PRAZO DE VALIDADE 1 ANO MARCA IGUAL OU SUPERIOR A ADRIA DONA BENTA  SANTA AMALIA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 48,
+      "descricao": "MACARRAO PICADO TIPO AVE MARIA  PACOTE COM 500 GRAMAS PRAZO DE VALIDADE MINIMA DE 01 ANO EMBALAGEM DEVE SER LIMPA RESISTENTE E ESTAR INTACTA EM BOM ESTADO DE CONSERVACAO E HIGIENE. PRAZO DE FABRICACAO MAXIMO 30 DIAS PACOTE ENTRE 500G MARCA IGUAL OU SUPERIOR A ADRIA  DONA BENTA  SANTA AMALIA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 49,
+      "descricao": "MACARRAO COMPRIDO TIPO ESPAGUETE PACOTE COM 01 KG (SEMOLA DE TRIGO ENRIQUECIDA COM FERRO E ACIDO FOLICO E FARINHA DE TRIGO ENRIQUECIDA COM FERRO E ACIDO VALIDADE MINIMA DE 01 ANO EMBALAGEM DEVE SER LIMPA RESISTENTE E ESTAR INTACTA EM BOM ESTADO DE CONSERVACAO E HIGIENE. PRAZO DE FABRICACAO MAXIMO 30 DIAS PACOTE ENTRE 500G A 1KG MARCA IGUAL OU SUPERIOR A ADRIA,DONA BENTA SANTA AMALIA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 50,
+      "descricao": "MACARRAO PARAFUSO   PACOTE COM 500 GRAMAS PRAZO DE VALIDADE MINIMA DE 01 ANO EMBALAGEM DEVE SER LIMPA RESISTENTE E ESTAR INTACTA EM BOM ESTADO DE CONSERVACAO E HIGIENE PRAZO DE FABRICACAO MAXIMO 30 DIAS PACOTE ENTRE 500G MARCA IGUAL OU SUPERIOR A ADRIA DONA BENTA SANTA AMALIA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['alimentos', 'merenda', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 50
+  },
+  "_pre_filtrado": true,
+  "_score_pre_filtro": -2.0,
+  "_termos_negativos": [
+    "alimentos",
+    "merenda",
+    "generos alimenticios"
+  ],
+  "_processo": "18307447000173-1-000019/2026",
+  "_analisado_em": "2026-04-22T00:59:25.652504+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "heuristica"
+}

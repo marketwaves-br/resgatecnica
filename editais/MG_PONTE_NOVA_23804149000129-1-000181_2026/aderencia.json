@@ -1,0 +1,129 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em climatização, conforto ambiental ou infraestrutura predial comum."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de aparelhos de ar condicionado tipo Split Inverter para uso administrativo/conforto em prédios públicos municipais",
+    "mercados_predominantes": [
+      "Climatização e conforto ambiental",
+      "Infraestrutura predial",
+      "Equipamentos de uso administrativo"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação de ar condicionado residencial/comercial. Resgatécnica atua em emergências operacionais, não em climatização predial."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ar condicionado Split 12.000 BTU para conforto ambiental. Fora do escopo operacional de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Climatização predial",
+        "Uso administrativo/conforto"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ar condicionado Split 18.000 BTU para conforto ambiental. Sem relação com operações de resgate ou emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Climatização predial",
+        "Uso administrativo/conforto"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ar condicionado Split 30.000 BTU para conforto ambiental. Completamente fora do nicho técnico-operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Climatização predial",
+        "Uso administrativo/conforto"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ar condicionado Split teto 36.000 BTU para conforto ambiental. Mercado de climatização predial, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Climatização predial",
+        "Uso administrativo/conforto"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ar condicionado Split 22.000 BTU para conforto ambiental. Sem aderência ao portfólio de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Climatização predial",
+        "Uso administrativo/conforto"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 5
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de climatização predial. Resgatécnica é especialista em equipamentos operacionais de emergência, não em conforto ambiental administrativo. Sem sinergia comercial, técnica ou de mercado."
+  },
+  "_processo": "23804149000129-1-000181/2026",
+  "_analisado_em": "2026-04-22T01:16:15.610260+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

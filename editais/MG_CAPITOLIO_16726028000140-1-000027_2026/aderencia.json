@@ -1,0 +1,714 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio e proteção individual técnica",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, não em serviços de seguros ou gestão de frotas administrativas."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de seguro veicular para cobertura de frota municipal. Serviço administrativo-financeiro de seguros, não equipamentos operacionais.",
+    "mercados_predominantes": [
+      "Seguros veiculares",
+      "Gestão de frotas municipais",
+      "Serviços financeiros"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/50 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de seguro, não equipamento",
+        "Mercado financeiro, não emergências"
+      ]
+    },
+    {
+      "numeroItem": 26,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 27,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 28,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 29,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 30,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 31,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 32,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 33,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 34,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 35,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 36,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 37,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 38,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 39,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 40,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 41,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 42,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 43,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 44,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 45,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 46,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 47,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 48,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 49,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    },
+    {
+      "numeroItem": 50,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro veicular é serviço financeiro/administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de seguros",
+        "Não é equipamento"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 50
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é para contratação de seguro veicular. Resgatécnica é fornecedora de equipamentos operacionais para emergências, não seguradora. Mercados completamente distintos. Sem aderência comercial real."
+  },
+  "_processo": "16726028000140-1-000027/2026",
+  "_analisado_em": "2026-04-22T01:18:20.858943+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

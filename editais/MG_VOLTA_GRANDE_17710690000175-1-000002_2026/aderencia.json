@@ -1,0 +1,88 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, emergências e resgate. Não atua em transporte escolar ou veículos de passageiros convencionais."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para fornecimento de veículos escolares (micro-ônibus e ônibus) para transporte de alunos em ambiente urbano e rural",
+    "mercados_predominantes": [
+      "Transporte escolar público",
+      "Veículos de passageiros convencionais",
+      "Educação municipal"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação fora do escopo operacional e comercial da Resgatécnica. Veículos escolares não são equipamentos de emergência, resgate ou operações críticas."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Micro-ônibus escolar urbano é veículo de transporte convencional, não equipamento de emergência ou resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte escolar convencional",
+        "Fora do nicho de emergências"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ônibus escolar rural é veículo de transporte público, não equipamento especializado em resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte escolar convencional",
+        "Fora do nicho de emergências"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 2
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação completamente fora do escopo comercial e operacional da Resgatécnica. Não há compatibilidade semântica, mercadológica ou técnica."
+  },
+  "_processo": "17710690000175-1-000002/2026",
+  "_analisado_em": "2026-04-22T01:04:58.401749+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

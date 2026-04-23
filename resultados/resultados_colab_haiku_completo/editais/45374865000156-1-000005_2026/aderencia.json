@@ -1,0 +1,82 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio e proteção individual técnica",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências. Não atua em saneamento municipal genérico ou bombeamento de esgoto bruto."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de motobomba para bombeamento de esgoto bruto em sistema municipal de saneamento",
+    "mercados_predominantes": [
+      "Saneamento municipal",
+      "Infraestrutura de esgoto",
+      "Bombeamento industrial genérico"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para infraestrutura municipal de saneamento. Resgatécnica fornece equipamentos para emergências e operações críticas, não para sistemas permanentes de esgoto."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bomba para esgoto bruto é infraestrutura municipal permanente, não equipamento de emergência ou resgate.",
+      "motivos_pro_match": [
+        "Portfólio contém motobombas hidráulicas"
+      ],
+      "motivos_contra_match": [
+        "Contexto é saneamento municipal, não emergência",
+        "Motobombas Resgatécnica são para resgate/incêndio"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "descricao",
+      "eixos_operacionais"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo operacional da empresa. Resgatécnica não fornece equipamentos para infraestrutura de saneamento municipal permanente."
+  },
+  "_processo": "45374865000156-1-000005/2026",
+  "_analisado_em": "2026-04-21T19:47:17.109914+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

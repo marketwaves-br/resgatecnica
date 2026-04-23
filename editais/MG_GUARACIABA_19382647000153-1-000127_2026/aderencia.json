@@ -1,0 +1,158 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, emergências e salvamento. Não atua em tecnologia da informação, sistemas de gestão de saúde pública ou software de atenção primária."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviços tecnológicos integrados para gestão da saúde pública municipal, incluindo implantação de e-SUS APS PEC, hospedagem em data center, licenciamento de software, business intelligence, aplicativos móveis e suporte técnico contínuo.",
+    "mercados_predominantes": [
+      "Tecnologia da Informação",
+      "Saúde Pública",
+      "Gestão de Dados",
+      "Software Hospitalar",
+      "Serviços em Nuvem"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é exclusivamente de serviços tecnológicos de gestão de saúde pública. Resgatécnica atua em equipamentos operacionais para emergências, não em software, hospedagem, BI ou sistemas de saúde."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de implantação de ambiente digital e e-SUS APS PEC. Resgatécnica não fornece soluções de TI, hospedagem ou gestão de saúde pública.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de TI, não equipamento",
+        "Gestão saúde pública, fora do escopo"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Licenciamento de software integrado com hospedagem em data center e suporte técnico. Completamente fora do escopo de equipamentos operacionais de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Software e hospedagem em nuvem",
+        "Não é equipamento de resgate"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Licenciamento de painel BI para saúde pública com hospedagem e suporte. Serviço de software de inteligência de negócios, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Business Intelligence software",
+        "Gestão de dados, não resgate"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Aplicativo móvel para Agentes Comunitários de Saúde com georreferenciamento. Serviço de software de saúde pública, não equipamento de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Aplicativo móvel de saúde",
+        "Fora do nicho de resgate"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Aplicativo móvel para Agentes de Combate a Endemias. Serviço de software de controle de dengue, não equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Software de saúde pública",
+        "Controle de endemias, não resgate"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Suporte técnico-operacional, help desk, atualização de e-SUS APS PEC e educação continuada. Serviço de TI e capacitação em software de saúde, não suporte operacional de equipamentos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Help desk e suporte TI",
+        "Educação em software saúde"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Visitas técnicas presenciais para capacitação em sistemas de saúde pública. Serviço de consultoria e treinamento em software de gestão de saúde, não operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Consultoria em gestão saúde",
+        "Capacitação em software, não equipamento"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 7
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida",
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é exclusivamente de serviços de TI e software de gestão de saúde pública. Resgatécnica é fornecedora de equipamentos operacionais para emergências e resgate. Não há compatibilidade comercial, de mercado ou de tipo de fornecedor. Recomenda-se não participar."
+  },
+  "_processo": "19382647000153-1-000127/2026",
+  "_analisado_em": "2026-04-22T01:19:21.065834+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

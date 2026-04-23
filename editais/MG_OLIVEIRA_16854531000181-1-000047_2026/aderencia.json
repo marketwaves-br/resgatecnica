@@ -1,0 +1,819 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "AGULHA DE CROCHE, CONFECCIONADA EM ALUMiNIO; ESPESSURA MiNIMA DE 3,0MM; COMPRIMENTO 15CM",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "ALFINETE REDONDO E COLORIDO PARA MAPA NAS CORES PRETO AMARELO VERDE AZUL E BRANCO, CAIXA COM 50 UNIDADES",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 3,
+      "descricao": "APARELHO DE ULTRASSOM TERAPEUTICO 1MHZ - CONTROLE DE INTENSIDADE, TIMER, TRANSDUTOR ERGONOMICO, REGISTRO ANVISA, GARANTIA MiNIMA 1 ANO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "APONTADOR DE LAPIS, COM DEPOSITO, EM PLASTICO, TAMANHO MEDIO, COM UM FURO, LAMINA EM ACO INOX.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 5,
+      "descricao": "ARGILA PARA MODELAR, PARA USO ESCOLAR. PACOTE COM 1KG",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 6,
+      "descricao": "BALANCA PORTATIL ADULTA EM VIDRO TEMPERADO, CAPACIDADE ATE 150KG, COM VISOR DIGITAL COM FUNCIONAMENTO A BATERIA.BALANCA PORTATIL ADULTA EM VIDRO TEMPERADO, CAPACIDADE ATE 150KG, COM VISOR DIGITAL COM FUNCIONAMENT",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7,
+      "descricao": "BALOES COLORIDOS, SORTIDOS; LATEX, 7 POLEGADAS; 50 UNIDADES POR PACOTE",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 8,
+      "descricao": "BARBANTE DE ALGODAO CRU REF 4/6 - ROLO CONTENDO 700G",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 9,
+      "descricao": "BASTAO PVC OU MADEIRA, DIAMETRO 2,1 CM, 1 METRO DE COMPRIMENTO NO MiNIMO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 10,
+      "descricao": "BASTAO DE COLA QUENTE FINO (DIAMETRO DE 7 MM) COMPRIMENTO 30 CM",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 11,
+      "descricao": "BASTAO DE COLA QUENTE GROSSO (DIAMETRO DE 11 MM), COMPRIMENTO 30 CM",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 12,
+      "descricao": "BOLA CRAVO - BORRACHA, DIAMETRO 7 A 10 CM",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 13,
+      "descricao": "BOLA DE GUDE / BOLA DE VIDRO MACICO, QUE PODE SER TRANSLuCIDA, MANCHADA OU INTENSAMENTE COLORIDA, DE TAMANHO VARIAVEL. PACOTE COM 100 UNIDADES",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 14,
+      "descricao": "BOLAS DE ISOPOR PARA ARTESANATO, TAMANHOS VARIADOS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 15,
+      "descricao": "BORRACHA BRANCA, N 40 - CAIXA COM 40 UNIDADES",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 16,
+      "descricao": "CAIXA ORGANIZADORA C/TAMPA 5 LITROS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 17,
+      "descricao": "CAIXA ORGANIZADORA MEDIA 30 LITROS C/TAMPA E TRAVAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 18,
+      "descricao": "CAIXA DE MDF PARA ARTESANATO 20X20X10 LISA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 19,
+      "descricao": "CANELEIRA DE 1KG - PAR ADICIONAL, NYLON LAVAVEL, FECHAMENTO EM VELCRO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 20,
+      "descricao": "CANELEIRA DE 2KG - PAR, NYLON LAVAVEL, FECHAMENTO EM VELCRO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 21,
+      "descricao": "CANETA DESTACA TEXTO, CORES FLUORESCENTES AMARELO, VERDE E ROSA - CAIXA COM 12 UNIDADES",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 22,
+      "descricao": "CANETA ESFEROGRAFICA COLORIDA EMBALAGEM C/12 EM CORES DIVERSAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 23,
+      "descricao": "CANETA ESFEROGRAFICA ESCRITA FINA, CORPO PLASTICO CRISTAL TRANSPARENTE, SEXTAVADO, TAMPA ANTIASFIXIANTE. CARGA COMPLETA, COM CAPACIDADE PARA ESCRITA, CONTiNUA, SEM BORROES E FALHAS ATE O FINAL DA CARGA.  CAIXA COM 50 UNIDADES.TINTAS NAS CORES (AZUL / VERMELHA/PRETA). BIC, COMPACTOR OU SIMILAR.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 24,
+      "descricao": "CANETA ESFEROGRAFICA ESCRITA MEDIA, CORPO PLASTICO CRISTAL TRANSPARENTE, SEXTAVADO, TAMPA ANTIASFIXIANTE. CARGA COMPLETA, COM CAPACIDADE PARA ESCRITA, CONTiNUA, SEM BORROES E FALHAS ATE O FINAL DA CARGA.  CAIXA COM 50 UNIDADES.TINTAS NAS CORES (AZUL / VERMELHA/PRETA). BIC, COMPACTOR OU SIMILAR.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 25,
+      "descricao": "CANETINHA HIDROCOR JUMBO, PONTA GROSSA, ATOXICA - CAIXA COM 12 UNIDADES EM CORES VARIADAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 26,
+      "descricao": "CANUDO, MATERIAL PLASTICO, DESCARTAVEL, BIODEGRADAVEL - PACOTE COM 500 UNIDADES",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 27,
+      "descricao": "CARTOLINA, 180 G CORES VARIADAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 28,
+      "descricao": "COLA DE SILICONE LiQUIDO 100 ML",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 29,
+      "descricao": "COLA LiQUIDA BRANCA ATOXICA, COMPOSICAO A BASE D`AGUA, PARA APLICACAO EM PAPEL EMBALAGEM DE 90 GRAMAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 30,
+      "descricao": "COLA LiQUIDA COM GLITER, ATOXICA, COM BICO APLICADOR-CAIXA COM 6 UNIDADES DE CORES VARIADAS COM NO MiNIMO 23G CADA FRASCO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 31,
+      "descricao": "COLA LiQUIDA INCOLOR PARA APLICACAO EM ISOPOR - FRASCO 90 GRAMAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 32,
+      "descricao": "COLA UNIVERSAL, BRANCA, DE PVA COM SECAGEM TRANSPARENTE- FRASCO COM  500 GRAMAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 33,
+      "descricao": "COLCHONETE - EVA OU SIMILAR, ESPESSURA MiNIMA 3CM, LAVAVEL, ANTIDERRAPANTE, 100X60X30 CM APROXIMADAMENTE",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 34,
+      "descricao": "FITA ADESIVA DUPLA FACE, BRANCA, 12 MILMETROS X 30 METROS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 35,
+      "descricao": "FITA ADESIVA, MATERIAL CREPE, ROLO MEDINDO 18MM X 50M, COR BRANCA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 36,
+      "descricao": "FITA ADESIVA, TRANSPARENTE, TAMANHO 45MM X 45M, CONSTITUiDA DE UM DORSO DE FILME DE POLIPROPILENO BIORIENTADO (BOPP).",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 37,
+      "descricao": "FITA ADESIVA, TRANSPARENTE, TIPO DUREX,  ROLO MEDINDO 12MM X 40M",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 38,
+      "descricao": "FITA METRICA - ANTROPOMETRICA FLEXiVEL, 150/200CM, PVC OU FIBRA DE VIDRO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 39,
+      "descricao": "FITILHO PARA EMBALAGEM 50M X 6MM EM CORES DIVERSAS C/10 UNID",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 40,
+      "descricao": "FOLHAS DE EVA 40 X 60 CM, CORES DIVERSAS  - PACOTE COM 10 UNIDADES",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 41,
+      "descricao": "FOLHAS DE EVA ATOALHADO 40 X 60 CM, CORES DIVERSAS  - PACOTE COM 5  UNIDADES",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 42,
+      "descricao": "FOLHAS DE EVA COM GLITER 40 X 60 CM, CORES DIVERSAS  - PACOTE COM 10 UNIDADES",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 43,
+      "descricao": "FOLHAS DE EVA ESTAMPADO 40 X 60 CM, CORES DIVERSAS - PACOTE COM 10 UNIDADES",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 44,
+      "descricao": "GIZ BRANCO, ANTIALERGICO, NAO TOXICO, PARA USO EM LOUSA - CAIXA COM 64 UNIDADES",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 45,
+      "descricao": "GIZ COLORIDO, ANTIALERGICO, NAO TOXICO, PARA LOUSA - CAIXA COM 64 PALITOS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 46,
+      "descricao": "GIZ DE CERA JUMBO - CAIXA COM 12 UNIDADES DE CORES VARIADAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 47,
+      "descricao": "GIZ DE CERA TONS DA PELE, ATOXICO, NAO MANCHA A PELE - CAIXA COM 12 CORES, PESO LiQUIDO DA CAIXA MiNIMO DE 100 G",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 48,
+      "descricao": "JOGO DA MEMORIA COM 36 PECAS EM MDF",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 49,
+      "descricao": "JOGO DAS EMOCOES DIVERTIDAMENTE",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 50,
+      "descricao": "JOGO DE BARALHO DUPLO DE PLASTICO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 50
+  },
+  "_meepp": true,
+  "_motivo": "Todos os itens são exclusivos ou cota reservada para ME/EPP",
+  "_processo": "16854531000181-1-000047/2026",
+  "_analisado_em": "2026-04-23T00:03:48.473325+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "meepp"
+}

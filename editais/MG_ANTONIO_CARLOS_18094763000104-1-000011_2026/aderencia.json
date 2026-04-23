@@ -1,0 +1,97 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em transporte escolar ou educação."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de veículos para transporte escolar de alunos em rede municipal de ensino",
+    "mercados_predominantes": [
+      "Transporte escolar",
+      "Educação municipal",
+      "Veículos comerciais de passageiros"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para transporte escolar. Resgatécnica fornece equipamentos de emergência e operações críticas, não veículos escolares."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": "Veículos Especiais Customizados",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Van escolar é transporte educacional. Resgatécnica fornece veículos especiais para resgate/incêndio, não escolares.",
+      "motivos_pro_match": [
+        "Ambos são veículos"
+      ],
+      "motivos_contra_match": [
+        "Contexto escolar vs emergência",
+        "Finalidade transporte alunos vs operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": "Veículos Especiais Customizados",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ônibus escolar é transporte educacional. Resgatécnica fornece veículos especiais para resgate/incêndio, não escolares.",
+      "motivos_pro_match": [
+        "Ambos são veículos"
+      ],
+      "motivos_contra_match": [
+        "Contexto escolar vs emergência",
+        "Finalidade transporte alunos vs operações críticas"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 2
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo operacional. Resgatécnica não fornece veículos escolares. Mercado incompatível."
+  },
+  "_processo": "18094763000104-1-000011/2026",
+  "_analisado_em": "2026-04-22T01:02:30.950758+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

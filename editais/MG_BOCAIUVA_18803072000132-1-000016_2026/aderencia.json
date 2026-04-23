@@ -1,0 +1,819 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "AGULHA CROCHE NUMERO 1,75:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "AGULHA PARA CROCHE 04:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 3,
+      "descricao": "AGULHA PARA CROCHE 06:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "AGULHA PARA CROCHE 08:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 5,
+      "descricao": "AGULHA PARA CROCHE (1,25 MM):",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 6,
+      "descricao": "AGULHA PARA TRICO 4,5:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7,
+      "descricao": "AGULHA SEM PONTA DE N 24:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 8,
+      "descricao": "AGULHA SEM PONTA DE N 26:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 9,
+      "descricao": "ARAME FLORAL N 18:Nas cores: verde ou branco, com 10 metros.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 10,
+      "descricao": "ARAME FLORAL N 20:Nas cores verde ou branco, com 10 metros.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 11,
+      "descricao": "ARGOLA GROSSA COM CORRENTE 2,5 CM:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 12,
+      "descricao": "BARBANTE CRU N 08 1KG:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 13,
+      "descricao": "BARBANTE CRU PARA SACARIA COM 1000 METROS:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 14,
+      "descricao": "BARBANTE N04 600 GRAMAS CORES VARIADAS:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 15,
+      "descricao": "BARBANTE N4, ROLO CORES VARIADAS 1KG:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 16,
+      "descricao": "BARBANTE N6, ROLO CORES VARIADAS 1KG:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 17,
+      "descricao": "BASTIDORES DE MDF N 16:COM REGULADOR.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 18,
+      "descricao": "BASTIDORES DE MDF N 18:COM REGULADOR.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 19,
+      "descricao": "BASTIDORES DE MDF N 20:COM REGULADOR.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 20,
+      "descricao": "BORDADO INGLES 13,7MT X 9,5CM DE ALTURA, COR BRANCO:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 21,
+      "descricao": "BOTOES DECORATIVOS:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 22,
+      "descricao": "BROCHINHA REDONDA N 2 PARA PINTURA EM TECIDO:CERDA NATURAL, CABO DE MADEIRA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 23,
+      "descricao": "CAIXAS DE MDF, PEQUENA (15CM X 15CM X 5):",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 24,
+      "descricao": "CAIXAS DE MDF, REDONDA (20CM DE DIAMETRO X 6 CM DE ALTURA): OU MEDIDA APROXIMADA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 25,
+      "descricao": "CANHAMO FINO BEGE COM 1,40 LARGURA:COM NO MINIMO 1,40 DE LARGURA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 26,
+      "descricao": "CARRETEL GRANDE DE LINHA PARA COSTURA COR BRANCA 120 COM 1500 JARDAS:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 27,
+      "descricao": "COLA PERMANENTE 250 ML:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 28,
+      "descricao": "CORDAO METALIZADO 1 MM COM 50 METROS:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 29,
+      "descricao": "ELASTICO NA COR BRANCA 5MM DE LARGURA APROXIMADAMENTE:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 30,
+      "descricao": "ETAMINE 1,40 LARGURA:Tecido com no minimo 1,40 de largura.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 31,
+      "descricao": "FITA DE CETIM 2,5 CM COM 10 METROS CORES VARIADAS:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 32,
+      "descricao": "FITA DE CETIM 6CM COM 10 METROS CORES VARIADAS:COM NO MINIMO 6CM",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 33,
+      "descricao": "FITA DE CETIM N 5 (22MM) 100% POLIESTER, CORES VARIADAS , PECA COM 50 METROS:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 34,
+      "descricao": "FITA DECORADA DE TECIDO XADREZ CORES VARIADAS:Nas cores: vermelho e verde, azul e vermelho, dourada, 30mm.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 35,
+      "descricao": "FITA DE TECIDO DECORADA LARGA CORES VARIADAS, 22MM:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 36,
+      "descricao": "FITA FLORAL VERDE E MARROM:COM NO MINIMO 27 METROS.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 37,
+      "descricao": "fita metrica p/ IMC:para IMC",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 38,
+      "descricao": "GUARDANAPOS DE PAPEL PARA DECOUPAGY:COM 2 UNIDADES.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 39,
+      "descricao": "IMA PARA ARTESANATOS COM 1 METRO:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 40,
+      "descricao": "LA PARA TAPECARIA 100GR CORES VARIADAS:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 41,
+      "descricao": "LINHA DE ALGODAO PARA CROCHE FINA COM 1000 METROS CORES VARIADAS:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 42,
+      "descricao": "LINHA DE COSTURA RETA N 120:COM 1500 JARDAS.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 43,
+      "descricao": "LINHA PARA COSTURA OVERLOQUE COM 500 GRAMAS BRANCO/ PRETO/ VERMELHO:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 44,
+      "descricao": "LINHA PARA PONTO CRUZ COM 8 METROS CORES VARIADAS:(MEADA DE FIO PARA BORDAR 100% ALGODAO).",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 45,
+      "descricao": "LINHA RABO DE GATO :CORES VARIADAS ( FIO DE SEDA ROLO COM 50 METROS LARGURA: 2MM. COMPOSICAO 100% POLIESTER VARIAS CORES)",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 46,
+      "descricao": "MASSA DE BISCUIT EMBALAGEM CONTENDO NO MINIMO 1KG:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 47,
+      "descricao": "NOVELO DE LINHA PARA CROCHE, 1000 M, COR N 1236 (AMARELO):",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 48,
+      "descricao": "NOVELO DE LINHA PARA CROCHE, 1000 M, COR N 2194 (AZUL MAR):",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 49,
+      "descricao": "NOVELO DE LINHA PARA CROCHE, 1000 M, COR N 3182 (ROSA CLARO):",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 50,
+      "descricao": "NOVELO DE LINHA PARA CROCHE, 1000 M, COR N 3578 (VERMELHO):",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 50
+  },
+  "_meepp": true,
+  "_motivo": "Todos os itens são exclusivos ou cota reservada para ME/EPP",
+  "_processo": "18803072000132-1-000016/2026",
+  "_analisado_em": "2026-04-23T00:03:48.194926+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "meepp"
+}

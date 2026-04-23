@@ -1,0 +1,343 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "Multiuso Cozinha 500ml",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "Papel Higiênico 12x60",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 3,
+      "descricao": "Sabão em Barra (5 un)",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "Saco de Lixo 50l",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 5,
+      "descricao": "Saco de Lixo 100l",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 6,
+      "descricao": "Detergente ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7,
+      "descricao": "Desinfetante",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 8,
+      "descricao": "Esponja de Louça",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 9,
+      "descricao": "Lã de Aço",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 10,
+      "descricao": "Sabão em Pó",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 11,
+      "descricao": "Rodo 60cm",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 12,
+      "descricao": "Vassoura Piaçava",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 13,
+      "descricao": "Água Sanitária ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 14,
+      "descricao": "Pano de Chão Alvejado",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 15,
+      "descricao": "Guardanapo de papel",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 16,
+      "descricao": "Copos Descartáveis 200ml",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 17,
+      "descricao": "Folha Toalha Descartável",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 18,
+      "descricao": "Sabonete Líquido",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 19,
+      "descricao": "Álcool Líquido 1l",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 20,
+      "descricao": "Flanela",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['sabonete', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 20
+  },
+  "_pre_filtrado": true,
+  "_score_pre_filtro": -2.0,
+  "_termos_negativos": [
+    "sabonete",
+    "desinfetante"
+  ],
+  "_processo": "07975391000109-1-000026/2026",
+  "_analisado_em": "2026-04-23T00:03:51.852642+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "heuristica"
+}

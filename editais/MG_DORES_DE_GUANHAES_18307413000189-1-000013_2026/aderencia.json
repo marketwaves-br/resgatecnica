@@ -1,0 +1,241 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "resposta a emergências e operações críticas",
+    "tipo_fornecedor": "fornecedora especializada em equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "resgate veicular",
+      "resgate terrestre/BREC",
+      "táticas especiais",
+      "combate a incêndio",
+      "resgate aquático",
+      "proteção individual técnica",
+      "altura e espaço confinado",
+      "produtos perigosos/descontaminação",
+      "atendimento pré-hospitalar",
+      "linha industrial",
+      "veículos especiais customizados"
+    ],
+    "observacoes": "Empresa não atua em eventos, entretenimento, locação de estruturas para shows ou segurança privada genérica. Foco exclusivo em operações críticas e emergências."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Registro de preços para locação de estrutura e serviços para eventos municipais (shows, festas, eventos culturais) incluindo palcos, iluminação profissional, sonorização, bandas musicais, segurança privada e gerador.",
+    "mercados_predominantes": [
+      "entretenimento e eventos",
+      "locação de equipamentos para shows",
+      "segurança privada genérica",
+      "sonorização profissional para eventos",
+      "contratação de artistas musicais"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é exclusivamente para eventos municipais de entretenimento. Resgatécnica atua em emergências críticas, não em eventos culturais ou shows. Nenhum item pertence ao nicho operacional da empresa."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 7143145,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Praticáveis para eventos/shows. Não relacionado a resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos entretenimento",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 7143150,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Equipamentos de iluminação profissional para shows (consoles, máquinas de fumaça, canhões seguidores, PAR LED). Mercado de entretenimento, não emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Iluminação para shows",
+        "Mercado entretenimento puro"
+      ]
+    },
+    {
+      "numeroItem": 7143153,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Painel LED P3 para eventos. Equipamento de entretenimento, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Painel LED para shows",
+        "Contexto: eventos municipais"
+      ]
+    },
+    {
+      "numeroItem": 7143159,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Segurança privada genérica para eventos. Resgatécnica não fornece segurança privada de eventos; atua em operações críticas especializadas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Segurança privada genérica",
+        "Contexto: eventos municipais"
+      ]
+    },
+    {
+      "numeroItem": 7143166,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.35,
+      "categoria_portfolio_relacionada": "Altura e Espaço Confinado",
+      "subcategoria_portfolio_relacionada": "Ferragens",
+      "justificativa": "Estrutura alumínio Q-30 com bases, talhas, sleeveblock. Componentes técnicos similares aos usados em altura/resgate, mas contexto é montagem de palcos para eventos, não operações críticas.",
+      "motivos_pro_match": [
+        "Estrutura alumínio técnica",
+        "Talhas e componentes de carga"
+      ],
+      "motivos_contra_match": [
+        "Contexto: eventos entretenimento",
+        "Não é operação crítica"
+      ]
+    },
+    {
+      "numeroItem": 7143167,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.35,
+      "categoria_portfolio_relacionada": "Altura e Espaço Confinado",
+      "subcategoria_portfolio_relacionada": "Ferragens",
+      "justificativa": "Estrutura alumínio Q-50 com bases, talhas, sleeveblock. Mesma análise que item 7143166: componentes técnicos, mas para eventos, não emergências.",
+      "motivos_pro_match": [
+        "Estrutura alumínio técnica",
+        "Talhas e componentes carga"
+      ],
+      "motivos_contra_match": [
+        "Contexto: eventos entretenimento",
+        "Não é operação crítica"
+      ]
+    },
+    {
+      "numeroItem": 7143171,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gerador 180KVA para eventos. Equipamento industrial genérico, não especializado em operações críticas ou emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Gerador industrial genérico",
+        "Contexto: eventos municipais"
+      ]
+    },
+    {
+      "numeroItem": 7143175,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Sonorização de médio porte para shows ao vivo. Equipamento de entretenimento, não relacionado a resgate ou emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sonorização para shows",
+        "Mercado entretenimento puro"
+      ]
+    },
+    {
+      "numeroItem": 7143176,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Sonorização de grande porte para artistas nacionais. Equipamento de entretenimento, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sonorização para shows",
+        "Mercado entretenimento puro"
+      ]
+    },
+    {
+      "numeroItem": 7143177,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Equipamentos profissionais de sonorização para eventos de grande público. Mercado de entretenimento, não emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sonorização profissional shows",
+        "Contexto: eventos grande público"
+      ]
+    },
+    {
+      "numeroItem": 7143180,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Contratação de banda musical sertanejo. Serviço de entretenimento, completamente fora do escopo de operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Banda musical sertanejo",
+        "Serviço entretenimento puro"
+      ]
+    },
+    {
+      "numeroItem": 7143181,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Show musical com cenário, cortinas, painel LED, efeitos CO2. Serviço de entretenimento, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Show musical sertanejo",
+        "Serviço entretenimento puro"
+      ]
+    },
+    {
+      "numeroItem": 7143182,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Show musical forró. Serviço de entretenimento, completamente fora do escopo de operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Banda musical forró",
+        "Serviço entretenimento puro"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 2,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 10
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é exclusivamente para eventos municipais de entretenimento (shows, festas, sonorização, bandas musicais). Resgatécnica atua em operações críticas e emergências. Não há compatibilidade comercial real. Os dois itens com aderência parcial fraca (estruturas Q-30 e Q-50) são apenas coincidência lexical de componentes técnicos; contexto dominante é entretenimento, não resgate."
+  },
+  "_processo": "18307413000189-1-000013/2026",
+  "_analisado_em": "2026-04-22T01:02:22.726661+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

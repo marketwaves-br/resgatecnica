@@ -1,0 +1,273 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências, não em infraestrutura de TI ou segurança eletrônica predial."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Infraestrutura de tecnologia da informação e segurança eletrônica predial (câmeras, switches, access points, NVR, conectividade de rede)",
+    "mercados_predominantes": [
+      "Vigilância e monitoramento eletrônico",
+      "Infraestrutura de rede e conectividade",
+      "Segurança predial/eletrônica",
+      "Tecnologia da informação"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de infraestrutura TI e segurança eletrônica predial. Resgatécnica atua em equipamentos operacionais de emergência e resgate, não em sistemas de vigilância, rede ou gateway."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Conector de rede CAT 6. Infraestrutura TI pura, sem relação com resgate ou emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Patch panel de rede. Componente de infraestrutura de conectividade, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Magnetic lock para controle de acesso predial. Segurança eletrônica, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Segurança predial",
+        "Fora do escopo"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Kit de identificação facial G3. Sistema de vigilância/reconhecimento, não equipamento de resgate operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vigilância eletrônica",
+        "Sem aplicação emergencial"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Câmera bullet para vigilância. Equipamento de monitoramento predial, não de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vigilância predial",
+        "Fora do escopo"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Câmera turret para vigilância. Equipamento de monitoramento predial, não de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vigilância predial",
+        "Fora do escopo"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Network Video Recorder (NVR) com HDs. Equipamento de armazenamento de vigilância, não de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vigilância/armazenamento",
+        "Infraestrutura TI"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Adaptador SFP+ para RJ45. Componente de rede de alta velocidade, infraestrutura TI pura.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de conexão 10G de longo alcance. Componente de rede, infraestrutura TI.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Sem aplicação emergencial"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de conexão 10G 1 metro. Componente de rede, infraestrutura TI.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Access Point U6+. Equipamento de rede wireless, infraestrutura TI predial.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Fora do escopo"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Switch Pro XG 10 PoE. Equipamento de rede de alta velocidade, infraestrutura TI.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Sem aplicação emergencial"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Switch Pro 24 POE. Equipamento de rede camada 3, infraestrutura TI predial.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Fora do escopo"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Switch standard 24. Equipamento de rede, infraestrutura TI.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Switch de agregação. Equipamento de rede de núcleo, infraestrutura TI.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Fora do escopo"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gateway Dream Machine Pro. Equipamento de rede/segurança predial, infraestrutura TI.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Sem aplicação emergencial"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 16
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é de infraestrutura TI e vigilância eletrônica predial. Resgatécnica não atua neste mercado. Sem oportunidade comercial real."
+  },
+  "_processo": "49219538000180-1-000032/2026",
+  "_analisado_em": "2026-04-21T19:36:51.029988+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

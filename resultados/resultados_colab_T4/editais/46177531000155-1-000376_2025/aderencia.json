@@ -1,0 +1,129 @@
+{
+  "parecer_geral": "PARCIALMENTE_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "Instalação / Manutenção - Bombas Hidráulicas / Combustível",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Não há itens semelhantes no portfolio"
+    },
+    {
+      "numeroItem": 14,
+      "descricao": "Instalação / Manutenção - Bombas Hidráulicas / Combustível",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços de manutenção"
+    },
+    {
+      "numeroItem": 15,
+      "descricao": "Instalação / Manutenção - Bombas Hidráulicas / Combustível",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços de manutenção"
+    },
+    {
+      "numeroItem": 16,
+      "descricao": "Instalação / Manutenção - Bombas Hidráulicas / Combustível",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços de manutenção"
+    },
+    {
+      "numeroItem": 17,
+      "descricao": "Instalação / Manutenção - Bombas Hidráulicas / Combustível",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços de manutenção"
+    },
+    {
+      "numeroItem": 18,
+      "descricao": "Instalação / Manutenção - Bombas Hidráulicas / Combustível",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços de manutenção"
+    },
+    {
+      "numeroItem": 19,
+      "descricao": "Instalação / Manutenção - Bombas Hidráulicas / Combustível",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços de manutenção"
+    },
+    {
+      "numeroItem": 20,
+      "descricao": "Instalação / Manutenção - Bombas Hidráulicas / Combustível",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços de manutenção"
+    },
+    {
+      "numeroItem": 21,
+      "descricao": "Instalação / Manutenção - Bombas Hidráulicas / Combustível",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços de manutenção"
+    },
+    {
+      "numeroItem": 22,
+      "descricao": "Instalação / Manutenção - Bombas Hidráulicas / Combustível",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços de manutenção"
+    },
+    {
+      "numeroItem": 23,
+      "descricao": "Instalação / Manutenção - Bombas Hidráulicas / Combustível",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços de manutenção"
+    },
+    {
+      "numeroItem": 24,
+      "descricao": "Instalação / Manutenção - Bombas Hidráulicas / Combustível",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços de manutenção"
+    },
+    {
+      "numeroItem": 25,
+      "descricao": "Instalação / Manutenção - Bombas Hidráulicas / Combustível",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços de manutenção"
+    },
+    {
+      "numeroItem": 26,
+      "descricao": "Instalação / Manutenção - Bombas Hidráulicas / Combustível",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços de manutenção"
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 13,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "_processo": "46177531000155-1-000376/2025",
+  "_analisado_em": "2026-04-21T17:37:31.460938+00:00",
+  "_modo": "compacto",
+  "_provedor": "ollama",
+  "_modelo": "qwen2.5:14b"
+}

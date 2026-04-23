@@ -1,0 +1,163 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "Aspirador de Pó e Agua min 40 litros, Inox pot min 1800w profissional 110v",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "Betoneira Rental 400L 2CV 4P 220V Reforçada",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 3,
+      "descricao": "Bomba de abastecimento diesel 12V 40Lpm com reservatório 1000 litros , grade proteção",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "Compressor de ar, esp min 100lt reser vasão > 8pcm, motor 2hp, pressão min 100 psi, 220 v",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 5,
+      "descricao": "Martelete Perfurador Rompedor Profissional 26mm mínimo 1300w",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 6,
+      "descricao": "Motopodador de Galhos a gasolina 2t min. 33cc motor 1,3hp com extensor min 4m",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7,
+      "descricao": "Motosserra a gasolina, 2 tempos min.37,2cc e 1,8hp",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 8,
+      "descricao": "Plaina elétrica 110v, pot min. 820w, largura corte min 8 cm e profundidade 2,5mm",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 9,
+      "descricao": "Roçadeira gasolina min 60cc, pot motor min 2,5hp, 2 tempos",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 9
+  },
+  "_meepp": true,
+  "_motivo": "Todos os itens são exclusivos ou cota reservada para ME/EPP",
+  "_processo": "25970260000110-1-000026/2026",
+  "_analisado_em": "2026-04-22T00:59:23.135385+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "meepp"
+}

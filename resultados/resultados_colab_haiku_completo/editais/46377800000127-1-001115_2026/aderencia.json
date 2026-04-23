@@ -1,0 +1,712 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de emergência, não em peças automotivas genéricas de manutenção veicular"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de peças e acessórios automotivos de produção genuína/original, baterias, pneus e tintas para frota de segurança pública",
+    "mercados_predominantes": [
+      "Peças automotivas de reposição (suspensão, freios, componentes mecânicos)",
+      "Manutenção veicular de rotina",
+      "Abastecimento de frota administrativa"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/50 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Amortecedor suspensão é peça automotiva genérica de manutenção, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Amortecedor suspensão é peça automotiva genérica de manutenção, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bieleta é peça automotiva genérica de suspensão, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bieleta é peça automotiva genérica de suspensão, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Peça mecânica/elétrica genérica de veículo automotivo para manutenção, não equipamento operacional de emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção genérica",
+        "Fora contexto operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Peça mecânica/elétrica genérica de veículo automotivo para manutenção, não equipamento operacional de emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção genérica",
+        "Fora contexto operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Braço oscilante é peça automotiva genérica de suspensão, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Braço oscilante é peça automotiva genérica de suspensão, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Braço oscilante é peça automotiva genérica de suspensão, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Braço oscilante é peça automotiva genérica de suspensão, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bucha suspensão automotiva é peça genérica de manutenção veicular, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bucha suspensão automotiva é peça genérica de manutenção veicular, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Peça mecânica/elétrica genérica de veículo automotivo para manutenção, não equipamento operacional de emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção genérica",
+        "Fora contexto operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Peça mecânica/elétrica genérica de veículo automotivo para manutenção, não equipamento operacional de emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção genérica",
+        "Fora contexto operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bucha suspensão automotiva é peça genérica de manutenção veicular, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bucha suspensão automotiva é peça genérica de manutenção veicular, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Disco freio é peça automotiva genérica de manutenção, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Peça mecânica/elétrica genérica de veículo automotivo para manutenção, não equipamento operacional de emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção genérica",
+        "Fora contexto operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Peça mecânica/elétrica genérica de veículo automotivo para manutenção, não equipamento operacional de emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção genérica",
+        "Fora contexto operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bieleta é peça automotiva genérica de suspensão, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pivô braço veículo automotivo é peça genérica de suspensão, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pivô braço veículo automotivo é peça genérica de suspensão, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pastilha freio é peça automotiva genérica de manutenção, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pastilha freio é peça automotiva genérica de manutenção, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Borracha amortecedor é peça automotiva genérica de manutenção, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça manutenção veicular comum",
+        "Fora nicho operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 26,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Peça mecânica/elétrica genérica de reposição. Não é equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça reposição genérica",
+        "Fora nicho emergência"
+      ]
+    },
+    {
+      "numeroItem": 27,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Peça mecânica/elétrica genérica de reposição. Não é equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça reposição genérica",
+        "Fora nicho emergência"
+      ]
+    },
+    {
+      "numeroItem": 28,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Braço oscilante é componente de suspensão de manutenção rotineira, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça suspensão rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 29,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Braço oscilante é componente de suspensão de manutenção rotineira, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça suspensão rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 30,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pivô de balança é componente de suspensão de manutenção rotineira, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça suspensão rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 31,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Disco de freio é peça de manutenção rotineira de frota, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça freio rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 32,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Disco de freio é peça de manutenção rotineira de frota, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça freio rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 33,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Filtro de óleo é consumível de manutenção rotineira, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Consumível manutenção",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 34,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pastilha de freio é peça de manutenção rotineira de frota, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça freio rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 35,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pastilha de freio é peça de manutenção rotineira de frota, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça freio rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 36,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Elemento filtro ar é consumível de manutenção rotineira, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Consumível manutenção",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 37,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Amortecedor de suspensão é peça de manutenção rotineira, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça suspensão rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 38,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Amortecedor de suspensão é peça de manutenção rotineira, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça suspensão rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 39,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Amortecedor de suspensão é peça de manutenção rotineira, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça suspensão rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 40,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bieleta é componente de suspensão de manutenção rotineira, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça suspensão rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 41,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Borracha de amortecedor é peça de manutenção rotineira, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça suspensão rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 42,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bomba d'água é peça de manutenção rotineira de motor, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça motor rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 43,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bomba d'água é peça de manutenção rotineira de motor, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça motor rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 44,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Braço oscilante é componente de suspensão de manutenção rotineira, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça suspensão rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 45,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Braço oscilante é componente de suspensão de manutenção rotineira, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça suspensão rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 46,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Peça mecânica/elétrica genérica de reposição. Não é equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça reposição genérica",
+        "Fora nicho emergência"
+      ]
+    },
+    {
+      "numeroItem": 47,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de vela é peça de manutenção rotineira de motor, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça motor rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 48,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Atuador de embreagem é peça de manutenção rotineira, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça transmissão rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 49,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cilindro de freio é peça de manutenção rotineira, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça freio rotineira",
+        "Sem contexto emergência"
+      ]
+    },
+    {
+      "numeroItem": 50,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cilindro de freio é peça de manutenção rotineira, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Peça freio rotineira",
+        "Sem contexto emergência"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 50
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é de peças automotivas genéricas de manutenção veicular. Resgatécnica é especializada em equipamentos técnico-operacionais de emergência (resgate, combate a incêndio, proteção individual técnica). Não há aderência comercial real. Mercados completamente distintos."
+  },
+  "_processo": "46377800000127-1-001115/2026",
+  "_analisado_em": "2026-04-21T19:38:32.168362+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,54 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 7241629,
+      "descricao": "MARMITEX..",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['refeicao']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['refeicao']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7241630,
+      "descricao": "REFEIÇÃO LIVRE ACOMPANHADA DE UM REFRIGERANTE OU SUCO NATURAL AMBOS DE 350 ML",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['refeicao']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['refeicao']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 2
+  },
+  "_pre_filtrado": true,
+  "_score_pre_filtro": -1.0,
+  "_termos_negativos": [
+    "refeicao"
+  ],
+  "_processo": "18428854000139-1-000019/2026",
+  "_analisado_em": "2026-04-22T00:59:24.820077+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "heuristica"
+}

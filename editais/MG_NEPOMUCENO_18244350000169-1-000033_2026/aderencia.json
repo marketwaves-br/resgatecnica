@@ -1,0 +1,54 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 2128204,
+      "descricao": "REFEICAO TIPO MARMITEX Tamanho aproximado 700 G. Arroz, feijao, 1 tipo de carne (bovina, suina ou frango), 1 tipo de massa, legumes e verduras.REFEICAO TIPO MARMITEX Tamanho aproximado 700 G. Arroz, feijao, 1 tipo de carne (bovina, suina ou frango), 1 tipo de massa, legumes e verduras.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['refeicao']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['refeicao']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2128205,
+      "descricao": "REFEICAO TIPO SELF-SERVICE POR PESSOA + BEBIDA: Servico composto por saladas variadas, 2 variedades de legumes, arroz, feijao, 2 tipos de carne, 1 tipo de massa e farinha + 01 (um) refrigerante lata de 350ml, tipo cola, laranja, uva, limao, guarana, normal ou zero; ou suco natural de frutas de 350ml, sabores variados.REFEICAO TIPO SELF-SERVICE POR PESSOA + BEBIDA: Servico composto por saladas variadas, 2 variedades de legumes, arroz, feijao, 2 tipos de carne, 1 tipo de massa e farinha + 01 (um) refrigerante lata de 350ml, tipo cola, laranja, uva, limao, guarana, normal ou zero; ou suco natural de frutas de 350ml, sabores variados.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['refeicao']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['refeicao']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 2
+  },
+  "_pre_filtrado": true,
+  "_score_pre_filtro": -1.0,
+  "_termos_negativos": [
+    "refeicao"
+  ],
+  "_processo": "18244350000169-1-000033/2026",
+  "_analisado_em": "2026-04-22T00:59:25.459676+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "heuristica"
+}

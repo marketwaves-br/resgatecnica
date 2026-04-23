@@ -1,0 +1,77 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em telecomunicações, infraestrutura de rede ou serviços de conectividade."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviço de link dedicado LAN2LAN para infraestrutura de telecomunicações em campus universitário",
+    "mercados_predominantes": [
+      "Telecomunicações",
+      "Infraestrutura de TI",
+      "Serviços de Conectividade"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de serviço de telecomunicações/conectividade. Resgatécnica atua exclusivamente em equipamentos e soluções para emergências e operações críticas. Sem intersecção comercial real."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 2113004,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de link dedicado LAN2LAN é infraestrutura de telecomunicações. Resgatécnica não fornece serviços de conectividade ou infraestrutura de rede.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de telecomunicações",
+        "Fora do escopo operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação pertence a mercado completamente distinto (telecomunicações). Sem relevância comercial para Resgatécnica."
+  },
+  "_processo": "45176153000122-1-000036/2026",
+  "_analisado_em": "2026-04-21T19:29:55.171159+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

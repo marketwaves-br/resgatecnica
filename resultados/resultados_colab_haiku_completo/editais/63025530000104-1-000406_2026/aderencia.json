@@ -1,0 +1,200 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em medicina hospitalar, cardiologia intervencionista ou procedimentos vasculares invasivos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para materiais de revascularização vascular (cardiologia intervencionista/angiologia). Comprador: Universidade de São Paulo (instituição hospitalar/médica).",
+    "mercados_predominantes": [
+      "Medicina hospitalar",
+      "Cardiologia intervencionista",
+      "Angiologia vascular",
+      "Insumos médicos de procedimento"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de insumos médicos hospitalares especializados (revascularização vascular). Resgatécnica atua em emergências operacionais e resgate, não em procedimentos vasculares invasivos ou cardiologia intervencionista."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Agulha médica para procedimento vascular invasivo. Resgatécnica não fornece insumos de cardiologia intervencionista.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto hospitalar invasivo",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Introdutor percutâneo para acesso vascular. Insumo de cardiologia intervencionista, não de resgate ou emergência operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Procedimento invasivo hospitalar",
+        "Especialidade médica diferente"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fio guia para cateterismo vascular. Insumo de angiologia/cardiologia, não de operações de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo cardiológico invasivo",
+        "Ambiente hospitalar controlado"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão para angioplastia periférica. Equipamento de cardiologia intervencionista, fora do escopo de resgate e emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Procedimento vascular invasivo",
+        "Especialidade hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão para angioplastia periférica (duplicado). Insumo de cardiologia intervencionista, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Procedimento vascular invasivo",
+        "Especialidade hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão para angioplastia periférica (terceira ocorrência). Insumo de cardiologia intervencionista, não de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Procedimento vascular invasivo",
+        "Especialidade hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Manômetro para monitoramento de pressão em cateterismo vascular. Palavra 'pressão' aparece em portfolio (almofadas pneumáticas), mas contexto é cardiologia invasiva, não resgate.",
+      "motivos_pro_match": [
+        "Palavra 'pressão' em portfolio"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar invasivo",
+        "Uso cardiológico específico"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fio guia para cateterismo vascular (segunda ocorrência). Insumo de angiologia/cardiologia, não de operações de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo cardiológico invasivo",
+        "Ambiente hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Endoprótese vascular periférica. Implante vascular para cardiologia intervencionista, completamente fora do escopo de resgate e emergência operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Implante vascular invasivo",
+        "Especialidade cardiológica"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Material especial cardiovascular genérico. Categoria ampla de insumos cardiológicos hospitalares, fora do escopo operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto cardiológico hospitalar",
+        "Fora do escopo de resgate"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 1,
+    "nao_aderente": 9
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "ncmNbsCodigo"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação pertence a mercado completamente diferente (cardiologia intervencionista hospitalar). Resgatécnica não possui expertise, portfolio ou relacionamento comercial neste segmento. Não recomenda-se participação."
+  },
+  "_processo": "63025530000104-1-000406/2026",
+  "_analisado_em": "2026-04-21T19:24:25.825219+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

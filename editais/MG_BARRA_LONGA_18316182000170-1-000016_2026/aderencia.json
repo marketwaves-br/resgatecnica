@@ -1,0 +1,118 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "resposta a emergências e operações críticas",
+    "tipo_fornecedor": "fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "resgate veicular",
+      "resgate terrestre/BREC",
+      "táticas especiais",
+      "combate a incêndio",
+      "resgate aquático",
+      "proteção individual técnica",
+      "altura e espaço confinado",
+      "produtos perigosos/descontaminação",
+      "atendimento pré-hospitalar",
+      "veículos especiais customizados",
+      "linha industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e serviços para operações de emergência, resgate e salvamento. Não atua em serviços de arboricultura, poda ou manejo ambiental de árvores."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Serviços de poda, corte, supressão controlada e manejo de árvores, com transporte e destinação de resíduos vegetais. Licitação municipal para manutenção ambiental urbana.",
+    "mercados_predominantes": [
+      "arboricultura e manejo florestal",
+      "serviços ambientais municipais",
+      "gestão de resíduos vegetais"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de arboricultura e serviços ambientais municipais. Resgatécnica atua exclusivamente em resposta a emergências, resgate e operações críticas. Nenhuma sobreposição comercial ou operacional."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Corte de árvores é serviço de arboricultura municipal, fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado ambiental/arboricultura",
+        "Sem equipamentos resgate"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Destinação de resíduos vegetais é serviço ambiental genérico, não relacionado a operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Gestão ambiental genérica",
+        "Sem nexo emergencial"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": "Veículos Especiais Customizados",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caminhão Munck/guindaste para poda é equipamento industrial genérico. Resgatécnica oferece veículos especiais para resgate/incêndio, não para arboricultura.",
+      "motivos_pro_match": [
+        "Palavra 'guindaste' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto arboricultura",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Poda e manejo de árvores são serviços de arboricultura municipal, completamente fora do nicho de resgate e operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço ambiental puro",
+        "Sem operação crítica"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 1,
+    "nao_aderente": 3
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de arboricultura municipal. Resgatécnica não possui expertise, equipamentos ou posicionamento comercial neste mercado. Risco reputacional de participação inadequada."
+  },
+  "_processo": "18316182000170-1-000016/2026",
+  "_analisado_em": "2026-04-22T01:17:18.766638+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

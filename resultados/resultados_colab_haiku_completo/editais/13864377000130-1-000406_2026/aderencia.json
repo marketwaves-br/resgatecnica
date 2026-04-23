@@ -1,0 +1,146 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e atendimento pré-hospitalar",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não é distribuidora genérica de insumos hospitalares ou médicos de rotina."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação de insumos médicos descartáveis (seringas) para saúde pública municipal. Mercado hospitalar/clínico genérico.",
+    "mercados_predominantes": [
+      "Saúde pública",
+      "Insumos hospitalares genéricos",
+      "Distribuição de material médico-hospitalar"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Seringas descartáveis são insumos hospitalares genéricos de rotina clínica. Resgatécnica é especializada em equipamentos técnico-operacionais para emergências e resgate, não em distribuição de material médico-hospitalar comum."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seringa descartável bico Luer Lock 1 mL é insumo hospitalar genérico de rotina clínica, não equipamento técnico-operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seringa descartável bico Luer Lock 3 mL é insumo hospitalar genérico de rotina clínica, não equipamento técnico-operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seringa descartável bico Luer Lock 5 mL é insumo hospitalar genérico de rotina clínica, não equipamento técnico-operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seringa descartável bico Luer Lock 10 mL é insumo hospitalar genérico de rotina clínica, não equipamento técnico-operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seringa descartável bico Luer Lock 20 mL é insumo hospitalar genérico de rotina clínica, não equipamento técnico-operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seringa descartável bico tipo cateter 60 mL é insumo hospitalar genérico de rotina clínica, não equipamento técnico-operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 6
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento",
+      "eixos_transversais"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "ncmNbsCodigo"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação totalmente fora do escopo operacional e comercial da Resgatécnica. Seringas descartáveis são insumos hospitalares genéricos de rotina clínica. Resgatécnica é especializada em equipamentos técnico-operacionais para emergências, resgate e combate a incêndio, não em distribuição de material médico-hospitalar comum. Não há compatibilidade de mercado, tipo de fornecedor ou nicho comercial."
+  },
+  "_processo": "13864377000130-1-000406/2026",
+  "_analisado_em": "2026-04-21T19:32:48.668894+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

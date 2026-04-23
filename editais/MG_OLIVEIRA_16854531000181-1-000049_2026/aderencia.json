@@ -1,0 +1,416 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica, altura/espaço confinado, produtos perigosos, atendimento pré-hospitalar e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. NÃO é fornecedora de mobiliário administrativo, informática genérica, eletrodomésticos ou equipamentos hospitalares de rotina."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de equipamentos e material permanente para Secretaria Municipal de Saúde. Licitação composta predominantemente por mobiliário de escritório, equipamentos de informática, eletrodomésticos hospitalares e insumos médicos de rotina.",
+    "mercados_predominantes": [
+      "Mobiliário administrativo e hospitalar genérico",
+      "Informática e telecomunicações",
+      "Equipamentos médicos de diagnóstico e monitoramento",
+      "Eletrodomésticos e utensílios hospitalares"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/26 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Armário de aço genérico para escritório. Sem aplicação em resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário administrativo",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Arquivo de aço para pastas suspensas. Equipamento administrativo puro, sem relação com resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário escritório",
+        "Sem aplicação técnica"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Balde a pedal industrial hospitalar. Utensílio de limpeza/higiene hospitalar genérica, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Utensílio limpeza",
+        "Contexto hospitalar rotina"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bebedouro purificador de coluna. Equipamento de infraestrutura hospitalar, sem aplicação em operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura hospitalar",
+        "Sem uso emergencial"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira giratória para escritório. Mobiliário administrativo puro, sem relação com resgate ou proteção individual técnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário escritório",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.35,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": "Resgate e Evacuação",
+      "justificativa": "Cadeira de rodas para obeso. Equipamento de mobilidade hospitalar, tangencialmente relacionado a evacuação/transporte de vítimas, mas não é especializado em resgate crítico.",
+      "motivos_pro_match": [
+        "Mobilidade vítimas",
+        "Contexto pré-hospitalar"
+      ],
+      "motivos_contra_match": [
+        "Equipamento hospitalar rotina",
+        "Sem especialização resgate"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caixa térmica 32L. Utensílio genérico de transporte/armazenamento, sem aplicação específica em resgate ou emergência técnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Utensílio genérico",
+        "Sem especialização"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Câmara conservadora de vacinas. Equipamento médico-hospitalar de armazenamento, sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.4,
+      "categoria_portfolio_relacionada": "Resgate Terrestre/BREC",
+      "subcategoria_portfolio_relacionada": "Compressores de ar respirável",
+      "justificativa": "Compressor 5 BPO 50L sem óleo. Portfólio inclui compressores de ar respirável (ERGO, GMC, MARK III, SMART), mas este é genérico industrial, não especializado em ar respirável de qualidade NFPA.",
+      "motivos_pro_match": [
+        "Compressor ar",
+        "Contexto operacional"
+      ],
+      "motivos_contra_match": [
+        "Sem óleo genérico",
+        "Não ar respirável"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.4,
+      "categoria_portfolio_relacionada": "Resgate Terrestre/BREC",
+      "subcategoria_portfolio_relacionada": "Compressores de ar respirável",
+      "justificativa": "Compressor 5 BPO 100L sem óleo. Mesmo contexto do item 9: genérico industrial, não especializado em ar respirável de qualidade técnica para emergências.",
+      "motivos_pro_match": [
+        "Compressor ar",
+        "Contexto operacional"
+      ],
+      "motivos_contra_match": [
+        "Sem óleo genérico",
+        "Não ar respirável"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Computador completo (CPU, RAM, SSD, monitor). Equipamento de informática administrativo genérico, sem aplicação em resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Informática administrativa",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Detector fetal. Equipamento médico obstétrico de diagnóstico, sem relação com resgate ou operações críticas de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento médico",
+        "Contexto obstétrico"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Eletrocardiógrafo CardioCAre 2000. Equipamento médico de diagnóstico hospitalar, não especializado em resgate ou emergência crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento diagnóstico",
+        "Contexto hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.85,
+      "categoria_portfolio_relacionada": "Altura e Espaço Confinado",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Escada hospitalar auxiliar 2 degraus emborrachada. Palavra 'escada' pode sugerir altura, mas é utensílio hospitalar genérico para acesso baixo, não equipamento de resgate em altura.",
+      "motivos_pro_match": [
+        "Palavra escada",
+        "Contexto hospitalar"
+      ],
+      "motivos_contra_match": [
+        "Escada hospitalar genérica",
+        "Sem resgate altura"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Esfigmomanômetro adulto. Equipamento médico de monitoramento de pressão hospitalar, sem aplicação em resgate ou emergência crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento diagnóstico",
+        "Contexto hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Esfigmomanômetro obeso. Equipamento médico de monitoramento de pressão hospitalar, sem aplicação em resgate ou emergência crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento diagnóstico",
+        "Contexto hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Estetoscópio adulto. Equipamento médico de diagnóstico hospitalar, sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento diagnóstico",
+        "Contexto hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Glicosímetro OK Pro. Equipamento médico de diagnóstico hospitalar, sem aplicação em resgate ou emergência crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento diagnóstico",
+        "Contexto hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Impressora multifuncional jato de tinta. Equipamento de informática administrativo, sem aplicação em resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Informática administrativa",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Longarina 4 lugares. Mobiliário hospitalar genérico para sala de espera, sem aplicação em resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mesa delta estação para escritório 1,40m em L. Mobiliário administrativo puro, sem relação com resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário escritório",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mesa de exame clínico com armário. Equipamento médico hospitalar genérico, sem especialização em resgate ou emergência crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Notebook 15.6\" Full HD. Equipamento de informática administrativo genérico, sem aplicação em resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Informática administrativa",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Roteador wireless 300 MBPS. Equipamento de telecomunicações administrativo, sem aplicação em resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Telecomunicações administrativa",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Televisor 40 polegadas Smart TV. Eletrodoméstico genérico, sem aplicação em resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Eletrodoméstico genérico",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Arquivo vertical de aço para escritório. Mobiliário administrativo genérico, sem relação com operações de emergência, resgate, combate a incêndio ou proteção individual técnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário administrativo comum",
+        "Fora do nicho de emergências"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 3,
+    "falso_positivo_lexical": 1,
+    "nao_aderente": 22
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação totalmente desalinhada com portfólio técnico-operacional. Nenhum item é aderente direto. Apenas 3 itens (compressores genéricos) têm aderência parcial fraca e 1 falso positivo lexical. Resgatécnica não é fornecedora de mobiliário, informática, eletrodomésticos ou equipamentos médicos hospitalares de rotina."
+  },
+  "_processo": "16854531000181-1-000049/2026",
+  "_analisado_em": "2026-04-22T01:14:57.345849+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

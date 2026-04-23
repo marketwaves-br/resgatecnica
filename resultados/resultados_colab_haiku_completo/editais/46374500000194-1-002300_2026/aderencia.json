@@ -1,0 +1,129 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua como distribuidora farmacêutica genérica ou fornecedora de medicamentos de uso hospitalar rotineiro."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de medicamentos (carbômer, antibióticos) pela Secretaria de Estado da Saúde de SP. Licitação claramente voltada para fornecimento farmacêutico hospitalar/medicinal.",
+    "mercados_predominantes": [
+      "Farmacêutica",
+      "Medicamentos de uso hospitalar",
+      "Distribuição de insumos médicos genéricos"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é exclusivamente de medicamentos. Resgatécnica não é distribuidora farmacêutica. Nenhum item tem compatibilidade comercial real com portfólio de equipamentos operacionais."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carbômer é insumo farmacêutico/cosmético. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo farmacêutico puro",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Benzilpenicilina é antibiótico medicinal. Não integra portfólio de equipamentos técnico-operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento antibiótico",
+        "Distribuição farmacêutica"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Claritromicina é antibiótico macrolídeo. Medicamento de uso hospitalar, fora do escopo da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento antibiótico",
+        "Uso hospitalar genérico"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Clindamicina é antibiótico. Medicamento de uso hospitalar, sem compatibilidade com equipamentos de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento antibiótico",
+        "Insumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cefepima Cloridrato é antibiótico cefalosporínico. Medicamento hospitalar, sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento antibiótico",
+        "Distribuição farmacêutica"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 5
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "ncmNbsCodigo"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é exclusivamente farmacêutica. Resgatécnica é fornecedora de equipamentos operacionais, não distribuidora de medicamentos. Sem oportunidade comercial."
+  },
+  "_processo": "46374500000194-1-002300/2026",
+  "_analisado_em": "2026-04-21T19:45:17.491311+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

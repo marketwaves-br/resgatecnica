@@ -1,0 +1,116 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica, altura/espaço confinado, produtos perigosos, atendimento pré-hospitalar e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos operacionais de emergência e resgate, não em TI ou informática"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de suprimentos e equipamentos de informática (computadores, notebooks, monitores, periféricos, nobreaks) para órgãos municipais",
+    "mercados_predominantes": [
+      "Tecnologia da Informação",
+      "Equipamentos de Escritório",
+      "Infraestrutura de TI"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação de TI/informática. Resgatécnica atua em emergências e operações críticas, não em equipamentos administrativos de informática."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Desktop para escritório/administrativo. Fora do escopo operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento administrativo TI",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 32,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mini-PC para infraestrutura TI municipal. Não relacionado a operações de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento TI genérico",
+        "Contexto administrativo"
+      ]
+    },
+    {
+      "numeroItem": 37,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Nobreak para proteção de energia em escritório. Não é equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento administrativo",
+        "Sem uso em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 39,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Notebook para uso administrativo municipal. Fora do portfólio de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento TI administrativo",
+        "Sem aplicação operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 4
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de TI/informática. Resgatécnica é especializada em equipamentos de emergência e resgate operacional, não em infraestrutura de TI administrativa."
+  },
+  "_processo": "18675975000185-1-000047/2026",
+  "_analisado_em": "2026-04-22T01:08:20.665993+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,714 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e atendimento pré-hospitalar",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos operacionais de emergência e proteção. NÃO é distribuidora farmacêutica genérica, hospitalar de consumo ou de medicamentos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Registro de preços para fornecimento de medicamentos de consumo humano (farmacêuticos) para municípios consorciados em saúde pública",
+    "mercados_predominantes": [
+      "Farmacêutica hospitalar/pública",
+      "Medicamentos genéricos de consumo",
+      "Distribuição de insumos de saúde"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/50 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento farmacêutico pediátrico. Resgatécnica não fornece medicamentos de consumo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Mercado saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento farmacêutico adulto. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Anti-inflamatório farmacêutico. Não relacionado a equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento mucolítico pediátrico. Fora do escopo de equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento mucolítico pediátrico. Não é equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antiviral. Consumo farmacêutico hospitalar, não equipamento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Creme farmacêutico antiviral. Medicamento de consumo, não equipamento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento analgésico/anticoagulante. Consumo farmacêutico, não equipamento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento analgésico/anticoagulante. Fora do escopo de equipamentos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento vitamínico. Consumo farmacêutico hospitalar, não equipamento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento vitamínico. Não relacionado a equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento hemostático. Consumo farmacêutico, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento anti-helmíntico. Consumo farmacêutico, não equipamento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento anti-helmíntico pediátrico. Fora do escopo de equipamentos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento para osteoporose. Consumo farmacêutico, não equipamento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento para gota. Consumo farmacêutico, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento para gota. Fora do escopo de equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento mucolítico pediátrico. Consumo farmacêutico, não equipamento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento mucolítico adulto. Não relacionado a equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento mucolítico em gotas. Consumo farmacêutico, não equipamento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento broncodilatador. Consumo farmacêutico, não equipamento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antiarrítmico. Consumo farmacêutico, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antiarrítmico. Fora do escopo de equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico pediátrico. Consumo farmacêutico, não equipamento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico pediátrico. Não relacionado a equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento farmacêutico",
+        "Consumo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 26,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico de consumo humano. Fora do escopo operacional de resgate e emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 27,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico combinado. Não relacionado a operações de emergência ou resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 28,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico combinado em comprimido. Consumo humano genérico, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 29,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico em suspensão oral. Consumo humano genérico, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 30,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico em suspensão. Consumo humano genérico, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 31,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico em comprimido. Consumo humano genérico, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 32,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento anti-hipertensivo (bloqueador de canal de cálcio). Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 33,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento anti-hipertensivo em comprimido. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 34,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento broncodilatador/antihistamínico. Consumo humano genérico, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 35,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento beta-bloqueador anti-hipertensivo. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 36,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento beta-bloqueador em comprimido. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 37,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento beta-bloqueador em comprimido. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 38,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento estatina (hipolipemiante). Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 39,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento estatina em caixa. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 40,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento estatina em comprimido. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 41,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico macrolídeo. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 42,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico em suspensão oral. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 43,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico em suspensão oral. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 44,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento relaxante muscular. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 45,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento corticosteroide em spray oral. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 46,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento corticosteroide em spray oral. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 47,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento corticosteroide em spray nasal. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 48,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento beta-bloqueador em caixa. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 49,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento beta-bloqueador em comprimido. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 50,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento beta-bloqueador em comprimido. Consumo humano genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 50
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é exclusivamente farmacêutica. Resgatécnica é fornecedora de equipamentos operacionais de emergência. Sem compatibilidade comercial real. Mercados completamente distintos."
+  },
+  "_processo": "48227378000159-1-000003/2026",
+  "_analisado_em": "2026-04-21T19:45:06.856628+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

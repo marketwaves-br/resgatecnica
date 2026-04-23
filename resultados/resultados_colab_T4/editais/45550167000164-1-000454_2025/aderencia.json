@@ -1,0 +1,25 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA CESSÃO DE DIREITO DE USO DE SOFTWARES (MÓDULOS) DE GESTÃO PÚBLICA...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Software não relacionado a itens do portfolio"
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "_processo": "45550167000164-1-000454/2025",
+  "_analisado_em": "2026-04-21T17:11:42.973659+00:00",
+  "_modo": "compacto",
+  "_provedor": "ollama",
+  "_modelo": "qwen2.5:14b"
+}

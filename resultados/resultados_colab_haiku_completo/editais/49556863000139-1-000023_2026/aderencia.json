@@ -1,0 +1,246 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de emergência. NÃO atua em distribuição de alimentos, bebidas ou gêneros alimentícios."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de gêneros alimentícios (alimentos, doces, bebidas) para consumo em secretarias municipais",
+    "mercados_predominantes": [
+      "Distribuição de alimentos",
+      "Varejo alimentício",
+      "Fornecimento de gêneros para consumo administrativo"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação de alimentos e doces. Resgatécnica é fornecedora de equipamentos técnico-operacionais de emergência, não distribuidora de gêneros alimentícios."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Azeitona em conserva. Alimento processado, mercado varejo alimentício.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Gênero alimentício",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bala de goma. Doce/confeitaria, mercado varejo de alimentos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Confeitaria/doce",
+        "Consumo administrativo"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cacau em pó solúvel. Bebida/alimento processado, varejo alimentício.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Bebida/alimento",
+        "Consumo administrativo"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Canudinho com doce de leite. Confeitaria/doce, mercado varejo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Confeitaria",
+        "Consumo administrativo"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Extrato de tomate. Alimento processado, varejo alimentício.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento processado",
+        "Consumo administrativo"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Milho para pipoca. Alimento/grão, varejo alimentício.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento/grão",
+        "Consumo administrativo"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão de queijo assado. Alimento/padaria, varejo alimentício.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento/padaria",
+        "Consumo administrativo"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão de queijo assado (duplicado). Alimento/padaria, varejo alimentício.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento/padaria",
+        "Consumo administrativo"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão tipo hambúrguer. Alimento/padaria, varejo alimentício.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento/padaria",
+        "Consumo administrativo"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pirulitos gigante coloridos. Doce/confeitaria, mercado varejo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Confeitaria/doce",
+        "Consumo administrativo"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pirulitos gigante coloridos (duplicado). Doce/confeitaria, mercado varejo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Confeitaria/doce",
+        "Consumo administrativo"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Sequilhos 500g. Biscoito/confeitaria, varejo alimentício.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Biscoito/confeitaria",
+        "Consumo administrativo"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Suspiro. Doce/confeitaria, mercado varejo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Confeitaria/doce",
+        "Consumo administrativo"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Teta de nega. Doce/confeitaria, mercado varejo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Confeitaria/doce",
+        "Consumo administrativo"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 14
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de gêneros alimentícios. Resgatécnica é fornecedora especializada em equipamentos técnico-operacionais de emergência, não distribuidora de alimentos. Nenhum item tem aderência comercial real ao portfólio."
+  },
+  "_processo": "49556863000139-1-000023/2026",
+  "_analisado_em": "2026-04-21T19:42:31.422060+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

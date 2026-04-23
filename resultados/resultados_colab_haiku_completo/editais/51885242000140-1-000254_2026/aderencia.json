@@ -1,0 +1,91 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências, não atua em distribuição de alimentos ou gêneros alimentícios"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Fornecimento contínuo de gêneros alimentícios (leite em pó integral instantâneo) para Município de Campinas",
+    "mercados_predominantes": [
+      "Distribuição de alimentos",
+      "Abastecimento municipal",
+      "Nutrição/Alimentação"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de alimentos (leite em pó). Resgatécnica atua exclusivamente em equipamentos de emergência e operações críticas, não em distribuição alimentar."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Leite em pó é gênero alimentício. Resgatécnica não fornece alimentos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado alimentar completamente distinto",
+        "Sem categoria de alimentos no portfólio"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Leite em pó é gênero alimentício. Resgatécnica não fornece alimentos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado alimentar completamente distinto",
+        "Sem categoria de alimentos no portfólio"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 2
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida",
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo comercial da empresa. Resgatécnica é especialista em equipamentos de emergência, não em distribuição de alimentos."
+  },
+  "_processo": "51885242000140-1-000254/2026",
+  "_analisado_em": "2026-04-21T19:38:40.230871+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

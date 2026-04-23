@@ -1,0 +1,186 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos, ferramentas e soluções operacionais para emergências. NÃO atua em serviços administrativos, consultoria genérica de saúde ocupacional ou medicina do trabalho de rotina."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviços especializados em Engenharia de Segurança, Medicina do Trabalho e Gestão de Saúde Mental para órgão público (CAU-SP)",
+    "mercados_predominantes": [
+      "Consultoria em saúde ocupacional",
+      "Medicina do trabalho",
+      "Engenharia de segurança",
+      "Gestão de saúde mental corporativa"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para serviços de consultoria em saúde ocupacional e medicina do trabalho. Resgatécnica é fornecedora de equipamentos operacionais para emergências, não prestadora de serviços de medicina ocupacional ou consultoria administrativa."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de medicina e engenharia do trabalho. Resgatécnica fornece equipamentos operacionais, não consultoria ocupacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo/consultoria",
+        "Fora do ramo de equipamentos"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de medicina e engenharia do trabalho. Resgatécnica fornece equipamentos operacionais, não consultoria ocupacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo/consultoria",
+        "Fora do ramo de equipamentos"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de medicina e engenharia do trabalho. Resgatécnica fornece equipamentos operacionais, não consultoria ocupacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo/consultoria",
+        "Fora do ramo de equipamentos"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de medicina e engenharia do trabalho. Resgatécnica fornece equipamentos operacionais, não consultoria ocupacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo/consultoria",
+        "Fora do ramo de equipamentos"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de medicina e engenharia do trabalho. Resgatécnica fornece equipamentos operacionais, não consultoria ocupacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo/consultoria",
+        "Fora do ramo de equipamentos"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de medicina e engenharia do trabalho. Resgatécnica fornece equipamentos operacionais, não consultoria ocupacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo/consultoria",
+        "Fora do ramo de equipamentos"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de medicina e engenharia do trabalho. Resgatécnica fornece equipamentos operacionais, não consultoria ocupacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo/consultoria",
+        "Fora do ramo de equipamentos"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de medicina e engenharia do trabalho. Resgatécnica fornece equipamentos operacionais, não consultoria ocupacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo/consultoria",
+        "Fora do ramo de equipamentos"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de medicina e engenharia do trabalho. Resgatécnica fornece equipamentos operacionais, não consultoria ocupacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo/consultoria",
+        "Fora do ramo de equipamentos"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 9
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "portfolio_apoio": [
+      "perfil_empresa_resumido",
+      "macro_ramos_atuacao"
+    ],
+    "itens": [
+      "descricao",
+      "materialOuServicoNome"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação totalmente fora do escopo de negócio da Resgatécnica. Empresa fornece equipamentos operacionais para emergências; licitação demanda serviços de consultoria em saúde ocupacional e medicina do trabalho. Sem compatibilidade comercial real."
+  },
+  "_processo": "15131560000152-1-000033/2026",
+  "_analisado_em": "2026-04-21T19:41:02.236760+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

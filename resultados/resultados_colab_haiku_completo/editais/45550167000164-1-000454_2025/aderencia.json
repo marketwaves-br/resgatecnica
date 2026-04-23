@@ -1,0 +1,81 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos físicos, ferramentas, sistemas de proteção e soluções operacionais para emergências. Não atua em software de gestão pública ou administração municipal."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de software de gestão pública municipal (ERP) com módulos de administração, contabilidade, recursos humanos, compras, saúde, patrimônio e tributos",
+    "mercados_predominantes": [
+      "Tecnologia da Informação - Software Corporativo",
+      "Gestão Pública Municipal",
+      "Sistemas de Informação Administrativa"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de software de gestão pública municipal. Resgatécnica fornece equipamentos físicos para emergências, não software administrativo."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Licitação é exclusivamente de software de gestão pública municipal (ERP). Resgatécnica é fornecedora de equipamentos físicos para operações críticas e emergências, não de software administrativo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado completamente diferente: software vs equipamentos",
+        "Tipo de fornecedor incompatível: TI corporativa vs operações críticas"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "tipo_fornecimento"
+    ],
+    "portfolio_apoio": [
+      "perfil_empresa_resumido"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome",
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo comercial da Resgatécnica. Empresa não fornece software de gestão pública ou serviços de TI administrativos."
+  },
+  "_processo": "45550167000164-1-000454/2025",
+  "_analisado_em": "2026-04-21T19:21:14.225037+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

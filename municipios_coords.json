@@ -1,0 +1,1232 @@
+{
+  "Cambuí_MG": {
+    "lat": -22.6122501,
+    "lon": -46.0572137,
+    "fonte": "nominatim"
+  },
+  "Piumhi_MG": {
+    "lat": -20.4675258,
+    "lon": -45.9576125,
+    "fonte": "nominatim"
+  },
+  "Conselheiro Lafaiete_MG": {
+    "lat": -20.6596107,
+    "lon": -43.785743,
+    "fonte": "nominatim"
+  },
+  "Juatuba_MG": {
+    "lat": -19.9553815,
+    "lon": -44.362717,
+    "fonte": "nominatim"
+  },
+  "Itapecerica_MG": {
+    "lat": -20.472778,
+    "lon": -45.125556,
+    "fonte": "nominatim"
+  },
+  "Sarzedo_MG": {
+    "lat": -20.0353,
+    "lon": -44.1453,
+    "fonte": "nominatim"
+  },
+  "Rio Piracicaba_MG": {
+    "lat": -19.850927,
+    "lon": -43.1201184,
+    "fonte": "nominatim"
+  },
+  "São Bento Abade_MG": {
+    "lat": -21.5816076,
+    "lon": -45.0759227,
+    "fonte": "nominatim"
+  },
+  "Barra Longa_MG": {
+    "lat": -20.2833541,
+    "lon": -43.0423516,
+    "fonte": "nominatim"
+  },
+  "Guaranésia_MG": {
+    "lat": -21.3024827,
+    "lon": -46.7956962,
+    "fonte": "nominatim"
+  },
+  "Bocaiúva_MG": {
+    "lat": -17.1160208,
+    "lon": -43.8122678,
+    "fonte": "nominatim"
+  },
+  "Diamantina_MG": {
+    "lat": -18.2440862,
+    "lon": -43.6006487,
+    "fonte": "nominatim"
+  },
+  "Ipatinga_MG": {
+    "lat": -19.4777807,
+    "lon": -42.5270802,
+    "fonte": "nominatim"
+  },
+  "Paulistas_MG": {
+    "lat": -18.4268235,
+    "lon": -42.8689535,
+    "fonte": "nominatim"
+  },
+  "Tapiraí_MG": {
+    "lat": -19.8882788,
+    "lon": -46.0202739,
+    "fonte": "nominatim"
+  },
+  "Urucânia_MG": {
+    "lat": -20.350833,
+    "lon": -42.739444,
+    "fonte": "nominatim"
+  },
+  "Belo Horizonte_MG": {
+    "lat": -19.9227318,
+    "lon": -43.9450948,
+    "fonte": "nominatim"
+  },
+  "São Joaquim de Bicas_MG": {
+    "lat": -20.0489052,
+    "lon": -44.2731691,
+    "fonte": "nominatim"
+  },
+  "São Pedro do Suaçuí_MG": {
+    "lat": -18.365556,
+    "lon": -42.602778,
+    "fonte": "nominatim"
+  },
+  "Bom Despacho_MG": {
+    "lat": -19.7375242,
+    "lon": -45.2517288,
+    "fonte": "nominatim"
+  },
+  "Fervedouro_MG": {
+    "lat": -20.7295764,
+    "lon": -42.2792737,
+    "fonte": "nominatim"
+  },
+  "Oliveira_MG": {
+    "lat": -20.6971953,
+    "lon": -44.8273969,
+    "fonte": "nominatim"
+  },
+  "Fortuna de Minas_MG": {
+    "lat": -19.561662,
+    "lon": -44.4451854,
+    "fonte": "nominatim"
+  },
+  "Couto de Magalhães de Minas_MG": {
+    "lat": -18.073056,
+    "lon": -43.4718628,
+    "fonte": "nominatim"
+  },
+  "Piraúba_MG": {
+    "lat": -21.276945,
+    "lon": -43.025834,
+    "fonte": "nominatim"
+  },
+  "Itabirito_MG": {
+    "lat": -20.2519724,
+    "lon": -43.8029171,
+    "fonte": "nominatim"
+  },
+  "Campo Belo_MG": {
+    "lat": -20.8975,
+    "lon": -45.277223,
+    "fonte": "nominatim"
+  },
+  "Governador Valadares_MG": {
+    "lat": -18.8574155,
+    "lon": -41.9439276,
+    "fonte": "nominatim"
+  },
+  "Conceição das Alagoas_MG": {
+    "lat": -19.9194009,
+    "lon": -48.3803414,
+    "fonte": "nominatim"
+  },
+  "Perdões_MG": {
+    "lat": -21.0919737,
+    "lon": -45.0903543,
+    "fonte": "nominatim"
+  },
+  "Santa Luzia_MG": {
+    "lat": -19.7702097,
+    "lon": -43.8505291,
+    "fonte": "nominatim"
+  },
+  "Juruaia_MG": {
+    "lat": -21.252778,
+    "lon": -46.577223,
+    "fonte": "nominatim"
+  },
+  "Itamarandiba_MG": {
+    "lat": -17.8574369,
+    "lon": -42.8596742,
+    "fonte": "nominatim"
+  },
+  "Paracatu_MG": {
+    "lat": -17.2174056,
+    "lon": -46.8707514,
+    "fonte": "nominatim"
+  },
+  "Delfim Moreira_MG": {
+    "lat": -22.5086783,
+    "lon": -45.2792398,
+    "fonte": "nominatim"
+  },
+  "Jesuânia_MG": {
+    "lat": -21.997777,
+    "lon": -45.290833,
+    "fonte": "nominatim"
+  },
+  "Conselheiro Pena_MG": {
+    "lat": -19.1720883,
+    "lon": -41.471995,
+    "fonte": "nominatim"
+  },
+  "Santana do Paraíso_MG": {
+    "lat": -19.3652914,
+    "lon": -42.5494833,
+    "fonte": "nominatim"
+  },
+  "Monte Sião_MG": {
+    "lat": -22.432778,
+    "lon": -46.572778,
+    "fonte": "nominatim"
+  },
+  "Senador Firmino_MG": {
+    "lat": -20.9169703,
+    "lon": -43.1001236,
+    "fonte": "nominatim"
+  },
+  "São Domingos do Prata_MG": {
+    "lat": -19.8671078,
+    "lon": -42.9658318,
+    "fonte": "nominatim"
+  },
+  "Patrocínio_MG": {
+    "lat": -18.9408294,
+    "lon": -46.9926624,
+    "fonte": "nominatim"
+  },
+  "Monte Belo_MG": {
+    "lat": -21.3225052,
+    "lon": -46.3649768,
+    "fonte": "nominatim"
+  },
+  "Uberlândia_MG": {
+    "lat": -18.9188041,
+    "lon": -48.2767837,
+    "fonte": "nominatim"
+  },
+  "Muriaé_MG": {
+    "lat": -21.1313485,
+    "lon": -42.3628918,
+    "fonte": "nominatim"
+  },
+  "Buenópolis_MG": {
+    "lat": -17.8756607,
+    "lon": -44.1749365,
+    "fonte": "nominatim"
+  },
+  "Guanhães_MG": {
+    "lat": -18.7753627,
+    "lon": -42.9340634,
+    "fonte": "nominatim"
+  },
+  "Além Paraíba_MG": {
+    "lat": -21.8760576,
+    "lon": -42.6810473,
+    "fonte": "nominatim"
+  },
+  "Ponte Nova_MG": {
+    "lat": -20.4164353,
+    "lon": -42.90878,
+    "fonte": "nominatim"
+  },
+  "Barroso_MG": {
+    "lat": -21.187137,
+    "lon": -43.9771259,
+    "fonte": "nominatim"
+  },
+  "Uberaba_MG": {
+    "lat": -19.750833,
+    "lon": -47.936666,
+    "fonte": "nominatim"
+  },
+  "Capitão Andrade_MG": {
+    "lat": -19.0675,
+    "lon": -41.859722,
+    "fonte": "nominatim"
+  },
+  "Nepomuceno_MG": {
+    "lat": -21.232744,
+    "lon": -45.2352276,
+    "fonte": "nominatim"
+  },
+  "Ponto Chique_MG": {
+    "lat": -16.6328913,
+    "lon": -45.0637456,
+    "fonte": "nominatim"
+  },
+  "Itaúna_MG": {
+    "lat": -20.075556,
+    "lon": -44.576389,
+    "fonte": "nominatim"
+  },
+  "João Monlevade_MG": {
+    "lat": -19.809444,
+    "lon": -43.173334,
+    "fonte": "nominatim"
+  },
+  "Manhuaçu_MG": {
+    "lat": -20.2574434,
+    "lon": -42.0340769,
+    "fonte": "nominatim"
+  },
+  "Divinópolis_MG": {
+    "lat": -20.1597921,
+    "lon": -44.8739341,
+    "fonte": "nominatim"
+  },
+  "Bonfinópolis de Minas_MG": {
+    "lat": -16.5660011,
+    "lon": -45.98645,
+    "fonte": "nominatim"
+  },
+  "Bom Jesus do Galho_MG": {
+    "lat": -19.8283191,
+    "lon": -42.3162256,
+    "fonte": "nominatim"
+  },
+  "Passos_MG": {
+    "lat": -20.7167803,
+    "lon": -46.6156864,
+    "fonte": "nominatim"
+  },
+  "Lagoa da Prata_MG": {
+    "lat": -20.022778,
+    "lon": -45.5440462,
+    "fonte": "nominatim"
+  },
+  "Água Comprida_MG": {
+    "lat": -20.0574733,
+    "lon": -48.1093074,
+    "fonte": "nominatim"
+  },
+  "São Lourenço_MG": {
+    "lat": -22.116389,
+    "lon": -45.054167,
+    "fonte": "nominatim"
+  },
+  "Pará de Minas_MG": {
+    "lat": -19.8668656,
+    "lon": -44.5912664,
+    "fonte": "nominatim"
+  },
+  "Careaçu_MG": {
+    "lat": -22.0434124,
+    "lon": -45.6995247,
+    "fonte": "nominatim"
+  },
+  "Buritis_MG": {
+    "lat": -15.621389,
+    "lon": -46.423889,
+    "fonte": "nominatim"
+  },
+  "Santa Rosa da Serra_MG": {
+    "lat": -19.5271986,
+    "lon": -45.9659869,
+    "fonte": "nominatim"
+  },
+  "Brazópolis_MG": {
+    "lat": -22.4742842,
+    "lon": -45.6165577,
+    "fonte": "nominatim"
+  },
+  "Antônio Carlos_MG": {
+    "lat": -21.318334,
+    "lon": -43.746666,
+    "fonte": "nominatim"
+  },
+  "Andradas_MG": {
+    "lat": -22.0693412,
+    "lon": -46.5707584,
+    "fonte": "nominatim"
+  },
+  "Pouso Alegre_MG": {
+    "lat": -22.2343858,
+    "lon": -45.9327241,
+    "fonte": "nominatim"
+  },
+  "Coração de Jesus_MG": {
+    "lat": -16.6888187,
+    "lon": -44.3577401,
+    "fonte": "nominatim"
+  },
+  "Montes Claros_MG": {
+    "lat": -16.7495727,
+    "lon": -43.8687268,
+    "fonte": "nominatim"
+  },
+  "São Gotardo_MG": {
+    "lat": -19.3168844,
+    "lon": -46.0476596,
+    "fonte": "nominatim"
+  },
+  "Araguari_MG": {
+    "lat": -18.6511256,
+    "lon": -48.1933764,
+    "fonte": "nominatim"
+  },
+  "Extrema_MG": {
+    "lat": -22.8548355,
+    "lon": -46.3184553,
+    "fonte": "nominatim"
+  },
+  "São Geraldo_MG": {
+    "lat": -20.9221894,
+    "lon": -42.8343489,
+    "fonte": "nominatim"
+  },
+  "Betim_MG": {
+    "lat": -19.9475338,
+    "lon": -44.1995361,
+    "fonte": "nominatim"
+  },
+  "José Gonçalves de Minas_MG": {
+    "lat": -16.9066539,
+    "lon": -42.6074998,
+    "fonte": "nominatim"
+  },
+  "São Gonçalo do Rio Abaixo_MG": {
+    "lat": -19.8252042,
+    "lon": -43.362126,
+    "fonte": "nominatim"
+  },
+  "Cruzília_MG": {
+    "lat": -21.838333,
+    "lon": -44.808056,
+    "fonte": "nominatim"
+  },
+  "Cambuquira_MG": {
+    "lat": -21.853056,
+    "lon": -45.2953619,
+    "fonte": "nominatim"
+  },
+  "Ewbank da Câmara_MG": {
+    "lat": -21.551389,
+    "lon": -43.509722,
+    "fonte": "nominatim"
+  },
+  "Sete Lagoas_MG": {
+    "lat": -19.466111,
+    "lon": -44.246944,
+    "fonte": "nominatim"
+  },
+  "Arcos_MG": {
+    "lat": -20.282223,
+    "lon": -45.539444,
+    "fonte": "nominatim"
+  },
+  "Juiz de Fora_MG": {
+    "lat": -21.7609533,
+    "lon": -43.3501129,
+    "fonte": "nominatim"
+  },
+  "Bicas_MG": {
+    "lat": -21.7213723,
+    "lon": -43.0604327,
+    "fonte": "nominatim"
+  },
+  "Volta Grande_MG": {
+    "lat": -21.770834,
+    "lon": -42.539166,
+    "fonte": "nominatim"
+  },
+  "Poços de Caldas_MG": {
+    "lat": -21.7900318,
+    "lon": -46.5647928,
+    "fonte": "nominatim"
+  },
+  "Coromandel_MG": {
+    "lat": -18.3433415,
+    "lon": -47.1647814,
+    "fonte": "nominatim"
+  },
+  "Congonhal_MG": {
+    "lat": -22.1532505,
+    "lon": -46.0404698,
+    "fonte": "nominatim"
+  },
+  "Peçanha_MG": {
+    "lat": -18.5479498,
+    "lon": -42.5590434,
+    "fonte": "nominatim"
+  },
+  "Itapeva_MG": {
+    "lat": -22.7690638,
+    "lon": -46.221934,
+    "fonte": "nominatim"
+  },
+  "São João Nepomuceno_MG": {
+    "lat": -21.5359158,
+    "lon": -43.0151428,
+    "fonte": "nominatim"
+  },
+  "Taiobeiras_MG": {
+    "lat": -15.811859,
+    "lon": -42.2319723,
+    "fonte": "nominatim"
+  },
+  "Carmo do Paranaíba_MG": {
+    "lat": -18.9992327,
+    "lon": -46.306916,
+    "fonte": "nominatim"
+  },
+  "Campanha_MG": {
+    "lat": -21.8361108,
+    "lon": -45.401986,
+    "fonte": "nominatim"
+  },
+  "Iapu_MG": {
+    "lat": -19.436389,
+    "lon": -42.217223,
+    "fonte": "nominatim"
+  },
+  "Virginópolis_MG": {
+    "lat": -18.8225259,
+    "lon": -42.7051796,
+    "fonte": "nominatim"
+  },
+  "Sabará_MG": {
+    "lat": -19.8900372,
+    "lon": -43.8107916,
+    "fonte": "nominatim"
+  },
+  "Dores de Campos_MG": {
+    "lat": -21.107222,
+    "lon": -44.0225,
+    "fonte": "nominatim"
+  },
+  "Curvelo_MG": {
+    "lat": -18.7571926,
+    "lon": -44.4305993,
+    "fonte": "nominatim"
+  },
+  "Caputira_MG": {
+    "lat": -20.171945,
+    "lon": -42.270278,
+    "fonte": "nominatim"
+  },
+  "Engenheiro Navarro_MG": {
+    "lat": -17.286622,
+    "lon": -43.9515719,
+    "fonte": "nominatim"
+  },
+  "Águas Formosas_MG": {
+    "lat": -17.0834193,
+    "lon": -40.9339978,
+    "fonte": "nominatim"
+  },
+  "Três Pontas_MG": {
+    "lat": -21.3686224,
+    "lon": -45.5122937,
+    "fonte": "nominatim"
+  },
+  "São Pedro da União_MG": {
+    "lat": -21.1316402,
+    "lon": -46.6175338,
+    "fonte": "nominatim"
+  },
+  "Carmo de Minas_MG": {
+    "lat": -22.1216655,
+    "lon": -45.1323836,
+    "fonte": "nominatim"
+  },
+  "Luisburgo_MG": {
+    "lat": -20.4394,
+    "lon": -42.1025,
+    "fonte": "nominatim"
+  },
+  "Divinolândia de Minas_MG": {
+    "lat": -18.8021453,
+    "lon": -42.6153788,
+    "fonte": "nominatim"
+  },
+  "Pedralva_MG": {
+    "lat": -22.2430204,
+    "lon": -45.4659326,
+    "fonte": "nominatim"
+  },
+  "Visconde do Rio Branco_MG": {
+    "lat": -21.01,
+    "lon": -42.840833,
+    "fonte": "nominatim"
+  },
+  "Santa Maria do Suaçuí_MG": {
+    "lat": -18.1894783,
+    "lon": -42.4188445,
+    "fonte": "nominatim"
+  },
+  "São Tiago_MG": {
+    "lat": -20.913056,
+    "lon": -44.509167,
+    "fonte": "nominatim"
+  },
+  "Abadia dos Dourados_MG": {
+    "lat": -18.4911191,
+    "lon": -47.4063589,
+    "fonte": "nominatim"
+  },
+  "Caxambu_MG": {
+    "lat": -21.9755872,
+    "lon": -44.9311403,
+    "fonte": "nominatim"
+  },
+  "Santana de Cataguases_MG": {
+    "lat": -21.2871462,
+    "lon": -42.5569749,
+    "fonte": "nominatim"
+  },
+  "Felisburgo_MG": {
+    "lat": -16.6400483,
+    "lon": -40.7614691,
+    "fonte": "nominatim"
+  },
+  "Itanhandu_MG": {
+    "lat": -22.2957913,
+    "lon": -44.9366732,
+    "fonte": "nominatim"
+  },
+  "Viçosa_MG": {
+    "lat": -20.7538586,
+    "lon": -42.8815888,
+    "fonte": "nominatim"
+  },
+  "Unaí_MG": {
+    "lat": -16.3628767,
+    "lon": -46.892413,
+    "fonte": "nominatim"
+  },
+  "Perdizes_MG": {
+    "lat": -19.3503361,
+    "lon": -47.2938235,
+    "fonte": "nominatim"
+  },
+  "Quartel Geral_MG": {
+    "lat": -19.2730674,
+    "lon": -45.5570007,
+    "fonte": "nominatim"
+  },
+  "Carmo do Cajuru_MG": {
+    "lat": -20.1953035,
+    "lon": -44.6988759,
+    "fonte": "nominatim"
+  },
+  "Pains_MG": {
+    "lat": -20.3672648,
+    "lon": -45.6633353,
+    "fonte": "nominatim"
+  },
+  "Oliveira Fortes_MG": {
+    "lat": -21.3391156,
+    "lon": -43.4577139,
+    "fonte": "nominatim"
+  },
+  "Oratórios_MG": {
+    "lat": -20.4303,
+    "lon": -42.8056,
+    "fonte": "nominatim"
+  },
+  "Mutum_MG": {
+    "lat": -19.817223,
+    "lon": -41.438333,
+    "fonte": "nominatim"
+  },
+  "Machacalis_MG": {
+    "lat": -17.0784105,
+    "lon": -40.7175983,
+    "fonte": "nominatim"
+  },
+  "Passa Tempo_MG": {
+    "lat": -20.650556,
+    "lon": -44.495833,
+    "fonte": "nominatim"
+  },
+  "Jeceaba_MG": {
+    "lat": -20.5353816,
+    "lon": -43.983346,
+    "fonte": "nominatim"
+  },
+  "Alto Rio Doce_MG": {
+    "lat": -21.0239537,
+    "lon": -43.4133507,
+    "fonte": "nominatim"
+  },
+  "São João do Pacuí_MG": {
+    "lat": -16.5374481,
+    "lon": -44.5309375,
+    "fonte": "nominatim"
+  },
+  "Andrelândia_MG": {
+    "lat": -21.739722,
+    "lon": -44.308889,
+    "fonte": "nominatim"
+  },
+  "Ituiutaba_MG": {
+    "lat": -18.9691887,
+    "lon": -49.4639335,
+    "fonte": "nominatim"
+  },
+  "Ingaí_MG": {
+    "lat": -21.400833,
+    "lon": -44.917223,
+    "fonte": "nominatim"
+  },
+  "Coronel Fabriciano_MG": {
+    "lat": -19.5200067,
+    "lon": -42.6282686,
+    "fonte": "nominatim"
+  },
+  "Alpercata_MG": {
+    "lat": -18.993343,
+    "lon": -41.9894704,
+    "fonte": "nominatim"
+  },
+  "Tiros_MG": {
+    "lat": -19.003889,
+    "lon": -45.963611,
+    "fonte": "nominatim"
+  },
+  "Crisólita_MG": {
+    "lat": -17.2382595,
+    "lon": -40.9128691,
+    "fonte": "nominatim"
+  },
+  "Recreio_MG": {
+    "lat": -21.5248205,
+    "lon": -42.4689256,
+    "fonte": "nominatim"
+  },
+  "Ninheira_MG": {
+    "lat": -15.318813,
+    "lon": -41.7540325,
+    "fonte": "nominatim"
+  },
+  "Marmelópolis_MG": {
+    "lat": -22.448889,
+    "lon": -45.165278,
+    "fonte": "nominatim"
+  },
+  "José Raydan_MG": {
+    "lat": -18.2220672,
+    "lon": -42.4991123,
+    "fonte": "nominatim"
+  },
+  "Jaguaraçu_MG": {
+    "lat": -19.6471951,
+    "lon": -42.7513291,
+    "fonte": "nominatim"
+  },
+  "Senhora de Oliveira_MG": {
+    "lat": -20.793889,
+    "lon": -43.344166,
+    "fonte": "nominatim"
+  },
+  "Caeté_MG": {
+    "lat": -19.897777,
+    "lon": -43.670278,
+    "fonte": "nominatim"
+  },
+  "Aiuruoca_MG": {
+    "lat": -21.9759554,
+    "lon": -44.6036637,
+    "fonte": "nominatim"
+  },
+  "Belo Vale_MG": {
+    "lat": -20.407778,
+    "lon": -44.024167,
+    "fonte": "nominatim"
+  },
+  "Gonzaga_MG": {
+    "lat": -18.8239154,
+    "lon": -42.4787064,
+    "fonte": "nominatim"
+  },
+  "Lajinha_MG": {
+    "lat": -20.1520595,
+    "lon": -41.6240623,
+    "fonte": "nominatim"
+  },
+  "Ipiaçu_MG": {
+    "lat": -18.6934499,
+    "lon": -49.9439567,
+    "fonte": "nominatim"
+  },
+  "São Gonçalo do Abaeté_MG": {
+    "lat": -18.3420302,
+    "lon": -45.834112,
+    "fonte": "nominatim"
+  },
+  "Lagoa Grande_MG": {
+    "lat": -17.836111,
+    "lon": -46.517223,
+    "fonte": "nominatim"
+  },
+  "Capitólio_MG": {
+    "lat": -20.6144044,
+    "lon": -46.0488403,
+    "fonte": "nominatim"
+  },
+  "Caldas_MG": {
+    "lat": -21.923611,
+    "lon": -46.386111,
+    "fonte": "nominatim"
+  },
+  "Iguatama_MG": {
+    "lat": -20.174445,
+    "lon": -45.711111,
+    "fonte": "nominatim"
+  },
+  "Jaíba_MG": {
+    "lat": -15.3373744,
+    "lon": -43.6734439,
+    "fonte": "nominatim"
+  },
+  "Mantena_MG": {
+    "lat": -18.7809937,
+    "lon": -40.9808279,
+    "fonte": "nominatim"
+  },
+  "Rio Vermelho_MG": {
+    "lat": -18.2932731,
+    "lon": -43.008406,
+    "fonte": "nominatim"
+  },
+  "Pratinha_MG": {
+    "lat": -19.7530422,
+    "lon": -46.3824103,
+    "fonte": "nominatim"
+  },
+  "Paraisópolis_MG": {
+    "lat": -22.5541683,
+    "lon": -45.7800024,
+    "fonte": "nominatim"
+  },
+  "Machado_MG": {
+    "lat": -21.6762861,
+    "lon": -45.9211696,
+    "fonte": "nominatim"
+  },
+  "Novo Cruzeiro_MG": {
+    "lat": -17.4674406,
+    "lon": -41.8767107,
+    "fonte": "nominatim"
+  },
+  "Turmalina_MG": {
+    "lat": -17.2564362,
+    "lon": -42.8886221,
+    "fonte": "nominatim"
+  },
+  "Buritizeiro_MG": {
+    "lat": -17.3667765,
+    "lon": -44.9647781,
+    "fonte": "nominatim"
+  },
+  "Itaguara_MG": {
+    "lat": -20.391389,
+    "lon": -44.488055,
+    "fonte": "nominatim"
+  },
+  "Espinosa_MG": {
+    "lat": -14.9042986,
+    "lon": -42.7929277,
+    "fonte": "nominatim"
+  },
+  "Campo do Meio_MG": {
+    "lat": -21.1072006,
+    "lon": -45.8301735,
+    "fonte": "nominatim"
+  },
+  "Carangola_MG": {
+    "lat": -20.733638,
+    "lon": -42.0299412,
+    "fonte": "nominatim"
+  },
+  "Três Corações_MG": {
+    "lat": -21.695625,
+    "lon": -45.2543675,
+    "fonte": "nominatim"
+  },
+  "Jacutinga_MG": {
+    "lat": -22.285833,
+    "lon": -46.612222,
+    "fonte": "nominatim"
+  },
+  "Maria da Fé_MG": {
+    "lat": -22.3081652,
+    "lon": -45.3752771,
+    "fonte": "nominatim"
+  },
+  "Lagoa dos Patos_MG": {
+    "lat": -16.9813367,
+    "lon": -44.5783125,
+    "fonte": "nominatim"
+  },
+  "Itambacuri_MG": {
+    "lat": -18.0391974,
+    "lon": -41.6751876,
+    "fonte": "nominatim"
+  },
+  "Pedra Bonita_MG": {
+    "lat": -20.520375,
+    "lon": -42.3296975,
+    "fonte": "nominatim"
+  },
+  "Santo Antônio do Grama_MG": {
+    "lat": -20.314444,
+    "lon": -42.608611,
+    "fonte": "nominatim"
+  },
+  "São Sebastião do Anta_MG": {
+    "lat": -19.4972592,
+    "lon": -41.983428,
+    "fonte": "nominatim"
+  },
+  "Joaíma_MG": {
+    "lat": -16.6550626,
+    "lon": -41.0251754,
+    "fonte": "nominatim"
+  },
+  "Caratinga_MG": {
+    "lat": -19.7900887,
+    "lon": -42.140533,
+    "fonte": "nominatim"
+  },
+  "Antônio Dias_MG": {
+    "lat": -19.6525,
+    "lon": -42.872778,
+    "fonte": "nominatim"
+  },
+  "São Sebastião do Paraíso_MG": {
+    "lat": -20.9124331,
+    "lon": -46.9823296,
+    "fonte": "nominatim"
+  },
+  "Boa Esperança_MG": {
+    "lat": -21.0901253,
+    "lon": -45.5660195,
+    "fonte": "nominatim"
+  },
+  "Japaraíba_MG": {
+    "lat": -20.1416346,
+    "lon": -45.5032099,
+    "fonte": "nominatim"
+  },
+  "Camanducaia_MG": {
+    "lat": -22.755278,
+    "lon": -46.144444,
+    "fonte": "nominatim"
+  },
+  "Prata_MG": {
+    "lat": -19.307222,
+    "lon": -48.923889,
+    "fonte": "nominatim"
+  },
+  "Morada Nova de Minas_MG": {
+    "lat": -18.6024892,
+    "lon": -45.3513867,
+    "fonte": "nominatim"
+  },
+  "São Francisco_MG": {
+    "lat": -15.8575867,
+    "lon": -44.8897571,
+    "fonte": "nominatim"
+  },
+  "Vargem Grande do Rio Pardo_MG": {
+    "lat": -15.4016347,
+    "lon": -42.3074552,
+    "fonte": "nominatim"
+  },
+  "Faria Lemos_MG": {
+    "lat": -20.8051202,
+    "lon": -42.0127393,
+    "fonte": "nominatim"
+  },
+  "Bom Jardim de Minas_MG": {
+    "lat": -21.9476508,
+    "lon": -44.1905987,
+    "fonte": "nominatim"
+  },
+  "Itajubá_MG": {
+    "lat": -22.4238234,
+    "lon": -45.4524156,
+    "fonte": "nominatim"
+  },
+  "Claraval_MG": {
+    "lat": -20.4019611,
+    "lon": -47.2851534,
+    "fonte": "nominatim"
+  },
+  "Guarda-Mor_MG": {
+    "lat": -17.7698233,
+    "lon": -47.0986827,
+    "fonte": "nominatim"
+  },
+  "Elói Mendes_MG": {
+    "lat": -21.6094466,
+    "lon": -45.5660211,
+    "fonte": "nominatim"
+  },
+  "Vieiras_MG": {
+    "lat": -20.8651165,
+    "lon": -42.2448518,
+    "fonte": "nominatim"
+  },
+  "Itumirim_MG": {
+    "lat": -21.3179406,
+    "lon": -44.8705728,
+    "fonte": "nominatim"
+  },
+  "Espera Feliz_MG": {
+    "lat": -20.6494192,
+    "lon": -41.9080693,
+    "fonte": "nominatim"
+  },
+  "Caiana_MG": {
+    "lat": -20.695555,
+    "lon": -41.924723,
+    "fonte": "nominatim"
+  },
+  "Pratápolis_MG": {
+    "lat": -20.7444262,
+    "lon": -46.8607973,
+    "fonte": "nominatim"
+  },
+  "Ouro Fino_MG": {
+    "lat": -22.283056,
+    "lon": -46.369167,
+    "fonte": "nominatim"
+  },
+  "Rio Espera_MG": {
+    "lat": -20.8571756,
+    "lon": -43.4729342,
+    "fonte": "nominatim"
+  },
+  "Alfredo Vasconcelos_MG": {
+    "lat": -21.145833,
+    "lon": -43.776389,
+    "fonte": "nominatim"
+  },
+  "Santa Rita do Sapucaí_MG": {
+    "lat": -22.2486968,
+    "lon": -45.7064507,
+    "fonte": "nominatim"
+  },
+  "Comendador Gomes_MG": {
+    "lat": -19.695155,
+    "lon": -49.0843408,
+    "fonte": "nominatim"
+  },
+  "Augusto de Lima_MG": {
+    "lat": -18.1092963,
+    "lon": -44.2651945,
+    "fonte": "nominatim"
+  },
+  "Esmeraldas_MG": {
+    "lat": -19.7613111,
+    "lon": -44.3145945,
+    "fonte": "nominatim"
+  },
+  "Brasília de Minas_MG": {
+    "lat": -16.239105,
+    "lon": -44.3845091,
+    "fonte": "nominatim"
+  },
+  "Varginha_MG": {
+    "lat": -21.5565914,
+    "lon": -45.4340674,
+    "fonte": "nominatim"
+  },
+  "Minas Novas_MG": {
+    "lat": -17.2174708,
+    "lon": -42.5948332,
+    "fonte": "nominatim"
+  },
+  "Conceição do Mato Dentro_MG": {
+    "lat": -19.037222,
+    "lon": -43.425278,
+    "fonte": "nominatim"
+  },
+  "Alvarenga_MG": {
+    "lat": -19.4175,
+    "lon": -41.728334,
+    "fonte": "nominatim"
+  },
+  "Cristais_MG": {
+    "lat": -20.875834,
+    "lon": -45.518611,
+    "fonte": "nominatim"
+  },
+  "Nazareno_MG": {
+    "lat": -21.2189807,
+    "lon": -44.6151354,
+    "fonte": "nominatim"
+  },
+  "Monte Santo de Minas_MG": {
+    "lat": -21.189722,
+    "lon": -46.98,
+    "fonte": "nominatim"
+  },
+  "Arceburgo_MG": {
+    "lat": -21.364444,
+    "lon": -46.939722,
+    "fonte": "nominatim"
+  },
+  "Frutal_MG": {
+    "lat": -20.0220064,
+    "lon": -48.9280076,
+    "fonte": "nominatim"
+  },
+  "Ibituruna_MG": {
+    "lat": -21.1515725,
+    "lon": -44.7474347,
+    "fonte": "nominatim"
+  },
+  "Itapagipe_MG": {
+    "lat": -19.9033884,
+    "lon": -49.3666934,
+    "fonte": "nominatim"
+  },
+  "Lavras_MG": {
+    "lat": -21.2425512,
+    "lon": -44.9991978,
+    "fonte": "nominatim"
+  },
+  "Martinho Campos_MG": {
+    "lat": -19.331945,
+    "lon": -45.236666,
+    "fonte": "nominatim"
+  },
+  "Baependi_MG": {
+    "lat": -21.9575733,
+    "lon": -44.8891463,
+    "fonte": "nominatim"
+  },
+  "Bueno Brandão_MG": {
+    "lat": -22.441421,
+    "lon": -46.3475825,
+    "fonte": "nominatim"
+  },
+  "Inhapim_MG": {
+    "lat": -19.5501834,
+    "lon": -42.1209879,
+    "fonte": "nominatim"
+  },
+  "Riacho dos Machados_MG": {
+    "lat": -16.006667,
+    "lon": -43.049166,
+    "fonte": "nominatim"
+  },
+  "Rio Paranaíba_MG": {
+    "lat": -19.24677,
+    "lon": -46.3181548,
+    "fonte": "nominatim"
+  },
+  "Taquaraçu de Minas_MG": {
+    "lat": -19.669445,
+    "lon": -43.687777,
+    "fonte": "nominatim"
+  },
+  "Jequitinhonha_MG": {
+    "lat": -16.4335098,
+    "lon": -41.0035557,
+    "fonte": "nominatim"
+  },
+  "Maravilhas_MG": {
+    "lat": -19.515278,
+    "lon": -44.676389,
+    "fonte": "nominatim"
+  },
+  "Seritinga_MG": {
+    "lat": -21.9096949,
+    "lon": -44.5216061,
+    "fonte": "nominatim"
+  },
+  "São João del Rei_MG": {
+    "lat": -21.1335755,
+    "lon": -44.2588086,
+    "fonte": "nominatim"
+  },
+  "Ubá_MG": {
+    "lat": -21.12,
+    "lon": -42.942777,
+    "fonte": "nominatim"
+  },
+  "Pedra Azul_MG": {
+    "lat": -16.0058567,
+    "lon": -41.2793731,
+    "fonte": "nominatim"
+  },
+  "Dom Cavati_MG": {
+    "lat": -19.3744152,
+    "lon": -42.1067301,
+    "fonte": "nominatim"
+  },
+  "Matozinhos_MG": {
+    "lat": -19.5576547,
+    "lon": -44.0816035,
+    "fonte": "nominatim"
+  },
+  "Baldim_MG": {
+    "lat": -19.2913568,
+    "lon": -43.9558262,
+    "fonte": "nominatim"
+  },
+  "Tarumirim_MG": {
+    "lat": -19.2818607,
+    "lon": -42.0070412,
+    "fonte": "nominatim"
+  },
+  "Guaraciaba_MG": {
+    "lat": -20.5718037,
+    "lon": -43.0057078,
+    "fonte": "nominatim"
+  },
+  "Araporã_MG": {
+    "lat": -18.4318188,
+    "lon": -49.188313,
+    "fonte": "nominatim"
+  },
+  "Lagoa Santa_MG": {
+    "lat": -19.6357376,
+    "lon": -43.8966132,
+    "fonte": "nominatim"
+  },
+  "Rio Pardo de Minas_MG": {
+    "lat": -15.6106289,
+    "lon": -42.5387444,
+    "fonte": "nominatim"
+  },
+  "Lima Duarte_MG": {
+    "lat": -21.842777,
+    "lon": -43.792777,
+    "fonte": "nominatim"
+  },
+  "Montalvânia_MG": {
+    "lat": -14.4230168,
+    "lon": -44.3701782,
+    "fonte": "nominatim"
+  },
+  "Mirabela_MG": {
+    "lat": -16.2547215,
+    "lon": -44.1639075,
+    "fonte": "nominatim"
+  },
+  "Santa Vitória_MG": {
+    "lat": -18.9755586,
+    "lon": -50.2367947,
+    "fonte": "nominatim"
+  }
+}

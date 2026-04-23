@@ -1,0 +1,77 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos operacionais de emergência e resgate, não em serviços laboratoriais ou diagnóstico clínico."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para contratação de serviços de realização de exames laboratoriais de apoio por universidade estadual. Mercado de diagnóstico clínico e análises laboratoriais.",
+    "mercados_predominantes": [
+      "Serviços de diagnóstico clínico",
+      "Análises laboratoriais",
+      "Saúde pública/universitária"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de serviços laboratoriais clínicos. Resgatécnica atua em equipamentos operacionais de emergência, não em diagnóstico laboratorial."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de exames laboratoriais é diagnóstico clínico. Resgatécnica fornece equipamentos operacionais de emergência, não serviços de análise laboratorial.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado completamente distinto",
+        "Sem equipamentos laboratoriais no portfólio"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo operacional da empresa. Resgatécnica não atua em serviços laboratoriais clínicos."
+  },
+  "_processo": "22675359000100-1-000006/2026",
+  "_analisado_em": "2026-04-22T01:11:06.529429+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,82 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos físicos, ferramentas, sistemas de proteção e veículos para operações críticas. Não atua em software de gestão administrativa ou previdenciária."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para locação de sistema integrado de gestão previdenciária (software administrativo) com implantação, manutenção, treinamento e suporte técnico",
+    "mercados_predominantes": [
+      "Tecnologia da Informação",
+      "Software de Gestão Administrativa",
+      "Serviços de TI e Consultoria"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de software administrativo-previdenciário. Resgatécnica é fornecedora de equipamentos operacionais para emergências, não de soluções de TI."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Sistema de gestão previdenciária é software administrativo. Resgatécnica fornece equipamentos operacionais para emergências, não soluções de TI.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado completamente diferente",
+        "Nenhuma sobreposição comercial real"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "descricao"
+    ],
+    "portfolio_apoio": [
+      "eixos_operacionais",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida",
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo operacional da empresa. Resgatécnica não fornece software de gestão administrativa ou serviços de TI."
+  },
+  "_processo": "18338178000102-1-000125/2026",
+  "_analisado_em": "2026-04-22T01:08:36.591678+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

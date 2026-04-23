@@ -1,0 +1,164 @@
+# exclusoes.yaml
+# Lista de termos para exclusão de licitações irrelevantes ao portfólio do cliente.
+# Cliente: fornecedor de bens e serviços COMUNS (art. 6º, XIII — Lei 14.133/2021).
+#
+# REGRA DE CORRESPONDÊNCIA
+#   • Texto normalizado: acentos removidos, minúsculas.
+#   • Prefixo de palavra: "obra" captura "obra" e "obras";
+#                         "construca" captura "construção" e "construções".
+#   • Frases completas também funcionam: "servico de engenharia".
+#   • Campos verificados: objetoCompra + informacaoComplementar.
+#
+# Para desabilitar um termo sem removê-lo, comente com #.
+
+termos_exclusao:
+
+  # ============================================================================
+  # OBRAS — art. 6º, XXI
+  # "toda construção, reforma, fabricação, recuperação ou ampliação de bem imóvel
+  #  ou de alteração substancial de suas características"
+  # ============================================================================
+  - "obra"                          # obra, obras (civil, pública, de arte)
+  - "construca"                     # construção, construções
+  - "reforma predial"
+  - "reforma de edificaca"          # reforma de edificação/prédio
+  - "ampliaca"                      # ampliação, ampliações (estruturais/imóveis)
+  - "edificaca"                     # edificação, edificações
+  - "habitaca"                      # habitação, habitações (PMCMV, COHAB)
+  - "recuperaca de bem imovel"      # recuperação de bem imóvel
+  - "restauraca"                    # restauração (igrejas, estações, quadras, monumentos)
+  - "cobertura metalica"            # execução de cobertura/estrutura metálica
+  - "quadra poliesportiva"
+  - "quadra escolar"
+  - "quadra esportiva"
+  - "ponte"
+  - "viaduto"
+  - "tunel"
+  - "barragem"
+  - "usina"
+  - "hidreletrica"
+  - "ferrovia"
+  - "aeroporto"
+  - "porto"
+
+  # ============================================================================
+  # PAVIMENTAÇÃO E VIA PÚBLICA — art. 6º, XXI
+  # ============================================================================
+  - "pavimenta"                     # pavimentação, pavimentações, pavimentada
+  - "recapeamento"
+  - "asfalto"
+  - "terraplanagem"
+  - "terraplenagem"
+  - "drenagem"                      # drenagem pluvial, rede de drenagem
+  - "macrodrenagem"                 # NÃO capturado por "drenagem" — prefixo diferente
+  - "galeria pluvial"
+  - "bueiro"
+  - "ciclovia"
+  - "calcada"                       # calçada
+  - "calcamento"                    # calçamento
+  - "meio-fio"
+
+  # ============================================================================
+  # SANEAMENTO E INFRAESTRUTURA HÍDRICA — art. 6º, XXI
+  # ============================================================================
+  - "saneamento basico"
+  - "abastecimento de agua"
+  - "distribuicao de agua"          # redes de distribuição
+  - "esgotamento sanitario"
+  - "rede de agua"
+  - "rede de esgoto"
+  - "rede interceptora de esgoto"
+  - "estacao de tratamento de agua"
+  - "estacao de tratamento de esgoto"
+  - "estaca elevatoria"             # estação elevatória de esgoto/água
+
+  # ============================================================================
+  # SERVIÇOS DE ENGENHARIA — art. 6º, XXIII
+  # "toda atividade destinada a elaborar, executar, fiscalizar, supervisionar,
+  #  revisar ou avaliar obra ou serviço de engenharia"
+  # ============================================================================
+  - "servico de engenharia"
+  - "servicos de engenharia"
+  - "servicos tecnicos profissionais de engenharia"
+  - "topografia"
+  - "levantamento topograf"         # levantamento topográfico
+  - "sondagem"
+  - "geotecnia"
+  - "contenca de talude"            # contenção geotécnica/rodoviária
+  - "elaboracao de projeto"
+  - "projeto executivo"
+  - "projeto de engenharia"
+  - "projeto basico de engenharia"  # específico — não descarta "projeto básico" genérico
+  - "laudo de engenharia"
+  - "vistoria"                      # vistoria técnica de obra/imóvel
+  - "fiscalizacao de obra"
+  - "supervisao de obra"
+  - "gerenciamento de obra"
+  - "gerenciamento de projeto de engenharia"
+  - "regularizaca fundiaria"        # REURB — técnico-jurídico vinculado a obras urbanas
+  - "trabalho tecnico social"       # TTS vinculado a intervenção urbana/habitacional
+  - "plano de mobilidade urbana"    # plano especializado de engenharia/urbanismo
+  - "planejamento urbano"
+
+  # ============================================================================
+  # BENS E SERVIÇOS ESPECIAIS — TIC (art. 6º, XIV)
+  # "bens e serviços que, por suas características, não podem ser considerados
+  #  comuns, inclusive os de tecnologia da informação e comunicação"
+  # ============================================================================
+  - "tecnologia da informacao"      # TIC citada literalmente no art. 6º, XIV
+  - "sistema de informacao"
+  - "desenvolvimento de software"
+  - "customizacao de sistema"
+  - "integracao de sistema"
+  - "solucao customizada"
+  - "infraestrutura de dados complexa"
+  - "licenciamento especializado"
+  - "telecomunicacao"
+
+  # ============================================================================
+  # SERVIÇOS TÉCNICOS ESPECIALIZADOS — art. 6º, XIV / art. 74
+  # ============================================================================
+  - "estudo tecnico de engenharia"  # específico — não descarta ETP de licitações comuns
+  - "parecer tecnico"
+  - "auditoria"
+  - "consultoria"
+  - "assessoria"
+  - "pesquisa cientifica"
+  - "desenvolvimento tecnologico"
+  - "restauracao de obras de arte"
+  - "restauro historico"
+  - "pericia"
+
+  # ============================================================================
+  # INEXIGIBILIDADE — NOTÓRIA ESPECIALIZAÇÃO (art. 74, III)
+  # ============================================================================
+  - "notoria especializacao"
+  - "servico tecnico profissional especializado"
+  - "patrocinio"
+  - "defesa de causas judiciais"
+  - "treinamento especializado"
+  - "aperfeicoamento de pessoal"
+  - "conferencista"
+  - "palestrante"
+  - "setor artistico"
+  - "consagrado pela critica"
+  - "espetaculo"                    # espetáculo artístico, esportivo
+  - "producao artistica"
+  - "producao cultural"
+
+  # ============================================================================
+  # CONCESSÕES E PERMISSÕES
+  # Contratos fora do escopo da Lei 14.133 (Lei 8.987/95 / Lei 11.079/05)
+  # ============================================================================
+  - "concessa"                      # concessão, concessões de uso/exploração
+  - "permissa"                      # permissão, permissões de uso de bem/serviço público
+  - "direito real de uso"
+  - "outorga de uso"
+  - "quiosque"                      # ponto comercial em bem público
+  - "porto seco"                    # concessão de armazenagem aduaneira
+
+  # ============================================================================
+  # LOCAÇÃO DE IMÓVEL
+  # ============================================================================
+  - "locaca de imovel"              # locação de imóvel (residencial/comercial)
+  - "locacao de imovel"

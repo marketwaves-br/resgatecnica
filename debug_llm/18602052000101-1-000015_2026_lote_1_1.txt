@@ -1,0 +1,288 @@
+# processo:      18602052000101-1-000015/2026
+# lote:          1
+# n_itens:       13
+# output_tokens: 8192
+# chars:         21537
+# motivo:        erro_llm: [18602052000101-1-000015/2026] lote 1 — não foi possível extrair JSON válido da resposta. Primeiros 300 chars: ```json
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção 
+# ======================================================================
+
+```json
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica, altura/espaço confinado, produtos perigosos, atendimento pré-hospitalar e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências, não em locação de estruturas e equipamentos para eventos genéricos"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Registro de preços para locação de equipamentos e estruturas para eventos municipais (palcos, iluminação, sonorização, sanitários, mesas, painéis LED, stands)",
+    "mercados_predominantes": [
+      "Locação de equipamentos para eventos",
+      "Estruturas e infraestrutura de eventos",
+      "Sonorização e iluminação de eventos",
+      "Equipamentos de entretenimento"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para locação de equipamentos genéricos de eventos (palcos, iluminação, sonorização, sanitários). Resgatécnica é especializada em equipamentos técnico-operacionais de emergência e resgate, não em infraestrutura de eventos."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 7133978,
+      "descricao": "LOCAÇÃO DE GERADOR MINIMO DE 180 KVA, SILENCIADO, TRÊS FASES, NEUTRO E TERRA COM 50 METROS DE CABO, PARA BACK UP OU STAND BY.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Gerador industrial genérico para eventos, não equipamento de resgate ou emergência operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Produto: infraestrutura genérica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Palavra 'gerador' não implica resgate"
+      ],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133979,
+      "descricao": "LOCACAO DE GRADE DE ISOLAMENTO (GRADIL) EM TUBO GALVANIZADO COM DIAMETRO 1 1, CHAPA 18 (1.2 MM), TAMANHO 2,00 M X 1,20 M (LXA), CANTOS ARREDONDADOS, ESPACAMENTOS DE 15 CM EM TUBO GALVANIZADO COM DIAMETRO 5/8 E CHAPA 18, PES COM ALTURA DE 20CM, SISTEMA DE FECHAMENTO MACHO E FEMEA, EM CONFORMIDADE COM AS NORMAS ESTABELECIDAS PELO CORPO DE BOMBEIROS.",
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.88,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Menção a 'Corpo de Bombeiros' é superficial; grade é infraestrutura de eventos, não equipamento de resgate.",
+      "motivos_pro_match": [
+        "Referência Corpo Bombeiros"
+      ],
+      "motivos_contra_match": [
+        "Contexto: isolamento eventos",
+        "Produto: estrutura genérica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Menção bombeiros não implica resgate",
+        "Grade de isolamento ≠ equipamento operacional"
+      ],
+      "observacao": "Conformidade com normas de bombeiros é requisito administrativo, não indicador de aderência comercial."
+    },
+    {
+      "numeroItem": 7133980,
+      "descricao": "LOCACAO DE ILUMINACAO. EVENTOS DE GRANDE PORTE. LOCACAO DE ILUMINACAO O SISTEMA DE LUZ DEVERAO ATENDER RIDER TECNICO DO ARTISTA A SER CONTRATADO PELO MUNICIPIO, SENDO RECONHECIDO NACIONALMENTE, OU REGIONALMENTE, TENDO A EMPRESA A CIENCIA QUEDEVERA CUMPRIR NA INTEGRA, E SENDO ESTAS ESPECIFICACOES MINIMAS: ILUMINACAO 01 CONTROLADOR MA COM DUAS TELAS TOUCH, COM 08 UNIVERSOS DE SAIDAS DE DMX COMPATIVEL COM TODO SISTEMA MA, 16 MOVING POINT 3 EM 1 (BEAM, WASH, SPOT) MODELO DE REFERENCIA POINTE OS EQUIPAMENTO DEVERAO ESTAR COM CAPA DE CHUVA APROPRIADA PARA SER USADO EM AMBIENTES EXTERNOS AS CAPAS DEVEM SER TANTO PARA USO SUSPENSO OU NO CHAO, O EQUIPAMENTO DEVE CONTER CABO DE ACO DE SEGURANCA CONTRA QUEDA 32 UNIDADE MOVING BEAM 9R COM BORDA DE LED 3 EM 1 (BEAM, WASH, SPOT) MODELO DE REFERENCIA BEAM9R OS EQUIPAMENTO DEVERAO ESTAR COM CAPA DE CHUVA APROPRIADA PARA SER USADO EM AMBIENTES EXTERNOS AS CAPAS DEVEM SER TANTO PARA USO SUSPENSO OU NO CHAO, O EQUIPAMENTO DEVE CONTER CABO DE ACO DE SEGURANCA CONTRA QUEDA 16 UNIDADE MOVING LED MAC AURA LED MODELO DE REFERENCIA MACAURA LED OS EQUIPAMENTO DEVERAO ESTAR COM CAPA DE CHUVA APROPRIADA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Iluminação de eventos (moving lights, controladores DMX) é mercado de entretenimento, não resgate/emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos artísticos",
+        "Equipamento: iluminação cênica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Cabo aço segurança ≠ resgate",
+        "Iluminação eventos ≠ iluminação operacional"
+      ],
+      "observacao": "Resgatécnica possui lanternas técnicas para resgate, não iluminação cênica para eventos."
+    },
+    {
+      "numeroItem": 7133981,
+      "descricao": "LOCACAO DE ILUMINACAO. EVENTOS DE MEDIO PORTE. LOCACAO DE ILUMINACAO O SISTEMA DE LUZ DEVERA ATENDER RIDER TECNICO DO ARTISTA A SER CONTRATADO PELO MUNICIPIO, SENDO RECONHECIDO NACIONALMENTE, OU REGIONALMENTE, TENDO A EMPRESA A CIENCIA QUEDEVERA CUMPRIR NA INTEGRA, E SENDO ESTAS ESPECIFICACOES MINIMAS: ILUMINACAO 01 CONTROLADOR MA COM DUAS TELAS TOUCH, COM 08 UNIVERSOS DE SAIDAS DE DMX COMPATIVEL COM TODO SISTEMA MA, 08 MOVING POINT 3 EM 1 (BEAM, WASH, SPOT) MODELO DE REFERENCIA POINTE OS EQUIPAMENTO DEVERAO ESTAR COM CAPA DE CHUVA APROPRIADA PARA SER USADO EM AMBIENTES EXTERNOS AS CAPAS DEVEM SER TANTO PARA USO SUSPENSO OU NO CHAO, OEQUIPAMENTO DEVE CONTER CABO DE ACO DE SEGURANCA CONTRA QUEDA 16 UNIDADE MOVING BEAM 9R COM BORDA DE LED 3 EM 1 (BEAM, WASH, SPOT) MODELO DE REFERENCIA BEAM 9R OS EQUIPAMENTO DEVERAO ESTAR COM CAPA DE CHUVA APROPRIADA PARA SER USADO EM AMBIENTES EXTERNOS AS CAPAS DEVEM SER TANTO PARA USO SUSPENSO OU NO CHAO, O EQUIPAMENTO DEVE CONTER CABO DE ACO DE SEGURANCA CONTRA QUEDA 12 UNIDADE MOVING LED MAC AURA LED MODELO DE REFERENCIA MACAURA LED OS EQUIPAMENTO DEVERAO ESTAR COM CAPA DE CHUVA APROPRIADA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Iluminação cênica para eventos de médio porte, mercado de entretenimento, não operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos artísticos",
+        "Equipamento: iluminação cênica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Cabo aço segurança ≠ resgate",
+        "Iluminação eventos ≠ iluminação operacional"
+      ],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133982,
+      "descricao": "LOCACAO DE MESA: MESA PLASTICA QUADRADA, PRODUZIDA COM 80CM DE COMPRIMENTO E 71CM DE ALTURA, COM QUATRO CADEIRAS, CADA UMA SUPORTANDO ATE 100KG.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Mobiliário genérico para eventos, completamente fora do escopo de resgate e emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto: mobiliário genérico",
+        "Contexto: eventos"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133983,
+      "descricao": "LOCACAO DE PAINEL DE LED: LOCACAO E INSTALACAO DE PAINEL DE LED, P3, 10MM, TAMANHO 6,00X4,00, DE ALTA RESOLUÇÃO, COM TODA ESTRUTURA NECESSÁRIA DE BOXTRUSS EM ALUMINIO Q30 PARA MOINTAGEM.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Painel LED para eventos, infraestrutura de entretenimento, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos",
+        "Produto: painel cênico"
+      ],
+      "sinais_lexicais_enganosos": [
+        "LED ≠ iluminação operacional"
+      ],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133984,
+      "descricao": "LOCACAO DE PALCO 12X10: PALCO DUAS AGUAS, TAMANHO MINIMO DE 14M X 12M, TETO E COLUNAS EM ALUMINIO Q30, MONTADO A 1,5M DE ALTURA EM RELACAO AO SOLO, COMPOE OS PISOS GRADES (2,5M) E AS TRANCAS (1,25M). NO PERFIL DE GRADE SE TRANCAS DE PISO EXISTE UM REBORDO PARA A FIXACAO DAS PLACAS DE MADEIRA, ESTAS PLACAS SAO EM MADEIRA PRENSADA COM VARIAS CAMADAS E ESPESSURA DE 21MM. NAS SUAS FACES SUPERIOR E INFERIOR ESTA PROTEGIDA COM UM MATERIAL ANTIDERRAPANTE. PARA TRAVAMENTO TEM DE SER USADA UMA ESCORA DE ESTABILIZACAO CONSTRUIDA EM FERRO. TAMBEM SERA NECESSARIO GUARDA CORPO EM TODA A EXTENSAO DO PISO, COM GRADES DE 1,10M DE ALTURA, ESPACAMENTOS DE NO MAXIMO 0,15M, CONFECCIONADOS EM LIGAS DE ALUMINIO EXTRUDIDO. O ACESSO AO PISO SERA POR ESCADAS, MEDINDO NO MINIMO 2M DE LARGURA COM 02 CORRIMAOS E DEGRAUS DE ACORDO COM AS NORMAS DO CORPO DE BOMBEIROS MILITAR DE MINAS GERAIS, INSTALADAS NA PARTE TRASEIRA DO PALCO. A COBERTURA DEVERÁ SER COM LOMA ANTI CHAMA, FECHAMENTO NAS LATERAIS E FUNDO DO APLACO COM TELA ORTOFONICA NA COR PRETA E ROTEÇÃO TOTAL CONTRA CHUVA E OUTRAS INTEPERIES. ATERRAMENTO DO PALCO CONFORME NORMAS BBR.COM. LOCACAO DE PALCO 12X10: PALCO DUAS AGUAS, TAMANHO",
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.90,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Menção a 'Corpo de Bombeiros' e 'anti-chama' é superficial; palco é infraestrutura de eventos, não equipamento operacional.",
+      "motivos_pro_match": [
+        "Referência Corpo Bombeiros",
+        "Material anti-chama"
+      ],
+      "motivos_contra_match": [
+        "Contexto: eventos",
+        "Produto: estrutura cênica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Conformidade bombeiros ≠ resgate",
+        "Anti-chama ≠ combate incêndio"
+      ],
+      "observacao": "Conformidade com normas de segurança é requisito administrativo, não indicador de aderência ao portfólio de resgate."
+    },
+    {
+      "numeroItem": 7133985,
+      "descricao": "LOCACAO DE SANITARIO QUIMICO TIPO CONTAINER, ADAPTADO SOBRE CARRETA MOVEL COM REBOQUE, DIVIDIDO EM COMPARTIMENTO MASCULINO E FEMININO, FEMININO: MINIMO DE 10 VASOS SANITARIOS, ESPELHO E DUAS PIAS, PELO MENOS UM BANHEIRO COM ACESSIBILIDADE, MASCULINO: MINIMO DE 10 VASOS SANITARIOS, MICTORIO E DUAS PIAS, DIVISORIA E PORTAS ENTRE OS VASOS, PELO MENOS UM BANHEIRO COM ACESSIBILIDADE, SUPORTE PARA PAPEL HIGIENICO, INSTALACAO ELETRICA E PREPARO PARA LUMINARIA FLUORESCENTE, FORRACAO DAS PAREDES (ISOLANTE TERMOACUSTICO), CARRETINHA TRUCKADA, EQUIPADA COM RESERVATORIO DE POLIPROPILENO COM CAPACIDADE MINIMA DE 3.000 LITROS, CARRETA REBOQUE REGULARIZADA PARA TRANSITAR.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Sanitário químico para eventos, infraestrutura genérica, não equipamento de resgate ou emergência operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto: sanitário genérico",
+        "Contexto: eventos"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133986,
+      "descricao": "LOCACAO DE SONORIZACAO. SISTEMA 2X2 DE AUDIO (SONORIZACAO) EVENTOS PEQUENO PORTE SISTEMA DE AUDIO (SONORIZACA0) QUE DEVERAO ATENDER RIDER TECNICO CONFORME ARTISTAS DE RENOMES REGIONAIS EM CARATER EM EVENTOS, SEREM CONTRATADO(S) PELO MUNICIPIO, ONDE PODERA SER UNICA OU VARIAS APRESENTACOES, TENDO A CIENCIA QUE DEVERA CUMPRIR NA INTEGRA, E SENDO ESTAS ESPECIFICACOES MINIMAS: SISTEMA DE PALINE EQUIPAMENTOS DISPONIVEIS PARA O EVENTO, 04 UNID. CAIXAS ACUSTICA LINE ARRAY PASSIVA CONFORME SEGUINTES CARACTERISTICAS, SENSIBILIDADE: 105 DB SPL 1W.1M SPL MAXIMO: 136 DB SPL 1M COBERTURA HORIZONTAL: 120 RESPOSTA DE FREQUENCIA: 80 HZ - 20 KHZ (/- 3 DB) COM SOFTWARE DE ALINHAMENTO 04 UNID. CAIXAS ACUSTICA SUB GRAVES PASSIVA CONFORME SEGUINTES CARACTERISTICAS, SENSIBILIDADE: 106 DB SPL 1W. 1M SPL MAXIMO: 139 DB SPL 1M POTENCIA: 2400 W RESPOSTA DE FREQUENCIA: 30 HZ - 250 HZ (/- 3DB) COM SOFTWARE DE ALINHAMENTO PROJETO DE SISTEMA ATRAVES DE SOFTWARE DE ALINHAMENTO E PROJECA0 E INCLINACA0 (P.A",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Sonorização para eventos artísticos, mercado de entretenimento, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos artísticos",
+        "Produto: sonorização cênica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Sonorização eventos ≠ comunicação resgate"
+      ],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133987,
+      "descricao": "LOCACAO DE SONORIZACAO. SISTEMA 4X4 DE AUDIO (SONORIZACAO) EVENTOS PEQUENO PORTE LOCACAO AUDIO (SONORIZACA0) QUE DEVERAO ATENDER RIDER TECNICO CONFORME ARTISTAS DE RENOMES REGIONAIS EM CARATER EM EVENTOS, SEREM CONTRATADO(S) PELO MUNICIPIO, ONDE PODERA SER UNICA OU VARIAS APRESENTACOES, TENDO A CIENCIA QUE DEVERA CUMPRIR NA INTEGRA, E SENDO ESTAS ESPECIFICACOES MINIMAS: SISTEMA DE PALIN E EQUIPAMENTOS DISPONIVEIS PARA O EVENTO, 08 UNID. CAIXAS ACUSTICA LINE ARRAY PASSIVA CONFORME SEGUINTES CARACTERISTICAS, SENSIBILIDADE: 105 DB SPL 1W. 1M SPL MAXIMO: 136 DB SPL 1M COBERTURA HORIZONTAL: 120 RESPOSTA DE FREQUENCIA: 80 HZ - 20KHZ (/- 3 DB) COM SOFTWARE DE ALINHAMENTO 08 UNID. CAIXAS ACUSTICA SUB GRAVES PASSIVA CONFORME SEGUINTES CARACTERISTICAS, SENSIBILIDADE: 106 DB SPL 1W. 1M SPL MAXIMO: 139 DB SPL 1M POTENCIA: 2400 W RESPOSTA DE FREQUENCIA: 30 HZ - 250HZ (/- 3 DB) COM SOFTWARE DE ALINHAMENTO PROJETO DE SISTEMA ATRAVES DE SOFTWARE DE ALINHAMENTO E PROJECA0 E INCLINAÇÃO PA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Sonorização para eventos artísticos, mercado de entretenimento, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos artísticos",
+        "Produto: sonorização cênica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Sonorização eventos ≠ comunicação resgate"
+      ],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133988,
+      "descricao": "LOCACAO DE SONORIZACAO. SISTEMA 8X8 DE AUDIO (SONORIZACAO) EVENTOS INTERMEDIARIOS LOCACAO AUDIO (SONORIZACAO) SISTEMA DE AUDIO (SONORIZACAO) QUE DEVERAO ATENDER RIDER TECNICO CONFORME ARTISTAS DE RENOMES NACIONAIS, ESTADUAIS E REGIONAIS EM CARATER PARA MEGA E GRANDES EVENTOS, SEREM CONTRATADO(S) PELO MUNICIPIO, ONDE PODERA SER UNICA OU VARIAS APRESENTACOES, TENDO A CIENCIA QUEDEVERA CUMPRIR NA INTEGRA, E SENDO ESTAS ESPECIFICACOES MINIMAS: SISTEMA DE PA LINE EQUIPAMENTOS DISPONIVEIS PARA O EVENTO, 16 UNID. CAIXAS ACUSTICA LINE ARRAY PASSIVA CONFORME SEGUINTES CARACTERISTICAS, SENSIBILIDADE: 105 DB SPL 1W.1M SPL MAXIMO: 136 DB SPL 1M COBERTURA HORIZONTAL: 120 RESPOSTA DE FREQUENCIA: 80HZ - 20 KHZ (/- 3 DB) COM SOFTWARE DE ALINHAMENTO 16 UNID. CAIXAS ACUSTICA SUB GRAVES PASSIVA CONFORME SEGUINTES CARACTERISTICAS, SENSIBILIDADE: 106 DB SPL 1W. 1M SPL MAXIMO: 139 DB SPL 1M POTENCIA: 2400 W RESPOSTA DE FREQUENCIA: 30HZ - 250 HZ (/- 3 DB) COM SOFTWARE DE ALINHAMENTO PROJETO DE SISTEMA ATRAVES DE SOFTWARE DE ALINHAMENTO E PROJECA0 E INCLINACA0 (P.A 16X12 DE CADA LADO) OBS.: TODO O SISTEMA DE AUDIO ACIMA MENCIONADOS COM DEVIDOS CABOS E ACESSORIOS CONFORME A BAIXO, 02 UNID. SISTEMA DE ELEVACAO PA BUMPER 02 UNID. MANILHA / ANILHA P/ 2T.5/8 P/ ELEVACAO CONF. ABNT. 02 UNID. TALHAS MANUAL 2 T. C/ 10 MTS DE CORRENTE C/ FREIO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.94,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Sonorização para mega/grandes eventos artísticos. Menção a talhas e manilhas é para içamento cênico, não resgate.",
+      "motivos_pro_match": [
+        "Talhas e manilhas mencionadas"
+      ],
+      "motivos_contra_match": [
+        "Contexto: eventos artísticos",
+        "Produto: sonorização cênica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Talhas eventos ≠ talhas resgate",
+        "Manilhas cênicas ≠ manilhas operacionais"
+      ],
+      "observacao": "Talhas e manilhas para eventos são equipamentos de entretenimento, não operacionais de resgate."
+    },
+    {
+      "numeroItem": 7133989,
+      "descricao": "LOCACAO DE SONORIZACAO: SISTEMA DE AUDIO 12X12 LOCACAO AUDIO (SONORIZACA0) SISTEMA DE AUDIO (SONORIZACAO) QUE DEVERAO ATENDER RIDER TECNICO DE: 105DB SPL 1W. 1M SPL MAXIMO: 136 DB SPL 1M COBERTURA HORIZONTAL: 120 RESPOSTA DE FREQUENCIA: 80 HZ 20 KHZ (/- 3 DB) COM SOFTWARE DE ALINHAMENTO 24 UNID. CAIXAS ACUSTICA SUB GRAVES PASSIVA CONFORME SEGUINTES CARACTERISTICAS, SENSIBILIDADE: 106 DB SPL 1W. 1M SPL MAXIMO: 139 DB SPL 1M POTENCIA: 2400 W RESPOSTA DE FREQUENCIA: 30 HZ 250 HZ (/- 3 DB) COM SOFTWARE DE ALINHAMENTO PROJETO DE SISTEMA ATRAVES DE SOFTWARE DE ALINHAMENTO E PROJECA0 E INCLINACAO (P.A 12X12 DE CADA LADO) OBS.: TODO O SISTEMA DE AUDIO ACIMA MENCIONADOS COM DEVIDOS CABOS E ACESSORIOS CONFORME A BAIXO, 04 UNID. SISTEMA DE ELEVACAO PA BUMPER 04 UNID. MANILHA / ANILHA P/ 2T. 5/8 P/ ELEVACAO CONF. ABNT. 02 UNID. TALHAS MANUAL 2T. C/10 MTS DE CORRENTE C/ FREIO 02 UNID. TALHAS ELETRICA 2T. C/12 MTS DE CORRENTE C/ FREIO 08 UNID. CINTAS 2 TONELADAS X 1MT P/ ELEVACAO CONF. ABNT. 16 UNID. CABOS 18MTS SPEAKON NL4 (4X4.0MM) EXTRAFLEX 12 UNID. CABOS 12MTS SPEAKON NL4 (4X4.0MM) EXTRAFLEX 16 UNID. CABOS 0.50 MTS SPEAKON NL4 (4X4.0MM) EXTRAFLEX 12 UNID. CABOS 1.50 MTS SPEAKON NL4 (4X4.0MM) EXTRAFLEXAMPLIFICACAO DO SISTEMA DE AUDIO (PA) 06 UNID. CONJUNTOS DE R ACK COM 6 AMPLIFICADORES SENDO CADA: 06 UNID. AMPLIFICADOR SUB GRAVES 18 (16.000 WATTS RMS) POTENCIA MAXIMA DE SAIDA 2 X 8000 W RMS = 1.2 O 2 X 5750 W...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.93,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Sonorização para mega eventos. Talhas, manilhas, cintas são para içamento cênico, não resgate operacional.",
+      "motivos_pro_match": [
+        "Talhas, manilhas, cintas mencionadas"
+      ],
+      "motivos_contra_match": [
+        "Contexto: eventos artísticos",
+        "Produto: sonorização cênica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Talhas eventos ≠ talhas resgate",
+        "Manilhas cênicas ≠ manilhas operacionais"
+      ],
+      "observacao": "Equipamentos de içamento para eventos são infraestrutura de entretenimento, não operacionais de resgate."
+    },
+    {
+      "numeroItem": 7133990,
+      "descricao": "LOCACAO DE STANDS 3 X 3 PAREDES DE DIVISORIAS DOS ESTANDES SERAO EM PLACAS DO TIPO TS FRENTE E VERSO, NA COR BRANCA COM ALTURA IGUAL OU SUPERIOR A 2,20M, ILUMINACAO SERA FEITA POR MEIO DE LAMPADAS OU SPOT DE 100 WATTS DISTRIBUIDAS A RAZAO DE UMA A CADA 3M2 COM 2 TOMADAS DE 110 VOLTS COM CAPACIDADE PARA 300 WATTS, SEM A FASE TERRA, TESTEIRA PARA IDENTIFICACAO DE CADA STAND SENDO OS MESMOS DEVIDOS NO TAMANHO PADRAO DE 3 X 3. COBERTURA: 02 TENDAS PIRAMIDE 10X10 ESTRUTURA DE ACO CARBONO COM TRELICAS DE 30CM PES DE 3MTS DE ALTURA LONAS ANTI-RAIO UV, ANTICHAMASPARA FORRACAO DA TENDA NA COR BRANCA. PISO PARA NIVELAMENTO: SERAO EXECUTADOS 220M2 EM ESTRUTURA DE MADEIRA, UTILIZANDO FRECHAIS E PERNAS MANCAS, DISPOSTOS ORTOGONALMENTE, NA ORDEM: SOLO, FRECHAL E PERNAS MANCAS, SEMPRE COM O CUIDADO DE PERMITIR O NIVELAMENTO. PARA GARANTIR RIGIDEZ HORIZONTAL E LIGACAO SOLO ESTRUTURA, DEVERAO SER FIXADOS PONTALETES NO SOLO E PREGADOS NOS FRECHAIS. AS LIGACOES ENTRE AS PECAS SERAO ATRAVES DE PREGOS E/OU CONECTORES METALICOS, SEMPRE PROCURANDO EXECUTAR UMA ESTRUTURA RIGIDA E SOLIDA. O ASSOALHO DEVERA SER EXECUTADO EM COMPENSADO DE 1,10 X 2,20 ESPESSURAS DE 15MM PREGADOS NAS PERNAS MANCAS OU OUTRO TIPO CAPAZ DE GARANTIR A FIRMEZA DO

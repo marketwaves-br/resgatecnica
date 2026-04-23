@@ -1,0 +1,80 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos de alta especialização técnica para operações críticas, não em manutenção de áreas verdes ou equipamentos agrícolas genéricos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de trator cortador de grama para manutenção de áreas verdes, praças e campos públicos municipais",
+    "mercados_predominantes": [
+      "Manutenção de espaços públicos",
+      "Equipamentos agrícolas/paisagismo",
+      "Máquinas de corte de grama"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de equipamentos de manutenção de áreas verdes e paisagismo. Resgatécnica atua exclusivamente em resposta a emergências, operações críticas e resgate. Não há compatibilidade comercial, operacional ou de nicho."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Trator cortador de grama é equipamento de manutenção paisagística. Resgatécnica fornece equipamentos de emergência e operações críticas, não máquinas agrícolas ou de paisagismo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado completamente diferente",
+        "Sem aplicação em emergências"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo operacional e comercial da Resgatécnica. Não há sinergia com portfólio, clientes ou competências técnicas da empresa."
+  },
+  "_processo": "01612848000134-1-000014/2026",
+  "_analisado_em": "2026-04-21T19:32:01.354132+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

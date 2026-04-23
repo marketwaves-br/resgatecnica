@@ -1,0 +1,261 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Triagem de aderencia de licitacao - Resgatecnica",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "empresa_analisada",
+    "perfil_semantico_empresa",
+    "resumo_licitacao",
+    "itens_analisados",
+    "estatisticas",
+    "campos_realmente_usados",
+    "recomendacao_comercial"
+  ],
+  "properties": {
+    "empresa_analisada": {
+      "type": "string",
+      "const": "Resgatécnica"
+    },
+    "perfil_semantico_empresa": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ramo_principal",
+        "tipo_fornecedor",
+        "macro_areas",
+        "observacoes"
+      ],
+      "properties": {
+        "ramo_principal": {
+          "type": "string"
+        },
+        "tipo_fornecedor": {
+          "type": "string"
+        },
+        "macro_areas": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "observacoes": {
+          "type": "string"
+        }
+      }
+    },
+    "resumo_licitacao": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "contexto_dominante",
+        "mercados_predominantes",
+        "parecer_geral",
+        "justificativa_geral"
+      ],
+      "properties": {
+        "contexto_dominante": {
+          "type": "string"
+        },
+        "mercados_predominantes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "parecer_geral": {
+          "type": "string",
+          "enum": [
+            "ADERENTE",
+            "PARCIALMENTE_ADERENTE",
+            "NAO_ADERENTE"
+          ]
+        },
+        "justificativa_geral": {
+          "type": "string"
+        }
+      }
+    },
+    "itens_analisados": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "numeroItem",
+          "classificacao",
+          "grau_confianca",
+          "categoria_portfolio_relacionada",
+          "subcategoria_portfolio_relacionada",
+          "justificativa"
+        ],
+        "properties": {
+          "numeroItem": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "descricao": {
+            "type": "string"
+          },
+          "classificacao": {
+            "type": "string",
+            "enum": [
+              "ADERENCIA_DIRETA",
+              "ADERENCIA_PARCIAL_FORTE",
+              "ADERENCIA_PARCIAL_FRACA",
+              "FALSO_POSITIVO_LEXICAL",
+              "NAO_ADERENTE"
+            ]
+          },
+          "grau_confianca": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "categoria_portfolio_relacionada": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "subcategoria_portfolio_relacionada": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "produto_referencia": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "justificativa": {
+            "type": "string"
+          },
+          "motivos_pro_match": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "motivos_contra_match": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sinais_lexicais_enganosos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "observacao": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "estatisticas": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "aderencia_direta",
+        "aderencia_parcial_forte",
+        "aderencia_parcial_fraca",
+        "falso_positivo_lexical",
+        "nao_aderente"
+      ],
+      "properties": {
+        "aderencia_direta": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "aderencia_parcial_forte": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "aderencia_parcial_fraca": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "falso_positivo_lexical": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "nao_aderente": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "campos_realmente_usados": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "portfolio",
+        "portfolio_apoio",
+        "itens",
+        "itens_apoio"
+      ],
+      "properties": {
+        "portfolio": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "portfolio_apoio": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "itens": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "itens_apoio": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "recomendacao_comercial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "deve_priorizar",
+        "nivel_prioridade",
+        "motivo"
+      ],
+      "properties": {
+        "deve_priorizar": {
+          "type": "boolean"
+        },
+        "nivel_prioridade": {
+          "type": "string",
+          "enum": [
+            "ALTA",
+            "MEDIA",
+            "BAIXA",
+            "DESCARTAR"
+          ]
+        },
+        "motivo": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

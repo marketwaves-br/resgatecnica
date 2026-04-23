@@ -1,0 +1,95 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua como fornecedora genérica de veículos de transporte sanitário de rotina."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de ambulância tipo A (simples remoção) e veículo furgão para Secretaria Municipal de Saúde. Mercado de transporte sanitário municipal genérico.",
+    "mercados_predominantes": [
+      "Saúde pública municipal",
+      "Transporte sanitário de rotina",
+      "Veículos comerciais genéricos"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para ambulância e furgão de transporte sanitário municipal genérico. Resgatécnica atua em operações críticas especializadas, não em transporte sanitário de rotina."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ambulância tipo A é veículo de transporte sanitário municipal genérico. Resgatécnica fornece equipamentos técnico-operacionais para emergências críticas, não ambulâncias de rotina.",
+      "motivos_pro_match": [
+        "Palavra 'ambulância' pode sugerir atendimento pré-hospitalar"
+      ],
+      "motivos_contra_match": [
+        "Transporte sanitário genérico, não operação crítica",
+        "Mercado municipal de saúde, não resgate especializado"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Veículo furgão genérico para transporte municipal. Não se relaciona com nenhuma macro-área da Resgatécnica. Empresa fornece veículos especiais customizados para resgate/incêndio, não furgões comerciais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Furgão comercial genérico",
+        "Fora do escopo de operações críticas"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 2
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é para transporte sanitário municipal genérico. Resgatécnica é especialista em operações críticas, não fornecedora de ambulâncias ou furgões comerciais de rotina. Sem aderência comercial real."
+  },
+  "_processo": "20622890000180-1-000253/2025",
+  "_analisado_em": "2026-04-22T01:03:22.177233+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

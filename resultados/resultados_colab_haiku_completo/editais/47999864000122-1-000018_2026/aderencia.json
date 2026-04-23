@@ -1,0 +1,95 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, não em serviços de transporte genérico ou locação de frotas comerciais."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para contratação de serviço de transporte mediante locação de veículos leves/pesados com motorista e combustível, em caráter não eventual, para órgão público estadual.",
+    "mercados_predominantes": [
+      "Transporte e logística comercial",
+      "Locação de frotas genéricas",
+      "Serviços administrativos de mobilidade"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação refere-se exclusivamente a serviço de transporte genérico com motorista, fora do escopo operacional da Resgatécnica. Empresa não atua em locação de frotas comerciais para mobilidade administrativa."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de transporte genérico com motorista. Resgatécnica fabrica/distribui equipamentos operacionais, não oferece serviços de locação de frotas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado completamente distinto",
+        "Não é fornecedor de serviços de transporte"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Idêntico ao item 1: locação de veículos com motorista para transporte genérico. Fora do escopo de negócio da Resgatécnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo genérico",
+        "Não alinhado com operações críticas"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 2
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "portfolio_apoio": [
+      "perfil_empresa_resumido",
+      "macro_ramos_atuacao"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de transporte genérico. Resgatécnica é fornecedora de equipamentos operacionais para emergências, não prestadora de serviços de mobilidade administrativa."
+  },
+  "_processo": "47999864000122-1-000018/2026",
+  "_analisado_em": "2026-04-21T19:38:49.496199+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,223 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em operações críticas, emergências e salvamento. Não atua em distribuição de materiais de construção ou madeiras para fins educacionais ou estruturais comuns."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de madeiras (pranchas, tábuas, pontaletes) em diferentes espécies e dimensões para Secretaria Municipal de Educação. Mercado de construção/reforma educacional.",
+    "mercados_predominantes": [
+      "Construção civil e reforma",
+      "Educação (infraestrutura)",
+      "Distribuição de materiais de construção"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de madeiras brutas para construção/reforma educacional. Resgatécnica não atua em distribuição de materiais de construção genéricos. Nenhum item tem compatibilidade com portfólio de resgate, emergência ou operações críticas."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 2088145,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Prancha de madeira bruta para construção. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de construção genérico",
+        "Sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2088146,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Prancha de madeira bruta para construção. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de construção genérico",
+        "Sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2088147,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Tábua de madeira bruta para construção. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de construção genérico",
+        "Sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2088148,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Tábua de madeira bruta para construção. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de construção genérico",
+        "Sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2088149,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pontalete de madeira bruta para construção. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de construção genérico",
+        "Sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2088150,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pontalete de madeira bruta para construção. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de construção genérico",
+        "Sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2088151,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Prancha de madeira bruta para construção. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de construção genérico",
+        "Sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2088152,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Prancha de madeira bruta para construção. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de construção genérico",
+        "Sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2088153,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Tábua de madeira bruta para construção. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de construção genérico",
+        "Sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2088154,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Tábua de madeira bruta para construção. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de construção genérico",
+        "Sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2088155,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pontalete de madeira bruta para construção. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de construção genérico",
+        "Sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2088156,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pontalete de madeira bruta para construção. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de construção genérico",
+        "Sem aplicação em operações críticas"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 12
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de materiais de construção educacional. Resgatécnica não atua em distribuição de madeiras brutas. Mercado completamente distinto de operações críticas e emergências."
+  },
+  "_processo": "46634291000170-1-000091/2026",
+  "_analisado_em": "2026-04-21T19:26:05.072316+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

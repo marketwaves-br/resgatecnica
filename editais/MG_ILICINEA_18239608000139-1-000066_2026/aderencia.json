@@ -1,0 +1,35 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "CLIMATIZADOR DE AR\nEVAPORATIVO – 90 LITROS - CLIMATIZADOR DE AR EVAPORATIVO\nPORTÁTIL CAPACIDADE DO\nRESERVATÓRIO: MÍNIMO DE 90 LITROS\nTENSÃO: 127V POTÊNCIA MÁXIMA:\nATÉ 300W APROXIMADAMENTE\nVAZÃO DE AR: MÍNIMO DE 4.000 M³H\nÁREA DE COBERTURA: MÍNIMO DE 30\nM² NÍVEIS DE VENTILAÇÃO: MÍNIMO\nDE 3 VELOCIDADES SISTEMA DE\nRESFRIAMENTO EVAPORATIVO COM\nCOLMEIAPAINEL EVAPORATIVO\nRESERVATÓRIO COM INDICADOR DE\nNÍVEL DE ÁGUA RODÍZIOS PARA\nTRANSPORTE FILTRO DE AR LAVÁVEL\nBAIXO NÍVEL DE RUÍDO FUNÇÃO\nVENTILAÇÃO INDEPENDENTE\nCOMPARTIMENTO PARA GELO\nOPCIONALDESEJÁVEL",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "_meepp": true,
+  "_motivo": "Todos os itens são exclusivos ou cota reservada para ME/EPP",
+  "_processo": "18239608000139-1-000066/2026",
+  "_analisado_em": "2026-04-23T00:03:49.731829+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "meepp"
+}

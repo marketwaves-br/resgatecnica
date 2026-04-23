@@ -1,0 +1,576 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio e proteção individual técnica",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados"
+    ],
+    "observacoes": "Especializada em EPI técnico-operacional de emergência, não em EPI genérico de rotina administrativa, cozinha, limpeza ou higiene hospitalar comum."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de EPIs genéricos para servidores municipais (prefeitura). Inclui aventais descartáveis, botas de segurança industrial, luvas de procedimento, coletes salva-vidas genéricos, capacetes de segurança padrão, creme para mãos, galão térmico e itens de proteção rotineira.",
+    "mercados_predominantes": [
+      "EPI genérico de rotina administrativa e industrial",
+      "Proteção pessoal de uso comum em prefeituras",
+      "Higiene e segurança do trabalho padrão",
+      "Equipamentos de proteção para limpeza, cozinha, manutenção"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 1/38 (3%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Avental descartável TNT para uso genérico administrativo/hospitalar. Não é EPI técnico-operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso genérico, não emergencial",
+        "Mercado hospitalar/administrativo"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Avental impermeável PVC para uso genérico. Não é EPI técnico-operacional de resgate ou combate a incêndio.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso genérico, não especializado",
+        "Mercado administrativo/cozinha"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Avental térmico para cozinhas. Completamente fora do escopo de operações críticas e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso cozinha, não emergencial",
+        "Mercado hospitalar/alimentação"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Avental couro para roçagem. Equipamento agrícola/manutenção, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso agrícola/manutenção",
+        "Não é EPI emergencial"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.55,
+      "categoria_portfolio_relacionada": "Resgate Aquático",
+      "subcategoria_portfolio_relacionada": "Resgates",
+      "justificativa": "Boia salva-vidas genérica. Portfolio tem coletes e equipamentos aquáticos especializados, mas não boias genéricas de classe III.",
+      "motivos_pro_match": [
+        "Resgate aquático no portfolio"
+      ],
+      "motivos_contra_match": [
+        "Boia genérica, não especializada",
+        "Mercado náutico comum, não emergencial"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Boné segurança tipo touca árabe. EPI genérico de proteção solar/térmica, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "EPI genérico, não especializado",
+        "Uso administrativo/rotina"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bota segurança tipo galocha. EPI genérico industrial, não bota técnica de resgate/incêndio.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso industrial genérico",
+        "Não é bota operacional especializada"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Botina segurança composite/aço. EPI industrial padrão, não botina técnica de resgate ou combate a incêndio.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso industrial genérico",
+        "Não é EPI emergencial"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Botina PVC cano curto. EPI genérico de proteção, não botina técnica operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso genérico, não especializado",
+        "Mercado administrativo/industrial"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Botina ocupacional tipo tênis PVC. EPI genérico de rotina, não calçado técnico de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso administrativo/rotina",
+        "Não é EPI emergencial"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Perneira genérica. EPI de proteção comum, não perneira técnica de resgate ou combate a incêndio.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "EPI genérico, não especializado",
+        "Uso administrativo/rotina"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Altura e Espaço Confinado; Combate a Incêndio",
+      "subcategoria_portfolio_relacionada": "Capacetes",
+      "justificativa": "Capacete segurança com jugular. Portfolio tem capacetes técnicos (Quantum, Zenith, Heros Titan). Mas este é genérico industrial, não operacional especializado.",
+      "motivos_pro_match": [
+        "Palavra 'capacete' no portfolio"
+      ],
+      "motivos_contra_match": [
+        "Capacete genérico industrial",
+        "Não é capacete técnico emergencial"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.88,
+      "categoria_portfolio_relacionada": "Altura e Espaço Confinado",
+      "subcategoria_portfolio_relacionada": "Cintos de Resgate",
+      "justificativa": "Cinto segurança tipo paraquedista. Portfolio tem cintos de resgate técnicos (Ignite, Xarrier). Este é EPI genérico de proteção contra queda, não cinto operacional de resgate.",
+      "motivos_pro_match": [
+        "Palavra 'cinto' no portfolio"
+      ],
+      "motivos_contra_match": [
+        "Cinto genérico, não operacional",
+        "Mercado industrial comum"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.85,
+      "categoria_portfolio_relacionada": "Resgate Aquático; Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": "Resgates; Coletes",
+      "justificativa": "Colete salva-vidas genérico. Portfolio tem coletes especializados (aquáticos, socorrista, tático). Este é colete náutico padrão, não equipamento operacional.",
+      "motivos_pro_match": [
+        "Palavra 'colete' no portfolio"
+      ],
+      "motivos_contra_match": [
+        "Colete genérico náutico",
+        "Não é colete operacional especializado"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Creme proteção mãos Luvex. Produto de higiene/cosmética, não EPI técnico-operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto cosmético/higiene",
+        "Não é EPI emergencial"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Galão térmico 5L. Equipamento de armazenamento de bebidas, não EPI ou equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Não é EPI",
+        "Uso administrativo/refeitório"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva anti-corte antibacteriana. EPI genérico de proteção, não luva técnica de resgate/incêndio.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso genérico, não especializado",
+        "Mercado industrial comum"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva nitrílica. EPI genérico de procedimento/limpeza, não luva operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso genérico hospitalar/limpeza",
+        "Não é luva técnica emergencial"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva segurança serviços gerais. EPI genérico de rotina, não luva técnica operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso genérico administrativo",
+        "Não é EPI emergencial"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva vaqueta modelo petroleiro. EPI industrial genérico, não luva técnica de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso industrial genérico",
+        "Não é EPI emergencial"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva descartável. EPI genérico de procedimento/limpeza, não luva operacional especializada.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso genérico hospitalar",
+        "Não é EPI emergencial"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva procedimento látex. EPI genérico hospitalar, não luva técnica de resgate ou combate a incêndio.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso hospitalar genérico",
+        "Não é EPI emergencial"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.6,
+      "categoria_portfolio_relacionada": "Combate a Incêndio",
+      "subcategoria_portfolio_relacionada": "Luvas",
+      "justificativa": "Luva térmica alta temperatura. Portfolio tem luvas de combate a incêndio (Patron Fire, Gloros). Mas descrição genérica não especifica contexto operacional.",
+      "motivos_pro_match": [
+        "Proteção térmica relevante"
+      ],
+      "motivos_contra_match": [
+        "Descrição genérica, não especializada",
+        "Pode ser uso industrial comum"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva couro roçada. EPI agrícola/manutenção, não luva técnica de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso agrícola, não emergencial",
+        "Não é EPI operacional"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva segurança coleta resíduos. EPI genérico de limpeza/higiene, não luva operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso limpeza/higiene",
+        "Não é EPI emergencial"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.55,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": "Resgates",
+      "justificativa": "Colete salva-vidas genérico. Portfolio tem coletes para resgate aquático operacional, não para uso administrativo comum.",
+      "motivos_pro_match": [
+        "Colete em portfolio (resgate aquático)"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico, não operacional"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Creme de proteção para mãos — higiene/cosmética comum. Fora do escopo de equipamentos operacionais de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto de higiene genérico",
+        "Sem correlato em portfolio"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Galão térmico — utensílio de uso comum, não EPI técnico-operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Utensílio comum, não EPI",
+        "Sem correlato em portfolio"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Proteção Individual",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva anti-corte antibacteriana genérica. Portfolio tem luvas de resgate/incêndio técnicas, não luvas de proteção comum para rotina.",
+      "motivos_pro_match": [
+        "Palavra 'luva' em portfolio"
+      ],
+      "motivos_contra_match": [
+        "Luva genérica, não técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.9,
+      "categoria_portfolio_relacionada": "Proteção Individual",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva nitrílica genérica para procedimento/limpeza. Portfolio tem luvas técnicas de resgate/incêndio, não luvas descartáveis de rotina.",
+      "motivos_pro_match": [
+        "Palavra 'luva' em portfolio"
+      ],
+      "motivos_contra_match": [
+        "Luva descartável genérica, não técnica"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.88,
+      "categoria_portfolio_relacionada": "Proteção Individual",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva de segurança para serviços gerais — EPI genérico de rotina. Portfolio tem luvas especializadas (resgate, incêndio, altura).",
+      "motivos_pro_match": [
+        "Palavra 'luva' em portfolio"
+      ],
+      "motivos_contra_match": [
+        "Luva genérica de rotina, não especializada"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva de vaqueta modelo petroleiro — EPI industrial comum para trabalho em refinaria/indústria. Fora do escopo de resgate/emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto industrial comum, não emergência",
+        "Sem correlato em portfolio"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.91,
+      "categoria_portfolio_relacionada": "Proteção Individual",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva descartável genérica. Portfolio tem luvas técnicas especializadas, não descartáveis de uso comum.",
+      "motivos_pro_match": [
+        "Palavra 'luva' em portfolio"
+      ],
+      "motivos_contra_match": [
+        "Luva descartável genérica, não técnica"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.93,
+      "categoria_portfolio_relacionada": "Proteção Individual",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva para procedimento em látex — EPI hospitalar/procedimento genérico. Portfolio tem luvas de resgate/incêndio técnicas, não procedimento.",
+      "motivos_pro_match": [
+        "Palavra 'luva' em portfolio"
+      ],
+      "motivos_contra_match": [
+        "Luva hospitalar genérica, não técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.6,
+      "categoria_portfolio_relacionada": "Combate a Incêndio",
+      "subcategoria_portfolio_relacionada": "Luvas",
+      "justificativa": "Luva térmica de alta temperatura. Portfolio tem luvas de combate a incêndio. Contexto municipal genérico reduz aderência.",
+      "motivos_pro_match": [
+        "Luva térmica em portfolio (incêndio)"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico, não operacional"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva de couro para roçada — EPI agrícola/manutenção de áreas verdes. Fora do escopo de resgate/emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto agrícola/manutenção, não emergência",
+        "Sem correlato em portfolio"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.94,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Luva de segurança para coleta de resíduos — EPI de limpeza/higiene. Fora do escopo de resgate/emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto limpeza/higiene, não emergência",
+        "Sem correlato em portfolio"
+      ]
+    },
+    {
+      "numeroItem": 26,
+      "classificacao": "ADERENCIA_PARCIAL_FORTE",
+      "grau_confianca": 0.75,
+      "categoria_portfolio_relacionada": "Produtos Perigosos",
+      "subcategoria_portfolio_relacionada": "Roupa Química",
+      "justificativa": "Macacão Tyvek. Portfolio tem Tyvek 500 em Produtos Perigosos/Roupa Química. Contexto municipal genérico reduz aderência, mas produto é correlato direto.",
+      "motivos_pro_match": [
+        "Macacão Tyvek em portfolio (hazmat)"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico, não operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 1,
+    "aderencia_parcial_fraca": 4,
+    "falso_positivo_lexical": 10,
+    "nao_aderente": 23
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é de EPI genérico para prefeitura. Resgatécnica é especialista em EPI técnico-operacional de emergência. Contextos, usuários finais e nichos comerciais são incompatíveis. Nenhum item tem aderência direta ou parcial forte."
+  },
+  "_processo": "46634135000100-1-000014/2026",
+  "_analisado_em": "2026-04-21T19:34:04.703281+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

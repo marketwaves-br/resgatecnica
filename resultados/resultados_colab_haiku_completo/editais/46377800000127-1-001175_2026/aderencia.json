@@ -1,0 +1,195 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em distribuição genérica de insumos farmacêuticos ou materiais de embalagem hospitalar de rotina."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de materiais de unitarização (embalagens farmacêuticas) e ribbon para manutenção de Centro Médico administrativo da Polícia Militar. Mercado de suprimentos hospitalares genéricos e insumos de impressão.",
+    "mercados_predominantes": [
+      "Distribuição hospitalar genérica",
+      "Insumos farmacêuticos de rotina",
+      "Materiais de impressão/ribbon",
+      "Embalagem administrativa"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação foca embalagens farmacêuticas genéricas e ribbon para impressoras. Resgatécnica é especializada em equipamentos técnico-operacionais de emergência, não em suprimentos hospitalares administrativos ou insumos de impressão."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Embalagem farmacêutica genérica para Centro Médico administrativo. Fora do escopo de equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Embalagem farmacêutica genérica para Centro Médico administrativo. Fora do escopo de equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Embalagem farmacêutica genérica para Centro Médico administrativo. Fora do escopo de equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Embalagem farmacêutica genérica para Centro Médico administrativo. Fora do escopo de equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Embalagem farmacêutica genérica para Centro Médico administrativo. Fora do escopo de equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Embalagem farmacêutica genérica para Centro Médico administrativo. Fora do escopo de equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Embalagem farmacêutica genérica para Centro Médico administrativo. Fora do escopo de equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Embalagem farmacêutica genérica para Centro Médico administrativo. Fora do escopo de equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Embalagem farmacêutica genérica para Centro Médico administrativo. Fora do escopo de equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ribbon para impressoras (NCM 96121000). Insumo de impressão administrativo. Não relacionado a equipamentos de emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo de impressão administrativo",
+        "Fora do escopo operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 10
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "ncmNbsCodigo"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação 100% fora do escopo. Embalagens farmacêuticas genéricas e ribbon de impressora não são equipamentos de emergência. Resgatécnica não é distribuidora de suprimentos hospitalares administrativos."
+  },
+  "_processo": "46377800000127-1-001175/2026",
+  "_analisado_em": "2026-04-21T19:48:05.489126+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,82 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, emergências e salvamento. Não atua em infraestrutura de TI, telecomunicações ou serviços de rede."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviços de infraestrutura de TI e telecomunicações: link de internet dedicado, ethernet dedicada, managed security service (MSS) e proteção contra ataques DDoS",
+    "mercados_predominantes": [
+      "Telecomunicações",
+      "Infraestrutura de TI",
+      "Segurança de Rede",
+      "Serviços Gerenciados de Conectividade"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence exclusivamente ao mercado de telecomunicações e TI. Resgatécnica atua em equipamentos e soluções para emergências operacionais, não em serviços de conectividade, segurança de rede ou infraestrutura digital."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 10001,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de infraestrutura TI/telecom. Resgatécnica fornece equipamentos operacionais para emergências, não serviços de rede.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado completamente distinto",
+        "Sem equipamentos ou soluções de rede no portfólio"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "descricao"
+    ],
+    "portfolio_apoio": [
+      "eixos_operacionais",
+      "tags_semanticas"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo comercial da Resgatécnica. Não há alinhamento com nenhuma categoria do portfólio. Recomenda-se não participar."
+  },
+  "_processo": "45276128000110-1-000122/2026",
+  "_analisado_em": "2026-04-21T19:23:26.312594+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

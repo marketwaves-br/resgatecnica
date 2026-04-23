@@ -1,0 +1,25 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "Contratação de pessoa jurídica especializada para prestação de serviço de agenciamento de viagens, compreendendo os serviços de emissão, remarcação e cancelamento de passagens aéreas nacionais e internacionais",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços não relacionados ao portfolio"
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "_processo": "44392215000170-1-000098/2025",
+  "_analisado_em": "2026-04-21T17:32:23.295082+00:00",
+  "_modo": "compacto",
+  "_provedor": "ollama",
+  "_modelo": "qwen2.5:14b"
+}

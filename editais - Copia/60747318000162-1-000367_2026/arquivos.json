@@ -1,0 +1,16 @@
+[
+  {
+    "uri": "https://pncp.gov.br/pncp-api/v1/orgaos/60747318000162/compras/2026/367/arquivos/1",
+    "url": "https://pncp.gov.br/pncp-api/v1/orgaos/60747318000162/compras/2026/367/arquivos/1",
+    "tipoDocumentoId": 2,
+    "tipoDocumentoDescricao": "Edital",
+    "statusAtivo": true,
+    "cnpj": "60747318000162",
+    "anoCompra": 2026,
+    "sequencialCompra": 367,
+    "dataPublicacaoPncp": "2026-03-30T07:13:37",
+    "sequencialDocumento": 1,
+    "titulo": "53210105903582026000",
+    "tipoDocumentoNome": "Edital"
+  }
+]

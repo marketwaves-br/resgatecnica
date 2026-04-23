@@ -1,0 +1,80 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em varejo automotivo convencional, distribuição de veículos de passeio ou fornecimento para saúde pública genérica."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de 2 veículos hatch 0 km, 5 lugares, cor branca, para Secretaria Municipal de Saúde (vigilância sanitária e atendimento conforme resolução SES/MG). Mercado: varejo automotivo convencional, saúde pública administrativa.",
+    "mercados_predominantes": [
+      "Varejo automotivo convencional",
+      "Saúde pública administrativa",
+      "Transporte de pessoal"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para aquisição de veículos de passeio convencionais (hatch 5 lugares) destinados a vigilância sanitária e atendimento administrativo de saúde pública. Resgatécnica é fornecedora especializada em equipamentos técnico-operacionais para emergências (resgate, incêndio, mergulho, altura). Não há compatibilidade comercial, operacional ou de nicho. Veículos especiais customizados da empresa (SHERP) são para resgate/incêndio em ambientes extremos, não para transporte administrativo de saúde."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Veículo hatch convencional para saúde pública. Resgatécnica fornece veículos especiais customizados (SHERP) para resgate/incêndio em ambientes críticos, não varejo automotivo convencional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado varejo automotivo convencional",
+        "Finalidade saúde pública administrativa"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo operacional e comercial da Resgatécnica. Fornecedor especializado em equipamentos de emergência, não em varejo automotivo convencional para saúde pública."
+  },
+  "_processo": "18677625000158-1-000042/2026",
+  "_analisado_em": "2026-04-22T01:17:28.422517+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

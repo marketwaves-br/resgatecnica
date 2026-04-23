@@ -1,0 +1,1335 @@
+[
+  {
+    "processo": "06916689000185-1-000032/2024",
+    "numeroItem": 1,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de refeição/lanche. Mercado de catering, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Catering corporativo",
+      "Fora do escopo operacional"
+    ]
+  },
+  {
+    "processo": "06916689000185-1-000032/2024",
+    "numeroItem": 2,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de refeição/lanche. Mercado de catering, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Catering corporativo",
+      "Fora do escopo operacional"
+    ]
+  },
+  {
+    "processo": "06916689000185-1-000032/2024",
+    "numeroItem": 3,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de refeição/lanche. Mercado de catering, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Catering corporativo",
+      "Fora do escopo operacional"
+    ]
+  },
+  {
+    "processo": "06916689000185-1-000032/2024",
+    "numeroItem": 4,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de refeição/lanche. Mercado de catering, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Catering corporativo",
+      "Fora do escopo operacional"
+    ]
+  },
+  {
+    "processo": "06916689000185-1-000032/2024",
+    "numeroItem": 5,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de refeição/lanche. Mercado de catering, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Catering corporativo",
+      "Fora do escopo operacional"
+    ]
+  },
+  {
+    "processo": "06916689000185-1-000032/2024",
+    "numeroItem": 6,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de refeição/lanche. Mercado de catering, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Catering corporativo",
+      "Fora do escopo operacional"
+    ]
+  },
+  {
+    "processo": "06916689000185-1-000032/2024",
+    "numeroItem": 7,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de refeição/lanche. Mercado de catering, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Catering corporativo",
+      "Fora do escopo operacional"
+    ]
+  },
+  {
+    "processo": "06916689000185-1-000032/2024",
+    "numeroItem": 8,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de refeição/lanche. Mercado de catering, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Catering corporativo",
+      "Fora do escopo operacional"
+    ]
+  },
+  {
+    "processo": "45550167000164-1-000454/2025",
+    "numeroItem": 1,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Software de gestão pública municipal. Resgatécnica fornece equipamentos operacionais para emergências, não soluções de TI administrativa.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mercado completamente diferente (TI vs equipamentos)",
+      "Sem expertise em software administrativo municipal"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000282/2025",
+    "numeroItem": 1,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Cama hospitalar elétrica para internação. Mobiliário de conforto hospitalar, não equipamento operacional de emergência.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mobiliário hospitalar genérico",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000282/2025",
+    "numeroItem": 2,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Cama hospitalar elétrica para internação. Mobiliário de conforto hospitalar, não equipamento operacional de emergência.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mobiliário hospitalar genérico",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000282/2025",
+    "numeroItem": 3,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Cadeira de banho/higiênico para uso hospitalar de rotina. Mobiliário de higiene hospitalar, não equipamento de resgate ou emergência.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mobiliário hospitalar genérico",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000282/2025",
+    "numeroItem": 4,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Cadeira de banho/higiênico para uso hospitalar de rotina. Mobiliário de higiene hospitalar, não equipamento de resgate ou emergência.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mobiliário hospitalar genérico",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000282/2025",
+    "numeroItem": 5,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Consultório odontológico portátil. Equipamento odontológico especializado, não relacionado a resgate, emergência ou operações críticas.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Equipamento odontológico",
+      "Fora do escopo operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000282/2025",
+    "numeroItem": 6,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Cadeira de rodas para adulto. Mobiliário hospitalar de conforto/mobilidade, não equipamento operacional de emergência ou resgate.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mobiliário hospitalar genérico",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000282/2025",
+    "numeroItem": 7,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Cadeira de rodas para adulto. Mobiliário hospitalar de conforto/mobilidade, não equipamento operacional de emergência ou resgate.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mobiliário hospitalar genérico",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000282/2025",
+    "numeroItem": 8,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Andador para adulto. Equipamento de mobilidade hospitalar de rotina, não relacionado a operações críticas ou resgate.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Equipamento de mobilidade genérico",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000282/2025",
+    "numeroItem": 9,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Cadeira de rodas para obeso (200kg). Mobiliário hospitalar de conforto/mobilidade, não equipamento operacional de emergência.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mobiliário hospitalar genérico",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000282/2025",
+    "numeroItem": 10,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Cadeira de rodas para obeso (200kg). Mobiliário hospitalar de conforto/mobilidade, não equipamento operacional de emergência.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mobiliário hospitalar genérico",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000282/2025",
+    "numeroItem": 11,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Suporte hamper para lixo/resíduos. Equipamento de gestão de resíduos hospitalar, não relacionado a resgate ou emergência.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Equipamento de gestão de resíduos",
+      "Fora do escopo operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000282/2025",
+    "numeroItem": 12,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Poltrona hospitalar para conforto de pacientes/acompanhantes. Mobiliário hospitalar de conforto, não equipamento operacional de emergência.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mobiliário hospitalar genérico",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000285/2025",
+    "numeroItem": 1,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Cama hospitalar é mobiliário de saúde rotineiro, não equipamento de resgate ou emergência operacional.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mobiliário hospitalar genérico",
+      "Fora do nicho de operações críticas"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000285/2025",
+    "numeroItem": 2,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Cama hospitalar é mobiliário de saúde rotineiro, não equipamento de resgate ou emergência operacional.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mobiliário hospitalar genérico",
+      "Fora do nicho de operações críticas"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000285/2025",
+    "numeroItem": 3,
+    "classificacao": "FALSO_POSITIVO_LEXICAL",
+    "grau_confianca": 0.92,
+    "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+    "subcategoria_portfolio_relacionada": "Resgate e Evacuação",
+    "justificativa": "Cadeira de rodas hospitalar genérica ≠ cadeira de resgate/evacuação técnica. Portfolio contém cadeira de resgate para descida controlada em escadas, não mobilidade hospitalar rotineira.",
+    "motivos_pro_match": [
+      "Palavra 'cadeira' aparece em portfolio"
+    ],
+    "motivos_contra_match": [
+      "Contexto hospitalar genérico",
+      "Não é equipamento de resgate operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000285/2025",
+    "numeroItem": 4,
+    "classificacao": "FALSO_POSITIVO_LEXICAL",
+    "grau_confianca": 0.92,
+    "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+    "subcategoria_portfolio_relacionada": "Resgate e Evacuação",
+    "justificativa": "Cadeira de rodas hospitalar genérica ≠ cadeira de resgate/evacuação técnica. Portfolio contém cadeira de resgate para descida controlada em escadas, não mobilidade hospitalar rotineira.",
+    "motivos_pro_match": [
+      "Palavra 'cadeira' aparece em portfolio"
+    ],
+    "motivos_contra_match": [
+      "Contexto hospitalar genérico",
+      "Não é equipamento de resgate operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000285/2025",
+    "numeroItem": 5,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Consultório odontológico é mobiliário especializado de saúde odontológica. Resgatécnica não atua em fornecimento odontológico.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mercado odontológico",
+      "Fora de todas as macro-áreas"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000285/2025",
+    "numeroItem": 6,
+    "classificacao": "FALSO_POSITIVO_LEXICAL",
+    "grau_confianca": 0.92,
+    "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+    "subcategoria_portfolio_relacionada": "Resgate e Evacuação",
+    "justificativa": "Cadeira de rodas hospitalar genérica ≠ cadeira de resgate/evacuação técnica. Portfolio contém cadeira de resgate para descida controlada em escadas, não mobilidade hospitalar rotineira.",
+    "motivos_pro_match": [
+      "Palavra 'cadeira' aparece em portfolio"
+    ],
+    "motivos_contra_match": [
+      "Contexto hospitalar genérico",
+      "Não é equipamento de resgate operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000285/2025",
+    "numeroItem": 7,
+    "classificacao": "FALSO_POSITIVO_LEXICAL",
+    "grau_confianca": 0.92,
+    "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+    "subcategoria_portfolio_relacionada": "Resgate e Evacuação",
+    "justificativa": "Cadeira de rodas hospitalar genérica ≠ cadeira de resgate/evacuação técnica. Portfolio contém cadeira de resgate para descida controlada em escadas, não mobilidade hospitalar rotineira.",
+    "motivos_pro_match": [
+      "Palavra 'cadeira' aparece em portfolio"
+    ],
+    "motivos_contra_match": [
+      "Contexto hospitalar genérico",
+      "Não é equipamento de resgate operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000285/2025",
+    "numeroItem": 8,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.97,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Andador ortopédico é equipamento de reabilitação/mobilidade hospitalar genérico. Não é equipamento de resgate ou operação crítica.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Equipamento de reabilitação genérico",
+      "Fora do escopo de emergências"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000285/2025",
+    "numeroItem": 9,
+    "classificacao": "FALSO_POSITIVO_LEXICAL",
+    "grau_confianca": 0.92,
+    "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+    "subcategoria_portfolio_relacionada": "Resgate e Evacuação",
+    "justificativa": "Cadeira de rodas hospitalar genérica ≠ cadeira de resgate/evacuação técnica. Portfolio contém cadeira de resgate para descida controlada em escadas, não mobilidade hospitalar rotineira.",
+    "motivos_pro_match": [
+      "Palavra 'cadeira' aparece em portfolio"
+    ],
+    "motivos_contra_match": [
+      "Contexto hospitalar genérico",
+      "Não é equipamento de resgate operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000285/2025",
+    "numeroItem": 10,
+    "classificacao": "FALSO_POSITIVO_LEXICAL",
+    "grau_confianca": 0.92,
+    "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+    "subcategoria_portfolio_relacionada": "Resgate e Evacuação",
+    "justificativa": "Cadeira de rodas hospitalar genérica ≠ cadeira de resgate/evacuação técnica. Portfolio contém cadeira de resgate para descida controlada em escadas, não mobilidade hospitalar rotineira.",
+    "motivos_pro_match": [
+      "Palavra 'cadeira' aparece em portfolio"
+    ],
+    "motivos_contra_match": [
+      "Contexto hospitalar genérico",
+      "Não é equipamento de resgate operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000285/2025",
+    "numeroItem": 11,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Suporte saco hamper é mobiliário hospitalar de gestão de resíduos. Não relacionado a operações de resgate ou emergência.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mobiliário hospitalar genérico",
+      "Fora do escopo operacional"
+    ]
+  },
+  {
+    "processo": "46316600000164-1-000285/2025",
+    "numeroItem": 12,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.97,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Poltrona é mobiliário hospitalar genérico. Não é equipamento de resgate, emergência ou operação crítica.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mobiliário hospitalar genérico",
+      "Fora do nicho de operações críticas"
+    ]
+  },
+  {
+    "processo": "44392215000170-1-000098/2025",
+    "numeroItem": 1,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de agenciamento de viagens aéreas. Mercado completamente distinto do portfólio da Resgatécnica.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Turismo e viagens comercial",
+      "Sem relação com emergências ou operações críticas"
+    ]
+  },
+  {
+    "processo": "71832679000123-1-000223/2025",
+    "numeroItem": 1,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Protetor auricular genérico para transporte público. Não integra operações de emergência, resgate ou combate a incêndio. Mercado administrativo-operacional, não técnico-crítico.",
+    "motivos_pro_match": [
+      "EPI genérico"
+    ],
+    "motivos_contra_match": [
+      "Contexto transporte público",
+      "Não operação crítica",
+      "Fora nicho Resgatécnica"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 1,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 2,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 3,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 4,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 5,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 6,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 7,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 8,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 9,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 10,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 11,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 12,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 13,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 14,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 15,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 16,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 17,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 18,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 19,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 20,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 21,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 22,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 23,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 24,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 25,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Contexto municipal genérico",
+      "Não é operação crítica/emergência"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 9,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.92,
+    "categoria_portfolio_relacionada": "Resgate Veicular",
+    "subcategoria_portfolio_relacionada": "Motobombas",
+    "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+    "motivos_pro_match": [
+      "Palavra 'bombas' presente no portfólio"
+    ],
+    "motivos_contra_match": [
+      "Contexto é serviço municipal genérico",
+      "Não é especialização operacional crítica"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 10,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.92,
+    "categoria_portfolio_relacionada": "Resgate Veicular",
+    "subcategoria_portfolio_relacionada": "Motobombas",
+    "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+    "motivos_pro_match": [
+      "Palavra 'bombas' presente no portfólio"
+    ],
+    "motivos_contra_match": [
+      "Contexto é serviço municipal genérico",
+      "Não é especialização operacional crítica"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 11,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.92,
+    "categoria_portfolio_relacionada": "Resgate Veicular",
+    "subcategoria_portfolio_relacionada": "Motobombas",
+    "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+    "motivos_pro_match": [
+      "Palavra 'bombas' presente no portfólio"
+    ],
+    "motivos_contra_match": [
+      "Contexto é serviço municipal genérico",
+      "Não é especialização operacional crítica"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 12,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.92,
+    "categoria_portfolio_relacionada": "Resgate Veicular",
+    "subcategoria_portfolio_relacionada": "Motobombas",
+    "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+    "motivos_pro_match": [
+      "Palavra 'bombas' presente no portfólio"
+    ],
+    "motivos_contra_match": [
+      "Contexto é serviço municipal genérico",
+      "Não é especialização operacional crítica"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 13,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.92,
+    "categoria_portfolio_relacionada": "Resgate Veicular",
+    "subcategoria_portfolio_relacionada": "Motobombas",
+    "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+    "motivos_pro_match": [
+      "Palavra 'bombas' presente no portfólio"
+    ],
+    "motivos_contra_match": [
+      "Contexto é serviço municipal genérico",
+      "Não é especialização operacional crítica"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 14,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.92,
+    "categoria_portfolio_relacionada": "Resgate Veicular",
+    "subcategoria_portfolio_relacionada": "Motobombas",
+    "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+    "motivos_pro_match": [
+      "Palavra 'bombas' presente no portfólio"
+    ],
+    "motivos_contra_match": [
+      "Contexto é serviço municipal genérico",
+      "Não é especialização operacional crítica"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 15,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.92,
+    "categoria_portfolio_relacionada": "Resgate Veicular",
+    "subcategoria_portfolio_relacionada": "Motobombas",
+    "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+    "motivos_pro_match": [
+      "Palavra 'bombas' presente no portfólio"
+    ],
+    "motivos_contra_match": [
+      "Contexto é serviço municipal genérico",
+      "Não é especialização operacional crítica"
+    ]
+  },
+  {
+    "processo": "46177531000155-1-000376/2025",
+    "numeroItem": 16,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.92,
+    "categoria_portfolio_relacionada": "Resgate Veicular",
+    "subcategoria_portfolio_relacionada": "Motobombas",
+    "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+    "motivos_pro_match": [
+      "Palavra 'bombas' presente no portfólio"
+    ],
+    "motivos_contra_match": [
+      "Contexto é serviço municipal genérico",
+      "Não é especialização operacional crítica"
+    ]
+  },
+  {
+    "processo": "44959021000104-1-000337/2025",
+    "numeroItem": 1,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.98,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de coleta e transporte de resíduos hospitalares. Resgatécnica não atua em gestão de resíduos ou serviços logísticos de destino final.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Serviço logístico, não equipamento",
+      "Mercado de gestão ambiental, não emergências"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 1,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado janela 12k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 2,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado janela 18k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 3,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado janela 30k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 4,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado split 9k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 5,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado split 12k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 6,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado split 18k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 7,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado split 24k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 8,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado split 30k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 9,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado split 36k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 10,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado split inverter 9k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 11,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado split inverter 12k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 12,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado split inverter 18k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 13,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado split inverter 24k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 14,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado split inverter 30k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 15,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado split inverter 32k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 16,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado split inverter 36k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 17,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado piso-teto 36k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 18,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de ar-condicionado piso-teto 58k btus. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 19,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de climatizador evaporativo INOVARE P5. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 20,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de climatizador evaporativo INOVARE P7. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 21,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de climatizador evaporativo INOVARE P11. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 22,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de climatizador evaporativo INOVARE P16. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "49576416000141-1-000356/2025",
+    "numeroItem": 23,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Serviço de limpeza predial de climatizador evaporativo INOVARE KLW260 INVENT. Mercado de manutenção climatização, não emergências.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Manutenção predial",
+      "Fora do nicho operacional"
+    ]
+  },
+  {
+    "processo": "46319000000150-1-000474/2025",
+    "numeroItem": 1,
+    "classificacao": "NAO_ADERENTE",
+    "grau_confianca": 0.99,
+    "categoria_portfolio_relacionada": null,
+    "subcategoria_portfolio_relacionada": null,
+    "justificativa": "Cadeira digitador é mobiliário administrativo genérico. Resgatécnica não fornece mobiliário de escritório.",
+    "motivos_pro_match": [],
+    "motivos_contra_match": [
+      "Mercado administrativo, não emergência",
+      "Sem aplicação operacional técnica"
+    ]
+  }
+]

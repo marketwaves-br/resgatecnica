@@ -1,0 +1,233 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não é fornecedora de mobiliário hospitalar genérico ou odontológico."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de mobílias médico-hospitalares para unidades de saúde municipal (UPA, SAMU, Programa Melhor em Casa)",
+    "mercados_predominantes": [
+      "Mobiliário hospitalar genérico",
+      "Equipamentos de reabilitação e mobilidade",
+      "Consultórios odontológicos",
+      "Mobiliário de saúde de rotina"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação focada em mobiliário hospitalar e odontológico de rotina. Resgatécnica atua em operações críticas e emergências, não em fornecimento de camas, cadeiras de rodas e consultórios para unidades de saúde permanentes."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cama hospitalar é mobiliário de saúde rotineiro, não equipamento de resgate ou emergência operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Fora do nicho de operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cama hospitalar é mobiliário de saúde rotineiro, não equipamento de resgate ou emergência operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Fora do nicho de operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": "Resgate e Evacuação",
+      "justificativa": "Cadeira de rodas hospitalar genérica ≠ cadeira de resgate/evacuação técnica. Portfolio contém cadeira de resgate para descida controlada em escadas, não mobilidade hospitalar rotineira.",
+      "motivos_pro_match": [
+        "Palavra 'cadeira' aparece em portfolio"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é equipamento de resgate operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": "Resgate e Evacuação",
+      "justificativa": "Cadeira de rodas hospitalar genérica ≠ cadeira de resgate/evacuação técnica. Portfolio contém cadeira de resgate para descida controlada em escadas, não mobilidade hospitalar rotineira.",
+      "motivos_pro_match": [
+        "Palavra 'cadeira' aparece em portfolio"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é equipamento de resgate operacional"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Consultório odontológico é mobiliário especializado de saúde odontológica. Resgatécnica não atua em fornecimento odontológico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado odontológico",
+        "Fora de todas as macro-áreas"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": "Resgate e Evacuação",
+      "justificativa": "Cadeira de rodas hospitalar genérica ≠ cadeira de resgate/evacuação técnica. Portfolio contém cadeira de resgate para descida controlada em escadas, não mobilidade hospitalar rotineira.",
+      "motivos_pro_match": [
+        "Palavra 'cadeira' aparece em portfolio"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é equipamento de resgate operacional"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": "Resgate e Evacuação",
+      "justificativa": "Cadeira de rodas hospitalar genérica ≠ cadeira de resgate/evacuação técnica. Portfolio contém cadeira de resgate para descida controlada em escadas, não mobilidade hospitalar rotineira.",
+      "motivos_pro_match": [
+        "Palavra 'cadeira' aparece em portfolio"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é equipamento de resgate operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Andador ortopédico é equipamento de reabilitação/mobilidade hospitalar genérico. Não é equipamento de resgate ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de reabilitação genérico",
+        "Fora do escopo de emergências"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": "Resgate e Evacuação",
+      "justificativa": "Cadeira de rodas hospitalar genérica ≠ cadeira de resgate/evacuação técnica. Portfolio contém cadeira de resgate para descida controlada em escadas, não mobilidade hospitalar rotineira.",
+      "motivos_pro_match": [
+        "Palavra 'cadeira' aparece em portfolio"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é equipamento de resgate operacional"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": "Resgate e Evacuação",
+      "justificativa": "Cadeira de rodas hospitalar genérica ≠ cadeira de resgate/evacuação técnica. Portfolio contém cadeira de resgate para descida controlada em escadas, não mobilidade hospitalar rotineira.",
+      "motivos_pro_match": [
+        "Palavra 'cadeira' aparece em portfolio"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é equipamento de resgate operacional"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Suporte saco hamper é mobiliário hospitalar de gestão de resíduos. Não relacionado a operações de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Poltrona é mobiliário hospitalar genérico. Não é equipamento de resgate, emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Fora do nicho de operações críticas"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 6,
+    "nao_aderente": 6
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "contexto_operacional"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de mobiliário hospitalar genérico. Resgatécnica é especialista em equipamentos de resgate e operações críticas, não em mobiliário de saúde rotineiro. Sem aderência comercial real."
+  },
+  "_processo": "46316600000164-1-000285/2025",
+  "_analisado_em": "2026-04-21T18:20:55.690155+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

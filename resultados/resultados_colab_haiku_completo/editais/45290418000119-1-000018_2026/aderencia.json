@@ -1,0 +1,379 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências, não em infraestrutura de eventos ou locação de estruturas genéricas"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Registro de preços para locação de estruturas e equipamentos para eventos municipais (palcos, tendas, sanitários, som, luz, geradores, arquibancadas)",
+    "mercados_predominantes": [
+      "Infraestrutura de eventos",
+      "Locação de estruturas temporárias",
+      "Equipamentos de áudio e iluminação para shows",
+      "Sanitários e containers",
+      "Geração de energia para eventos"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para locação de infraestrutura genérica de eventos (palcos, tendas, sanitários, som/luz para shows). Resgatécnica é fornecedora especializada em equipamentos técnico-operacionais de emergência e resgate, não em infraestrutura de eventos ou entretenimento."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Container sanitário para eventos genéricos. Não é equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Jogo de mesa com cadeiras para eventos. Mobiliário genérico sem relação com resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário de evento",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Tenda 10x10 para eventos. Estrutura genérica de cobertura, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem aplicação em emergência"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palco 12x8m com estrutura de alumínio para eventos. Infraestrutura de entretenimento, não resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Estrutura de evento",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palco 8x6m com estrutura de alumínio para eventos. Infraestrutura de entretenimento, não resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Estrutura de evento",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Sanitário químico para eventos. Infraestrutura genérica de higiene, não equipamento de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Tenda 9x9 para eventos. Estrutura genérica de cobertura, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem aplicação em emergência"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Tenda 8x8 para eventos. Estrutura genérica de cobertura, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem aplicação em emergência"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Trio elétrico com som e iluminação para eventos. Equipamento de entretenimento, não resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de entretenimento",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Tenda 5x5 para eventos. Estrutura genérica de cobertura, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem aplicação em emergência"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Praticável telescópico para eventos. Estrutura de palco genérica, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Tenda 4x4 para eventos. Estrutura genérica de cobertura, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem aplicação em emergência"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Painel LED para eventos. Equipamento de entretenimento/comunicação visual, não resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de entretenimento",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cobertura galpão duralumínio para eventos. Infraestrutura genérica, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gerador 150 kVA para eventos. Equipamento genérico de energia, não especializado em resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Stand em octanorm para eventos. Infraestrutura de feira/evento, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gerador 260 kVA para eventos. Equipamento genérico de energia, não especializado em resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Conjunto som tipo 1 para eventos/cerimonial. Equipamento de entretenimento, não resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de entretenimento",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Conjunto som e luz tipo 2 para bandas/shows. Equipamento de entretenimento, não resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de entretenimento",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Conjunto som e luz tipo 3 para eventos grandes. Equipamento de entretenimento profissional, não resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de entretenimento",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Arquibancada para eventos. Infraestrutura de assentos genérica, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fechamento metálico para eventos. Infraestrutura genérica de delimitação, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gradil metálico para eventos. Infraestrutura genérica de direcionamento, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de evento",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Máquina de espuma (canhão) para eventos. Equipamento de entretenimento, não resgate/emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de entretenimento",
+        "Sem contexto operacional crítico"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 24
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida",
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é para infraestrutura genérica de eventos (palcos, tendas, som, luz, sanitários). Resgatécnica é especializada em equipamentos técnico-operacionais de emergência e resgate. Não há compatibilidade comercial real. Nenhum item pertence ao nicho de atuação da empresa."
+  },
+  "_processo": "45290418000119-1-000018/2026",
+  "_analisado_em": "2026-04-21T19:29:20.598883+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

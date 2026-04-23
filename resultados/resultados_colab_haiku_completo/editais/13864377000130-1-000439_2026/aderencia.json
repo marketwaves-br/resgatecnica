@@ -1,0 +1,83 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em operações críticas e emergências. Não atua como fornecedora de OPME cirúrgica hospitalar genérica ou instrumentais de cirurgia geral/ginecologia."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Fornecimento de OPME (Órteses, Próteses, Materiais Especiais) cirúrgicos descartáveis para cirurgias de ginecologia e cirurgia geral em unidades hospitalares da Secretaria Municipal de Saúde de SP. Mercado hospitalar genérico, não operacional de emergência.",
+    "mercados_predominantes": [
+      "Saúde hospitalar genérica",
+      "Cirurgia geral e ginecologia",
+      "Materiais descartáveis de OPME",
+      "Fornecimento hospitalar administrativo"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de OPME cirúrgica hospitalar genérica. Resgatécnica é especializada em operações críticas, resgate e emergência, não em fornecimento de instrumentais cirúrgicos descartáveis para cirurgia geral/ginecologia em ambiente hospitalar de rotina."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Instrumental cirúrgico descartável para cirurgia geral/ginecologia hospitalar. Fora do escopo operacional de emergência e resgate da Resgatécnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico, não emergencial",
+        "OPME cirúrgica, não equipamento de resgate"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "portfolio_apoio": [
+      "perfil_empresa_resumido",
+      "macro_ramos_atuacao"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação pertence a mercado hospitalar genérico de OPME cirúrgica. Resgatécnica não possui portfólio, expertise ou posicionamento comercial neste segmento. Recomenda-se descartar completamente."
+  },
+  "_processo": "13864377000130-1-000439/2026",
+  "_analisado_em": "2026-04-21T19:40:29.892158+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,476 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e atendimento pré-hospitalar em contexto de emergência",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar (em contexto de emergência)",
+      "Veículos Especiais Customizados"
+    ],
+    "observacoes": "Resgatécnica é especializada em equipamentos técnico-operacionais para emergências. Não é distribuidora hospitalar genérica. Seu portfólio de APH é restrito a kits de resgate, bolsas de evacuação e imobilizadores para operações críticas, não equipamentos hospitalares de rotina."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de equipamentos hospitalares para unidades de saúde municipal. Foco em infraestrutura hospitalar permanente, diagnóstico, monitoramento de pacientes e mobilidade assistida em ambiente hospitalar.",
+    "mercados_predominantes": [
+      "Distribuição hospitalar genérica",
+      "Equipamentos médicos de diagnóstico e monitoramento",
+      "Mobilidade e assistência ao paciente hospitalar",
+      "Infraestrutura de saúde pública"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/31 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Andador fixo é equipamento de mobilidade hospitalar de rotina, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto hospitalar permanente",
+        "Não é equipamento de emergência"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "BiPAP é equipamento de ventilação hospitalar de rotina, não respirador operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar de rotina",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Oximetria neonatal é equipamento de diagnóstico hospitalar, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Diagnóstico hospitalar especializado",
+        "Contexto pediátrico hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Aspirador de secreções é equipamento hospitalar de rotina, não operacional de emergência crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar permanente",
+        "Não é operacional de resgate"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Autoclave hospitalar é equipamento de esterilização de infraestrutura hospitalar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura hospitalar fixa",
+        "Não é equipamento de emergência"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo ECG é acessório de diagnóstico hospitalar, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Diagnóstico hospitalar",
+        "Não é equipamento de resgate"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de banho é equipamento de assistência hospitalar de rotina, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Assistência hospitalar de rotina",
+        "Não é equipamento de emergência"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de banho especial é equipamento de assistência hospitalar, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Assistência hospitalar especializada",
+        "Não é equipamento de resgate"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de rodas hospitalar é equipamento de mobilidade de rotina, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobilidade hospitalar de rotina",
+        "Não é equipamento de resgate"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de rodas hospitalar é equipamento de mobilidade de rotina, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobilidade hospitalar de rotina",
+        "Não é equipamento de resgate"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Câmara de conservação de vacinas é infraestrutura hospitalar fixa, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura hospitalar fixa",
+        "Não é equipamento de emergência"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.55,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "DEA é equipamento de APH, mas contexto é hospitalar permanente, não operacional de emergência crítica.",
+      "motivos_pro_match": [
+        "Equipamento de atendimento pré-hospitalar"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar, não emergência crítica"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Eletrocardiógrafo é equipamento de diagnóstico hospitalar, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Diagnóstico hospitalar",
+        "Não é equipamento de resgate"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fluxômetro de ar comprimido é acessório hospitalar de infraestrutura, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura hospitalar",
+        "Não é equipamento de emergência"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fluxômetro de oxigênio é acessório hospitalar de infraestrutura, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura hospitalar",
+        "Não é equipamento de resgate"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.5,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Laringoscópio é equipamento de APH, mas contexto é hospitalar permanente, não operacional de emergência crítica.",
+      "motivos_pro_match": [
+        "Equipamento de atendimento pré-hospitalar"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar, não emergência crítica"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Lâmpada para laringoscópio é acessório hospitalar, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório hospitalar",
+        "Não é equipamento de resgate"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.85,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Lanterna clínica hospitalar ≠ lanterna operacional de resgate. Contextos, finalidades e especificações técnicas distintos.",
+      "motivos_pro_match": [
+        "Palavra 'lanterna' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto clínico hospitalar",
+        "Não é lanterna operacional"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.85,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Lanterna UV para diagnóstico clínico ≠ lanterna operacional de resgate. Finalidades completamente distintas.",
+      "motivos_pro_match": [
+        "Palavra 'lanterna' presente"
+      ],
+      "motivos_contra_match": [
+        "Diagnóstico clínico, não resgate",
+        "Especificação UV não operacional"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Máscara BiPAP/CPAP é equipamento de ventilação hospitalar, não respirador operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar de rotina",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Monitor multiparâmetrico hospitalar é equipamento de diagnóstico/monitoramento de rotina, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Diagnóstico hospitalar",
+        "Não é equipamento de emergência"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Monitor multiparâmetrico hospitalar é equipamento de diagnóstico/monitoramento de rotina, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Diagnóstico hospitalar",
+        "Não é equipamento de emergência"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Muleta é equipamento de mobilidade hospitalar de rotina, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobilidade hospitalar de rotina",
+        "Não é equipamento de resgate"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Otoscópio é equipamento de diagnóstico clínico hospitalar, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Diagnóstico clínico hospitalar",
+        "Não é equipamento de resgate"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Sonar fetal é equipamento de diagnóstico obstétrico hospitalar, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Diagnóstico obstétrico hospitalar",
+        "Não é equipamento de resgate"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de banho hospitalar genérica. Não é equipamento de resgate, emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar rotina",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de banho especial para obeso. Equipamento hospitalar de higiene, não de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar rotina",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de rodas 150 kg para mobilidade hospitalar. Não é equipamento de resgate técnico-operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar genérico",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de rodas 200 kg para mobilidade hospitalar. Equipamento de saúde rotina, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento hospitalar genérico",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Câmara vertical de conservação de vacinas. Equipamento de infraestrutura hospitalar/farmacêutica, não de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura hospitalar",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.55,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Desfibrilador externo automático. Resgatécnica tem portfólio em APH, mas este é equipamento hospitalar genérico, não especializado em operações críticas de campo.",
+      "motivos_pro_match": [
+        "APH no portfólio",
+        "Equipamento de urgência"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar rotina",
+        "Não é especializado resgate"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 3,
+    "falso_positivo_lexical": 2,
+    "nao_aderente": 26
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é para equipamentos hospitalares de rotina. Resgatécnica é especializada em operações críticas de emergência. Mercados, clientes e contextos operacionais são completamente distintos. Nenhum item tem aderência comercial real."
+  },
+  "_processo": "43976166000150-1-000211/2025",
+  "_analisado_em": "2026-04-21T19:25:32.289111+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

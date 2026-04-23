@@ -1,0 +1,229 @@
+{
+  "gerado_em": "2026-04-21T18:22:22.243724+00:00",
+  "total_analisadas": 10,
+  "pareceres": {
+    "NAO_ADERENTE": 10
+  },
+  "prioridades": {
+    "DESCARTAR": 10
+  },
+  "estatisticas_globais": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 6,
+    "nao_aderente": 87
+  },
+  "licitacoes": [
+    {
+      "processo": "06916689000185-1-000032/2024",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "DESCARTAR",
+      "deve_priorizar": false,
+      "contexto_dominante": "Licitação para contratação de serviço de coffee break e refeições leves para instituição de previdência social. Mercado de catering e alimentação corporativa.",
+      "justificativa": "Licitação pertence ao mercado de catering e alimentação corporativa. Resgatécnica é fornecedora especializada em equipamentos de emergência e operações críticas. Não há compatibilidade comercial, operacional ou de nicho entre os dois universos.",
+      "recomendacao_motivo": "Licitação de catering corporativo. Resgatécnica não atua em alimentação. Sem compatibilidade comercial ou operacional.",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 8
+      },
+      "total_itens": 8,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T18:19:38.767248+00:00",
+      "provedor": "anthropic",
+      "modelo": "claude-haiku-4-5"
+    },
+    {
+      "processo": "44392215000170-1-000098/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "DESCARTAR",
+      "deve_priorizar": false,
+      "contexto_dominante": "Serviço de agenciamento de viagens aéreas (emissão, remarcação, cancelamento de passagens) para universidade pública",
+      "justificativa": "Licitação pertence a mercado completamente distinto (agenciamento de viagens comercial). Resgatécnica é fornecedora especializada em equipamentos e soluções para emergências e operações críticas, não em serviços de turismo ou agências de viagem.",
+      "recomendacao_motivo": "Licitação fora do escopo operacional e comercial da Resgatécnica. Não há compatibilidade de mercado, tipo de fornecedor ou finalidade de uso.",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 1
+      },
+      "total_itens": 1,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T18:21:04.002195+00:00",
+      "provedor": "anthropic",
+      "modelo": "claude-haiku-4-5"
+    },
+    {
+      "processo": "44959021000104-1-000337/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "DESCARTAR",
+      "deve_priorizar": false,
+      "contexto_dominante": "Serviço de coleta, transporte e destino final de resíduos da saúde (séptico, grupos A, B, E) e carcaças de animais para município",
+      "justificativa": "Licitação é para serviço contínuo de coleta, transporte e destino final de resíduos hospitalares. Resgatécnica é fornecedora de equipamentos técnico-operacionais para emergências, não prestadora de serviços de gestão de resíduos.",
+      "recomendacao_motivo": "Licitação fora do escopo comercial da Resgatécnica. Empresa não fornece serviços de coleta, transporte ou destino final de resíduos hospitalares.",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 1
+      },
+      "total_itens": 1,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T18:21:53.605392+00:00",
+      "provedor": "anthropic",
+      "modelo": "claude-haiku-4-5"
+    },
+    {
+      "processo": "45550167000164-1-000454/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "DESCARTAR",
+      "deve_priorizar": false,
+      "contexto_dominante": "Contratação de software de gestão pública municipal (ERP/sistemas administrativos) para prefeitura",
+      "justificativa": "Licitação é exclusivamente de software de gestão pública municipal. Resgatécnica é fornecedora de equipamentos físicos para emergências, não de soluções de TI administrativas.",
+      "recomendacao_motivo": "Licitação fora do escopo operacional e comercial da Resgatécnica. Não há compatibilidade de mercado, tipo de fornecedor ou expertise técnica.",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 1
+      },
+      "total_itens": 1,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T18:20:21.695197+00:00",
+      "provedor": "anthropic",
+      "modelo": "claude-haiku-4-5"
+    },
+    {
+      "processo": "46177531000155-1-000376/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "DESCARTAR",
+      "deve_priorizar": false,
+      "contexto_dominante": "Serviços de instalação e manutenção de bombas hidráulicas e de combustível para município. Escopo genérico de manutenção industrial/municipal, sem especificação de contexto operacional crítico.",
+      "justificativa": "Agregado de 2 lotes. Aderentes: 0/33 (0%).",
+      "recomendacao_motivo": "Licitação é para serviços de manutenção rotineira de infraestrutura municipal. Resgatécnica é especializada em equipamentos técnico-operacionais para emergências e operações críticas. Não há compatibilidade comercial real. Mercados completamente distintos.",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 33
+      },
+      "total_itens": 33,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T18:21:46.054007+00:00",
+      "provedor": "anthropic",
+      "modelo": "claude-haiku-4-5"
+    },
+    {
+      "processo": "46316600000164-1-000282/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "DESCARTAR",
+      "deve_priorizar": false,
+      "contexto_dominante": "Aquisição de mobiliário médico-hospitalar para uso administrativo e de conforto em ambiente hospitalar (camas, cadeiras de banho, cadeiras de rodas, consultório odontológico, poltronas, andadores, suportes).",
+      "justificativa": "Licitação é de mobiliário hospitalar de rotina (camas, cadeiras, poltronas), não de equipamentos operacionais de emergência. Resgatécnica é especializada em resgate, combate a incêndio e operações críticas, não em mobiliário administrativo/conforto hospitalar.",
+      "recomendacao_motivo": "Licitação é de mobiliário hospitalar genérico (camas, cadeiras, poltronas). Resgatécnica é especializada em equipamentos operacionais de emergência, resgate e combate a incêndio. Não há compatibilidade comercial real. Recomenda-se descartar completamente.",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 12
+      },
+      "total_itens": 12,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T18:20:37.555176+00:00",
+      "provedor": "anthropic",
+      "modelo": "claude-haiku-4-5"
+    },
+    {
+      "processo": "46316600000164-1-000285/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "DESCARTAR",
+      "deve_priorizar": false,
+      "contexto_dominante": "Aquisição de mobílias médico-hospitalares para unidades de saúde municipal (UPA, SAMU, Programa Melhor em Casa)",
+      "justificativa": "Licitação focada em mobiliário hospitalar e odontológico de rotina. Resgatécnica atua em operações críticas e emergências, não em fornecimento de camas, cadeiras de rodas e consultórios para unidades de saúde permanentes.",
+      "recomendacao_motivo": "Licitação de mobiliário hospitalar genérico. Resgatécnica é especialista em equipamentos de resgate e operações críticas, não em mobiliário de saúde rotineiro. Sem aderência comercial real.",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 6,
+        "nao_aderente": 6
+      },
+      "total_itens": 12,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T18:20:55.690155+00:00",
+      "provedor": "anthropic",
+      "modelo": "claude-haiku-4-5"
+    },
+    {
+      "processo": "46319000000150-1-000474/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "DESCARTAR",
+      "deve_priorizar": false,
+      "contexto_dominante": "Aquisição de cadeiras giratórias (cadeira digitador) para uso administrativo/escritório em município",
+      "justificativa": "Licitação é para mobiliário administrativo de escritório. Resgatécnica é especializada em equipamentos técnico-operacionais de emergência. Sem intersecção comercial real.",
+      "recomendacao_motivo": "Licitação fora do escopo operacional da empresa. Resgatécnica não atua em mobiliário administrativo.",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 1
+      },
+      "total_itens": 1,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T18:22:21.742930+00:00",
+      "provedor": "anthropic",
+      "modelo": "claude-haiku-4-5"
+    },
+    {
+      "processo": "49576416000141-1-000356/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "DESCARTAR",
+      "deve_priorizar": false,
+      "contexto_dominante": "Licitação para serviços de limpeza e higienização de aparelhos de ar-condicionado e climatizadores em unidades escolares da Secretaria Municipal de Educação.",
+      "justificativa": "Licitação pertence a mercado de manutenção predial e climatização, completamente distinto do nicho de operações críticas e emergências da Resgatécnica.",
+      "recomendacao_motivo": "Licitação de manutenção predial climatização. Resgatécnica atua em operações críticas emergenciais, não em manutenção predial rotineira.",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 23
+      },
+      "total_itens": 23,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T18:22:13.853698+00:00",
+      "provedor": "anthropic",
+      "modelo": "claude-haiku-4-5"
+    },
+    {
+      "processo": "71832679000123-1-000223/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "DESCARTAR",
+      "deve_priorizar": false,
+      "contexto_dominante": "Fornecimento de protetor auricular tipo concha para companhia de transportes metropolitanos (CPTM-SP)",
+      "justificativa": "Protetor auricular genérico para transporte público não alinha com especialização em operações críticas e emergências da Resgatécnica",
+      "recomendacao_motivo": "Licitação fora do escopo operacional e comercial da Resgatécnica. Protetor auricular genérico para transporte público não representa oportunidade estratégica.",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 1
+      },
+      "total_itens": 1,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T18:21:11.708744+00:00",
+      "provedor": "anthropic",
+      "modelo": "claude-haiku-4-5"
+    }
+  ]
+}

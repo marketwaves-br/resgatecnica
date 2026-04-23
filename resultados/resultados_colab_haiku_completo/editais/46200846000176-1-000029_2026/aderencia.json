@@ -1,0 +1,82 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos físicos, ferramentas, sistemas operacionais e soluções de hardware para emergências. Não atua em software SaaS, plataformas digitais, automação de processos administrativos ou gestão documental."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de plataforma SaaS (Software como Serviço) com arquitetura cloud, recursos no-code/low-code, BPMS, GED, BI e RPA para modernização administrativa municipal",
+    "mercados_predominantes": [
+      "Tecnologia da Informação",
+      "Software empresarial",
+      "Transformação digital administrativa",
+      "Gestão de processos de negócio",
+      "Inteligência de dados"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é exclusivamente de software administrativo SaaS. Resgatécnica fornece equipamentos físicos para emergências operacionais. Mercados, finalidades, usuários finais e contextos completamente distintos."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Software SaaS administrativo. Resgatécnica fornece equipamentos físicos para resgate e emergências operacionais, não plataformas digitais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado completamente distinto",
+        "Produto é software, não equipamento"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "descricao",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo comercial da Resgatécnica. Empresa não atua em software SaaS, plataformas administrativas, BPMS, GED ou BI. Recomenda-se não participar."
+  },
+  "_processo": "46200846000176-1-000029/2026",
+  "_analisado_em": "2026-04-21T19:25:50.879019+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

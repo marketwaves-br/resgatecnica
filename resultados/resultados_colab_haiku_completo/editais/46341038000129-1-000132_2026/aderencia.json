@@ -1,0 +1,233 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em distribuição de alimentos, abastecimento público ou fornecimento de carnes."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Fornecimento parcelado de carnes congeladas (bovinas, suínas e de frango) para abastecimento municipal",
+    "mercados_predominantes": [
+      "Distribuição de alimentos",
+      "Abastecimento público",
+      "Fornecimento de carnes processadas"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação de alimentos (carnes congeladas) pertence a mercado completamente distinto do portfólio Resgatécnica. Nenhuma compatibilidade comercial, operacional ou técnica."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carne bovina congelada. Mercado alimentício, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento perecível",
+        "Sem relação operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carne bovina em cubos. Fornecimento alimentício municipal.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento processado",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carne moída congelada. Abastecimento público de alimentos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto alimentício",
+        "Mercado distinto"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Frango processado congelado. Fornecimento de alimentos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento perecível",
+        "Sem aplicação técnica"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Peito de frango processado. Abastecimento municipal.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento congelado",
+        "Sem relação emergencial"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carne suína em cubos. Fornecimento alimentício.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento perecível",
+        "Mercado alimentício"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Hambúrguer congelado. Alimento processado para abastecimento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento processado",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carne bovina congelada (repetição item 1).",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento perecível",
+        "Sem relação técnica"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carne bovina em cubos (repetição item 2).",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento processado",
+        "Mercado distinto"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carne moída congelada (repetição item 3).",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento perecível",
+        "Sem aplicação emergencial"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Frango processado congelado (repetição item 4).",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento congelado",
+        "Sem contexto técnico"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Peito de frango processado (repetição item 5).",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento perecível",
+        "Mercado alimentício"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carne suína em cubos (repetição item 6).",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento congelado",
+        "Sem relação operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 13
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de alimentos congelados. Resgatécnica é fornecedora de equipamentos técnico-operacionais para emergências. Sem compatibilidade comercial, técnica ou operacional. Rejeitar participação."
+  },
+  "_processo": "46341038000129-1-000132/2026",
+  "_analisado_em": "2026-04-21T19:28:56.717054+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

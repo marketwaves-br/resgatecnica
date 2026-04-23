@@ -1,0 +1,89 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em maquinário pesado genérico ou veículos comerciais de transporte comum."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de máquinas e veículos para uso administrativo/municipal: retroescavadeira para desenvolvimento econômico e minivan para transporte de saúde",
+    "mercados_predominantes": [
+      "Maquinário pesado industrial/construção",
+      "Transporte comercial/administrativo"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação foca em equipamentos genéricos de construção e transporte municipal. Resgatécnica fornece equipamentos especializados para emergências e operações críticas. Sem sobreposição comercial real."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Retroescavadeira é maquinário pesado de construção/terraplanagem. Resgatécnica não fornece máquinas de construção genéricas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Maquinário construção genérico",
+        "Fora nicho emergências"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Minivan comercial para transporte de saúde. Resgatécnica fornece veículos especiais customizados para resgate/incêndio (SHERP), não transporte administrativo comum.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Veículo transporte comum",
+        "Sem customização emergência"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 2
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação pertence a mercado de maquinário pesado e transporte administrativo. Resgatécnica é especialista em equipamentos de emergência e operações críticas. Sem compatibilidade comercial real."
+  },
+  "_processo": "17955386000198-1-000032/2026",
+  "_analisado_em": "2026-04-22T01:02:03.174116+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

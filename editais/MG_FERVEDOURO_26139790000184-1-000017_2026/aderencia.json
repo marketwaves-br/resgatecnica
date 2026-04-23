@@ -1,0 +1,86 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "Bermuda para uniforme escolar em tecido Helanca Escolar 100% poliamida, 270 gramatura, modelagem tradicional, tamanhos variados, com estampa na frente. (COR A DEFINIR)DestinaÃ§Ã£o: Secretaria de EducaÃ§Ã£o\r",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['uniforme escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['uniforme escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "CalÃ§a para uniforme escolar em helanca 100%poliamidacom 275gmÂ², modelagem tradicional com aplicaÃ§Ã£o de viÃ©s, cÃ³s de elastano, tamanhos diversos, estampa na frente (opcional). (COR A DEFINIR) destinaÃ§Ã£o: Secretaria de EducaÃ§Ã£o\r",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['uniforme escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['uniforme escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 3,
+      "descricao": "Camiseta para uniforme escolar confeccionada em malha 100% algodÃ£o 30.1 penteado de cor, 180 gramatura, modelagem tradicional, gola careca com viÃ©s  tamanhos variados, com estampa na frente e nas costas. (COR A DEFINIR)DestinaÃ§Ã£o: Secretaria de EducaÃ§Ã£o\r",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['uniforme escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['uniforme escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "Casaco de inverno para uniforme escolar em tecido helanca 100% poliamida, 275gmÂ², modelagem tradicional, manga comprida com aplicaÃ§Ã£o de viÃ©s, fechamento com zÃ­per, tamanhos variados, estampa na frente e nas costas. (COR A DEFINIR) DestinaÃ§Ã£o: Secretaria de EducaÃ§Ã£o\r",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['uniforme escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['uniforme escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 4
+  },
+  "_pre_filtrado": true,
+  "_score_pre_filtro": -1.0,
+  "_termos_negativos": [
+    "uniforme escolar"
+  ],
+  "_processo": "26139790000184-1-000017/2026",
+  "_analisado_em": "2026-04-23T00:03:51.865963+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "heuristica"
+}

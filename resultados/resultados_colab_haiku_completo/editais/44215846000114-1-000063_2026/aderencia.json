@@ -1,0 +1,117 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências, não em fornecimento de alimentos ou serviços de catering."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Fornecimento de alimentos para consumo imediato (kits de lanche e coffee breaks) para órgãos municipais de saúde, turismo e esporte",
+    "mercados_predominantes": [
+      "Catering e alimentação",
+      "Serviços de lanche corporativo",
+      "Fornecimento de alimentos para eventos"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de alimentos/catering. Resgatécnica é fornecedora de equipamentos técnico-operacionais de emergência. Nenhuma compatibilidade comercial, operacional ou de nicho."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Kit lanche pré-doação sangue é alimento. Resgatécnica não fornece alimentos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto é alimento",
+        "Mercado catering, não emergência"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Kit lanche pós-doação sangue é alimento. Resgatécnica não fornece alimentos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto é alimento",
+        "Mercado catering, não emergência"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Coffee break para 50 pessoas é serviço de catering. Resgatécnica não fornece alimentos ou serviços de alimentação.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de catering",
+        "Alimentos, não equipamentos"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Coffee break para 30 pessoas é serviço de catering. Resgatécnica não fornece alimentos ou serviços de alimentação.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de catering",
+        "Alimentos, não equipamentos"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 4
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida",
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de alimentos/catering. Resgatécnica é fornecedora de equipamentos técnico-operacionais de emergência. Sem compatibilidade comercial, operacional ou de nicho. Rejeitar participação."
+  },
+  "_processo": "44215846000114-1-000063/2026",
+  "_analisado_em": "2026-04-21T19:38:59.268808+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

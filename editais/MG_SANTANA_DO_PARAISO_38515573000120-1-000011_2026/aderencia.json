@@ -1,0 +1,103 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de emergência. Não atua em TI, informática ou periféricos de computador."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de equipamentos de informática (computadores, periféricos) para secretarias municipais",
+    "mercados_predominantes": [
+      "Tecnologia da Informação",
+      "Informática Administrativa",
+      "Periféricos de Computador"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação exclusivamente de TI/informática. Resgatécnica atua em emergências e operações críticas, não em fornecimento de computadores ou periféricos administrativos."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 28,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "CPU/computador para uso administrativo. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento TI administrativo",
+        "Sem aplicação operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 30,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "CPU/computador para uso administrativo. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento TI administrativo",
+        "Sem aplicação operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 32,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Desktop completo para uso administrativo. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento TI administrativo",
+        "Sem aplicação operacional crítica"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 3
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de TI/informática. Resgatécnica não atua neste mercado. Sem aderência comercial real."
+  },
+  "_processo": "38515573000120-1-000011/2026",
+  "_analisado_em": "2026-04-22T01:00:34.154655+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

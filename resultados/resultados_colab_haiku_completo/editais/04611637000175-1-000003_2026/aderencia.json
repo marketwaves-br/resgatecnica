@@ -1,0 +1,142 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências. Não atua em sinalização viária, tintas de demarcação ou infraestrutura rodoviária."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de tintas para sinalização viária horizontal (demarcação de pistas) e insumos correlatos para consórcio intermunicipal de gestão de infraestrutura rodoviária",
+    "mercados_predominantes": [
+      "Infraestrutura rodoviária",
+      "Sinalização viária",
+      "Materiais de construção e manutenção de vias"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação de tintas viárias e insumos para demarcação de pistas. Resgatécnica não atua em sinalização rodoviária, infraestrutura viária ou materiais de construção civil. Mercado completamente distinto do nicho de operações críticas e emergências."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Tinta para demarcação viária. Infraestrutura rodoviária, fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sinalização viária",
+        "Mercado infraestrutura rodoviária"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Tinta branca para demarcação viária. Infraestrutura rodoviária, fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sinalização viária",
+        "Mercado infraestrutura rodoviária"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Tinta acrílica preta para sinalização horizontal. Infraestrutura rodoviária, fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sinalização viária",
+        "Mercado infraestrutura rodoviária"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Solvente para tintas de demarcação viária. Insumo de infraestrutura rodoviária, fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Solvente viário",
+        "Infraestrutura rodoviária"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Microesfera de vidro para aderência em tinta viária. Insumo de sinalização rodoviária, fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sinalização viária",
+        "Infraestrutura rodoviária"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Microesfera de vidro para aderência em tinta viária. Insumo de sinalização rodoviária, fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sinalização viária",
+        "Infraestrutura rodoviária"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 6
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de sinalização viária. Mercado completamente distinto. Resgatécnica não fornece tintas rodoviárias."
+  },
+  "_processo": "04611637000175-1-000003/2026",
+  "_analisado_em": "2026-04-21T19:34:22.783081+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

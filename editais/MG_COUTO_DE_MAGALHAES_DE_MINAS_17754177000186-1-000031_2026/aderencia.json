@@ -1,0 +1,823 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "ACAFRAO EM PO:Embalado em embalagem plastica com 10g, contendo no rotulo a marca do produto, gramagem, data de validade e lote.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "ACHOCOLATADO DE CHOCOLATE 1KG:Achocolatado ,de chocolate em po, 1 kg, obtido de materias sas e limpas,po homogeneo,corpropria , cheiroe sabor caracteristico, embalagem plastica atoxica.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 3,
+      "descricao": "ACHOCOLATADO DE MORANGO 400G:achocalatado de morango em po, embalagem 400g, obtido de materias sas e limpas , po homogeneo,cor propria, cheiro e sabor caracteristico , embalagem atoxico.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "ACUCAR 1 KG:Acucar, superior, livre de fermentacao, isento de materia terrosa, isento de sujidade, parasitas e de detritos animais ou vegetais, contendo na rotulagem tipo e classificacao, embalagem plastica transparente atoxica, pacote 1kg, validade minima de 23 meses, a contar da data da entrega.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 5,
+      "descricao": "ACUCAR 2 KG:Acucar, superior, livre de fermentacao, isento de materia terrosa, isento de sujidade, parasitas e de detritos animais ou vegetais, contendo na rotulagem tipo e classificacao, embalagem plastica transparente atoxica, pacote 2kg, validade minima de 23 meses, a contar da data da entrega.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 6,
+      "descricao": "ACUCAR 5KG:Acucar, superior, livre de fermentacao, isento de materia terrosa, isento de sujidade, parasitas e de detritos animais ou vegetais, contendo na rotulagem tipo e classificacao, embalagem plastica transparente atoxica, pacote 5kg, validade minima de 23 meses, a contar da data da entrega.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7,
+      "descricao": "ADOCANTE DIETETICO 100 ml.:A base de aspartame, nao apresentar na composicao xintol ou sorbitol ou frutose, frascos de polietileno atoxico. A embalagem deveraconter externamente os dados de identificacao e procedencia, informacao nutricional, numero de lote, quantidade do produto, numero de registro. Devera apresentar validade minima de 6 (seis) meses a partir da data de entrega. Registro no ministerio da saude.  Prazo de validade superior a 10 meses. De acordo com a portaria 38 de 13/01/98 da ANVISA e NTA 83(Decreto 12.486/78). Embalagem com 100ml.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 8,
+      "descricao": "AGUA MINERAL 500 ML COM GAS:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 9,
+      "descricao": "AGUA MINERAL EM COPO - Agua mineral, sem gas, embalada em copo plastico de 200 ml. Caixa contendo 48 copos:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 10,
+      "descricao": "AGUA MINERAL, fardo com 12 unid.:Agua mineral, sem gas, garrafa plastica de 500 ml, com tampa lacrada (inviolavel), acondicionada em pacotes com 12 unidades. Validade Minima: 08 (oito) meses a contar da data da entrega.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 11,
+      "descricao": "AMENDOIM 500G:Amendoim, pacote 500g, descascado, selecionado tipo I, inteiro produzido com graos saos, isentos de sujidades, parasitas e larvas, embalagem plastica atoxica, transparente.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 12,
+      "descricao": "AMIDO DE MILHO 1KG:Amido de milho, embalagem contendo 1kg, embalagem em papel impermeavel, limpo, nao violado, resistente e acondicionado em caixas de papelao resistente, que garantam a integridade do produto, validade de 06(seis) meses a partir da data de entrega.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 13,
+      "descricao": "ANILINA:Corante, para alimentos 10 ml,cores e sabores diversos.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 14,
+      "descricao": "APRESUNTADO:Apresuntado, sem capa de gordura, fatiado no dia da entrega da peca, a embalagem original deve ser a vacuo em saco plastico transparente e atoxico, limpo, nao violado, resistente, que garanta a integridade do produto ate o momento do consumo, acondicionado em caixas lacradas, a embalagem devera conter extremamente os dados de identificacao, procedencia, informacoes nutricionais, numero do lote, quantidade do produto, numero do registro no Ministerio da Agricultura SIF/DIPOA e carimbo de inspecao do SIF. Devera apresentar validade minima de 30(trinta) dias a partir da entrega. Fatiado.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 15,
+      "descricao": "ARROZ INTEGRAL: caracteristicas tecnicas, classe: longo, fino, tipo i integral. o produto nao deve apresentar mofo, substancias nocivas, deve estar acondicionado em embalagem plastica atoxica resistente e com solda reforcada, conter externamente os dados de identificacao e procedencia, numero do lote, data de fabricacao, quantidade do produto, data de validade e informacoes nutricionais, entrega conforme solicitacao/ cronograma do setor responsavel.:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 16,
+      "descricao": "ARROZ TIPO I 1 KG:Arroz, branco, tipo I, longo, fino, polido, no minimo de 80% de peso dos graos inteiros, isento de sujidades e materiais estranhos, validade de 06 meses, a contar da data da entrega, embalagem plastica atoxica, transparente. Pacote 1kg.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 17,
+      "descricao": "ARROZ TIPO I 5KG:Arroz, branco, tipo I, longo, fino, polido, no minimo de 80% de peso dos graos inteiros, isento de sujidades e materiais estranhos, validade de 06 meses, a contar da data da entrega, embalagem plastica atoxica, transparente. Pacote 5kg.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 18,
+      "descricao": "ARROZ TIPO II 1KG:Arroz, branco, tipo I, longo, fino, polido, no minimo de 80% de peso dos graos inteiros, isento de sujidades e materiais estranhos, validade de 06 meses, a contar da data da entrega, embalagem plastica atoxica, transparente. Pacote 1kg.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 19,
+      "descricao": "ARROZ TIPO II 5KG:Arroz, branco, tipo II, longo, fino, polido, no minimo de 80% de peso de graos inteiros, isento de sujidades e materiais estranhos, validade de 06 meses, a contar da data da entrega, embalagem plastica atoxica, transparente. Pacote 5kg.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 20,
+      "descricao": "AVEIA EM FLOCOS FINOS: Caixa Com 200gr, Devera Conter Na Embalagem Data De Fabricacao, Validade, Lote, Informacao Nutricional E Ingredientes. Entrega Conforme Solicitacao/ Cronograma Do Setor Responsavel:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 21,
+      "descricao": "AZEITE DE OLIVA:Azeite de oliva extra virgem, lata 500 ml.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 22,
+      "descricao": "AZEITE DE OLIVA EXTRA VIRGEM 500ML,:Composicao de azeite de oliva refinado e azeite de oliva virgem. Com identificacao do produto, informacao nutricional, marca do fabricante, quantidade por embalagem e prazo validade de no minimo 6 meses a contar da data de entrega.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 23,
+      "descricao": "AZEITONA, verde, em conserva, Embalagem com 2kg (peso drenado):Azeitonas, verde, com caroco, frutos uniformes, tamanho medio, liquido translucido e sem viscosidade.Com identificacao do produto, marca do fabricante, prazo de validade e peso liquido, de acordo a Resolucao 13/77 da Comissao Nacional de Normas e Padroes para Alimentos - CNNPA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 24,
+      "descricao": "bacon kg:bacon resfriado defumado no kg",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 25,
+      "descricao": "BALA DE GOMA:BALAS SORTIDAS DE GOMA DE AMIDO SABORES ABACAXI, LARANJA, LIMAO, MORANGO E UVA COLORIDAS ARTIFICIALMENTE. INGREDIENTES: ACUCAR, XAROPE DE GLICOSE, AMIDO DE MILHO MODIFICADO, AROMATIZANTES, CORANTES ARTIFICIAIS AMARELO TARTRAZINA, AMARELO CREPUSCULO, VERMELHO ALURA, AZUL BRILHANTE E ACIDULANTE ACIDO CITRICO. NAO CONTEM GLUTEN.EMBALAGEM DE 1kg.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 26,
+      "descricao": "balas sortidas 500g:Bala mastigavel, de consistencia macia. O produto devera apresentar registro no orgao competente, devera apresentar odor e sabor agradaveis, nao devera apresentar presencas de impurezas e coloracao nao caracteristica. Devera ser entregue em embalagem intacta de 500g.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 27,
+      "descricao": "BATATA PALHA:BATATA PALHA NATURAL, SEM CONSERVANTES, 1 QUALIDADE, EMBALAGEM ORIGINAL DE FABRICA COM 400GR. COM DATA DE VALIDADE, VENCIMENTO, INFORMACOES NUTRICIONAIS E DO FABRICANTE IMPRESSO DE FORMA CLARA.-",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 28,
+      "descricao": "Bebida Lactea Sabor Chocolate 200ml:Bebida Lactea UHT Sabor Chocolate 200ml -  Caixa com 24 unidades",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 29,
+      "descricao": "BEBIDA LACTEA SABOR CHOCOLATE  SEM LACTOSE  200ml BEBIDA LACTEA SEM LACTOSE 200 ML: sabores (morango, salada de frutas, coco) embalagem de 200ml, com identificacao no produto da data de fabricacao e validade. Devera possuir registro no sim, cispoa ou sif. Produto com validade minima de 30 dias no momento da entrega. Nao podera conter lactose, nem caseina.  :",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 30,
+      "descricao": "Bebida Lactea Vitamina de Maca, Mamao e Banana:embalagem Tetra Pak 200 ml Caixa com 24 unidades",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 31,
+      "descricao": "BICARBONATO de sodio, em po:Bicarbonato de Sodio, solido cristalino, cor branca, soluvel em agua, sabor ligeiramente alcalino, embalagem 500kg",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 32,
+      "descricao": "BISCOITO CREAM CRACKER minimo 1,150KG:Biscoito, tipo CREAM-CRACKER, validade de no minino06 meses a 01 ano a contar da data de entrega embalado em pct plastico resistente acondicionado em caixa de papelao, lacrado e rotulado. Caixa com no minimo 1,150kg",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 33,
+      "descricao": "BISCOITO DE ARROZ: Contendo apenas arroz e sal na lista de ingredientes. Embalagem com no minimo 100 gramas.:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 34,
+      "descricao": "BISCOITO DOCE INTEGRAL, :tipo cookie, com ingredientes naturais e integrais, elaborado com soja, arroz, milho, isento de produtos lacteos (sem lactose e sem proteinas do leite), incluisve sem tracos de leite e sem gluten e zero gordura trans. Embalagem/rotulagem com informacoes nutricionais, lista de ingredientes, validade, lote. Embalagem com 150 a 200g.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 35,
+      "descricao": "BISCOITO DOCE TIPO MAIZENA OU COCO, CAIXA minimo 1,150KG:EMBALADO EM PAPEL CELOFANE OU POLIPROPILENO TRANSPARENTE E INODORO  E REEMBALADO EM CAIXA DE NO MINIMO 1,150KG. A EMBALAGEM DEVE CONTER AS SEGUINTES INFORMACOES: TABELA DE INFORMACAO NUTRICIONAL, DENOMINACAO DE VENDA DO PRODUTO, LISTA DE INGREDIENTES, IDENTIFICACAO DE ORIGEM, IDENTIFICACAO DO LOTE, PRAZO DE VALIDADE, PESO/QUANTIDADE, CONDICOES DE ARMAZENAMENTO. A EMBALAGEM DEVERA SER ORIGINAL. O PRODUTO NAO PODERA TER DATA DE FABRICACAO SUPERIOR A 120 DIAS NA DATA LIMITE DA ENTREGA. PRODUTO DEVE APRESENTAR-SE NA SUA FORMA INTEGRA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 36,
+      "descricao": "BISCOITO MARIA INTEGRAL SABOR CHOCOLATE PACOTE 400G.: produzido a partir de materias primas sas e limpas sem corante. Isenta de materia terrosa, parasitos e de detritos e animais vegetais. Ingredientes: farinha de trigo enriquecida com ferro e acido folico, acucar, gordura vegetal, amido de milho, acucar invertido, fibra de trigo, cacau em po, soro de leite em po e sal. Estabilizante lecitina de soja, fermentos quimicos bicarbonato de amonio e bicarbonato de sodio. Melhorador de farinha metabissulfito de sodio. Corante natural de caramelo. Aromatizante. Contem gluten. Composicao centesimal: valor energetico: 376,6kcal, carboidratos: 66,6g, proteinas: 8,3g, lipideos: 8,3g, fibra alimentares: 3,6g. Com aparencia, cor, cheiro, sabor proprios, sem cobertura e recheios.:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 37,
+      "descricao": "BISCOITO SALGADO INTEGRAL, :tipo cracker, contendo farinha de trigo enriquecida com ferro e acido folico, farinha de trigo integral, gordura vegetal, fibra de trigo, acucar, extrato de malte, 31/60 sal, glicose, soro de leite, fermento, estabilizante. Ter 0% de gordura trans. Embalagem dupla protecao, com rotulo contendo informacoes nutricionais, lista de ingredientes, marca do produto, data de validade e lote. Embalagem de 400g.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 38,
+      "descricao": "BISCOITO SALGADO TIPO APERITIVO INTEGRAL 162G:Produzida a partir de materias primas sas e limpas, ausencia de insetos e outros animais em qualquer fase de desenvolvimento, vivos ou mortos, inteiros ou em partes, parasitos, sujidades e objetos rigidos, pontiagudos e / ou cortantes. Tendo como composicao basica os seguintes elementos: farinha de trigo enriquecida com ferro e acido folico, gordura vegetal, acucar, sal refinado, extrato de malte, fermentos quimicos e Acidulantes. Caracteristicas: Aparencia: massa bem assada, sem recheio e sem cobertura.  Cor: proprio.  Odor: proprio. Sabor: proprio. Validade minima: 10 (doze) meses. Embalagem Primaria: filme composto de polipropileno biorientado, impresso destinado a entrar em contato com alimentos, com peso liquido de 27 (vinte e sete) gramas.   Embalagem Secundaria: filme composto de polipropileno biorientado, impresso destinado a entrar em contato com alimentos, contendo 06 embalagens de 27 (vinte e sete) gramas  perfazendo um total de 162 (cento e sessenta e duas) gramas.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 39,
+      "descricao": "BISCOITO (TIPO ROSQUINHA) INTEGRAL, Vegano, diversos sabores. Zero adicao de acucares, zero lactose, zero gorduras trans, adocado com stevia, baixo teor de sodio. Embalagem de 100g.validade de no minimo 6 meses a contar da data da entrega da mercadoria. Solicitamos amostra do produto para analise qualitativa.:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 40,
+      "descricao": "BOMBOM 1KG:Bombom, Chocolate ao leite, hermeticamente vedada e resistente com data de fabricacao e validade, (tipo serenata de amor ou sonho de valsa) Pacote contendo 1kg.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 41,
+      "descricao": "BOTIJAO DE GAS P13 - VASILHAME:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 42,
+      "descricao": "CACAU EM PO, EMB CONTENDO 500G,:Soluvel, 100% cacau em po, embalagem com informacoes nutricionais, lista de ingredientes, marca do produto, data de validade e lote",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 43,
+      "descricao": "CAFE PURO- EMBALAGEM 500G:CAFE PURO- EMBALAGEM 500G- torrado e moido, procedente de graos saos, limpos e isentos de impurezas, acondicionado em pacote aluminizado, integro, resistente, vedado hermetieamente e limpo. A embalagem devera conter externamente os dados de identificacao e procedencia, numero do lote data de fabricacao, quantidade do produto, selo de pureza ABIC e atender as especificacoes tecnicas da NTA 44 do Decreto Estadual n 12.486 de 20/10/1978. O produto devera apresentar validade minima de 60 dias a partir da data de entrega. O produto devera apresentar validade minima de 6 (seis) meses a partir da data de entrega. Embalagem 500g.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 44,
+      "descricao": "CALDO DE GALINHA:Materia prima, limpas e de boa qualidade, constituido basicamente  de carne de galinha desidratada, liofilizado sal, amido de milho, gordura vegetal,  condimentos, podendo conter corante natural, apresentando-se livre de materias terrosa,  parasitos, larvas e detritos animais e vegetais, em embalagem metalizada, termo soldavel,  resistente e atoxica, validade 12 meses apos a data de fabricacao, acompanhado de laudo  de laboratorio credenciado do lote a ser entregue. O produto devera estar de acordo com a  NTA 70 (Decreto 12.342/78), peso aproximado 114g.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 45,
+      "descricao": "CANELA, em casca, embalagem contendo 10 g.:Canela em casca, obtida da casca de especies vegetais genuinos, graos saos e limpos, de coloracao parda amarelada ou marrom claro, com aspecto, cheiro aromatico e sabor proprios, livre de sujidades e materiais estranhos a sua especie.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 46,
+      "descricao": "CANELA em po, Embalagem, contendo no minimo 40 g.:Canela moida, de coloracao pardo amarelada ou marrom claro, com aspecto, cheiro, aromatico e sabor proprios, livre de sujidades e materiais estranhos a sua especie.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 47,
+      "descricao": "CANJICA DE MILHO 500G:milho branco, tipo 1, embalados em pacotes . Produto proveniente de graos sadios de milho e em bom estado de conservacao, nao danificados por insetos ou fungos. Rotulagem de acordo com a legislacao vigente, validade minima de 06 (seis) meses. Embalada em pacote plastico transparente, resistente, nao violado, capacidade de 500g. ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 48,
+      "descricao": "CANJIQUINHA DE MILHO 500G:Canjiquinha, subproduto do grao de milho de cor amarela, fina, livre de umidade e fragmentos estranhos, em polietileno original do fabricante. Pacote 500g.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 49,
+      "descricao": "CARNE BOVINA IN NATURA EM BIFE RESFRIADA (COXAO  MOLE) 1 DESCRICAO: carne de 1 categoria - no corte coxao mole. Carne bovina em  fatiado em Bife (aprox., 10X8 CM), resfriada, e no maximo 10% de gordura,  com aspecto, cor, cheiro e sabor proprio, embalada em saco plastico  transparente, atoxico, pesando entre 1 a 2kgs (conforme necessidade do setor),  e suas condicoes deverao estar de acordo com a NTA-3 (Decreto 12486 de  20/10/78) e (MA. 2244/97), Port. 145, de 01/09/98 e suas posteriores  alteracoes, produto sujeito a verificacao no ato da entrega aos procedimentos  administrativos determinados pela Sec. Agricultura. No rotulo da embalagem  deverao estar impressos de forma clara as seguintes informacoes: Declarar  marca, Nome e endereco do abatedouro, constando obrigatoriamente registro  no SIF, Identificacao completa do produto, constando inclusive os dizeres: :CARNE BOVINA DE 1 CATEGORIA (coxao mole)), Data de fabricacao,  prazo de validade e prazo maximo para consumo, peso liquido, sendo aceito o  sim municipal independente do municipio.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 50,
+      "descricao": "CARNE BOVINA MOIDA CARACTERISTICAS:patinho moido ,de primeira ,congelada sem tempero,sem gordura ,sem cartilagem e nervos,com coloracao vermelha brilhante . fechada a vacuo nao injetada . embalagem : primaria deve estar intacta , acondicionada em pacotes de polietilenoreforcado ,com ate 2 kg. no rotulo da embalagem deve constar peso,data de processamento, procedencia , prazo de validade e certificado de inspecao federal ( sif ) ou estadual Fabricacao :maximo de 30 dias , Validade minimo de 06 meses . devera ser transportado em veiculo refrigerado ou conforme legislacao vigente .",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentos', 'generos alimenticios']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 50
+  },
+  "_pre_filtrado": true,
+  "_score_pre_filtro": -1.0,
+  "_termos_negativos": [
+    "alimentos",
+    "generos alimenticios"
+  ],
+  "_processo": "17754177000186-1-000031/2026",
+  "_analisado_em": "2026-04-22T00:59:25.602535+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "heuristica"
+}

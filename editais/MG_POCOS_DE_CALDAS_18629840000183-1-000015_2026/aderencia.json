@@ -1,0 +1,86 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "BEBIDA Á BASE DE SOJA DE 1000 ML  Bebida à base de soja, em embalagem primária do tipo Tetra Pack ?, com capacidade de 1000 mL, sem sabor ou sabor a ser aprovado. Informação Nutricional em 200 mL: Valor energético: 65 a 100 kcal Carboidratos: 2 a 14 g  Proteínas: 3,5 a 7 g Gorduras totais: 2,5 a 4 g Gorduras saturadas: 0,1 a 2 g Gordura Trans: 0 g Sódio: 0 a 180 mg Cálcio: 235 a 280 mg  ROTULAGEM O produto deverá seguir a legislação vigente em relação à rotulagem obrigatória, seguindo a Resolução RDC ANVISA nº 727/2022 e demais normas que venham a substituí-la ou que entrarem em vigência.DESCRIÇÃO COMPLETA CONFORME EDITAL.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentacao escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentacao escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "AVEIA EM FLOCOS FINOS 500Gr  Aveia em flocos finos, embalagem primária EM FIBRO-LATA (lata e rótulo em papel reciclável, selo de alumínio e aro em aço com tampa plástica) ou saco plástico de 500 grs. Pode conter trigo, cevada, centeio, soja e derivados de leite de vaca. INGREDIENTES: Aveia. Informação Nutricional em 30g do produto: - Calorias: 90 - 120 Kcal - Carboidratos: 10 - 20 g - Proteínas: 4,0 - 6,0 g - Gorduras Totais: 1,5 - 3,0 g - Gorduras Saturadas: menor que 1g - Gorduras Trans: 0 g - Fibra Alimentar: até 10g - Sódio: menor que 1mg *DESCRIÇÃO COMPLETA CONFORME EDITAL.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentacao escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentacao escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "FEIJAO CARIOCA TIPO 1 PCT C/ 1 Kg  Classe: cores; grupo: anão; tipo: 1; acondicionado em saco plástico transparente, atóxico, inodoro, com capacidade de 1 (um) quilo, reembalados em fardos. Informação Nutricional em 60g do produto: Calorias: 150 - 220 kcal Carboidratos: 15 - 44g Proteínas: 8 - 18g Gorduras Totais: menor que 2,0g Gorduras Saturadas: menor que 2,0g Gorduras Trans: 0g Fibra Alimentar: menor que 25g Sódio: menor que 20 mg * DESCRIÇÃO COMPLETA CONFORME EDITAL.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentacao escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentacao escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 5,
+      "descricao": "MARGARINA  Embalagem em pote plástico atóxico de 500g, contendo informações sobre o produto (data de fabricação, prazo de validade, armazenagem), reembalados em caixas de papelão. Ingredientes: óleos vegetais líquidos e interesterificados, água, sal (2 a 2,6%), leite em pó desnatado e/ou soro de leite em pó, estabilizantes mono e diglicerídeos de ácidos graxos, lecitina de soja e ésteres de poliglicerol de ácidos graxos, conservante sorbato de potássio e/ou benzoato de sódio, aroma idêntico ao natural de manteiga, acidulante ácido cítrico, antioxidante: EDTA - cálcico dissódico e BHT, corante natural de urucum e cúrcuma ou idêntico ao natural betacaroteno. Informação Nutricional em porção de 10g do produto compreendida entre: - Valor energético: 45 - 75 Kcal; - Gorduras totais: 4,5 - 9 g - Gorduras Saturadas: 1,2 - 2,5 g - Gordura Trans: 0 g * DESCRIÇÃO COMPLETA CONFORME EDITAL.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentacao escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['alimentacao escolar']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 4
+  },
+  "_pre_filtrado": true,
+  "_score_pre_filtro": -1.0,
+  "_termos_negativos": [
+    "alimentacao escolar"
+  ],
+  "_processo": "18629840000183-1-000015/2026",
+  "_analisado_em": "2026-04-22T00:59:24.714614+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "heuristica"
+}

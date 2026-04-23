@@ -1,0 +1,723 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica, altura/espaço confinado, produtos perigosos, atendimento pré-hospitalar e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências, não em materiais escolares, artesanato ou reabilitação genérica"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de materiais para oficinas terapêuticas e de reabilitação em município",
+    "mercados_predominantes": [
+      "Papelaria e artesanato escolar",
+      "Materiais de reabilitação genérica",
+      "Insumos para terapia ocupacional comum"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/50 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Agulha de crochê para artesanato escolar. Fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Artesanato escolar",
+        "Sem aplicação emergencial"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Alfinetes coloridos para mapa. Material escolar puro, sem relevância operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material escolar",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.35,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ultrassom terapêutico é equipamento médico-hospitalar genérico, não técnico-operacional de emergência. Reabilitação clínica, não resgate.",
+      "motivos_pro_match": [
+        "Equipamento médico"
+      ],
+      "motivos_contra_match": [
+        "Reabilitação clínica, não emergencial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Apontador de lápis. Material escolar comum, sem qualquer aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria escolar",
+        "Sem relevância emergencial"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Argila para modelar uso escolar. Insumo de terapia ocupacional genérica, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Terapia ocupacional escolar",
+        "Sem aplicação técnica"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Balança portátil para uso clínico/doméstico. Equipamento de reabilitação genérica, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Reabilitação clínica",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Balões coloridos para atividades lúdicas. Material escolar/recreativo, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material recreativo",
+        "Sem relevância emergencial"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Barbante de algodão para artesanato. Material escolar comum, não equipamento técnico-operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Artesanato escolar",
+        "Sem aplicação emergencial"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.9,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bastão PVC/madeira para atividades. Material genérico de terapia ocupacional, não equipamento especializado.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Terapia ocupacional genérica",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bastão de cola quente fino. Insumo de artesanato escolar, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Artesanato escolar",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bastão de cola quente grosso. Insumo de artesanato escolar, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Artesanato escolar",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bola cravo de borracha. Material recreativo/lúdico para terapia ocupacional genérica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material recreativo",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bola de gude/vidro para atividades lúdicas. Material escolar recreativo, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material recreativo",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bolas de isopor para artesanato. Insumo de artesanato escolar, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Artesanato escolar",
+        "Sem relevância emergencial"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Borracha escolar. Material de papelaria comum, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria escolar",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caixa organizadora 5L. Insumo genérico de armazenamento, não equipamento técnico-operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Armazenamento genérico",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caixa organizadora 30L. Insumo genérico de armazenamento, não equipamento técnico-operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Armazenamento genérico",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caixa MDF para artesanato. Insumo de artesanato escolar, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Artesanato escolar",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.4,
+      "categoria_portfolio_relacionada": "Proteção Individual",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caneleira 1kg para reabilitação genérica. EPI de reabilitação clínica, não técnico-operacional de emergência.",
+      "motivos_pro_match": [
+        "EPI com velcro"
+      ],
+      "motivos_contra_match": [
+        "Reabilitação clínica",
+        "Não operacional emergencial"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.4,
+      "categoria_portfolio_relacionada": "Proteção Individual",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caneleira 2kg para reabilitação genérica. EPI de reabilitação clínica, não técnico-operacional de emergência.",
+      "motivos_pro_match": [
+        "EPI com velcro"
+      ],
+      "motivos_contra_match": [
+        "Reabilitação clínica",
+        "Não operacional emergencial"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caneta destaca texto fluorescente. Material de papelaria escolar, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria escolar",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caneta esferográfica colorida. Material de papelaria escolar, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria escolar",
+        "Sem relevância emergencial"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caneta esferográfica escrita fina. Material de papelaria escolar, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria escolar",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caneta esferográfica escrita média. Material de papelaria escolar, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria escolar",
+        "Sem relevância emergencial"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Canetinha hidrocor jumbo. Material de papelaria escolar, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria escolar",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 26,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Canudo plástico descartável para uso geral, sem contexto operacional crítico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso genérico, não operacional",
+        "Sem relação com emergências"
+      ]
+    },
+    {
+      "numeroItem": 27,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cartolina para artes e educação, sem aplicação em operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material escolar/artístico",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 28,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cola de silicone para artesanato, não para equipamentos de resgate ou proteção.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso artesanal/educacional",
+        "Sem aplicação técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 29,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cola branca atóxica para papel, uso escolar/educacional, sem contexto operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material escolar genérico",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 30,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cola líquida com gliter para atividades artísticas infantis, sem relevância operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso artístico/infantil",
+        "Sem aplicação técnica"
+      ]
+    },
+    {
+      "numeroItem": 31,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cola para isopor, uso artesanal/educacional, sem aplicação em operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material artesanal",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 32,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cola universal PVA para uso geral em papel, sem aplicação técnica operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso genérico educacional",
+        "Sem contexto de emergência"
+      ]
+    },
+    {
+      "numeroItem": 33,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.35,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Colchonete EVA lavável pode ter uso em reabilitação, mas contexto é terapêutico genérico, não operacional crítico.",
+      "motivos_pro_match": [
+        "Material de proteção/conforto",
+        "Possível uso em APH"
+      ],
+      "motivos_contra_match": [
+        "Contexto terapêutico genérico",
+        "Não é EPI técnico operacional"
+      ]
+    },
+    {
+      "numeroItem": 34,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fita adesiva dupla face para uso geral em papelaria/artesanato.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de papelaria",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 35,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fita crepe para uso geral em papelaria, sem contexto operacional crítico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de papelaria",
+        "Sem aplicação técnica"
+      ]
+    },
+    {
+      "numeroItem": 36,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fita adesiva transparente BOPP para uso geral em embalagem/papelaria.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de papelaria",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 37,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fita adesiva tipo durex para uso geral, sem aplicação operacional crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de papelaria",
+        "Sem aplicação técnica"
+      ]
+    },
+    {
+      "numeroItem": 38,
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.3,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fita métrica antropométrica pode ter uso em avaliação de vítimas, mas contexto é terapêutico/reabilitação genérica.",
+      "motivos_pro_match": [
+        "Ferramenta de medição",
+        "Possível uso em APH"
+      ],
+      "motivos_contra_match": [
+        "Contexto terapêutico genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 39,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fitilho para embalagem, uso geral em papelaria, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material de embalagem",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 40,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Folhas de EVA para artes e educação, sem aplicação em operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material artístico/educacional",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 41,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Folhas de EVA atoalhado para artes, sem aplicação operacional crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material artístico",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 42,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Folhas de EVA com gliter para atividades artísticas infantis.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material artístico infantil",
+        "Sem aplicação técnica"
+      ]
+    },
+    {
+      "numeroItem": 43,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Folhas de EVA estampado para artes e educação, sem contexto operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material artístico",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 44,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Giz branco para lousa, material escolar, sem aplicação operacional crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material escolar",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 45,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Giz colorido para lousa, material escolar, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material escolar",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 46,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Giz de cera jumbo para atividades artísticas infantis, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material artístico infantil",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 47,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Giz de cera tons de pele para atividades artísticas, sem aplicação operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Material artístico",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 48,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Jogo da memória para terapia/educação, sem aplicação em operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Jogo terapêutico genérico",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 49,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Jogo das emoções para terapia ocupacional, sem aplicação operacional crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Jogo terapêutico genérico",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 50,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Baralho de plástico para recreação/terapia, sem aplicação em emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Jogo recreativo genérico",
+        "Sem contexto operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 6,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 44
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de papelaria, artesanato e reabilitação genérica. Completamente fora do nicho técnico-operacional de emergências da Resgatécnica. Nenhum item tem aderência comercial real."
+  },
+  "_processo": "16854531000181-1-000046/2026",
+  "_analisado_em": "2026-04-22T01:06:13.406869+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

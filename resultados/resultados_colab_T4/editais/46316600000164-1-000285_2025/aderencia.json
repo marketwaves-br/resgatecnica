@@ -1,0 +1,113 @@
+{
+  "parecer_geral": "PARCIALMENTE_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "Cama Hospitalar",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Relacionado a mobiliário hospitalar"
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "Cama Hospitalar",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Relacionado a mobiliário hospitalar"
+    },
+    {
+      "numeroItem": 3,
+      "descricao": "Cadeira De Rodas",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Relacionado a mobiliário hospitalar"
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "Cadeira De Rodas",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Relacionado a mobiliário hospitalar"
+    },
+    {
+      "numeroItem": 5,
+      "descricao": "Consultório Odontológico",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Não se enquadra na categoria"
+    },
+    {
+      "numeroItem": 6,
+      "descricao": "Cadeira De Rodas",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Relacionado a mobiliário hospitalar"
+    },
+    {
+      "numeroItem": 7,
+      "descricao": "Cadeira De Rodas",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Relacionado a mobiliário hospitalar"
+    },
+    {
+      "numeroItem": 8,
+      "descricao": "Andador ortopédico",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Relacionado a mobiliário hospitalar"
+    },
+    {
+      "numeroItem": 9,
+      "descricao": "Cadeira De Rodas",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Relacionado a mobiliário hospitalar"
+    },
+    {
+      "numeroItem": 10,
+      "descricao": "Cadeira De Rodas",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Relacionado a mobiliário hospitalar"
+    },
+    {
+      "numeroItem": 11,
+      "descricao": "Suporte Saco Hamper",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Não se enquadra na categoria"
+    },
+    {
+      "numeroItem": 12,
+      "descricao": "Poltrona",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Não se enquadra na categoria"
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 10,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 3
+  },
+  "_processo": "46316600000164-1-000285/2025",
+  "_analisado_em": "2026-04-21T17:31:16.582009+00:00",
+  "_modo": "compacto",
+  "_provedor": "ollama",
+  "_modelo": "qwen2.5:14b"
+}

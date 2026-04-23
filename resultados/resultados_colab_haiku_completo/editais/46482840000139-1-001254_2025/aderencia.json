@@ -1,0 +1,230 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções técnicas para operações críticas. Não atua em telecomunicações, sistemas de comunicação digital, infraestrutura de rede ou tecnologia da informação."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviços de tecnologia e comunicação digital para implantação de sistema de comunicação VHF/LTE com monitoramento GPS, servidores, consoles de despacho, repetidoras, rádios portáteis/móveis e sinalizadores giroflex.",
+    "mercados_predominantes": [
+      "Telecomunicações e sistemas de comunicação digital",
+      "Tecnologia da informação e infraestrutura de rede",
+      "Serviços de TI e suporte técnico",
+      "Equipamentos de radiocomunicação profissional"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence exclusivamente ao mercado de telecomunicações, TI e sistemas de comunicação digital. Resgatécnica é fornecedora de equipamentos operacionais para emergências (resgate, incêndio, proteção individual). Não há compatibilidade comercial real entre o portfólio da empresa e os serviços solicitados."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ativação de sistema de comunicação digital. Serviço de TI puro, fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de telecomunicações",
+        "Sem equipamentos operacionais"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Servidor de gerenciamento, monitoramento GPS e gravação com licenças. Infraestrutura de TI e software, não equipamentos de resgate/emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de TI",
+        "Fora do portfólio operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Console de despacho para monitoramento. Sistema de software/hardware de TI, não equipamento de resgate ou proteção individual.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sistema de TI",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Repetidora digital VHF com infraestrutura de torre, energia e abrigo. Equipamento de telecomunicações, não de resgate ou emergência operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Telecomunicações pura",
+        "Infraestrutura de rede"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Rádio portátil digital VHF com GPS. Embora 'rádio' e 'portátil' apareçam no portfólio (lanternas portáteis, equipamentos móveis), este é rádio de telecomunicação profissional, não equipamento de resgate.",
+      "motivos_pro_match": [
+        "Palavra 'portátil'",
+        "Equipamento móvel"
+      ],
+      "motivos_contra_match": [
+        "Telecomunicação, não resgate",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Microfone alto-falante PTT para rádio portátil VHF. Acessório de telecomunicação, não equipamento de resgate. Semelhança lexical com 'acessórios' do portfólio é superficial.",
+      "motivos_pro_match": [
+        "Palavra 'acessório'",
+        "Equipamento complementar"
+      ],
+      "motivos_contra_match": [
+        "Telecomunicação profissional",
+        "Não é operacional de resgate"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Rádio móvel digital VHF com GPS. Equipamento de telecomunicação para veículos, não equipamento de resgate ou emergência operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Telecomunicações",
+        "Não é operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Rádio estação fixa digital VHF com display. Equipamento de telecomunicação estacionário, fora do escopo de resgate e emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Telecomunicações",
+        "Infraestrutura de rede"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Rádio portátil protocolo LTE/Broadband. Equipamento de telecomunicação de banda larga, não equipamento de resgate ou proteção individual.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Telecomunicações LTE",
+        "Fora do portfólio"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Rede de dados IP com redundância via rádio e fibra. Infraestrutura de TI e telecomunicações, não equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de TI",
+        "Telecomunicações pura"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Suporte técnico 24x7 para sistema de comunicação digital. Serviço de TI especializado em telecomunicações, não em equipamentos de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de TI",
+        "Não é operacional"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.9,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Sinalizador giroflex completo. Embora 'sinalizador' possa remeter a equipamentos de sinalização, giroflex é luz de alerta para veículos de emergência, não equipamento de resgate técnico ou proteção individual.",
+      "motivos_pro_match": [
+        "Palavra 'sinalização'",
+        "Contexto de emergência"
+      ],
+      "motivos_contra_match": [
+        "Acessório veicular genérico",
+        "Não é operacional de resgate"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 3,
+    "nao_aderente": 9
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de telecomunicações e TI. Resgatécnica é fornecedora de equipamentos operacionais para emergências. Sem compatibilidade comercial real."
+  },
+  "_processo": "46482840000139-1-001254/2025",
+  "_analisado_em": "2026-04-21T19:35:48.793106+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

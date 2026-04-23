@@ -1,0 +1,129 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências. Não atua como distribuidora genérica de combustíveis ou insumos administrativos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Registro de preços para aquisição de combustíveis líquidos (ARLA 32, etanol, gasolina, diesel) para frota municipal de veículos e equipamentos da Prefeitura Municipal de Monte Sião/MG",
+    "mercados_predominantes": [
+      "Combustíveis e lubrificantes automotivos genéricos",
+      "Abastecimento de frota municipal comum",
+      "Distribuição de insumos energéticos para transporte"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de combustíveis genéricos para frota municipal comum. Resgatécnica é fornecedora especializada em equipamentos técnico-operacionais de emergência, não distribuidora de combustíveis. Nenhum item tem compatibilidade comercial real com o portfólio."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "ARLA 32 é aditivo de redução catalítica seletiva para motores diesel. Resgatécnica não atua em distribuição de combustíveis ou insumos automotivos genéricos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de combustíveis genéricos",
+        "Sem presença em portfólio"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Etanol hidratado é combustível genérico para frota municipal. Não há categoria de combustíveis no portfólio da Resgatécnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo energético genérico",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gasolina comum é combustível de distribuição genérica. Resgatécnica não é distribuidora de combustíveis para frota municipal.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Combustível genérico",
+        "Mercado administrativo municipal"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Óleo diesel é combustível genérico para frota. Nenhuma compatibilidade com especialização técnica de resgate e emergência da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Combustível genérico",
+        "Sem relevância operacional"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Diesel S10 é combustível de baixo enxofre para frota municipal. Fora do escopo de fornecimento especializado da Resgatécnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Combustível genérico",
+        "Distribuição municipal comum"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 5
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de combustíveis genéricos. Resgatécnica é especialista em equipamentos técnico-operacionais de emergência, não distribuidora de insumos energéticos para frota municipal comum. Sem aderência comercial real."
+  },
+  "_processo": "22646525000131-1-000046/2026",
+  "_analisado_em": "2026-04-23T00:04:52.253573+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

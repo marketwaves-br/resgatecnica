@@ -1,0 +1,129 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica, altura/espaço confinado, produtos perigosos, atendimento pré-hospitalar e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, não em locação de veículos administrativos comuns"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Locação de veículos novos (0km) para uso administrativo geral em Prefeitura Municipal",
+    "mercados_predominantes": [
+      "Locação de frotas administrativas",
+      "Transporte de passageiros genérico",
+      "Mobilidade corporativa comum"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de locação de veículos administrativos comuns (sedans, vans, camionetes, motocicletas) para uso geral em secretarias municipais. Resgatécnica atua em equipamentos e soluções para emergências críticas, não em locação de frotas administrativas. Nenhum veículo solicitado é especializado em resgate, combate a incêndio ou operações críticas."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Sedans administrativos para transporte geral. Não são veículos especializados em resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Veículos administrativos comuns",
+        "Sem especialização operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Vans de transporte de passageiros para uso administrativo. Não são veículos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte administrativo genérico",
+        "Sem equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Camionetes utilitárias para carga geral. Não são veículos especializados em resgate, incêndio ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Utilitários administrativos comuns",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Motocicletas comuns para transporte administrativo. Não são motocicletas operacionais de resgate ou combate a incêndio.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Motocicletas administrativas comuns",
+        "Sem equipamento especializado"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Minivans para transporte de passageiros administrativo. Não são veículos especializados em resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte administrativo genérico",
+        "Sem especialização operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 5
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de locação de frotas administrativas comuns. Resgatécnica é especializada em equipamentos e soluções para emergências críticas, não em locação de veículos administrativos genéricos. Nenhuma sinergia comercial ou técnica."
+  },
+  "_processo": "46668596000101-1-000034/2026",
+  "_analisado_em": "2026-04-21T19:28:42.345464+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,220 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "resposta a emergências e operações críticas",
+    "tipo_fornecedor": "fornecedora especializada em equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "resgate veicular",
+      "resgate terrestre/BREC",
+      "táticas especiais",
+      "combate a incêndio",
+      "resgate aquático",
+      "proteção individual técnica",
+      "altura e espaço confinado",
+      "produtos perigosos/descontaminação",
+      "atendimento pré-hospitalar",
+      "veículos especiais customizados"
+    ],
+    "observacoes": "Empresa especializada em operações críticas e emergências, NÃO em mobiliário hospitalar genérico ou de rotina administrativa."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de mobiliário médico-hospitalar para uso administrativo e de conforto em ambiente hospitalar (camas, cadeiras de banho, cadeiras de rodas, consultório odontológico, poltronas, andadores, suportes).",
+    "mercados_predominantes": [
+      "mobiliário hospitalar genérico",
+      "equipamentos de conforto e higiene hospitalar",
+      "consultório odontológico",
+      "distribuição de mobiliário para saúde"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de mobiliário hospitalar de rotina (camas, cadeiras, poltronas), não de equipamentos operacionais de emergência. Resgatécnica é especializada em resgate, combate a incêndio e operações críticas, não em mobiliário administrativo/conforto hospitalar."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cama hospitalar elétrica para internação. Mobiliário de conforto hospitalar, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cama hospitalar elétrica para internação. Mobiliário de conforto hospitalar, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de banho/higiênico para uso hospitalar de rotina. Mobiliário de higiene hospitalar, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de banho/higiênico para uso hospitalar de rotina. Mobiliário de higiene hospitalar, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Consultório odontológico portátil. Equipamento odontológico especializado, não relacionado a resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de rodas para adulto. Mobiliário hospitalar de conforto/mobilidade, não equipamento operacional de emergência ou resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de rodas para adulto. Mobiliário hospitalar de conforto/mobilidade, não equipamento operacional de emergência ou resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Andador para adulto. Equipamento de mobilidade hospitalar de rotina, não relacionado a operações críticas ou resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de mobilidade genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de rodas para obeso (200kg). Mobiliário hospitalar de conforto/mobilidade, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira de rodas para obeso (200kg). Mobiliário hospitalar de conforto/mobilidade, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Suporte hamper para lixo/resíduos. Equipamento de gestão de resíduos hospitalar, não relacionado a resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de gestão de resíduos",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Poltrona hospitalar para conforto de pacientes/acompanhantes. Mobiliário hospitalar de conforto, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 12
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é de mobiliário hospitalar genérico (camas, cadeiras, poltronas). Resgatécnica é especializada em equipamentos operacionais de emergência, resgate e combate a incêndio. Não há compatibilidade comercial real. Recomenda-se descartar completamente."
+  },
+  "_processo": "46316600000164-1-000282/2025",
+  "_analisado_em": "2026-04-21T18:20:37.555176+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

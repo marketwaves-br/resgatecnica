@@ -1,0 +1,120 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências. Não atua em construção civil, pavimentação ou serviços de infraestrutura urbana."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para contratação de mão de obra especializada em assentamento de blocos pré-moldados, paralelepípedos e meio-fios. Escopo: infraestrutura urbana e pavimentação.",
+    "mercados_predominantes": [
+      "Construção civil",
+      "Pavimentação",
+      "Infraestrutura urbana",
+      "Serviços de assentamento"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de construção civil e pavimentação urbana. Resgatécnica atua exclusivamente em resposta a emergências e operações críticas. Nenhuma sobreposição comercial real."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1000001,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de assentamento de blocos intertravados. Mercado construção civil, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Construção civil urbana",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 1000002,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Assentamento de paralelepípedos. Infraestrutura urbana, não resposta a emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pavimentação urbana",
+        "Sem relevância operacional"
+      ]
+    },
+    {
+      "numeroItem": 1000003,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Assentamento de blocos sextavados. Construção civil, não equipamentos de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Construção civil",
+        "Sem aplicação emergencial"
+      ]
+    },
+    {
+      "numeroItem": 1000004,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Assentamento de meio-fios. Infraestrutura urbana, completamente fora do nicho.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pavimentação urbana",
+        "Sem conexão comercial"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 4
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de construção civil. Resgatécnica não fornece serviços de pavimentação ou assentamento de infraestrutura urbana. Mercados completamente distintos."
+  },
+  "_processo": "18025932000154-1-000054/2026",
+  "_analisado_em": "2026-04-22T01:15:16.749826+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

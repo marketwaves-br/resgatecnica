@@ -1,0 +1,77 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências, não atua em mobiliário administrativo ou comercial genérico."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de cadeiras giratórias (cadeira digitador) para uso administrativo/escritório em município",
+    "mercados_predominantes": [
+      "Mobiliário administrativo",
+      "Equipamento de escritório",
+      "Fornecimento comercial genérico"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para mobiliário administrativo de escritório. Resgatécnica é especializada em equipamentos de emergência e operações críticas, não em mobiliário comercial."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cadeira digitador é mobiliário administrativo genérico. Não existe no portfólio da Resgatécnica nenhuma categoria, subcategoria ou produto relacionado a mobiliário de escritório ou administrativo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado administrativo, não emergência",
+        "Sem correlação com operações críticas"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo comercial da Resgatécnica. Empresa não atua em mobiliário administrativo ou fornecimento de escritório."
+  },
+  "_processo": "46319000000150-1-000474/2025",
+  "_analisado_em": "2026-04-21T19:23:18.252294+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

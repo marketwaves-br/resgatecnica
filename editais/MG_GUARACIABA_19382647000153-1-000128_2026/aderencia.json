@@ -1,0 +1,67 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "Implantação completa: criação, desenvolvimento, configuração e disponibilização do site institucional e do Portal da Transparência do Município, incluindo layout responsivo, organização das páginas institucionais, criação de módulos necessários e adequação à identidade visual da Administração. Com implementação de painel administrativo (CMS) para gestão de conteúdo por usuários autorizados, com controle de níveis de acesso e registro de atividades. módulos mínimos, incluindo: publicações institucionais, legislação municipal, notícias, galeria multimídia, serviços ao cidadão e às empresas, ouvidoria com geração de protocolo e acompanhamento de manifestações, Carta de Serviços ao Usuário e Portal da Transparência com divulgação de receitas, despesas, contratos, licitações e relatórios fiscais.\nCriação e configuração de contas de e-mail institucionais vinculadas ao domínio do Município, com funcionalidades de envio, recebimento e armazenamento de mensagens.\nMigração integral e estruturada dos dados existentes, incluindo conteúdos, arquivos e informações já publicadas, com realização de backup prévio, garantindo a integridade e preservação do histórico.\nRealização de testes de funcionamento, validação da solução e treinamento dos servidores responsáveis pela utilização do sistema, assegurando o uso adequado da plataforma e o atendimento às exigências legais de transparência pública, acesso à informação, acessibilidade digital e proteção de dados.\n",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "Hospedagem mensal do site institucional: Disponibilização de serviço contínuo de hospedagem do site institucional, do Portal da Transparência e das contas de e-mail institucionais, em ambiente tecnológico adequado, com garantia de disponibilidade, desempenho e segurança da informação.\nA hospedagem deverá assegurar funcionamento contínuo da solução, com nível de disponibilidade elevado (mínimo de 99%), utilização de certificado de segurança para navegação, proteção contra acessos não autorizados e incidentes cibernéticos, além de monitoramento constante do ambiente, a realização de backups periódicos das informações armazenadas, com possibilidade de restauração em caso de falhas, bem como mecanismos que garantam a integridade, confidencialidade e disponibilidade dos dados. O ambiente deverá suportar volume de acessos compatível com a demanda do Município, com capacidade de expansão, estabilidade operacional e compatibilidade com os principais navegadores e dispositivos utilizados pelos usuários.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 3,
+      "descricao": "Manutenção preventiva/ corretiva/ evolutiva, suporte técnico contínuo: serviços contínuos de manutenção preventiva, corretiva e evolutiva da solução, garantindo o pleno funcionamento do sistema ao longo de sua utilização. A manutenção preventiva compreende ações destinadas a evitar falhas e manter a estabilidade da solução; a manutenção corretiva refere-se à identificação e correção de erros ou inconsistências; e a manutenção evolutiva contempla melhorias, ajustes e aperfeiçoamentos necessários ao atendimento das demandas da Administração.\nInclui a disponibilização de suporte técnico contínuo, com registro e acompanhamento de chamados, visando a identificação e resolução de problemas, bem como orientação aos usuários do sistema, a aplicação de atualizações periódicas, ajustes de segurança, melhorias de desempenho, bem como a geração de relatórios que auxiliem no acompanhamento da utilização da plataforma, desempenho do sistema e atendimento às exigências de transparência pública.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 3
+  },
+  "_meepp": true,
+  "_motivo": "Todos os itens são exclusivos ou cota reservada para ME/EPP",
+  "_processo": "19382647000153-1-000128/2026",
+  "_analisado_em": "2026-04-23T00:03:49.290421+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "meepp"
+}

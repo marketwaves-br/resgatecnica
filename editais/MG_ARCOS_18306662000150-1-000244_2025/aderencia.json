@@ -1,0 +1,84 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, não em serviços de transporte de pacientes ou gestão hospitalar"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviço de transporte de urgência e emergência em UTI móvel tipo D, com equipe médica completa (motorista, médico, enfermeiro)",
+    "mercados_predominantes": [
+      "Serviços de saúde/transporte hospitalar",
+      "Gestão de frota de ambulâncias",
+      "Atendimento pré-hospitalar como serviço"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação busca contratar serviço de transporte de pacientes, não fornecimento de equipamentos ou soluções operacionais. Resgatécnica é fornecedora de equipamentos, não prestadora de serviço de transporte hospitalar."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de transporte de pacientes em UTI móvel. Resgatécnica fornece equipamentos para operações críticas, não presta serviço de transporte hospitalar com equipe médica.",
+      "motivos_pro_match": [
+        "Menção a 'urgência e emergência'"
+      ],
+      "motivos_contra_match": [
+        "Serviço de transporte, não equipamento",
+        "Requer equipe médica permanente",
+        "Mercado hospitalar, não operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "descricao",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida",
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é para serviço de transporte hospitalar. Resgatécnica é fornecedora de equipamentos operacionais, não prestadora de serviço de transporte de pacientes. Sem aderência comercial real."
+  },
+  "_processo": "18306662000150-1-000244/2025",
+  "_analisado_em": "2026-04-22T01:01:06.005659+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

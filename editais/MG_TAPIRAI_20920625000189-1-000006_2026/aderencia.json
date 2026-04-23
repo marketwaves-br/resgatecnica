@@ -1,0 +1,826 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 7282964,
+      "descricao": "ABRIDOR DE LATA - ABRIDOR DE LATA E DE GARRAFAS, MANUAL, EM ALUMINIO, LINHA DOMESTICA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282965,
+      "descricao": "ACENDEDOR AUTOMATICO PARA FOGAO - ACENDEDOR, TIPO LANCA CHAMA, AUTOMATICO, COM GATILHO, PARA FOGAO A GAS, CONFECCIONADO EM PLASTICO, EMBALAGEM 1 UNIDADE",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282966,
+      "descricao": "ACIDO MURIATICO - 01 LITRO - REMOVEDOR DE MANCHAS DE ALTA CONCENTRACAO PARA USO GERAL. EMBALAGEM 1 LITRO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282967,
+      "descricao": "AGUA SANITARIA 1 LITRO: AGUA SANITARIA, ASPECTO: LIQUIDO, COMPOSICAO: A BASE DE HIPOCLORITO DE SODIO OU CALCIO, TEOR CLORO ATIVO: ENTRE 2,0 A 2,5 P/P, COR: AMARELA ESVERDEADA BASTANTE FRACA, APLICACAO: ASSEPSIA DE AMBIENTES, ROUPAS E ALIMENTOS. CARACTERISTICAS ADICIONAIS: ISENTA DE CORANTES, DETERGENTES E AROMATIZANTES, EMBALAGEM: FRASCO PLASTICO COM TAMPA E LACRE DE SEGURANCA. PESO LIQUIDO: 1 LITRO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282968,
+      "descricao": "ALCOOL ABSOLUTO, 92,8 FRASCO 1 LITRO - ALCOOL ABSOLUTO USO DOMESTICO, 92,8 INPM, P/ HIGIENIZACAO EM GERAL, C/ ORIENTACOES DE SEGURANCA NO FRASCO, (1,0 LITRO).",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282969,
+      "descricao": "ALCOOL ETILICO HIDRATADO 70 - 1 LITRO - ALCOOL ETILICO HIDRATADO USO DOMESTICO, 70o INPM, P/ HIGIENIZACAO EM GERAL, C/ ORIENTACOES DE SEGURANCA NO FRASCO, (1,0 LITRO)",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282970,
+      "descricao": "ALCOOL GEL 70 PARA LIMPEZA - FRASCO 500 ML - IDEAL PARA LIMPEZA, ELIMINA ATE 99,9 DAS BACTERIAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282971,
+      "descricao": "ALGODAO HIDROFILO 50G, EM CAMADAS CONTINUAS EM FORMA DE ROLO (MANTA), PROVIDO DE PAPEL APROPRIADO EM TODA SUA EXTENSAO. O ALGODAO DEVERA APRESENTAR ASPECTO HOMOGENEO E MACIO, BOA ABSORCAO, AUSENCIA DE GRUMOS OU QUAISQUER IMPUREZAS, SER INODORO, DE COR BRANCA (NO MINIMO 80 DE BRANCURA). EMBALADO EM CAIXINHAS DE PAPEL INDIVIDUAL.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282972,
+      "descricao": "AMACIANTE DE ROUPAS 2 LITROS - AMACIANTE DE ROUPA, ASPECTO LIQUIDO VISCOSO, CONCENTRADO, PERFUMADO, SOLUVEL EM AGUA, EMBALAGEM PLASTICA, APLICACAO AMACIANTE ARTIGOS TEXTEIS, FRASCO COM 2 LITROS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282973,
+      "descricao": "ANEL DE VEDACAO (BORRACHA) PARA PANELA DE PRESSAO - 20,0 LITROS. MATERIAL: BORRACHA NITRILICA. GARANTIA CONTRA DEFEITOS DE FABRICA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282974,
+      "descricao": "ANEL DE VEDACAO (BORRACHA) PARA PANELA DE PRESSAO - 4,5 LITROS. MATERIAL: BORRACHA NITRILICA. GARANTIA CONTRA DEFEITOS DE FABRICA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282975,
+      "descricao": "ANEL DE VEDACAO (BORRACHA) PARA PANELA DE PRESSAO - 7,0 LITROS. MATERIAL: BORRACHA NITRILICA. GARANTIA CONTRA DEFEITOS DE FABRICA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282976,
+      "descricao": "APARELHO DE BARBEAR, TIPO LAMINA DESCARTAVEL, MATERIAL LAMINA ACO, COM 02 LAMINAS, MATERIAL CABO DE PLASTICO, ANATOMICO, COM ESTRIAS DE BORRACHA, COM FITA LUBRIFICANTE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282977,
+      "descricao": "BALDE PLASTCO, RESISTENTE, ALCA EM METAL, 15 LITROS-BALDE MATERIAL PLASTICO,RESISTENTE, ALCA EM METAL.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282978,
+      "descricao": "BALDE PLASTICO, RESISTENTE, ALCA EM METAL, 10 LITROS- BALDE MATERIAL PLASTICO,RESISTENTE, ALCA EM METAL CAPACIDADE DE 10 LITROS.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282979,
+      "descricao": "BANDEJA DESCARTAVEL DE ISOPOR, FUNDA - B3 - PCT C/100 UN",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282980,
+      "descricao": "BOBINA DE SACO PLASTICO (CAP. 03 KG) PICOTADA 23X38. PLASTICO LISO, TOTALMENTE TRANSPARENTE, FUNDO RETO, DE ALTA DENSIDADE, RESISTENTE A RASGADURAS E PERFURACOES E PERMITINDO A SELAGEM. ROLO CONTENDO APROXIMADAMENTE 500 PLASTICOS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282981,
+      "descricao": "BOBINA DE SACO PLASTICO (CAP. 07 KG) PICOTADA 40X60. PLASTICO LISO, TOTALMENTE TRANSPARENTE, FUNDO RETO, DE ALTA DENSIDADE, RESISTENTE A RASGADURAS E PERFURACOES E PERMITINDO A SELAGEM. ROLO CONTENDO APROXIMADAMENTE 500 PLASTICOS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282982,
+      "descricao": "BOBINA DE SACO PLASTICO (CAP. 10 KG) PICOTADA. PLASTICO LISO, TOTALMENTE TRANSPARENTE, FUNDO RETO, DE ALTA DENSIDADE, RESISTENTE A RASGADURAS E PERFURACOES E PERMITINDO A SELAGEM. ROLO CONTENDO APROXIMADAMENTE 500 PLASTICOS.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282983,
+      "descricao": "BORRIFADOR DE AGUA 500ML",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282984,
+      "descricao": "BOTA BRANCA DE PLASTICO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282985,
+      "descricao": "BRILHO ALUMINIO 500 ML",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282986,
+      "descricao": "BUCHA DE BANHO VEGETAL - 100 NATURAL - PEDACO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282987,
+      "descricao": "BULE DE ALUMINIO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282988,
+      "descricao": "CAIXA PLASTICA P/MANTIMENTOS 47 LITROS- CAIXA PLASTICA - CAIXA PLASTICA ORGANIZADORA DE SUPERMERCADO. DIMENSOES: 31 CM X 34 CM X 55 CM (ALTURA X LARGURA X COMPRIMENTO) PRODUZIDA COM COMPOSTO TERMOPLASTICO DE ALTA QUALIDADE. CAPACIDADE VOLUMETRICA: 47 LITROS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282989,
+      "descricao": "CERA LIQUIDA PARA ARDOSIA, AUTO BRILHO 750 ML - CERA LIQUIDA: ARDOSIA, AUTO BRILHO, EMBALAGEM 750 ML",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282990,
+      "descricao": "CERA PARA PISO, TIPO LIQUIDA AUTO BRILHO. APLICACAO PISOS CERAMICOS, GRANITOS, MARMORE E PAVIFLEX. COR: INCOLOR/AMARELA/VERDE. FRASCO DE 750ML. A EMBALAGEM DEVERA CONTER EXTERNAMENTE OS DADOS DE IDENTIFICACAO, PROCEDENCIA, NUMERO DO LOTE, VALIDADE. SIMILAR, COMPATIVEL OU DE MELHOR QUALIDADE QUE A CERA BRILHO FACIL",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282991,
+      "descricao": "CLORO, FRASCO DE 01 LITRO - SOLUCAO DE HIPOCLORITO SODICO A 1, ACONDICIONADO EM FRASCO COM 1000 ML, LACRADO. EMBALAGEM CONTENDO DADOS DE IDENTIFICACAO, PROCEDENCIA, LOTE E VALIDADE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282992,
+      "descricao": "COADOR DE CAFE PANO (MALHA) CABO DE MADEIRA OU PLASTICO, TAMANHO REFERENCIA 103 (MEDIO)",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282993,
+      "descricao": "COLHER PLASTICA DESCARTAVEL PARA REFEICAO - COR: CRISTAL/TRANSPARENTE - PACOTE C/50 UNIDADES",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282994,
+      "descricao": "COLHER PLASTICA DESCARTAVEL PARA SOBREMESA - COR: CRISTAL/TRANSPARENTE - PACOTE C/50UN",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282995,
+      "descricao": "CONDICIONADOR PARA CABELOS DE TODOS OS TIPOS. EMBALAGEM MINIMA DE DE 325 ML.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282996,
+      "descricao": "COPO DESCARTAVEL 200 ML, PACOTE COM 100 UNIDADES - COPO DESCARTAVEL 200 ML, RESISTENTE, DENTRO DAS NORMAS ABNT, PACOTE COM 100 UND.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282997,
+      "descricao": "COPO DESCARTAVEL 300 ML, PACOTE COM 100 UNIDADES - COPO DESCARTAVEL 300 ML: RESISTENTE, DENTRO DAS NORMAS ABNT, PACOTE COM 100 UND.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282998,
+      "descricao": "COPO DESCARTAVEL 50 ML, PACOTE COM 100 UNIDADES - COPO DESCARTAVEL 50 ML: RESISTENTE, DENTRO DAS NORMAS ABNT - PACOTE COM 100 UNID",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7282999,
+      "descricao": "CORDA PARA VARAL, MATERIAL NYLON, RESISTENTE. PACOTE COM 10 METROS.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7283000,
+      "descricao": "CUMBUCA DESCARTAVEL DE ISOPOR 15 CM X 5 CM - REDONDA - CAPACIDADE 300 ML - PCT C/100 UN",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7283001,
+      "descricao": "DESINFETANTE EM PO PARA UTENSILIOS - SANITIZANTE - COM ACAO ANTIMICROBIANA COMPROVADA. PRODUTO QUE ATENDA A PORTARIA No 15 DA ANVISA, SENDO EFICIENTE PARA STAPHYLOCCOCUS AUREUS E ESCHERICHIA COLI, CLASSIFICANDO-SE COMO DESINFETANTE PARA INDUSTRIAS ALIMENTICIAS. NAO TOXICO, ADEQUADO PARA USO EM ALIMENTOS, PARA DESINFECCAO DE FRUTAS, LEGUMES E VERDURAS, PODENDO SER UTILIZADO EM ATE TRES OPERACOES. EMBALAGEM CONTENDO 1KG DO PRODUTO EM PO. CARACTERISTICAS: COR: BRANCA PH (SOLUCAO 0,5) : 5.5 A 7.5 DENSIDADE (25C) : 1,00 A 1,40 G/CM3 COMPOSICAO DICLOROISOCIANURATO DE SODIO DIHIDRATADO E COADJUVANTE. PRINCIPIO ATIVO DICLOROISOCIANURATO DE SODIO DIHIDRATADO, TEOR DE CLORO ATIVO = DE 3 A 5. PROPORCAO APROXIMADA: DE 25 A 33G DE PRODUTO PARA 10L DE AGUA PARA APENAS 1 OPERACAO. ESSA DESCRICAO DEVE ESTAR APRESENTADA NA FICHA TECNICA DO PRODUTO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7283002,
+      "descricao": "DESINFETANTE EMB. 02 LITROS - DESINFETANTE LIQUIDO PARA USO GERAL COM ALTO PODER GERMICIDA E BACTERICIDA, AROMA LAVANDA, EUCALIPTO OU FLORAL COM REGISTRO NO MINISTERIO DA SAUDE. GALAO DE 2 LITROS. IDENTIFICACAO DO PRODUTO E PRAZO DE VALIDADE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7283003,
+      "descricao": "DESINFETANTE EMB. 05 LITROS - DESINFETANTE LIQUIDO PARA USO GERAL COM ALTO PODER GERMICIDA E BACTERICIDA, AROMA LAVANDA, EUCALIPTO OU FLORAL COM REGISTRO NO MINISTERIO DA SAUDE. GALAO DE 5 LITROS. IDENTIFICACAO DO PRODUTO E PRAZO DE VALIDADE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7283004,
+      "descricao": "DESODORIZADOR AMBIENTAL, AEROSOL, SEM CFC. ESSENCIAS SUAVES. APLICACAO: AROMATIZADOR AMBIENTAL. FRASCO DE 400ML. A EMBALAGEM DEVERA CONTER EXTERNAMENTE OS DADOS DE IDENTIFICACAO, PROCEDENCIA, NUMERO DO LOTE, VALIDADE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7283005,
+      "descricao": "DETERGENTE LIQUIDO 500 ML - DETERGENTE LIQUIDO COM FRAGRANCIAS VARIADAS, EMBALADO EM GARRAFA PLASTICA DE 500 ML, O PRODUTO DEVERA POSSUIR GLICERINA NA COMPOSICAO, O FRASCO DEVERA APRESENTAR PERFEITA ESTABILIDADE, RIGIDEZ TAL QUE NAO OCORRA VAZAMENTO, SE PROVIDO DE TAMPA QUE NAO PERMITA VAZAMENTO, VALIDADE E DATA DE FABRICACAO IMPRESSA NA EMBALAGEM, - MARCAS DE REFERENCIA: YPE OU LIMPOL",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7283006,
+      "descricao": "DISPENSER PAPEL TOALHA- DISPENSER ABS RESISTENTE,ALTA DURABILIDADE, DE PAREDE,LX A X P:243MM X120MM, PARA PAPEL TOALHA INTER FOLHA 2/3 DOBRAS, BRANCO, CAIXA 1PECA(PARAFUSOS, BUCHAS, DEPOSITO IMTERNO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7283007,
+      "descricao": "ESCADA DE ALUMINIO COM 3 DEGRAUS - ESCADA: DE ALUMINIO COM 3 DEGRAUS - FABRICADA SEGUNDO OS CRITERIOS DA ABNT, LEVE, DOBRAVEL E FACIL DE GUARDAR, IDEAL PARA PEQUENOS CONSERTOS E PARA ALCANCAR LUGARES MAIS ELEVADOS NO USO DOMESTICO, MAIOR LEVEZA E DURABILIDADE, MESMO EM AREAS LITORANEAS, PES ANTIDERRAPANTES.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7283008,
+      "descricao": "ESCADA DE ALUMINIO COM 7 DEGRAUS - ESCADA: DE ALUMINIO COM 7 DEGRAUS, DOBRAVEL, PES COM REVESTIMENTO DE BORRACHA. TRATAMENTO SUPERFICIAL PINTURA EPOXI ANTICORROSIVA. SUPORTA ATE 120 KG ALTURA DE NO MINIMO 1,58M E NO MAXIMO 1,72M.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7283009,
+      "descricao": "ESCOVA DE LAVAR ROUPA - ESCOVA DE LAVAR ROUPA DE MAO BASE PLASTICA E CERDAS NYLON, FIRMES COM APROXIMADAMENTE 15 X 5 CM.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7283010,
+      "descricao": "ESCOVA DENTAL, INFANTIL, COM FORMATO ANATOMICO, CONFECCIONADA EM MATERIAL ATOXICO, COM CABO EM POLIPROPILENO. CERDAS MACIAS EM NYLON. EMBALADA INDIVIDUALMENTE. A EMBALAGEM DEVERA CONTER EXTERNAMENTE OS DADOS DE IDENTIFICACAO, PROCEDENCIA , DATA DE VALIDADE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7283011,
+      "descricao": "ESCOVA PARA VASO SANITARIO COM SUPORTE - ESCOVA DE NYLON PARA LAVAR VASO SANITARIO C/ CABO DE PLASTICO E SUPORTE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7283012,
+      "descricao": "ESPONJA ANTIADERENTE - ESPONJA ANTIADERENTE DUPLA FACE, ABRASIVA, PARA LIMPEZA, COM APROXIMADAMENTE 75 X 110 MM.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7283013,
+      "descricao": "ESPONJA DE LA DE ACO, FORMATO RETANGULAR, APLICACAO LIMPEZA GERAL, TEXTURA MACIA E ISENTA DE SINAIS DE OXIDACAO, MEDINDO, NO MINIMO, 100X75. COMPOSICAO: LA DE ACO CARBONO. PACOTE COM 08 UNIDADES. MARCAS DE REFERENCIA: BOM BRIL E ASSOLAN",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-5. Termos negativos: ['alimentos', 'copa e cozinha', 'refeicao', 'dental', 'desinfetante']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 50
+  },
+  "_pre_filtrado": true,
+  "_score_pre_filtro": -5.0,
+  "_termos_negativos": [
+    "alimentos",
+    "copa e cozinha",
+    "refeicao",
+    "dental",
+    "desinfetante"
+  ],
+  "_processo": "20920625000189-1-000006/2026",
+  "_analisado_em": "2026-04-22T00:59:25.126782+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "heuristica"
+}

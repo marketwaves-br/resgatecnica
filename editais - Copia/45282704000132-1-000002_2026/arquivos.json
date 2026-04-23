@@ -1,0 +1,30 @@
+[
+  {
+    "uri": "https://pncp.gov.br/pncp-api/v1/orgaos/45282704000132/compras/2026/2/arquivos/1",
+    "url": "https://pncp.gov.br/pncp-api/v1/orgaos/45282704000132/compras/2026/2/arquivos/1",
+    "tipoDocumentoId": 2,
+    "tipoDocumentoDescricao": "Edital",
+    "statusAtivo": true,
+    "cnpj": "45282704000132",
+    "anoCompra": 2026,
+    "sequencialCompra": 2,
+    "dataPublicacaoPncp": "2026-02-06T14:24:34",
+    "sequencialDocumento": 1,
+    "titulo": "EDITAL_PREGO_ELETRNICO_003.2026__AQUISIO_DE_RETROESCAVADEIRA",
+    "tipoDocumentoNome": "Edital"
+  },
+  {
+    "uri": "https://pncp.gov.br/pncp-api/v1/orgaos/45282704000132/compras/2026/2/arquivos/3",
+    "url": "https://pncp.gov.br/pncp-api/v1/orgaos/45282704000132/compras/2026/2/arquivos/3",
+    "tipoDocumentoId": 2,
+    "tipoDocumentoDescricao": "Edital",
+    "statusAtivo": true,
+    "cnpj": "45282704000132",
+    "anoCompra": 2026,
+    "sequencialCompra": 2,
+    "dataPublicacaoPncp": "2026-04-13T14:24:03",
+    "sequencialDocumento": 3,
+    "titulo": "EDITAL_PREGO_ELETRNICO_003.2026__AQUISIO_DE_RETROESCAVADEIRA__RETIFICADO",
+    "tipoDocumentoNome": "Edital"
+  }
+]

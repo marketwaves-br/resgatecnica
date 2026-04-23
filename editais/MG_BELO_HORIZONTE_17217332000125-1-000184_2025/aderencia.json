@@ -1,0 +1,82 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e atendimento pré-hospitalar",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos operacionais de emergência e resgate, não em insumos médico-hospitalares genéricos ou de rotina clínica"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para aquisição de sensores BIS (Bispectral Index) descartáveis com comodato de monitores para instituição de previdência. Mercado: insumos médico-hospitalares de monitoramento anestésico/neurológico em ambiente hospitalar/clínico",
+    "mercados_predominantes": [
+      "Insumos médico-hospitalares",
+      "Monitoramento anestésico",
+      "Equipamentos clínicos de rotina"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Sensor BIS é insumo médico-hospitalar de monitoramento anestésico para ambiente clínico/cirúrgico. Resgatécnica atua em operações críticas de emergência e resgate, não em fornecimento de insumos hospitalares genéricos ou monitoramento anestésico de rotina"
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Sensor BIS descartável é insumo médico-hospitalar de monitoramento anestésico para cirurgias. Não pertence ao nicho de operações críticas, resgate ou emergência da Resgatécnica",
+      "motivos_pro_match": [
+        "Menção genérica a 'equipamento médico-hospitalar'"
+      ],
+      "motivos_contra_match": [
+        "Contexto clínico/anestésico, não emergencial",
+        "Insumo hospitalar genérico, fora do portfólio"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo comercial e operacional da Resgatécnica. Sensor BIS é insumo médico-hospitalar de monitoramento anestésico, não equipamento de resgate ou emergência"
+  },
+  "_processo": "17217332000125-1-000184/2025",
+  "_analisado_em": "2026-04-22T01:19:06.360155+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

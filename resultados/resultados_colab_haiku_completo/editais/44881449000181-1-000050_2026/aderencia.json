@@ -1,0 +1,106 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em serviços administrativos, eventos públicos, locução ou divulgação comercial."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviços de locução volante, mestre de cerimonial e divulgação por carro de som para eventos e campanhas administrativas municipais",
+    "mercados_predominantes": [
+      "Serviços de comunicação e eventos públicos",
+      "Divulgação administrativa municipal",
+      "Cerimonial e protocolo público"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de serviços administrativos e eventos públicos. Resgatécnica é fornecedora especializada em equipamentos de emergência e operações críticas, não em serviços de locução, cerimonial ou divulgação comercial."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de locução e mestre de cerimonial para eventos administrativos. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo-protocolar",
+        "Sem relação com emergências"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de divulgação por carro de som para campanhas municipais. Não é equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Divulgação comercial municipal",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de locução volante por carro de som para passeatas e eventos. Mercado de divulgação pública, não de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Evento público/passeata",
+        "Serviço de comunicação social"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 3
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação totalmente fora do escopo operacional. Resgatécnica fornece equipamentos técnico-operacionais para emergências, não serviços de locução, cerimonial ou divulgação administrativa."
+  },
+  "_processo": "44881449000181-1-000050/2026",
+  "_analisado_em": "2026-04-21T19:31:07.123909+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

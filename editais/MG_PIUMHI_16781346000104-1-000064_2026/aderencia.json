@@ -1,0 +1,90 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, não em serviços de organização de eventos esportivos ou arbitragem"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviços operacionais e de arbitragem para campeonato municipal de futsal, futebol, vôlei, handebol, basquete e xadrez",
+    "mercados_predominantes": [
+      "Eventos esportivos municipais",
+      "Arbitragem desportiva",
+      "Organização de competições recreativas"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para serviços esportivos recreativos municipais. Resgatécnica atua em emergências e operações críticas, não em eventos esportivos comunitários."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 7301497,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de organização de eventos esportivos municipais. Fora do escopo de emergências e operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Eventos esportivos recreativos",
+        "Mercado completamente distinto"
+      ]
+    },
+    {
+      "numeroItem": 7301500,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Arbitragem de futebol de campo em campeonato municipal. Não relacionado a resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Arbitragem desportiva",
+        "Contexto esportivo recreativo"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 2
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação totalmente fora do nicho de atuação. Resgatécnica não fornece serviços de arbitragem ou organização de eventos esportivos municipais."
+  },
+  "_processo": "16781346000104-1-000064/2026",
+  "_analisado_em": "2026-04-22T01:12:45.836123+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

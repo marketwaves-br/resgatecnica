@@ -1,0 +1,101 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências. Não atua em papelaria, varejo genérico ou distribuição administrativa comum."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de itens de papelaria e merchandising corporativo (sacolas, canetas, copos personalizados) para órgão administrativo de educação física",
+    "mercados_predominantes": [
+      "Papelaria corporativa",
+      "Merchandising e brindes",
+      "Distribuição administrativa genérica"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de papelaria e merchandising corporativo. Resgatécnica é fornecedora especializada em equipamentos técnico-operacionais de emergência. Nenhuma sobreposição comercial real."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Sacola corporativa/merchandising. Resgatécnica não fornece papelaria ou brindes administrativos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado papelaria genérica",
+        "Sem contexto operacional emergência"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caneta esferográfica comum. Não há qualquer aderência ao portfólio técnico-operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação emergência"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Copo corporativo personalizado. Merchandise genérico sem relação com operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Merchandise corporativo",
+        "Fora do escopo emergência"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 3
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação totalmente fora do escopo comercial e técnico da Resgatécnica. Mercados completamente distintos."
+  },
+  "_processo": "03676803000159-1-000020/2026",
+  "_analisado_em": "2026-04-21T19:45:44.327436+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

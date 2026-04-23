@@ -1,0 +1,672 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica, altura/espaço confinado, produtos perigosos, atendimento pré-hospitalar e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em operações críticas e emergências, com foco em equipamentos técnico-operacionais de alto desempenho, não em insumos odontológicos genéricos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de peças de reposição para equipamentos odontológicos (seringas, canetas, contra-ângulos, mangueiras) para unidades de saúde municipais.",
+    "mercados_predominantes": [
+      "Odontologia clínica",
+      "Saúde pública municipal",
+      "Insumos odontológicos genéricos"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/46 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bico para seringa odontológica tripla. Insumo odontológico genérico, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Insumo genérico"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado do item 1. Bico para seringa odontológica tripla.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Insumo genérico"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Botão azul para seringa odontológica tripla antiga. Peça de reposição odontológica, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Peça genérica"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado do item 3. Botão azul para seringa odontológica tripla antiga.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Peça genérica"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Botão azul para seringa odontológica tripla. Peça de reposição odontológica, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Peça genérica"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado do item 5. Botão azul para seringa odontológica tripla.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Peça genérica"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Botão verde para seringa odontológica tripla antiga. Peça de reposição odontológica, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Peça genérica"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado do item 7. Botão verde para seringa odontológica tripla antiga.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Peça genérica"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Botão verde para seringa odontológica tripla. Peça de reposição odontológica, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Peça genérica"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado do item 9. Botão verde para seringa odontológica tripla.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Peça genérica"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabeça de contra-ângulo odontológico modelo 270. Peça de equipamento odontológico, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Equipamento odontológico"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado do item 11. Cabeça de contra-ângulo odontológico modelo 270.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Equipamento odontológico"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caneta de alta rotação odontológica FG MRS 400. Equipamento odontológico de rotina, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Equipamento odontológico"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado do item 13. Caneta de alta rotação odontológica FG MRS 400.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Equipamento odontológico"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caneta de alta rotação push bottom odontológica MRS 400. Equipamento odontológico de rotina, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Equipamento odontológico"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado do item 15. Caneta de alta rotação push bottom odontológica MRS 400.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Equipamento odontológico"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Contra-ângulo odontológico. Equipamento odontológico de rotina, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Equipamento odontológico"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado do item 17. Contra-ângulo odontológico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Equipamento odontológico"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mangueira cinza 3/8 para sugador odontológico. Palavra 'mangueira' existe em portfólio (hidráulica), mas contexto é odontologia clínica, não resgate.",
+      "motivos_pro_match": [
+        "Palavra 'mangueira'"
+      ],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Sugador odontológico"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado do item 19. Mangueira cinza 3/8 para sugador odontológico.",
+      "motivos_pro_match": [
+        "Palavra 'mangueira'"
+      ],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Sugador odontológico"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mangueira de alta pressão 4,4 para odontologia. Palavra 'alta pressão' e 'mangueira' existem em portfólio, mas contexto é odontologia, não resgate/hidráulica operacional.",
+      "motivos_pro_match": [
+        "Palavras 'alta pressão'"
+      ],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Contexto não operacional"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado do item 21. Mangueira de alta pressão 4,4 para odontologia.",
+      "motivos_pro_match": [
+        "Palavras 'alta pressão'"
+      ],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Contexto não operacional"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mangueira dupla de pedal odontológico. Peça de equipamento odontológico de rotina, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Equipamento odontológico"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado do item 23. Mangueira dupla de pedal odontológico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Equipamento odontológico"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mangueira tripla para caneta/micro motor/seringas odontológicas. Palavra 'mangueira' existe em portfólio, mas contexto é odontologia clínica, não resgate.",
+      "motivos_pro_match": [
+        "Palavra 'mangueira'"
+      ],
+      "motivos_contra_match": [
+        "Odontologia clínica",
+        "Equipamento odontológico"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mangueira alta pressão odontológica. Resgatécnica fornece mangueiras hidráulicas para resgate/incêndio, não odontologia.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto odontológico clínico",
+        "Não é equipamento de emergência"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mangueira dupla pedal odontológico. Componente específico de cadeira odontológica, fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado item 23. Mangueira dupla pedal odontológico. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mangueira tríplice para caneta/micromotor/seringas odontológicas. Componente específico de consultório odontológico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 26,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado item 25. Mangueira tríplice odontológica. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 27,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mangueira Vacuoflex 3/4 odontológica. Componente de sistema de sucção odontológico, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 28,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado item 27. Mangueira Vacuoflex odontológica. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 29,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Micromotor odontológico. Equipamento de consultório odontológico, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 30,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado item 29. Micromotor odontológico. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 31,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Óleo spray para alta/baixa rotação odontológica. Lubrificante específico para equipamentos odontológicos, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 32,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado item 31. Óleo spray odontológico. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 33,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pedal aro odontológico. Componente de cadeira/unidade odontológica, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 34,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado item 33. Pedal aro odontológico. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 35,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pedal comando elétrico Profi odontológico. Componente de unidade odontológica, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 36,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado item 35. Pedal comando elétrico Profi. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 37,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ponta reta para micromotor odontológico. Instrumento odontológico, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 38,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado item 37. Ponta reta odontológica. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 39,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Rolamento cerâmico alta rotação SL 30 odontológico. Componente de equipamento odontológico, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 40,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado item 39. Rolamento cerâmico odontológico. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 41,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Rolamento contra-ângulo odontológico. Componente de equipamento odontológico, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 42,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Duplicado item 41. Rolamento contra-ângulo odontológico. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento odontológico",
+        "Não é resgate/emergência"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 5,
+    "nao_aderente": 41
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é exclusivamente odontológica. Resgatécnica não atua em odontologia clínica, distribuição de insumos odontológicos genéricos ou saúde pública de rotina. Nenhum item tem compatibilidade comercial real com o portfólio de resgate, emergência ou operações críticas. Recomenda-se descartar completamente."
+  },
+  "_processo": "47970769000104-1-000140/2026",
+  "_analisado_em": "2026-04-21T19:44:24.507684+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

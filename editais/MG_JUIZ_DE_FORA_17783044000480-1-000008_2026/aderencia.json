@@ -1,0 +1,106 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica, altura/espaço confinado, produtos perigosos, atendimento pré-hospitalar e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em EPI técnico-operacional para emergências, não em EPI genérico de rotina administrativa ou industrial comum"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de EPI genérico para empresa municipal de pavimentação e urbanidades (EMPAV)",
+    "mercados_predominantes": [
+      "EPI genérico de rotina industrial/construção",
+      "Uniformes administrativos",
+      "Vestuário corporativo comum"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação focada em EPI genérico de rotina (botinas de segurança comum, camisas uniforme) para pavimentação urbana. Resgatécnica fornece EPI técnico-operacional especializado para emergências críticas. Contexto dominante, tipo de comprador e finalidade de uso são completamente distintos."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Botina segurança genérica para pavimentação. Resgatécnica fornece calçados técnicos especializados (botas de mergulho, botas de combate a incêndio, botas de resgate). Contexto operacional, finalidade e nicho comercial completamente distintos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "EPI genérico rotina",
+        "Contexto pavimentação urbana"
+      ]
+    },
+    {
+      "numeroItem": 26,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Botina segurança genérica para pavimentação. Duplicado do item 25. Não alinha com especialização técnica-operacional de Resgatécnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "EPI genérico rotina",
+        "Contexto pavimentação urbana"
+      ]
+    },
+    {
+      "numeroItem": 27,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Camisa uniforme genérica para EMPAV. Resgatécnica não fornece uniformes administrativos comuns. Mercado de vestuário corporativo rotina, não operacional crítico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uniforme administrativo genérico",
+        "Fora do escopo operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 3
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de EPI genérico para pavimentação urbana. Resgatécnica é especialista em EPI técnico-operacional para emergências críticas. Sem aderência comercial real. Recomenda-se não participar."
+  },
+  "_processo": "17783044000480-1-000008/2026",
+  "_analisado_em": "2026-04-22T01:12:28.851629+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

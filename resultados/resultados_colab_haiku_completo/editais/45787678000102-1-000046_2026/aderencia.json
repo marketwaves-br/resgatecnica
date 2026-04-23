@@ -1,0 +1,159 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alto desempenho para emergências, não em acessórios genéricos de segurança ou vestuário comum."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de acessórios táticos por município. Descrições genéricas e vagas sugerem compra administrativa/operacional comum, não especializada em resgate ou emergência crítica.",
+    "mercados_predominantes": [
+      "Segurança pública genérica",
+      "Vestuário e acessórios administrativos",
+      "Equipamento de proteção pessoal comum"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação focada em acessórios táticos genéricos (estojos, cinturões, capas, coletes de identificação) sem contexto operacional de emergência crítica. Nenhum item alinha-se ao portfólio especializado da Resgatécnica."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Estojo porta carregador genérico. Sem contexto operacional de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório administrativo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cinturão de segurança comum. Não é EPI técnico-operacional de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vestuário administrativo comum",
+        "Sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Estojo porta carregador genérico. Duplicado do item 1. Sem aderência operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório administrativo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Estojo porta carregador genérico. Terceira repetição. Sem contexto de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório administrativo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Terrestre/BREC",
+      "subcategoria_portfolio_relacionada": "EPI's",
+      "justificativa": "Capa de chuva genérica. Portfolio contém 'Capa de Chuva Impermeável Bombeiros' (técnica), mas item é vestuário comum, não EPI operacional.",
+      "motivos_pro_match": [
+        "Coincidência lexical 'capa chuva'"
+      ],
+      "motivos_contra_match": [
+        "Capa genérica vs. EPI técnico bombeiros",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Brinquedo em geral. Completamente fora do escopo de resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto lúdico infantil",
+        "Sem relação com emergência"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.88,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": "Coletes",
+      "justificativa": "Colete de identificação genérico. Portfolio contém coletes técnicos (Socorrista, Tático de Resgate, Imobilização KED), mas item é vestuário administrativo comum.",
+      "motivos_pro_match": [
+        "Coincidência lexical 'colete'"
+      ],
+      "motivos_contra_match": [
+        "Colete identificação vs. colete operacional",
+        "Sem função técnica de resgate"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 2,
+    "nao_aderente": 5
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "descricao",
+      "tags_semanticas"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de acessórios táticos genéricos sem especialização em resgate, emergência ou operações críticas. Nenhum item alinha-se ao portfólio técnico-operacional da Resgatécnica. Mercado completamente distinto."
+  },
+  "_processo": "45787678000102-1-000046/2026",
+  "_analisado_em": "2026-04-21T19:35:03.788433+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,195 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, não em serviços de manutenção veicular genérica ou mecânica industrial comum."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Registro de preços para serviços de manutenção corretiva de frota municipal leve e vans diesel, incluindo mão de obra de mecânica, retífica, tapecaria, lanternagem, pintura, ar condicionado, alinhamento, balanceamento e eletricidade veicular.",
+    "mercados_predominantes": [
+      "Manutenção veicular genérica",
+      "Serviços mecânicos industriais",
+      "Manutenção de frota municipal"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é exclusivamente de mão de obra e serviços de manutenção corretiva de frota municipal comum. Resgatécnica é fornecedora de equipamentos especializados para emergências e operações críticas, não prestadora de serviços de mecânica veicular genérica ou manutenção de frotas administrativas."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Manutenção mecânica genérica de frota municipal. Resgatécnica não fornece serviços de mecânica veicular comum.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço genérico de manutenção",
+        "Frota administrativa municipal"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Manutenção mecânica diesel de vans e caminhonetes municipais. Fora do escopo de operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção veicular comum",
+        "Frota municipal genérica"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Retífica e usinagem de motor para frota leve. Serviço industrial genérico, não relacionado a emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Usinagem industrial comum",
+        "Manutenção administrativa"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Retífica e usinagem de motor diesel para vans e caminhonetes. Serviço industrial genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Usinagem industrial comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de tapecaria para frota municipal. Completamente fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Tapecaria genérica",
+        "Sem relação emergências"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Lanternagem, funilaria e pintura de frota municipal. Serviço de manutenção genérica, não operacional crítico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção estética veicular",
+        "Frota administrativa"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Manutenção corretiva de ar condicionado veicular. Serviço de conforto genérico, não relacionado a operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ar condicionado genérico",
+        "Manutenção conforto"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Alinhamento e balanceamento de vans e caminhonetes diesel. Serviço de manutenção veicular comum.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alinhamento genérico",
+        "Manutenção rotina"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Alinhamento e balanceamento genérico de frota. Serviço de manutenção veicular comum.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alinhamento genérico",
+        "Manutenção rotina"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Eletricidade veicular para frota municipal. Serviço de manutenção genérica, não especializado em emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Eletricidade veicular comum",
+        "Manutenção administrativa"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 10
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida",
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é exclusivamente de serviços de manutenção veicular genérica para frota municipal. Resgatécnica é fornecedora de equipamentos especializados para operações críticas e emergências, não prestadora de serviços de mecânica, usinagem, tapecaria, pintura ou manutenção de conforto veicular. Não há aderência comercial real."
+  },
+  "_processo": "47970769000104-1-000139/2026",
+  "_analisado_em": "2026-04-21T19:42:56.748964+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

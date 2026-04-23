@@ -1,0 +1,715 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica, altura/espaço confinado, produtos perigosos, atendimento pré-hospitalar e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em TI, informática, redes de dados ou infraestrutura de comunicação genérica."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de materiais e equipamentos de informática: cabos de rede, conectores, cabos de vídeo, cabos USB, câmera de segurança, caixa de som, notebook com especificações técnicas altas.",
+    "mercados_predominantes": [
+      "Infraestrutura de TI e redes de dados",
+      "Equipamentos de informática genéricos",
+      "Vigilância e segurança eletrônica (câmera)",
+      "Periféricos e acessórios de computador"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/50 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 7120425,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Adaptador elétrico tripolar é insumo genérico de infraestrutura elétrica, não equipamento operacional de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura elétrica genérica",
+        "Fora do escopo de resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120426,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo coaxial de energia é componente de infraestrutura de TI/vigilância, não equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de TI",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120427,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo coaxial RG59 para câmeras analógicas é infraestrutura de vigilância eletrônica, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vigilância eletrônica",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120428,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de energia tripolar é insumo genérico de infraestrutura elétrica, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura elétrica",
+        "Fora do escopo"
+      ]
+    },
+    {
+      "numeroItem": 7120429,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de rede genérico é infraestrutura de TI, não equipamento operacional de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de TI",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120430,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo UTP CAT5E é infraestrutura de redes de dados, não equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Redes de dados",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120431,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo UTP CAT6 é infraestrutura de redes de dados, não equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Redes de dados",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120432,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo DisplayPort é periférico de vídeo para computadores, não equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Periférico de computador",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120433,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo DVI-D/DVI-I é periférico de vídeo para placas gráficas, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Periférico de computador",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120434,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo HDMI é periférico de vídeo para computadores, não equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Periférico de computador",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120435,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo óptico drop é infraestrutura de telecomunicações, não equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Telecomunicações",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120436,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo USB A para USB-C é periférico de computador, não equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Periférico de computador",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120437,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo USB A-B para impressoras é periférico de computador, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Periférico de computador",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120438,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo USB A para Micro USB é periférico de computador, não equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Periférico de computador",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120439,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo USB-C de alta velocidade é periférico de computador, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Periférico de computador",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120440,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo UTP com 6,23 AWG é infraestrutura de redes de dados, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Redes de dados",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120441,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo UTP CAT5E com 4 pares é infraestrutura de redes de dados, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Redes de dados",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120442,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo VGA é periférico de vídeo para computadores, não equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Periférico de computador",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120443,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caixa de som para computador é periférico de áudio genérico, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Periférico de computador",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120444,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Câmera de segurança tipo bullet/dome é equipamento de vigilância eletrônica, não operacional de resgate. Falso positivo lexical: câmera ≠ câmera de resgate/operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vigilância eletrônica",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120445,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Notebook com especificações de TI (SSD, RAM DDR5, RTX 4050) é equipamento de informática genérico, não operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de TI",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120446,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Conector BNC para cabo RG59 é componente de infraestrutura de vigilância, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vigilância eletrônica",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120447,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Conector P4 macho/fêmea é componente de infraestrutura elétrica genérica, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura elétrica",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120448,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Conector RJ45 CAT5E é componente de infraestrutura de redes de dados, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Redes de dados",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120449,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Conector RJ45 CAT6 é componente de infraestrutura de redes de dados, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Redes de dados",
+        "Não operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120450,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Conversor de mídia é equipamento de TI genérico. Fora do escopo de resgate e emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento TI",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 7120451,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Computador completo com especificações comerciais. Não é equipamento de resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Computador comercial",
+        "Fora do nicho"
+      ]
+    },
+    {
+      "numeroItem": 7120452,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "DVR 16 canais para vigilância CFTV. Não é equipamento de resgate ou operações críticas de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vigilância CFTV",
+        "Não é resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120453,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "DVR 32 canais para sistemas de vigilância. Equipamento de TI/CFTV, não de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vigilância CFTV",
+        "Não é resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120454,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "DVR 4 canais para câmeras analógicas. Equipamento de vigilância, não de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vigilância CFTV",
+        "Não é resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120455,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "DVR 8 canais para videomonitoramento. Equipamento de vigilância, não de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vigilância CFTV",
+        "Não é resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120456,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Extensão 10 metros é acessório elétrico genérico de TI/infraestrutura. Não é equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório TI genérico",
+        "Sem aplicação resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120457,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Filtro de linha é acessório elétrico genérico de infraestrutura TI. Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório TI genérico",
+        "Sem aplicação resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120458,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Filtro de linha 6 tomadas é acessório elétrico genérico. Não é equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório TI genérico",
+        "Sem aplicação resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120459,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Filtro de linha para rack é acessório de infraestrutura TI. Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório TI genérico",
+        "Sem aplicação resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120460,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fonte 12V 1A é acessório elétrico genérico de TI. Não é equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório TI genérico",
+        "Sem aplicação resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120461,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fonte 12V 2A é acessório elétrico genérico de TI. Não é equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório TI genérico",
+        "Sem aplicação resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120462,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fonte chaveada 16 canais para CFTV é acessório de vigilância. Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório CFTV",
+        "Não é resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120463,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fonte chaveada 4 canais para CFTV é acessório de vigilância. Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório CFTV",
+        "Não é resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120464,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fonte chaveada 8 canais para CFTV é acessório de vigilância. Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório CFTV",
+        "Não é resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120465,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "HD externo 1TB é acessório de armazenamento TI genérico. Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório TI genérico",
+        "Sem aplicação resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120466,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "HD para CFTV é acessório de vigilância. Não é equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório CFTV",
+        "Não é resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120467,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Injetor POE individual é acessório de rede TI. Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório rede TI",
+        "Sem aplicação resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120468,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Monitor HD HDMI 21 é periférico de TI genérico. Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Periférico TI genérico",
+        "Sem aplicação resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120469,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Monitor LED 21.5 é periférico de TI genérico. Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Periférico TI genérico",
+        "Sem aplicação resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120470,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mouse óptico USB é periférico de TI genérico. Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Periférico TI genérico",
+        "Sem aplicação resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120471,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Nobreak é acessório de infraestrutura TI. Não é equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório TI genérico",
+        "Sem aplicação resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120472,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "NVR 16 canais é equipamento de vigilância IP. Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vigilância IP",
+        "Não é resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120473,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "NVR 4 canais é equipamento de vigilância IP. Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vigilância IP",
+        "Não é resgate"
+      ]
+    },
+    {
+      "numeroItem": 7120474,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "NVR 8 canais é equipamento de vigilância IP. Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vigilância IP",
+        "Não é resgate"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 50
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é exclusivamente de TI e infraestrutura de redes. Resgatécnica não fornece cabos de rede, conectores, periféricos de computador, notebooks ou câmeras de vigilância. Nenhum item está no escopo operacional da empresa."
+  },
+  "_processo": "18192252000125-1-000014/2026",
+  "_analisado_em": "2026-04-22T01:01:53.714739+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,87 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em nicho técnico-operacional de emergências. Não atua em papelaria, distribuição escolar, varejo genérico ou insumos administrativos comuns."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de insumos administrativos genéricos (papel sulfite e água mineral) para órgão público de segurança",
+    "mercados_predominantes": [
+      "Papelaria e material de escritório",
+      "Distribuição de bebidas/água mineral"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence a mercado administrativo genérico, completamente fora do nicho técnico-operacional de emergências da Resgatécnica. Nenhum item tem compatibilidade comercial real com o portfólio."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Papel sulfite é insumo administrativo genérico. Resgatécnica não fornece papelaria.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado administrativo genérico",
+        "Fora do nicho técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Água mineral é bebida de consumo comum. Não relacionada a operações críticas ou emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Distribuição de bebidas genérica",
+        "Sem aplicação operacional técnica"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 2
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de papelaria e água mineral não alinha com portfólio técnico-operacional de emergências. Mercado completamente distinto. Sem oportunidade comercial."
+  },
+  "_processo": "46377800000127-1-001171/2026",
+  "_analisado_em": "2026-04-21T19:46:23.929735+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

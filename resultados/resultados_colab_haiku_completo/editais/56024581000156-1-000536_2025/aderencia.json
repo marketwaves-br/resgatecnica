@@ -1,0 +1,80 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em operações críticas e emergências, com foco em equipamentos técnicos de alta especialização, não em sistemas HVAC genéricos ou manutenção predial comum."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviço de manutenção preventiva e corretiva de sistema de resfriamento (Chiller) em sede de secretaria municipal de saúde. Mercado: infraestrutura predial, climatização hospitalar, manutenção industrial genérica.",
+    "mercados_predominantes": [
+      "Infraestrutura predial e HVAC",
+      "Manutenção industrial genérica",
+      "Climatização hospitalar comum"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação refere-se exclusivamente a manutenção de sistema central de ar condicionado (Chiller) em prédio administrativo. Resgatécnica atua em resposta a emergências e operações críticas, não em manutenção predial ou climatização genérica. Sem compatibilidade comercial, operacional ou de nicho."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Sistema de ar condicionado central (Chiller) é infraestrutura predial genérica, não equipamento de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado predial, não emergência",
+        "Sem especialização técnica operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação completamente fora do escopo operacional e comercial da Resgatécnica. Não há sinergia, expertise compartilhada ou oportunidade de negócio real."
+  },
+  "_processo": "56024581000156-1-000536/2025",
+  "_analisado_em": "2026-04-21T19:23:35.189137+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

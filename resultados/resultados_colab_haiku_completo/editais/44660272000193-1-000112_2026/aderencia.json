@@ -1,0 +1,133 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências, não em suprimentos genéricos de consumo animal ou ambiental."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Registro de preço para materiais e alimentos destinados a programa de bem-estar animal (cães e gatos) sob responsabilidade de secretaria municipal de meio ambiente.",
+    "mercados_predominantes": [
+      "Nutrição animal doméstica",
+      "Higiene e cuidados de animais de estimação",
+      "Gestão ambiental municipal"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação refere-se exclusivamente a alimentos e insumos de higiene para animais domésticos em programa municipal de bem-estar animal. Nenhum item possui compatibilidade com portfólio de equipamentos operacionais de emergência, resgate ou combate a incêndio da Resgatécnica."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 2123896,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Leite substituto para filhotes é insumo nutricional veterinário, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado veterinário/nutrição animal",
+        "Sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2123897,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Granulado de madeira para gatos é insumo de higiene animal, não equipamento técnico-operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Higiene animal doméstica",
+        "Sem aplicação em resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 2123898,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Areia para gatos é insumo de higiene animal, não equipamento operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Higiene animal doméstica",
+        "Sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2123899,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ração úmida para cães é alimento animal, não equipamento ou insumo operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Nutrição animal doméstica",
+        "Sem aplicação em resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 2123900,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ração úmida para gatos é alimento animal, não equipamento ou insumo operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Nutrição animal doméstica",
+        "Sem aplicação em operações críticas"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 5
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "portfolio_apoio": [
+      "eixos_transversais"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação pertence a mercado completamente distinto (nutrição e higiene animal doméstica). Nenhuma compatibilidade comercial, técnica ou operacional com portfólio Resgatécnica."
+  },
+  "_processo": "44660272000193-1-000112/2026",
+  "_analisado_em": "2026-04-21T19:39:40.153833+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,95 @@
+Analise a aderência dos itens de licitação ao portfólio da Resgatécnica.
+
+Use o catálogo/portfolio mestre como fonte principal para inferir o ramo de atuação da empresa.
+Use análise semântica contextual, não apenas coincidência lexical.
+Considere o contexto dominante da licitação.
+Considere o tipo de fornecedor que a empresa é.
+Se houver semelhança apenas verbal, classifique como FALSO_POSITIVO_LEXICAL.
+Se o item pertencer claramente a outro mercado, classifique como NAO_ADERENTE.
+
+DADOS DE ENTRADA:
+
+[EMPRESA]
+{
+  "nome": "Resgatécnica",
+  "ramo_principal": "resposta a emergências e operações críticas",
+  "macro_areas": [
+    "resgate veicular",
+    "resgate terrestre/BREC",
+    "táticas especiais",
+    "combate a incêndio",
+    "resgate aquático",
+    "proteção individual técnica",
+    "altura e espaço confinado",
+    "produtos perigosos/descontaminação",
+    "atendimento pré-hospitalar",
+    "linha industrial",
+    "soluções customizadas"
+  ]
+}
+
+[PORTFOLIO_MESTRE_LITE]
+{{PORTFOLIO_MESTRE_LITE_JSON}}
+
+[ITENS_LICITACAO]
+{{ITENS_JSON}}
+
+INSTRUÇÕES ADICIONAIS:
+- Use principalmente os campos categoria, subcategoria e nome do portfólio.
+- Use principalmente o campo descricao dos itens.
+- Use unidadeMedida, informacaoComplementar, ncmNbsCodigo e materialOuServicoNome apenas como apoio.
+- Classifique cada item em uma única categoria:
+  ADERENCIA_DIRETA, ADERENCIA_PARCIAL_FORTE, ADERENCIA_PARCIAL_FRACA, FALSO_POSITIVO_LEXICAL, NAO_ADERENTE.
+- Gere também parecer geral da licitação.
+- Responda SOMENTE em JSON válido, sem blocos markdown (sem ```json), sem comentários.
+- CONCISÃO OBRIGATÓRIA: justificativa máximo 10 palavras. Arrays (motivos_pro_match, motivos_contra_match): máximo 2 elementos de até 4 palavras cada; use [] se não houver — mas NUNCA omita esses dois campos.
+- NÃO repita o campo descricao nos itens — numeroItem basta para identificação.
+- Omita produto_referencia, sinais_lexicais_enganosos e observacao quando forem null ou [].
+
+FORMATO OBRIGATÓRIO DA RESPOSTA:
+O JSON deve ter EXATAMENTE estas chaves no nível raiz, sem envelope externo ("analise_licitacao", "resultado" ou similar):
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "...",
+    "tipo_fornecedor": "...",
+    "macro_areas": ["..."],
+    "observacoes": "..."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "...",
+    "mercados_predominantes": ["..."],
+    "parecer_geral": "ADERENTE|PARCIALMENTE_ADERENTE|NAO_ADERENTE",
+    "justificativa_geral": "..."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "ADERENCIA_DIRETA|ADERENCIA_PARCIAL_FORTE|ADERENCIA_PARCIAL_FRACA|FALSO_POSITIVO_LEXICAL|NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": "...|null",
+      "subcategoria_portfolio_relacionada": "...|null",
+      "justificativa": "...",
+      "motivos_pro_match": ["..."],
+      "motivos_contra_match": ["..."]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 0
+  },
+  "campos_realmente_usados": {
+    "portfolio": ["categoria", "subcategoria", "nome"],
+    "portfolio_apoio": [],
+    "itens": ["descricao"],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "ALTA|MEDIA|BAIXA|DESCARTAR",
+    "motivo": "..."
+  }
+}

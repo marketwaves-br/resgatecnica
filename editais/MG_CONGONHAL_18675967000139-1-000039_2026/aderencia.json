@@ -1,0 +1,80 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "resposta a emergências e operações críticas",
+    "tipo_fornecedor": "fornecedora especializada em equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "resgate veicular",
+      "resgate terrestre/BREC",
+      "táticas especiais",
+      "combate a incêndio",
+      "resgate aquático",
+      "proteção individual técnica",
+      "altura e espaço confinado",
+      "produtos perigosos/descontaminação",
+      "atendimento pré-hospitalar",
+      "veículos especiais customizados"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências, não em serviços de eventos ou entretenimento."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de empresa especializada em promoção de eventos para realização de festa de rodeio (Festa do Peão) em município de Minas Gerais.",
+    "mercados_predominantes": [
+      "eventos e entretenimento",
+      "promoção cultural",
+      "serviços de rodeio"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para serviço de promoção de evento festivo/cultural (Festa do Peão de Rodeio). Resgatécnica é fornecedora de equipamentos técnico-operacionais para emergências e operações críticas. Não há compatibilidade comercial, operacional ou de nicho entre o objeto da licitação e o portfólio da empresa."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de promoção de evento festivo/cultural. Resgatécnica fornece equipamentos técnico-operacionais para emergências, não serviços de eventos ou entretenimento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado completamente diferente",
+        "Sem compatibilidade operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida",
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo comercial, operacional e técnico da Resgatécnica. Não há sinergia com portfólio ou competências da empresa."
+  },
+  "_processo": "18675967000139-1-000039/2026",
+  "_analisado_em": "2026-04-23T00:05:07.820202+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

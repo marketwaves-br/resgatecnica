@@ -1,0 +1,46 @@
+Analise a aderência entre a licitação e o portfólio da Resgatécnica.
+
+Entrada:
+[PORTFOLIO_LITE]
+{{PORTFOLIO_MESTRE_LITE_JSON}}
+
+[ITENS]
+{{ITENS_JSON}}
+
+Regras:
+- use o contexto dominante da licitação
+- use o tipo de fornecedor da empresa
+- priorize portfolio.categoria, portfolio.subcategoria, portfolio.nome
+- priorize itens.descricao
+- use o resto apenas como apoio
+- classifique cada item em:
+  ADERENCIA_DIRETA
+  ADERENCIA_PARCIAL_FORTE
+  ADERENCIA_PARCIAL_FRACA
+  FALSO_POSITIVO_LEXICAL
+  NAO_ADERENTE
+- responda SOMENTE em JSON válido, sem blocos markdown (sem ```json), sem comentários
+- CONCISÃO: justificativa máximo 10 palavras
+
+FORMATO OBRIGATÓRIO DA RESPOSTA:
+JSON com EXATAMENTE estas chaves no nível raiz, sem envelope externo:
+{
+  "parecer_geral": "ADERENTE|PARCIALMENTE_ADERENTE|NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "...",
+      "classificacao": "ADERENCIA_DIRETA|ADERENCIA_PARCIAL_FORTE|ADERENCIA_PARCIAL_FRACA|FALSO_POSITIVO_LEXICAL|NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "produto_referencia": "...|null",
+      "justificativa": "..."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 0
+  }
+}

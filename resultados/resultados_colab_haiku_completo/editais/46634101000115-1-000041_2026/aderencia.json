@@ -1,0 +1,108 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, não em serviços de transporte comercial de passageiros"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Serviço de locação de veículo rodoviário (ônibus executivo) para transporte intermunicipal de passageiros",
+    "mercados_predominantes": [
+      "Transporte comercial de passageiros",
+      "Serviços de mobilidade urbana/intermunicipal",
+      "Locação de frotas"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para serviço de transporte comercial de passageiros. Resgatécnica é fornecedora de equipamentos operacionais para emergências, não prestadora de serviço de transporte público/comercial."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Transporte rodoviário comercial de passageiros. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de transporte comercial",
+        "Mercado completamente distinto"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Transporte rodoviário comercial de passageiros. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de transporte comercial",
+        "Mercado completamente distinto"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Transporte rodoviário comercial de passageiros. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de transporte comercial",
+        "Mercado completamente distinto"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 3
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "portfolio_apoio": [
+      "perfil_empresa_resumido",
+      "macro_ramos_atuacao"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de transporte comercial. Resgatécnica não atua em serviços de mobilidade urbana/intermunicipal. Sem aderência comercial real."
+  },
+  "_processo": "46634101000115-1-000041/2026",
+  "_analisado_em": "2026-04-21T19:26:13.829218+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

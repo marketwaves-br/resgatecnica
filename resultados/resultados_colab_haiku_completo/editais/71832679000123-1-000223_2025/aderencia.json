@@ -1,0 +1,83 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio e proteção individual técnica",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados"
+    ],
+    "observacoes": "Especializada em EPI técnico-operacional de emergência, não em EPI genérico de rotina industrial ou administrativo"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Fornecimento de protetor auricular tipo concha para companhia de transportes metropolitanos (CPTM-SP)",
+    "mercados_predominantes": [
+      "Transporte público urbano",
+      "Proteção ocupacional genérica",
+      "EPI administrativo/operacional de rotina"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Protetor auricular genérico para transporte público não alinha com portfólio técnico-operacional de emergência da Resgatécnica"
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Protetor auricular genérico para rotina operacional de transporte público. Não é EPI técnico-operacional de emergência, resgate ou combate a incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'protetor' e 'auricular' podem sugerir EPI"
+      ],
+      "motivos_contra_match": [
+        "Contexto: transporte público urbano, não emergência",
+        "Tipo concha genérico, não especializado em operações críticas",
+        "Mercado: proteção ocupacional rotineira, não resgate/incêndio",
+        "Portfolio Resgatécnica: EPI técnico-operacional (combate incêndio, resgate, altura), não EPI administrativo"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo técnico-operacional. Resgatécnica não é fornecedora de EPI genérico de transporte público."
+  },
+  "_processo": "71832679000123-1-000223/2025",
+  "_analisado_em": "2026-04-21T19:22:06.302971+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

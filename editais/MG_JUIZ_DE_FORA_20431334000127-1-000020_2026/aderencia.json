@@ -1,0 +1,83 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções técnicas para operações críticas, não em serviços de engenharia de telecomunicações ou radiodifusão."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviço especializado de engenharia de telecomunicações na área de radiodifusão para operação de canal de TV digital e responsabilidade técnica junto à Anatel.",
+    "mercados_predominantes": [
+      "Telecomunicações",
+      "Radiodifusão",
+      "Engenharia de TV Digital",
+      "Serviços Regulatórios (Anatel)"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence a mercado completamente distinto. Resgatécnica atua em equipamentos e operações de emergência, não em telecomunicações ou radiodifusão."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de engenharia de telecomunicações e radiodifusão. Fora do escopo operacional da Resgatécnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado telecomunicações, não emergências",
+        "Responsabilidade regulatória Anatel, não operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento",
+      "macro_ramos_atuacao"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida",
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação em mercado completamente diverso. Resgatécnica não possui expertise, portfólio ou infraestrutura em telecomunicações, radiodifusão ou operação de canais de TV digital."
+  },
+  "_processo": "20431334000127-1-000020/2026",
+  "_analisado_em": "2026-04-22T01:18:28.616175+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

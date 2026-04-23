@@ -1,0 +1,80 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "resposta a emergências e operações críticas",
+    "tipo_fornecedor": "fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "resgate veicular",
+      "resgate terrestre/BREC",
+      "táticas especiais",
+      "combate a incêndio",
+      "resgate aquático",
+      "proteção individual técnica",
+      "altura e espaço confinado",
+      "produtos perigosos/descontaminação",
+      "atendimento pré-hospitalar",
+      "linha industrial",
+      "veículos especiais customizados"
+    ],
+    "observacoes": "Empresa especializada em equipamentos operacionais de emergência e resgate, NÃO em fornecimento de equipamentos médicos hospitalares genéricos ou locação de dispositivos de uso hospitalar/residencial."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Locação de equipamento médico-hospitalar (BIPAP) para uso hospitalar e residencial em município",
+    "mercados_predominantes": [
+      "saúde hospitalar",
+      "equipamentos médicos de uso contínuo",
+      "locação de dispositivos respiratórios genéricos"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para locação de BIPAP hospitalar/residencial. Resgatécnica atua em emergências e operações críticas, não em fornecimento/locação de equipamentos médicos hospitalares de uso contínuo. Contexto dominante é saúde hospitalar, não resgate ou emergência."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 2127120,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "BIPAP é equipamento médico hospitalar genérico de uso contínuo, não equipamento operacional de emergência ou resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico, não emergência",
+        "Locação de dispositivo médico, não equipamento operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo operacional da Resgatécnica. BIPAP é equipamento médico hospitalar genérico; empresa atua em resgate, emergência e operações críticas, não em saúde hospitalar de rotina."
+  },
+  "_processo": "18025890000151-1-000042/2026",
+  "_analisado_em": "2026-04-22T01:14:20.096428+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

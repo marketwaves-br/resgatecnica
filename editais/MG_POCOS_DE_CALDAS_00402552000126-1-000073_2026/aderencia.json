@@ -1,0 +1,311 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua como distribuidora genérica de gases industriais ou medicinais."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Fornecimento de gases especiais (comprimidos, misturas gasosas, nitrogênio líquido) e locação de cilindros para Comissão Nacional de Energia Nuclear",
+    "mercados_predominantes": [
+      "Gases industriais e medicinais",
+      "Infraestrutura nuclear/pesquisa",
+      "Distribuição de gases comprimidos"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de gases especiais para pesquisa nuclear. Resgatécnica não é distribuidora de gases industriais/medicinais genéricos."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gás comprimido genérico para pesquisa nuclear. Fora do escopo operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado industrial/nuclear",
+        "Não é EPI ou equipamento de resgate"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Locação de cilindro genérico. Não relacionado a operações de emergência ou resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço logístico genérico",
+        "Sem contexto operacional de emergência"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gás comprimido para pesquisa nuclear. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado industrial/nuclear",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Locação de cilindro genérico. Sem relação com operações de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço logístico genérico",
+        "Contexto nuclear/pesquisa"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mistura gasosa para pesquisa nuclear. Não é insumo de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado industrial/nuclear",
+        "Não é equipamento de resgate"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Locação de cilindro genérico. Sem contexto operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço logístico genérico",
+        "Contexto nuclear/pesquisa"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gás comprimido para pesquisa nuclear. Fora do escopo de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado industrial/nuclear",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Locação de cilindro genérico. Sem relação com operações de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço logístico genérico",
+        "Contexto nuclear/pesquisa"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gás comprimido para pesquisa nuclear. Fora do escopo de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado industrial/nuclear",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Locação de cilindro genérico. Sem contexto operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço logístico genérico",
+        "Contexto nuclear/pesquisa"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gás comprimido para pesquisa nuclear. Fora do escopo de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado industrial/nuclear",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Locação de cilindro genérico. Sem relação com operações de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço logístico genérico",
+        "Contexto nuclear/pesquisa"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gás comprimido para pesquisa nuclear. Fora do escopo de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado industrial/nuclear",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Locação de cilindro genérico. Sem contexto operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço logístico genérico",
+        "Contexto nuclear/pesquisa"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gás comprimido para pesquisa nuclear. Fora do escopo de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado industrial/nuclear",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Locação de cilindro genérico. Sem relação com operações de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço logístico genérico",
+        "Contexto nuclear/pesquisa"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gás comprimido para pesquisa nuclear. Fora do escopo de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado industrial/nuclear",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Locação de cilindro genérico. Sem contexto operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço logístico genérico",
+        "Contexto nuclear/pesquisa"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gás comprimido para pesquisa nuclear. Fora do escopo de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado industrial/nuclear",
+        "Não é equipamento operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 19
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de gases industriais/nucleares. Resgatécnica é especialista em equipamentos de resgate e emergência, não em distribuição de gases comprimidos genéricos para pesquisa nuclear. Mercados completamente distintos."
+  },
+  "_processo": "00402552000126-1-000073/2026",
+  "_analisado_em": "2026-04-22T01:06:30.830346+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

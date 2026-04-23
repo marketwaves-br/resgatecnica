@@ -1,0 +1,115 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "PNEU 175/70 - R14 - ATR - TIPO: SEM CÂMARA, ÍNDICE DE CARGA NÃO INFERIOR A 88T (560KG); DESEJÁVEL ÍNDICE DE VELOCIDADE MAIOR OU IGUAL T (190KM/H), ETIQUETAS DOS PNEUS DE ACORDO COM INMETRO.\r\nSUGESTãO DE MARCAS: PIRELLI, BRIDGESTONE, GOODYEAR, EQUIVALENTE OU DE MELHOR QUALIDADE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "PNEU 175/70 - R14 - LISO - TIPO: SEM CÂMARA, ÍNDICE DE CARGA NÃO INFERIOR A 84T (500KG); DESEJÁVEL ÍNDICE DE VELOCIDADE MAIOR OU IGUAL T (190KM/H), ETIQUETAS DOS PNEUS DE ACORDO COM INMETRO.\r\nSUGESTãO DE MARCAS: PIRELLI, BRIDGESTONE, GOODYEAR, EQUIVALENTE OU DE MELHOR QUALIDADE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 3,
+      "descricao": "PNEU 175/70 - R13 LISO -  TIPO: SEM CÂMARA, ÍNDICE DE CARGA NÃO INFERIOR A 82T (475KG); DESEJÁVEL ÍNDICE DE VELOCIDADE MAIOR OU IGUAL T (190KM/H), ETIQUETAS DOS PNEUS DE ACORDO COM INMETRO\r\nSUGESTãO DE MARCAS: PIRELLI, BRIDGESTONE, GOODYEAR, EQUIVALENTE OU DE MELHOR QUALIDADE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "PNEU 245 / 70 R16 BORRACHUDO - TIPO: SEM CÂMARA, ÍNDICE DE CARGA NÃO INFERIOR A 111 (1090 KG); DESEJÁVEL ÍNDICE DE VELOCIDADE MAIOR OU IGUAL T (190KM/H), ETIQUETAS DOS PNEUS DE ACORDO COM INMETRO.\r\nSUGESTãO DE MARCAS: PIRELLI, BRIDGESTONE, GOODYEAR, EQUIVALENTE OU DE MELHOR QUALIDADE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 5,
+      "descricao": "PNEU 295 / 80 R22,5 LISO -  TIPO: SEM CÂMARA, ÍNDICE DE CARGA NÃO INFERIOR A 152/148 (3550/3150 KG); DESEJÁVEL ÍNDICE DE VELOCIDADE MAIOR OU IGUAL M (130KM/H), ETIQUETAS DOS PNEUS DE ACORDO COM INMETRO.\r\nSUGESTãO DE MARCAS: PIRELLI, BRIDGESTONE, GOODYEAR, EQUIVALENTE OU DE MELHOR QUALIDADE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 6,
+      "descricao": "PNEU 295 / 80 R22,5 BORRACHUDO -  TIPO: SEM CÂMARA, ÍNDICE DE CARGA NÃO INFERIOR A 152/148 (3550/3150 KG); DESEJÁVEL ÍNDICE DE VELOCIDADE MAIOR OU IGUAL M (130KM/H), ETIQUETAS DOS PNEUS DE ACORDO COM INMETRO.\r\nSUGESTãO DE MARCAS: PIRELLI, BRIDGESTONE, GOODYEAR, EQUIVALENTE OU DE MELHOR QUALIDADE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Item de participação exclusiva ou cota reservada para ME/EPP (tipoBeneficio 1 ou 3). A Resgatécnica não é elegível para este item."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 6
+  },
+  "_meepp": true,
+  "_motivo": "Todos os itens são exclusivos ou cota reservada para ME/EPP",
+  "_processo": "02318396000145-1-000022/2026",
+  "_analisado_em": "2026-04-23T00:03:49.452935+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "meepp"
+}

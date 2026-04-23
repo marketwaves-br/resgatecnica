@@ -1,0 +1,77 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências, não fornecedora de serviços administrativos ou leiloeiros."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviço de leiloeiro oficial para realização de leilão público de veículos municipais",
+    "mercados_predominantes": [
+      "Serviços administrativos e leiloeiros",
+      "Gestão patrimonial municipal"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação busca contratar leiloeiro oficial para leilão de veículos. Resgatécnica é fornecedora de equipamentos técnico-operacionais de emergência, não prestadora de serviços leiloeiros ou administrativos."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de leiloeiro oficial pertence a mercado administrativo-legal, completamente fora do escopo operacional da Resgatécnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo, não equipamento",
+        "Mercado leiloeiro, não emergências"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida",
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo comercial da empresa. Resgatécnica não atua em serviços leiloeiros ou administrativos municipais."
+  },
+  "_processo": "45345899000112-1-000243/2025",
+  "_analisado_em": "2026-04-21T19:27:52.522464+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

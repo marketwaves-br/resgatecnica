@@ -1,0 +1,90 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em fornecimento de energia elétrica, geração de energia ou locação de geradores industriais genéricos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Locação de geradores móveis para fornecimento de energia elétrica a município. Mercado de infraestrutura energética municipal, não de resposta a emergências.",
+    "mercados_predominantes": [
+      "Infraestrutura energética municipal",
+      "Locação de equipamentos industriais genéricos",
+      "Fornecimento de energia elétrica"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para locação de geradores móveis de alta capacidade (180-260 KVA) para atender necessidades municipais de energia. Resgatécnica não atua em fornecimento ou locação de geradores industriais. Empresa especializa-se em equipamentos de resgate, combate a incêndio e proteção individual, não em energia elétrica municipal."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gerador móvel 180 KVA para energia municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado energético municipal, não emergências",
+        "Gerador industrial genérico, não equipamento técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Dois geradores móveis 260 KVA para energia municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado energético municipal, não emergências",
+        "Gerador industrial genérico, não equipamento técnico-operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 2
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação pertence a mercado de infraestrutura energética municipal. Resgatécnica não possui portfólio, expertise ou posicionamento comercial em locação de geradores industriais. Recomenda-se descartar completamente."
+  },
+  "_processo": "18404780000109-1-000024/2026",
+  "_analisado_em": "2026-04-22T01:04:32.853545+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

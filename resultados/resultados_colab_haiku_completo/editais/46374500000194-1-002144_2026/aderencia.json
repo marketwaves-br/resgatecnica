@@ -1,0 +1,155 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em farmacêutica ou medicamentos oncológicos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação de medicamentos oncológicos (ciclofosfamida, cabozantinibe, ibrutinibe, abemaciclibe, alectinibe, baricitinibe, niraparibe) para Secretaria de Estado da Saúde de São Paulo",
+    "mercados_predominantes": [
+      "Farmacêutica oncológica",
+      "Distribuição de medicamentos controlados",
+      "Saúde pública hospitalar"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação exclusivamente de medicamentos oncológicos. Resgatécnica é fornecedora de equipamentos operacionais para emergências, não de fármacos. Sem intersecção comercial real."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento oncológico (quimioterápico). Resgatécnica não fornece fármacos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento oncológico",
+        "Mercado farmacêutico"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento oncológico (inibidor de tirosina quinase). Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento oncológico",
+        "Mercado farmacêutico"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento oncológico (inibidor de Bruton). Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento oncológico",
+        "Mercado farmacêutico"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento oncológico (inibidor de CDK4/6). Completamente fora do nicho de operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento oncológico",
+        "Mercado farmacêutico"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento oncológico (inibidor de ALK). Sem compatibilidade com portfólio de equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento oncológico",
+        "Mercado farmacêutico"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento (inibidor de JAK). Fármaco sistêmico, não equipamento de resgate ou proteção.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento",
+        "Mercado farmacêutico"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento oncológico (inibidor de PARP). Sem intersecção com nicho de operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento oncológico",
+        "Mercado farmacêutico"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 7
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "ncmNbsCodigo"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de medicamentos oncológicos. Resgatécnica fornece equipamentos operacionais para emergências, não fármacos. Mercados completamente distintos. Sem oportunidade comercial."
+  },
+  "_processo": "46374500000194-1-002144/2026",
+  "_analisado_em": "2026-04-21T19:34:49.709071+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

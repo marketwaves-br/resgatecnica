@@ -1,0 +1,107 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "resposta a emergências e operações críticas",
+    "tipo_fornecedor": "fornecedora especializada em equipamentos operacionais para resgate, salvamento, combate a incêndio e proteção individual técnica",
+    "macro_areas": [
+      "resgate veicular",
+      "resgate terrestre/BREC",
+      "táticas especiais",
+      "combate a incêndio",
+      "resgate aquático",
+      "proteção individual técnica",
+      "altura e espaço confinado",
+      "produtos perigosos/descontaminação",
+      "atendimento pré-hospitalar",
+      "veículos especiais customizados"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de emergência. Não atua como distribuidora genérica de insumos hospitalares ou médicos de rotina."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de baterias e eletrodos (pás) para desfibriladores ZOLL AED PLUS para órgão de segurança pública (Polícia Militar SP)",
+    "mercados_predominantes": [
+      "insumos médico-hospitalares genéricos",
+      "equipamentos de atendimento pré-hospitalar de rotina",
+      "distribuição de consumíveis para saúde"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para consumíveis hospitalares genéricos (baterias e eletrodos de desfibrilador). Resgatécnica é fornecedora especializada em equipamentos técnico-operacionais de emergência, não distribuidora de insumos médicos de rotina. Contexto dominante é saúde hospitalar, não operações críticas de resgate."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Eletrodo (pá) para desfibrilador é insumo médico-hospitalar genérico, não equipamento técnico-operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "insumo hospitalar genérico",
+        "fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Eletrodo (pá) para desfibrilador é insumo médico-hospitalar genérico, não equipamento técnico-operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "insumo hospitalar genérico",
+        "fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Baterias e Carregadores",
+      "justificativa": "Palavra 'bateria' gera falso positivo. Portfolio contém baterias para ferramentas de resgate (Pentheon). Item é bateria para desfibrilador (consumível médico), contexto completamente diferente.",
+      "motivos_pro_match": [
+        "palavra 'bateria' presente"
+      ],
+      "motivos_contra_match": [
+        "bateria médica vs. operacional",
+        "consumível hospitalar genérico"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 1,
+    "nao_aderente": 2
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "descricao",
+      "eixos_operacionais"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "ncmNbsCodigo"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é para insumos médico-hospitalares genéricos. Resgatécnica é especialista em equipamentos técnico-operacionais de emergência, não distribuidora de consumíveis hospitalares de rotina. Mercado, tipo de cliente e contexto operacional são incompatíveis com o perfil da empresa."
+  },
+  "_processo": "46377800000127-1-001172/2026",
+  "_analisado_em": "2026-04-21T19:46:41.689844+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

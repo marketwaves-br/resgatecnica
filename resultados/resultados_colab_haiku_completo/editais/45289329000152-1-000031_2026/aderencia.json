@@ -1,0 +1,91 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio e proteção individual técnica",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções técnicas para operações de emergência, não em serviços de monitoramento telemático ou rastreamento GPS/GSM/GPRS"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviços contínuos de monitoramento veicular com tecnologia GPS/GSM/GPRS, plataforma web e aplicativo móvel para rastreamento de frota municipal de água e esgoto",
+    "mercados_predominantes": [
+      "Telemática veicular",
+      "Rastreamento GPS",
+      "Serviços de TI/software",
+      "Gestão de frotas"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de serviço de monitoramento telemático, fora do escopo operacional da Resgatécnica que fornece equipamentos de resgate e emergência, não serviços de rastreamento GPS ou plataformas de gestão de frotas"
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de monitoramento veicular por GPS/GSM/GPRS é telemática, não equipamento de resgate ou emergência",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de TI/telemática, não equipamento",
+        "Fora do nicho de operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Monitoramento com RFID é serviço telemático de gestão de frotas, não equipamento de resgate ou proteção operacional",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de rastreamento/TI, não equipamento",
+        "Fora do escopo de emergências"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 2
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é de serviço de telemática/rastreamento GPS para gestão de frotas municipais. Resgatécnica é fornecedora de equipamentos de resgate e emergência. Não há compatibilidade comercial real. Mercados completamente distintos."
+  },
+  "_processo": "45289329000152-1-000031/2026",
+  "_analisado_em": "2026-04-21T19:31:15.908302+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

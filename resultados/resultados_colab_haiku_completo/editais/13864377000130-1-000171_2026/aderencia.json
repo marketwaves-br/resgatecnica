@@ -1,0 +1,107 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e atendimento pré-hospitalar",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados"
+    ],
+    "observacoes": "Empresa especializada em operações críticas e emergências, com foco em equipamentos técnicos de alto desempenho, não em insumos hospitalares genéricos ou de rotina clínica."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação de insumos hospitalares genéricos (bolsas pressóricas para infusão IV e bandagens descartáveis) para Fundo Municipal de Saúde - contexto de saúde pública hospitalar de rotina.",
+    "mercados_predominantes": [
+      "Distribuição hospitalar genérica",
+      "Insumos médicos de consumo rotineiro",
+      "Saúde pública municipal"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de insumos hospitalares genéricos de rotina clínica. Resgatécnica é especializada em operações críticas e emergências técnicas, não em distribuição de insumos hospitalares comuns. Nenhum item corresponde ao portfólio operacional da empresa."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bolsa pressórica para infusão IV é insumo hospitalar genérico de rotina clínica, não equipamento de operações críticas ou emergências técnicas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bolsa pressórica para infusão IV é insumo hospitalar genérico de rotina clínica, não equipamento de operações críticas ou emergências técnicas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo hospitalar genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bandagem descartável genérica é insumo hospitalar comum, não bandagem técnica de resgate/emergência. Semelhança lexical apenas; contexto hospitalar de rotina, não operacional crítico.",
+      "motivos_pro_match": [
+        "Palavra 'bandagem' aparece em contexto APH"
+      ],
+      "motivos_contra_match": [
+        "Insumo hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 1,
+    "nao_aderente": 2
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "descricao",
+      "eixos_operacionais"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é de insumos hospitalares genéricos de rotina clínica. Resgatécnica é fornecedora especializada em operações críticas e emergências técnicas. Não há alinhamento comercial real. Recomenda-se descartar."
+  },
+  "_processo": "13864377000130-1-000171/2026",
+  "_analisado_em": "2026-04-21T19:24:02.358286+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

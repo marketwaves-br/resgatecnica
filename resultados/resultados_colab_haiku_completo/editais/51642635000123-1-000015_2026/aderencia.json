@@ -1,0 +1,82 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências, não fornecedora de serviços genéricos de limpeza ou conservação predial."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para serviços contínuos de limpeza, higienização, conservação predial e copeiragem em prédio público (Câmara Municipal)",
+    "mercados_predominantes": [
+      "Serviços de limpeza e higienização genérica",
+      "Conservação predial administrativa",
+      "Copeiragem/serviços de apoio administrativo"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de serviços administrativos genéricos de limpeza predial. Resgatécnica é fornecedora especializada em equipamentos técnico-operacionais para emergências e operações críticas, não prestadora de serviços de limpeza e conservação predial rotineira."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial genérica. Não há compatibilidade com nenhuma categoria do portfólio Resgatécnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado administrativo genérico",
+        "Sem relação com emergências/operações críticas"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "descricao",
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida",
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação completamente fora do escopo comercial e operacional da Resgatécnica. Não há sinergia, compatibilidade de mercado ou oportunidade de negócio real."
+  },
+  "_processo": "51642635000123-1-000015/2026",
+  "_analisado_em": "2026-04-21T19:28:16.184361+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

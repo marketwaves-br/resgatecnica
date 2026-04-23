@@ -1,0 +1,80 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio e proteção individual técnica",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. NÃO atua em manutenção predial genérica, instalações elétricas hospitalares ou infraestrutura administrativa."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Manutenção predial em infraestrutura elétrica de baixa tensão em unidade de saúde (CLR-IAL SJRP). Escopo: serviço de instalação/manutenção elétrica predial e industrial genérica.",
+    "mercados_predominantes": [
+      "Infraestrutura hospitalar/predial",
+      "Manutenção elétrica genérica",
+      "Engenharia civil/elétrica"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para manutenção predial elétrica genérica em hospital. Resgatécnica fornece equipamentos operacionais de emergência, não serviços de infraestrutura predial ou manutenção elétrica hospitalar de rotina."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção elétrica predial genérica. Fora do escopo operacional da Resgatécnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura predial hospitalar",
+        "Manutenção elétrica genérica, não operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "descricao",
+      "eixos_operacionais"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação totalmente fora do nicho comercial e operacional da Resgatécnica. Não há compatibilidade com portfólio de equipamentos de emergência e operações críticas."
+  },
+  "_processo": "46374500000194-1-002188/2026",
+  "_analisado_em": "2026-04-21T19:36:33.326295+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,25 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "Coleta / Tratamento Lixo - Hospitalar",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Contexto não relacionado"
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "_processo": "44959021000104-1-000337/2025",
+  "_analisado_em": "2026-04-21T17:38:33.644976+00:00",
+  "_modo": "compacto",
+  "_provedor": "ollama",
+  "_modelo": "qwen2.5:14b"
+}

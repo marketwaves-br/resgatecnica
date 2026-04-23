@@ -1,0 +1,461 @@
+A troca de ideias com o Geminito foi valiosa porque ela fez emergir, de forma progressiva, a diferença entre duas tarefas que no pipeline atual estavam sendo tratadas como se fossem a mesma coisa: medir proximidade textual e julgar aderência técnica-comercial ao portfólio da Resgatécnica.
+
+O pncp_embeddings.py foi concebido como um filtro de similaridade para pré-qualificação, explicitamente pensado para atuar depois do pré-filtro léxico e antes do LLM, enquanto o pncp_similaridade.py assumiu o papel de substituto barato do agente, usando IndicePortfolio para calcular um score por licitação e gravando a saída em pncp_similaridades.json, que depois é consumido pelo mapa em pncp_radar.py. Já o pncp_agente.py foi desenhado como um pipeline mais rico, com contexto de objetoCompra, pré-filtro ponderado, NCM, schema, telemetria e consolidação.
+
+Em outras palavras, o Geminito começou identificando o sintoma correto: o sistema barato estava tentando substituir não apenas o custo do LLM, mas também a lógica de decisão contextual que existia no agente. A crítica central dele — “você está usando uma régua de similaridade para medir intenção de negócio” — é compatível com a arquitetura dos arquivos. O pncp_agente.py inclui objetoCompra e metadados da licitação no contexto do modelo e usa um pré-filtro por score ponderado, enquanto o pncp_similaridade.py declara apenas que aplica filtros estruturais e depois usa IndicePortfolio para calcular score por licitação.
+
+O primeiro ponto de convergência forte entre as análises foi o enriquecimento do índice do portfólio. No pncp_embeddings.py, a função _textos_portfolio() monta cada entrada do índice concatenando produto, subcategoria, categoria, contexto_operacional, tipo_fornecimento e palavras_chave_dominio. O próprio comentário da função descreve isso como “texto enriquecido”, e o resultado prático é que o vetor de cada produto passa a carregar uma nuvem de termos de domínio que ajudam recall, mas também espalham ruído entre produtos semanticamente próximos, porém tecnicamente diferentes.
+
+Foi exatamente aí que o Geminito identificou o que chamou de “super-ímã” de falsos positivos. A intuição dele está correta: quando o vetor de um produto recebe, além do nome e da subcategoria, termos amplos como contexto operacional e palavras-chave transversais do domínio, a comparação deixa de ser uma verificação de “produto contra produto” e se aproxima mais de uma verificação de “ambiente semântico contra ambiente semântico”. O ganho é em cobertura; a perda é em discriminação técnica. Isso é especialmente perigoso num portfólio como o da Resgatécnica, em que há muitas palavras do campo de emergência, resgate, viaturas, iluminação, transporte, proteção e combate a incêndio que aparecem em nichos distintos.
+
+O segundo ponto de convergência foi a constatação de que o pncp_similaridade.py efetivamente toma decisões com base em score por item isolado, e depois eleva esse comportamento ao nível da licitação. O arquivo mostra que ele constrói o índice, percorre as licitações, lê os itens elegíveis e, ao final, grava score_max, score_medio, n_itens_elegiveis e top_itens; em seguida, ordena as licitações por score_max. No resumo final do script, o campo central continua sendo score_max, e não uma métrica agregada de coerência do edital.
+
+Esse desenho explica por que um único item contaminante consegue “aquecer” uma licitação inteira. O pncp_radar.py reforça esse efeito, porque o mapa usa score_max como base do filtro de exibição: ele carrega pncp_similaridades.json e mantém apenas as licitações com score_max acima do threshold. Ou seja, o mapa não cria o erro; ele apenas amplifica uma decisão que já foi tomada na camada anterior.
+
+Os exemplos concretos de pncp_similaridades.json deixam esse problema cristalino. Há licitação de medicamentos em que “CLORETO DE SÓDIO 0,9% SISTEMA FECHADO 100ML - SF 100” pontua contra “Lanterna de mão SF-7”, revelando colisão lexical em torno de “SF”. Há edital de ambulância simples remoção em que o item principal bate em “Sistema de Iluminação LED”. Há contratação de transporte em UTI móvel pontuando contra “Bolsa para Transporte de Equipamentos”. Há aquisição de pneus pontuando contra “Almofada Pneumática Alta Pressão”. Há mobiliário de escritório e móveis escolares pontuando com corda estática. Esses casos demonstram que o pipeline barato, do jeito atual, não consegue diferenciar contexto dominante, finalidade de uso e tipo de fornecedor.
+
+O terceiro ponto importante na conversa foi a correção técnica sobre o tipo de ensemble. Em um momento anterior, o Geminito chamou de RRF uma combinação linear de scores. A correção foi pertinente: isso não é RRF, é um ensemble ponderado. Essa distinção é importante para o desenho do modelo, porque o código atual não funde rankings; ele trabalha com um backend por vez. O pncp_embeddings.py declara explicitamente os backends semantic, tfidf e auto, e a classe IndicePortfolio foi construída para operar com uma única interface pública sobre um backend ativo. Portanto, qualquer solução híbrida deverá ser introduzida como uma nova camada de decisão, e não como um detalhe cosmético de nomenclatura.
+
+Outro ponto em que a conversa amadureceu foi a análise do papel do TF-IDF. O Geminito falava de similaridade de cosseno num sentido mais amplo, mas a revisão fina mostrou que o problema não é idêntico em todos os backends. O pncp_embeddings.py deixa claro que tfidf é fallback léxico e que o backend semântico é o recomendado. O próprio relatório do script adverte que o TF-IDF é uma “aproximação léxica” e não captura similaridade semântica, além de afirmar textualmente que ainda haverá falsos positivos lexicais que passariam pelo filtro e que o LLM continuaria necessário para descartá-los.
+
+Esse detalhe é essencial para a conclusão técnica: a saída atual em pncp_similaridades.json foi gerada com backend TF-IDF. Logo, a fotografia dos falsos positivos que estamos vendo foi obtida com um motor ainda mais vulnerável a coincidências lexicais do que seria um motor semântico de boa qualidade. Isso não invalida a crítica à arquitetura; ao contrário, mostra que o problema é estrutural e ainda foi agravado por um backend mais raso.
+
+A conversa também identificou um ponto que o Geminito, inicialmente, subestimou: o pncp_agente.py já contém boa parte da inteligência que o pipeline barato precisaria reaproveitar. O agente não é apenas um chamador de LLM. Ele contém uma camada de pré-filtro melhorado com lógica de decisão explícita: score > 0 leva a CONTINUAR; score <= -LIMIAR_DESCARTAR leva a DESCARTAR; ausência de positivos combinada com presença de negativos também leva a descarte; e o score é calculado a partir de objetoCompra + descrições + informacaoComplementar, com bônus estrutural por NCM positivo. Esse pré-filtro já considera o contexto global da licitação, e não apenas um item isolado.
+
+O conjunto de termos positivos e negativos do agente também é mais rico do que o filtro negativo simples do pipeline barato. No agente há listas explícitas de termos de resgate, combate a incêndio, ambulância, APH, macas, viaturas, balística, ferramentas hidráulicas, além de termos negativos para escolar, alimentação, farmacêutico genérico, TI, obras, higiene, esportivo e mobiliário. Já no pncp_similaridade.py existe apenas um _NEGATIVOS_ITEM focado em padrões de item claramente fora do domínio, o que é útil, mas insuficiente para capturar o contexto dominante do edital.
+
+Há um detalhe fino que também emergiu da troca de ideias: o NCM, no agente atual, é usado como whitelist positiva, não como blacklist negativa. O arquivo deixa isso claro ao definir _NCM_POSITIVOS_PREFIXOS e comentar que a cobertura é baixa, mas com pouco falso positivo. Portanto, quando se propõe zerar score por NCM fora do escopo, isso não é uma descrição do que o agente já faz hoje; é uma evolução proposta. Essa distinção importa porque um gerador de código precisa saber o que é diagnóstico do estado atual e o que é requisito novo de implementação.
+
+Outro insight importante da conversa foi notar que o próprio pncp_scanner.py já traz um precedente útil: existe ali um filtro de exclusões por objeto, que descarta registros cujo objetoCompra ou informacaoComplementar contenham termos de exclusão carregados de exclusoes.yaml. Isso mostra que o pipeline histórico já reconhece o valor de uma camada textual contextual sobre o objeto do edital, antes mesmo da análise item a item. Esse padrão pode e deve ser reaproveitado na nova arquitetura como uma “trava de objeto” ou “âncora de domínio”.
+
+Ao fim dessa troca de ideias, a convergência ficou clara: o problema central não é o mapa, não é um threshold específico e não é apenas o fato de usar TF-IDF. O problema é que o sistema barato foi promovido de shortlist de proximidade para juiz de aderência, sem herdar as travas contextuais do agente. O debate com o Geminito serviu para depurar essa compreensão e organizar as intervenções na ordem certa.
+
+DIAGNÓSTICO FINAL DO PROBLEMA
+
+O problema pode ser formalizado assim.
+
+O pipeline atual possui quatro camadas:
+
+1. pncp_scanner.py coleta licitações, aplica filtros estruturais e pode excluir registros por termos no objetoCompra.
+2. pncp_similaridade.py lê licitações e itens, aplica filtros de situação, prazo, ME/EPP e um regex de negativos por item, depois calcula score por similaridade usando IndicePortfolio.
+3. pncp_embeddings.py constrói o índice do portfólio de forma enriquecida, pensado originalmente para atuar como filtro antes do LLM.
+4. pncp_radar.py exibe o resultado e filtra pelo score_max da licitação.
+
+A falha acontece nas camadas 2 e 3:
+
+- o vetor do portfólio é ruidoso demais;
+- o score item → produto privilegia proximidade textual sem contexto suficiente;
+- a licitação herda o melhor score individual;
+- o objeto do edital não pesa de forma determinante na decisão;
+- e o mapa reforça essa visão contaminada.
+
+SOLUÇÃO TÉCNICA PROPOSTA
+
+A solução correta não é trocar TF-IDF por embedding nem aumentar o threshold. A solução é reconstruir o pipeline barato como um classificador contextual de múltiplas camadas, preservando o baixo custo, mas reintroduzindo a lógica de domínio.
+
+A seguir está a solução recomendada, com nível de detalhe suficiente para implementação automatizada.
+
+1. REDESENHAR O ÍNDICE DO PORTFÓLIO
+
+A função _textos_portfolio() deve deixar de produzir um único texto enriquecido por produto.
+
+Hoje:
+- vetor base = produto + subcategoria + categoria + contexto_operacional + tipo_fornecimento + palavras_chave_dominio.
+
+Novo desenho:
+- base_text: nome_produto + subcategoria
+- categoria: campo separado
+- contexto_operacional: lista separada
+- tipo_fornecimento: campo separado
+- palavras_chave_dominio: não entram no vetor base
+- required_terms_any: lista opcional de termos técnicos
+- required_terms_all: lista opcional de termos obrigatórios
+- ncm_prefixes_positive: lista opcional por produto/subcategoria
+- negative_contexts: lista opcional de contextos onde o produto não deve pontuar
+
+Exemplo de estrutura de produto para o novo índice:
+
+{
+  "id": "resgate_veicular_lanterna_sf7",
+  "nome": "Lanterna de mão SF-7",
+  "subcategoria": "Lanternas",
+  "categoria": "Resgate Veicular",
+  "base_text": "lanterna de mão sf-7 lanternas",
+  "contexto_operacional": ["resgate veicular", "iluminação técnica"],
+  "tipo_fornecimento": "equipamento",
+  "required_terms_any": ["lanterna", "iluminação", "led"],
+  "required_terms_all": [],
+  "ncm_prefixes_positive": [],
+  "negative_contexts": ["medicamento", "farmacêutico", "mobiliário", "papelaria"]
+}
+
+Objetivo: o embedding ou o TF-IDF deve comparar o item licitatório com um núcleo desambiguado, e não com um “saco de contexto” inchado.
+
+2. CRIAR DUAS REPRESENTAÇÕES DE ÍNDICE, NÃO UMA SÓ
+
+O novo motor deve trabalhar com dois índices paralelos:
+
+- índice semântico: embeddings sobre base_text
+- índice léxico: TF-IDF sobre base_text
+
+O índice semântico resolve sinônimos e equivalências aproximadas.
+O índice léxico protege termos específicos.
+
+A classe atual IndicePortfolio pode ser preservada como backend simples, mas a arquitetura recomendada é criar um novo componente, por exemplo:
+
+class EnsembleIndicePortfolio:
+    def __init__(self, portfolio_path, semantic_model="BAAI/bge-m3"):
+        self.semantic = IndicePortfolio.carregar_ou_construir(portfolio_path, backend="semantic")
+        self.lexical = IndicePortfolio.carregar_ou_construir(portfolio_path, backend="tfidf")
+        self.meta = carregar_metadados_portfolio(portfolio_path)
+
+Esse novo componente não substitui a classe antiga; ele a orquestra.
+
+3. NORMALIZAÇÃO E CALIBRAÇÃO DOS SCORES DO ENSEMBLE
+
+Como o índice passará a combinar dois motores diferentes, não basta somar scores brutos. É necessário normalizar ou calibrar as escalas antes da fusão, porque os scores do backend semântico e do backend léxico podem ocupar distribuições muito distintas.
+
+Requisitos:
+
+- criar uma etapa de calibração por backend;
+- usar amostra de validação local ou ground truth histórico de aderencia.json;
+- converter os scores para uma escala comparável antes da combinação;
+- aplicar os pesos do ensemble somente após essa calibração.
+
+Estratégias aceitáveis:
+- normalização por percentis;
+- normalização min-max com clipping robusto;
+- ajuste por temperatura;
+- transformação monotônica calibrada.
+
+Regra de implementação:
+- a especificação deve permitir testar mais de uma estratégia, mas a interface final deve expor scores já calibrados como semantic_score_calibrado e lexical_score_calibrado.
+
+4. PORTAR O pre_filtrar() DO AGENTE PARA O PIPELINE BARATO
+
+O pré-filtro do pncp_agente.py deve ser reaproveitado quase integralmente, porque ele é a principal peça contextual hoje ausente no pipeline barato. Ele usa:
+
+- objetoCompra
+- descricao dos itens
+- informacaoComplementar
+- termos positivos
+- termos negativos
+- bônus por NCM positivo
+
+Criar em pncp_similaridade.py:
+
+@dataclass
+class PreFiltroResultado:
+    decisao: str
+    score: float
+    positivos: list[str]
+    negativos: list[str]
+    ncm_hit: bool
+
+E implementar:
+
+def pre_filtrar_licitacao(licitacao, itens) -> PreFiltroResultado:
+    # usar mesma lógica do agente:
+    # texto = objetoCompra + descrições + info complementar
+    # score = n_positivos - n_negativos + bonus_ncm
+
+Extensão recomendada:
+- adicionar NCM blacklist por grandes grupos irrelevantes, além da whitelist positiva atual;
+- adicionar NCM greylist para grupos ambíguos;
+- se o item cair na blacklist dura, score final do item = 0;
+- se o item cair na greylist, ele só pode pontuar bem quando houver âncora forte no objetoCompra ou termos técnicos fortes no item.
+
+Essa blacklist/greylist é evolução nova; não existe literalmente no agente atual.
+
+5. IMPLEMENTAR TRAVA DE CONTEXTO BASEADA NO objetoCompra
+
+Criar uma função de compatibilidade contextual do edital:
+
+def peso_contexto_licitacao(objeto_compra: str) -> float:
+    # retorna peso global da licitação
+
+Regra recomendada:
+
+- 1.00 se o objeto contiver âncoras fortes do domínio:
+  resgate, salvamento, emergência, APH, ambulância, incêndio,
+  hidrante, desencarceramento, bombeiro, balístico, descontaminação,
+  espaço confinado, mergulho operacional, maca de resgate, viatura especial.
+
+- 0.70 se o objeto for neutro, sem âncoras claras nem negativos fortes.
+
+- 0.35 se o objeto contiver contexto dominante incompatível:
+  mobiliário, papelaria, merenda, alimentação, medicamentos,
+  odontológico, material escolar, material esportivo, informática,
+  limpeza, obra civil, seguro veicular, locação de veículos comuns,
+  transporte escolar, pneus, peças automotivas genéricas.
+
+- 0.00 apenas para contextos claramente impossíveis para a empresa,
+  como edital puramente de alimento, fármaco, impressão didática
+  ou material de escritório, quando não houver nenhum item técnico compatível.
+
+Importante: a ausência de âncora no objeto não deve eliminar automaticamente a licitação, porque há casos em que o objeto é genérico e a evidência real está nos itens. Por isso o peso precisa ser penalização, não proibição absoluta.
+
+6. SUBSTITUIR score_max POR RE-RANKING ITEM → PRODUTO CONTEXTUAL
+
+Para cada item elegível, o sistema deve gerar candidatos de produto e reclassificá-los com mais inteligência.
+
+Fluxo recomendado por item:
+
+1. Se _NEGATIVOS_ITEM casar, score = 0 e não continua.
+2. Obter top-k1 produtos do índice semântico (k1 = 10).
+3. Obter top-k2 produtos do índice léxico (k2 = 10).
+4. Unir candidatos por product_id.
+5. Recalcular score final item → produto usando a fórmula abaixo.
+
+FÓRMULA RECOMENDADA PARA score_item_prod
+
+Para cada par (item, produto):
+
+- s_sem: similaridade semântica calibrada em [0,1]
+- s_lex: similaridade TF-IDF calibrada em [0,1]
+- s_term: overlap técnico ponderado em [0,1]
+- s_ctx_prod: compatibilidade do objeto da licitação com categoria/contexto_operacional do produto em [0,1]
+- b_ncm: bônus estrutural por NCM em {0, 0.08, 0.15}
+- p_neg: penalidade por contexto negativo em {1.0, 0.5, 0.25, 0.0}
+
+Fórmula:
+
+score_item_prod = p_neg * (
+    0.45 * s_sem +
+    0.25 * s_lex +
+    0.20 * s_term +
+    0.10 * s_ctx_prod
+) + b_ncm
+score_item_prod = min(score_item_prod, 1.0)
+
+7. IMPLEMENTAR STOPWORDS DE DOMÍNIO NO TF-IDF
+
+O TF-IDF atual usa stopwords genéricas do português. Isso é insuficiente para o domínio Resgatécnica.
+
+Criar uma lista adicional de stopwords de domínio para o backend léxico, por exemplo:
+
+- unidade
+- fornecimento
+- atendimento
+- sistema
+- técnico
+- operacional
+- militar
+- equipamento
+- material
+- item
+- serviço
+- conjunto
+- processo
+- instalação
+- manutenção
+- aquisição
+
+Esses termos devem ser removidos apenas da representação TF-IDF, não dos metadados explicativos nem do texto bruto usado em outras etapas.
+
+Objetivo:
+- reduzir o peso de palavras transversais demais;
+- forçar o algoritmo léxico a valorizar tokens realmente discriminativos;
+- reduzir falsos positivos por contexto burocrático ou genérico.
+
+8. COMO CALCULAR s_term
+
+s_term deve valorizar palavras técnicas relevantes e punir coincidências genéricas.
+
+Exemplo:
+
+def score_termos_tecnicos(item_desc, produto_meta):
+    score = 0.0
+
+    if produto_meta.required_terms_all:
+        if all(t in item_desc for t in produto_meta.required_terms_all):
+            score += 0.6
+        else:
+            return 0.0
+
+    if produto_meta.required_terms_any:
+        hits = sum(1 for t in produto_meta.required_terms_any if t in item_desc)
+        score += min(0.4, 0.15 * hits)
+
+    return min(score, 1.0)
+
+Objetivo:
+- “escada” sozinha não basta para “escada de resgate”;
+- “ambulância” genérica sem sinais de remoção, APH ou viatura especial não basta para produto técnico indevido;
+- “SF” em soro fisiológico não deve puxar “SF-7”.
+
+9. CRIAR BLACKLIST DE CONTEXTOS NEGATIVOS POR PRODUTO/SUBCATEGORIA
+
+Além do regex global, cada subcategoria do portfólio deve ter contextos que zeram ou reduzem score.
+
+Exemplos:
+
+- Lanternas: bloquear medicamento, solução, soro, farmacêutico
+- Escadas de resgate: bloquear mobiliário, uso doméstico, banqueta, arquivo, escritório
+- Bolsas de transporte técnico: bloquear UTI móvel como serviço de transporte, transporte escolar, locação
+- Viaturas: bloquear seguro, locação genérica, peças, pneus, troca de óleo
+- Cordas: bloquear corda naval, corda de pular, corda de academia
+
+Isso deve entrar em negative_contexts do portfólio e participar de p_neg.
+
+10. DEFINIR score DA LICITAÇÃO COMO AGREGAÇÃO DOS MELHORES ITENS, NÃO DO MELHOR ITEM
+
+Essa é a mudança mais importante na camada de edital.
+
+Hoje:
+- score_bid = score_max, na prática.
+
+Novo modelo:
+1. calcular score_item_final de cada item como o maior score_item_prod entre os candidatos válidos;
+2. filtrar itens com score_item_final >= ITEM_THRESHOLD_MIN (por exemplo, 0.35);
+3. ordenar scores decrescentes;
+4. calcular score da licitação por top-k ponderado + densidade + contexto.
+
+Fórmula recomendada:
+
+top = sorted(scores_validos, reverse=True)[:3]
+
+if len(top) == 0:
+    score_bid = 0.0
+elif len(top) == 1:
+    score_bid = top[0] * 0.55 * peso_contexto_global
+elif len(top) == 2:
+    score_bid = (0.65 * top[0] + 0.35 * top[1]) * peso_contexto_global
+else:
+    score_bid = (0.50 * top[0] + 0.30 * top[1] + 0.20 * top[2]) * peso_contexto_global
+
+Depois aplicar fator de densidade:
+
+densidade = min(1.0, len(scores_validos) / max(2, min(5, len(elegiveis))))
+score_bid *= (0.70 + 0.30 * densidade)
+score_bid = min(score_bid, 1.0)
+
+11. ADICIONAR PENALIZAÇÃO POR VARIÂNCIA OU “ITEM SOLITÁRIO”
+
+Além da agregação top-k, o modelo deve detectar inconsistência interna da licitação.
+
+Regra recomendada:
+
+- se n_itens_elegiveis >= 20;
+- e apenas 1 item tiver score_item_final >= ITEM_THRESHOLD_MIN;
+- e a média ou mediana dos demais itens estiver próxima de zero;
+- então aplicar penalização adicional em score_bid.
+
+Exemplo:
+
+if n_itens_elegiveis >= 20 and n_scores_validos == 1 and media_restante < 0.08:
+    score_bid *= 0.55
+
+Variação mais robusta:
+- usar coeficiente de concentração;
+- ou comparar top1 contra mediana dos demais;
+- ou usar desvio/variância para penalizar cauda isolada.
+
+Objetivo:
+- impedir que “escada”, “luva”, “corda”, “ambulância”, “SF” ou outro token solitário contaminem licitações grandes e estruturalmente irrelevantes.
+
+12. ALTERAR O RADAR PARA REFLETIR score_bid, NÃO score_max
+
+O pncp_radar.py deve continuar simples, mas a semântica do campo precisa mudar.
+
+Substituir:
+- score_max como métrica principal do mapa
+
+Por:
+- score_bid
+- score_top1
+- score_top3_medio
+- n_itens_relevantes
+- densidade_relevancia
+- houve_penalizacao_variancia (boolean)
+
+O HTML deve mostrar isso no painel lateral e o threshold do mapa deve filtrar por score_bid.
+
+13. CLASSIFICAÇÃO FINAL RECOMENDADA
+
+Definir faixas para uso operacional:
+
+- score_bid >= 0.62 → candidata forte
+- 0.48 <= score_bid < 0.62 → candidata moderada
+- 0.35 <= score_bid < 0.48 → candidata fraca / radar
+- score_bid < 0.35 → descartar da saída principal
+
+Para item individual:
+
+- score_item_final >= 0.60 → forte
+- 0.45 <= score_item_final < 0.60 → revisar
+- score_item_final < 0.45 → só manter se houver NCM positivo ou âncora contextual muito forte
+
+14. CAMADA OPCIONAL DE RE-RANKING LOCAL
+
+Depois de estabilizar a solução acima, pode-se adicionar um reranker local por cross-encoder nos top candidatos de cada item.
+
+Recomendação:
+- aplicar apenas aos top candidatos dos editais sobreviventes;
+- usar modelo leve e local;
+- tratar como fase 2 do projeto.
+
+Isso deve ser etapa posterior, não requisito da primeira versão. Primeiro é preciso limpar o índice, introduzir contexto, calibrar o ensemble e mudar a métrica da licitação. Só depois faz sentido sofisticar o ranking com um cross-encoder.
+
+ARQUITETURA-ALVO DO NOVO PIPELINE
+
+A arquitetura final recomendada é esta:
+
+1. Scanner
+   - filtros estruturais
+   - exclusões por objeto
+   - coleta de itens e metadados
+
+2. Pré-filtro contextual barato
+   - pre_filtrar_licitacao() herdado do agente
+   - whitelist, greylist e blacklist de NCM
+   - regex negativos por item
+   - peso global de objeto
+
+3. Geração de candidatos por índice duplo
+   - semantic top-k
+   - tfidf top-k
+   - união de candidatos
+
+4. Re-ranking item → produto
+   - similaridade semântica calibrada
+   - similaridade léxica calibrada
+   - overlap técnico
+   - compatibilidade de contexto
+   - bônus/penalidade de NCM e blacklist
+
+5. Agregação da licitação
+   - top-3 ponderado
+   - densidade de itens aderentes
+   - penalização por variância
+   - peso global do objeto
+
+6. Saída operacional
+   - score_bid
+   - top itens
+   - produtos sugeridos
+   - sinais contextuais que justificaram a pontuação
+   - logs de explicabilidade
+
+CONCLUSÃO
+
+A troca com o Geminito foi importante porque ajudou a desmontar a falsa impressão de que o problema podia ser resolvido com “mais embedding”, “mais threshold” ou “mais palavras-chave”. O que emergiu da discussão, quando cotejado com os arquivos, foi algo mais profundo: o sistema barato precisa deixar de ser um buscador de vibe textual e passar a ser um classificador contextual de aderência técnica, ainda que continue sem LLM na maior parte do fluxo.
+
+O próprio código que já existe aponta o caminho:
+- o pncp_embeddings.py nunca foi pensado como juiz final;
+- o pncp_agente.py já contém a inteligência contextual que falta;
+- o pncp_radar.py apenas expõe a métrica que recebe.
+
+Portanto, a solução correta é:
+
+- despoluir o índice do portfólio;
+- reaproveitar a heurística do agente no pipeline barato;
+- introduzir trava de contexto pelo objeto da licitação;
+- usar ensemble semântico + léxico calibrado no nível do item;
+- substituir score_max por score_bid agregado;
+- adicionar penalização por variância para item solitário;
+- enriquecer o uso de NCM com whitelist, greylist e blacklist;
+- adicionar stopwords de domínio ao TF-IDF;
+- e mudar o radar para refletir a qualidade global da licitação, e não o melhor falso positivo individual.
+
+Esse é o desenho que resolve o problema na raiz e que, ao mesmo tempo, é detalhado o suficiente para alimentar um gerador de código com uma especificação clara de arquitetura, dados, scoring, calibração e fluxo de execução.

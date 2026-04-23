@@ -1,0 +1,146 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e atendimento pré-hospitalar",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos operacionais de emergência e resgate. Portfólio inclui APH (bolsas, kits, coletes, macas), mas com foco em contexto de resgate/emergência, não em consumíveis hospitalares genéricos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Fornecimento de curativos e coberturas especiais para Unidades Básicas de Saúde (UBS) - demanda hospitalar/clínica de rotina",
+    "mercados_predominantes": [
+      "Saúde pública municipal",
+      "Consumíveis hospitalares genéricos",
+      "Insumos de feridas e cicatrização",
+      "Distribuição farmacêutica/hospitalar"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para consumíveis hospitalares de rotina (curativos, coberturas, cremes de barreira) destinados a UBS. Resgatécnica é fornecedora especializada em equipamentos operacionais de emergência/resgate, não em insumos hospitalares genéricos de consumo contínuo."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Curativo hospitalar genérico com prata iônica para UBS. Não é EPI técnico-operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Consumível hospitalar de rotina",
+        "Mercado saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Curativo carvão ativado com prata para feridas. Insumo hospitalar genérico, não equipamento de resgate/emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Consumível hospitalar de rotina",
+        "Contexto clínico ambulatorial"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Curativo alginato de cálcio para feridas. Insumo hospitalar genérico, não relacionado a operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Consumível hospitalar de rotina",
+        "Sem contexto de emergência"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Creme de barreira para proteção de pele perilesional. Insumo hospitalar genérico de rotina, não EPI técnico-operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Consumível hospitalar de rotina",
+        "Uso clínico ambulatorial"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bota de Unna (bandagem com óxido de zinco) para cicatrização. Insumo hospitalar genérico, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Consumível hospitalar de rotina",
+        "Contexto clínico ambulatorial"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Espuma com PHMB para feridas. Insumo hospitalar genérico de consumo contínuo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Consumível hospitalar de rotina",
+        "Mercado saúde pública municipal"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 6
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é para consumíveis hospitalares genéricos de rotina (curativos, coberturas, cremes). Resgatécnica é especializada em equipamentos operacionais de emergência/resgate. Não há compatibilidade comercial real. Mercados, canais de distribuição, clientes finais e tipo de fornecimento são completamente distintos."
+  },
+  "_processo": "18629840000183-1-000319/2025",
+  "_analisado_em": "2026-04-22T01:13:50.591185+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

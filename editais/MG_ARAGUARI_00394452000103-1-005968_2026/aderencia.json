@@ -1,0 +1,133 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções técnicas para operações de emergência, não em serviços de viagem ou turismo."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Serviços de agenciamento de viagens, passagens aéreas e rodoviárias, seguros de viagem — mercado de turismo e mobilidade corporativa.",
+    "mercados_predominantes": [
+      "Agenciamento de viagens",
+      "Transporte aéreo comercial",
+      "Transporte rodoviário",
+      "Seguros de viagem"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de viagens corporativas e turismo. Resgatécnica atua em equipamentos e soluções para emergências operacionais, não em serviços de agenciamento de viagens ou transporte comercial."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de agenciamento de viagens. Mercado turístico corporativo, não operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Turismo corporativo",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Passagem aérea comercial. Transporte de passageiros, não equipamentos ou serviços de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte aéreo comercial",
+        "Sem relação emergencial"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Seguro/garantia de viagem. Produto financeiro para turismo, não equipamento ou serviço operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto financeiro turístico",
+        "Sem nexo com resgate"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de agenciamento de viagens (duplicado item 1). Mercado turístico corporativo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Turismo corporativo",
+        "Fora do escopo"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Passagem rodoviária comercial. Transporte de passageiros, não equipamentos ou serviços de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte rodoviário comercial",
+        "Sem relação emergencial"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 5
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação 100% fora do escopo comercial e operacional da Resgatécnica. Mercado de viagens corporativas incompatível com portfólio de equipamentos e soluções para emergências."
+  },
+  "_processo": "00394452000103-1-005968/2026",
+  "_analisado_em": "2026-04-22T01:04:23.778506+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

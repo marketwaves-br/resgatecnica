@@ -1,0 +1,118 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "Contratacao de solucao tecnologica integrada para gestao educacional e controle de frequencia escolar mediante tecnologia de reconhecimento facial, destinada as unidades da rede municipal de ensino, compreendendo o fornecimento de equipamentos eletronicos, licenciamento de software, implantacao, configuracao, integracao de modulos, treinamento, suporte tecnico, manutencao e demais servicos especializados necessarios a plena operacao da plataforma. - Dispositivo eletronico para registro de presenca por meio de autenticacao da face, com sistema web de transmissao cloud e gerenciamento:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['sistema informatizado']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['sistema informatizado']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "Contratacao de solucao tecnologica integrada para gestao educacional e controle de frequencia escolar mediante tecnologia de reconhecimento facial, destinada as unidades da rede municipal de ensino, compreendendo o fornecimento de equipamentos eletronicos, licenciamento de software, implantacao, configuracao, integracao de modulos, treinamento, suporte tecnico, manutencao e demais servicos especializados necessarios a plena operacao da plataforma. - Prestacao dos servicos de instalacao de cabeamento eletrico e de rede de dados, delimitacao de posicionamento, instalacao e configuracao dos dispositivos para registro de presenca por meio de autenticacao da face.:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['sistema informatizado']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['sistema informatizado']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 3,
+      "descricao": "Contratacao de solucao tecnologica integrada para gestao educacional e controle de frequencia escolar mediante tecnologia de reconhecimento facial, destinada as unidades da rede municipal de ensino, compreendendo o fornecimento de equipamentos eletronicos, licenciamento de software, implantacao, configuracao, integracao de modulos, treinamento, suporte tecnico, manutencao e demais servicos especializados necessarios a plena operacao da plataforma. - Dispositivo eletronico detector de metal, em formato portico, com 06 (seis) zonas de deteccao e sistema web integrado.:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['sistema informatizado']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['sistema informatizado']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "Contratacao de solucao tecnologica integrada para gestao educacional e controle de frequencia escolar mediante tecnologia de reconhecimento facial, destinada as unidades da rede municipal de ensino, compreendendo o fornecimento de equipamentos eletronicos, licenciamento de software, implantacao, configuracao, integracao de modulos, treinamento, suporte tecnico, manutencao e demais servicos especializados necessarios a plena operacao da plataforma. - Licenca de aquisicao perpetua de sistema informatizado, por aluno, para gerenciamento dos dados relativos a presenca registrada nos dispositivos de autenticacao da face e a educacao distrital, incluindo modulacao de servidores, com acesso via web e aplicacao mobile para comunicacao e consultas.:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['sistema informatizado']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['sistema informatizado']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 5,
+      "descricao": "Contratacao de solucao tecnologica integrada para gestao educacional e controle de frequencia escolar mediante tecnologia de reconhecimento facial, destinada as unidades da rede municipal de ensino, compreendendo o fornecimento de equipamentos eletronicos, licenciamento de software, implantacao, configuracao, integracao de modulos, treinamento, suporte tecnico, manutencao e demais servicos especializados necessarios a plena operacao da plataforma. - Licenca de aquisicao perpetua de sistema informatizado, por servidor,  para  modulacao e gerenciamento dos dados relativos a presenca registrada nos dispositivos de autenticacao da face,  com acesso via web, aplicacao mobile para registros, justificativas e  consultas.:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['sistema informatizado']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['sistema informatizado']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 6,
+      "descricao": "Contratacao de solucao tecnologica integrada para gestao educacional e controle de frequencia escolar mediante tecnologia de reconhecimento facial, destinada as unidades da rede municipal de ensino, compreendendo o fornecimento de equipamentos eletronicos, licenciamento de software, implantacao, configuracao, integracao de modulos, treinamento, suporte tecnico, manutencao e demais servicos especializados necessarios a plena operacao da plataforma. - Prestacao dos servicos de treinamento, suporte tecnico, atualizacoes, integracoes, customizacoes, hospedagem, manutencao preventiva e corretiva, presencial ou remotamente, e envio de alertas por e-mail, notificacao push e mensagens de texto para celular de forma automatica e em quantidade ilimitada  para 05 (cinco) unidades escolares.:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-1. Termos negativos: ['sistema informatizado']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-1. Termos negativos: ['sistema informatizado']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 6
+  },
+  "_pre_filtrado": true,
+  "_score_pre_filtro": -1.0,
+  "_termos_negativos": [
+    "sistema informatizado"
+  ],
+  "_processo": "17694852000129-1-000024/2026",
+  "_analisado_em": "2026-04-22T00:59:24.907249+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "heuristica"
+}

@@ -1,0 +1,77 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos físicos, ferramentas, sistemas de proteção e veículos para operações críticas. Não atua em software administrativo genérico ou soluções de TI corporativa."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de licenças de software antivírus e suporte técnico para administração municipal",
+    "mercados_predominantes": [
+      "Tecnologia da Informação",
+      "Software administrativo",
+      "Segurança cibernética corporativa"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de software antivírus administrativo. Resgatécnica fornece equipamentos físicos para emergências, não software de TI genérico."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Software antivírus administrativo pertence a mercado de TI corporativa, completamente fora do escopo operacional da Resgatécnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Software administrativo, não equipamento operacional",
+        "Mercado TI corporativa, não emergências"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de software administrativo genérico. Resgatécnica é fornecedora especializada em equipamentos operacionais para emergências, não em soluções de TI corporativa."
+  },
+  "_processo": "46482840000139-1-000257/2026",
+  "_analisado_em": "2026-04-21T19:39:06.676964+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

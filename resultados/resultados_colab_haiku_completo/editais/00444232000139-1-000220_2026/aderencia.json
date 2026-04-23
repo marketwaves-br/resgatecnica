@@ -1,0 +1,573 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências, não fornecedora genérica de componentes industriais ou telecomunicações"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de componentes genéricos (manômetros, chaves, alicates, martelos, estiletes, isolantes térmicos, conectores telefônicos, cabos de fibra óptica, cabos de rede) para IMBEL (Indústria de Material Bélico do Brasil)",
+    "mercados_predominantes": [
+      "Indústria de defesa/armamentos",
+      "Telecomunicações",
+      "Infraestrutura de TI",
+      "Manutenção industrial genérica"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/39 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Manômetro genérico de manutenção industrial. Resgatécnica não fornece instrumentos de medição genéricos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Componente genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Manômetro genérico de manutenção industrial. Resgatécnica não fornece instrumentos de medição genéricos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Componente genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Manômetro genérico de manutenção industrial. Resgatécnica não fornece instrumentos de medição genéricos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Componente genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Manômetro genérico de manutenção industrial. Resgatécnica não fornece instrumentos de medição genéricos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Componente genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Manômetro genérico de manutenção industrial. Resgatécnica não fornece instrumentos de medição genéricos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Componente genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Manômetro genérico de manutenção industrial. Resgatécnica não fornece instrumentos de medição genéricos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Componente genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Manômetro genérico de manutenção industrial. Resgatécnica não fornece instrumentos de medição genéricos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Componente genérico",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Chave ajustável genérica de manutenção. Resgatécnica não fornece ferramentas manuais genéricas de manutenção industrial.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Não especializada"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Chave ajustável genérica de manutenção. Resgatécnica não fornece ferramentas manuais genéricas de manutenção industrial.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Não especializada"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Chave ajustável genérica de manutenção. Resgatécnica não fornece ferramentas manuais genéricas de manutenção industrial.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Não especializada"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Chave ajustável genérica de manutenção. Resgatécnica não fornece ferramentas manuais genéricas de manutenção industrial.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Não especializada"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Chave para tubo genérica de manutenção. Resgatécnica não fornece ferramentas manuais genéricas de manutenção industrial.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Não especializada"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Alicate de pressão genérico de manutenção. Resgatécnica não fornece ferramentas manuais genéricas de manutenção industrial.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Não especializada"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Martelo genérico de manutenção. Resgatécnica não fornece ferramentas manuais genéricas de manutenção industrial.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Não especializada"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Martelo genérico de manutenção. Resgatécnica não fornece ferramentas manuais genéricas de manutenção industrial.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Não especializada"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Estilete genérico de manutenção. Resgatécnica não fornece ferramentas manuais genéricas de manutenção industrial.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Não especializada"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Isolante térmico genérico de manutenção industrial. Resgatécnica não fornece insumos genéricos de manutenção.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo genérico",
+        "Fora do nicho"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Conector telefônico genérico de telecomunicações. Resgatécnica não fornece componentes de telecomunicações genéricos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Telecomunicações",
+        "Fora do nicho"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de fibra óptica genérico de telecomunicações/TI. Resgatécnica não fornece infraestrutura de telecomunicações.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Telecomunicações",
+        "Fora do nicho"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de fibra óptica genérico de telecomunicações/TI. Resgatécnica não fornece infraestrutura de telecomunicações.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Telecomunicações",
+        "Fora do nicho"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de fibra óptica genérico de telecomunicações/TI. Resgatécnica não fornece infraestrutura de telecomunicações.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Telecomunicações",
+        "Fora do nicho"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de fibra óptica genérico de telecomunicações/TI. Resgatécnica não fornece infraestrutura de telecomunicações.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Telecomunicações",
+        "Fora do nicho"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de fibra óptica genérico de telecomunicações/TI. Resgatécnica não fornece infraestrutura de telecomunicações.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Telecomunicações",
+        "Fora do nicho"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de rede de computador genérico de TI. Resgatécnica não fornece infraestrutura de TI genérica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Fora do nicho"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Conector genérico de telecomunicações/TI. Resgatécnica não fornece componentes de telecomunicações genéricos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Telecomunicações",
+        "Fora do nicho"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Martelo genérico de ferramentaria, não martelo de resgate/combate a incêndio especializado.",
+      "motivos_pro_match": [
+        "palavra 'martelo' existe em portfolio"
+      ],
+      "motivos_contra_match": [
+        "contexto industrial genérico, não operacional"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Estilete é ferramenta de escritório/papelaria, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "mercado papelaria/escritório",
+        "sem aplicação operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Isolante térmico genérico em pote, não proteção térmica técnica de resgate ou incêndio.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "insumo industrial genérico",
+        "sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Conector telefônico é componente de telecomunicações, fora do escopo de resgate e emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "mercado telecomunicações",
+        "sem aplicação em operações críticas"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de fibra óptica é infraestrutura de telecomunicações, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "infraestrutura telecom",
+        "sem aplicação operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de fibra óptica é infraestrutura de telecomunicações, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "infraestrutura telecom",
+        "sem aplicação operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de fibra óptica é infraestrutura de telecomunicações, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "infraestrutura telecom",
+        "sem aplicação operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de fibra óptica é infraestrutura de telecomunicações, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "infraestrutura telecom",
+        "sem aplicação operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de fibra óptica é infraestrutura de telecomunicações, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "infraestrutura telecom",
+        "sem aplicação operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cabo de rede de computador é infraestrutura de TI, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "infraestrutura TI genérica",
+        "sem aplicação operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Conector genérico de eletrônica/telecomunicações, não componente de equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "eletrônica genérica",
+        "sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 26,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Alicate para crimpar é ferramenta de telecomunicações/rede, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "ferramenta telecom genérica",
+        "sem aplicação operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 27,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Localizador de cabo é ferramenta de infraestrutura de rede, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "ferramenta telecom genérica",
+        "sem aplicação operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 28,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Alicate para crimpar é ferramenta de telecomunicações/rede, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "ferramenta telecom genérica",
+        "sem aplicação operacional crítica"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 1,
+    "nao_aderente": 38
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação totalmente fora do nicho técnico-operacional de emergências. Contexto dominante é indústria de defesa/armamentos (IMBEL), telecomunicações e TI. Nenhum item relaciona-se ao portfólio de resgate, combate a incêndio ou proteção individual técnica da Resgatécnica. Recomenda-se não participar."
+  },
+  "_processo": "00444232000139-1-000220/2026",
+  "_analisado_em": "2026-04-21T19:30:35.225439+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

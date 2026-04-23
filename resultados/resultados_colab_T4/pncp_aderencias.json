@@ -1,0 +1,230 @@
+{
+  "gerado_em": "2026-04-21T17:42:23.000407+00:00",
+  "total_analisadas": 10,
+  "pareceres": {
+    "NAO_ADERENTE": 8,
+    "PARCIALMENTE_ADERENTE": 2
+  },
+  "prioridades": {
+    "?": 10
+  },
+  "estatisticas_globais": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 23,
+    "falso_positivo_lexical": 1,
+    "nao_aderente": 31
+  },
+  "licitacoes": [
+    {
+      "processo": "06916689000185-1-000032/2024",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "?",
+      "deve_priorizar": false,
+      "contexto_dominante": "",
+      "justificativa": "",
+      "recomendacao_motivo": "",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 8
+      },
+      "total_itens": 1,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T17:10:37.190929+00:00",
+      "provedor": "ollama",
+      "modelo": "qwen2.5:14b"
+    },
+    {
+      "processo": "44392215000170-1-000098/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "?",
+      "deve_priorizar": false,
+      "contexto_dominante": "",
+      "justificativa": "",
+      "recomendacao_motivo": "",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 1
+      },
+      "total_itens": 1,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T17:32:23.295082+00:00",
+      "provedor": "ollama",
+      "modelo": "qwen2.5:14b"
+    },
+    {
+      "processo": "44959021000104-1-000337/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "?",
+      "deve_priorizar": false,
+      "contexto_dominante": "",
+      "justificativa": "",
+      "recomendacao_motivo": "",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 1
+      },
+      "total_itens": 1,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T17:38:33.644976+00:00",
+      "provedor": "ollama",
+      "modelo": "qwen2.5:14b"
+    },
+    {
+      "processo": "45550167000164-1-000454/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "?",
+      "deve_priorizar": false,
+      "contexto_dominante": "",
+      "justificativa": "",
+      "recomendacao_motivo": "",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 1
+      },
+      "total_itens": 1,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T17:11:42.973659+00:00",
+      "provedor": "ollama",
+      "modelo": "qwen2.5:14b"
+    },
+    {
+      "processo": "46177531000155-1-000376/2025",
+      "parecer_geral": "PARCIALMENTE_ADERENTE",
+      "prioridade": "?",
+      "deve_priorizar": false,
+      "contexto_dominante": "",
+      "justificativa": "",
+      "recomendacao_motivo": "",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 13,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 1
+      },
+      "total_itens": 14,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T17:37:31.460938+00:00",
+      "provedor": "ollama",
+      "modelo": "qwen2.5:14b"
+    },
+    {
+      "processo": "46316600000164-1-000282/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "?",
+      "deve_priorizar": false,
+      "contexto_dominante": "",
+      "justificativa": "",
+      "recomendacao_motivo": "",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 10
+      },
+      "total_itens": 10,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T17:28:40.940261+00:00",
+      "provedor": "ollama",
+      "modelo": "qwen2.5:14b"
+    },
+    {
+      "processo": "46316600000164-1-000285/2025",
+      "parecer_geral": "PARCIALMENTE_ADERENTE",
+      "prioridade": "?",
+      "deve_priorizar": false,
+      "contexto_dominante": "",
+      "justificativa": "",
+      "recomendacao_motivo": "",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 10,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 3
+      },
+      "total_itens": 12,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T17:31:16.582009+00:00",
+      "provedor": "ollama",
+      "modelo": "qwen2.5:14b"
+    },
+    {
+      "processo": "46319000000150-1-000474/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "?",
+      "deve_priorizar": false,
+      "contexto_dominante": "",
+      "justificativa": "",
+      "recomendacao_motivo": "",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 1
+      },
+      "total_itens": 1,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T17:42:22.499918+00:00",
+      "provedor": "ollama",
+      "modelo": "qwen2.5:14b"
+    },
+    {
+      "processo": "49576416000141-1-000356/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "?",
+      "deve_priorizar": false,
+      "contexto_dominante": "",
+      "justificativa": "",
+      "recomendacao_motivo": "",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 0,
+        "nao_aderente": 4
+      },
+      "total_itens": 4,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T17:41:21.334165+00:00",
+      "provedor": "ollama",
+      "modelo": "qwen2.5:14b"
+    },
+    {
+      "processo": "71832679000123-1-000223/2025",
+      "parecer_geral": "NAO_ADERENTE",
+      "prioridade": "?",
+      "deve_priorizar": false,
+      "contexto_dominante": "",
+      "justificativa": "",
+      "recomendacao_motivo": "",
+      "estatisticas": {
+        "aderencia_direta": 0,
+        "aderencia_parcial_forte": 0,
+        "aderencia_parcial_fraca": 0,
+        "falso_positivo_lexical": 1,
+        "nao_aderente": 1
+      },
+      "total_itens": 1,
+      "pre_filtrado": false,
+      "analisado_em": "2026-04-21T17:33:25.596086+00:00",
+      "provedor": "ollama",
+      "modelo": "qwen2.5:14b"
+    }
+  ]
+}

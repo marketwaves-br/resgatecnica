@@ -1,0 +1,509 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio e proteção individual técnica",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial",
+      "Veículos Especiais Customizados"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências. Não é fornecedora genérica de serviços de manutenção industrial comum."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Serviços de instalação e manutenção de bombas hidráulicas e de combustível para município. Escopo genérico de manutenção industrial/municipal, sem especificação de contexto operacional crítico.",
+    "mercados_predominantes": [
+      "Manutenção industrial genérica",
+      "Infraestrutura municipal",
+      "Bombas de uso comum (não especializado)"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/33 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção genérica municipal. Resgatécnica fornece equipamentos especializados para emergências, não manutenção rotineira.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Não é operação crítica/emergência"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é serviço municipal genérico",
+        "Não é especialização operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é serviço municipal genérico",
+        "Não é especialização operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é serviço municipal genérico",
+        "Não é especialização operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é serviço municipal genérico",
+        "Não é especialização operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é serviço municipal genérico",
+        "Não é especialização operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é serviço municipal genérico",
+        "Não é especialização operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é serviço municipal genérico",
+        "Não é especialização operacional crítica"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de instalação/manutenção industrial genérica. Resgatécnica fornece motobombas operacionais, não presta serviços de manutenção industrial rotineira.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é serviço municipal genérico",
+        "Não é especialização operacional crítica"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 33
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é para serviços de manutenção rotineira de infraestrutura municipal. Resgatécnica é especializada em equipamentos técnico-operacionais para emergências e operações críticas. Não há compatibilidade comercial real. Mercados completamente distintos."
+  },
+  "_processo": "46177531000155-1-000376/2025",
+  "_analisado_em": "2026-04-21T18:21:46.054007+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

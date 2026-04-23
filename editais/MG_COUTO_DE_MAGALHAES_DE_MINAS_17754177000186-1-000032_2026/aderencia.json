@@ -1,0 +1,825 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "ACETONA, frasco 100ml, acetone, alcohol benzophenome 3 CL42090, castor oil:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "AGUA SANITARIA 1:A BASE DE HIPOCLORITO DE SODIO: COM TEOR DE CLORO ATIVO ENTRE 2,0 A 2,5 % P/P. EMBALAGEM PLASTICA DE 01 LITRO, COM DADOS DE IDENTIFICACAO DO PRODUTO, MARCA DO FABRICANTE, DATA DE FABRICACAO, PRAZO DE VALIDADE NAO SUPERIOR A 06 MESES E REGISTRO NO MINISTERIO DA SAUDE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 3,
+      "descricao": "AGUA SANITARIA 1 LTS, PARA ALIMENTOS:Uso domestico, Devera constar no rotulo a especificacao de uso para desinfeccao de frutas, verduras e legumas, embalagem 1 litro, a base de hiplocorito de sodio: com teor de cloro ativo entre 2,0 a 2,5%p/p. Rotulagem deve conter , Nome e/ou marca , composicao ,data de validade,lote e modo de uso,registro ou notificacao na Anvisa, a embalagem devera ser opaca, de plastico rigido e de dificil ruptura, bem vedada, com fechamento que impeca vazamentos.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "ALCOOL 70% LIQUIDO:1 LITRO, COM ACAO BACTERICIDA ANTI-SEPTICA,COM REGISTRO NA ANVISA. ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 5,
+      "descricao": "ALCOOL COMUM 92,8 GRAUS:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 6,
+      "descricao": "Alcool em gel 70 - 800ml:para antisepsia complementar das maos, embalagem plastica tipo refil, contendo 800 ml. Locao alcoolica de consistencia gelationosa, isenta de perfume, com odor caracteristico de alcool, hipoalergenica e atoxica que promove a higiene e desinfeccao de maos. apresenta informacao de data de fabricacao, numero de lote e data de validade impresso na embalagem , informacao de como proceder em casos de irritacao. Prazo de validade minima: 12(doze) meses da data do recebimento.  ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7,
+      "descricao": "Alcool Em Gel Antisseptico 70 Com 500ml:COMPOSICAO: ATIVO, UMECTANTE, CORANTE, NEUTRALIZANTE, DESNATURANTE, ESPESSANTE E VEICULO. PRINCIPIO ATIVO: ALCOOL ETILICO HIDRATADO 70% P/P.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 8,
+      "descricao": "AMACIANTE, para roupas, frasco contendo 2 litros:Composto de cloreto de dialquil dimetil amonio, ph puro, embalagem de plastico (tipo confort)",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 9,
+      "descricao": "BALDE, (cesto) fechado, material plastico, capacidade de 100 litros:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 10,
+      "descricao": "BALDE, (cesto) fechado, material plastico, capacidade de 65 litros:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 11,
+      "descricao": "BALDE DE PLASTICO,cor preto,reforcado para concreto,capacidade 12 litros:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 12,
+      "descricao": "BANHEIRA para bebe,:Capacidade 20 litros, em plastico rigido, cantos arredondados, local proprio para sabonete e esponja, sistema rapido de escoamento de agua.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 13,
+      "descricao": "BORRIFADOR 500 ML: Pulverizador de Plastico 500ml - Transparente ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 14,
+      "descricao": "BOTA DE BORRACHA CANO CURTO BICO LARGO:Calcado ocupacional tipo bota impermeavel, confeccionada em PVC, solado em PVC antiderrapante, acabamento interior em meia de poliester.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 15,
+      "descricao": "BOTAS PARA LIMPEZA, cano longo,:PRODUZIDO em material PVC injetado, cano longo: 325mm, forro interno em poliester, solado desenho anti-derrapante, de facil limpeza / higienizacao. Nas cores: branca/preta.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 16,
+      "descricao": "CARRINHO PARA LIMPEZA, Kit completo para limpeza umida e seca de pisos frios em geral.:Kit completo para limpeza umida e seca de pisos frios em geral. Pode ser utilizado em paviflex, porcelanat, ceramica, granilite, cimento queimado, plurigoma, etc. Carrinho de limpeza composto por: carro funcional america- Balde Doblo 30 litros- 01 cabo aluminio 1,40 m sem ponteira- haste americana com cabo de aluminio - refil de algodao 320g- armacao Mop Profi 60 cm - Refil Mop po profi 60 cm - pa -placa sinalizadora.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 17,
+      "descricao": "CERA LIQUIDA para chao (ardosia), incolor:Frasco contendo 750ml",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 18,
+      "descricao": "CERA para chao, liquida, cor vermelha:Frasco contendo 750ml",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 19,
+      "descricao": "CERA, para polimento de piso, liquida, incolor. Embalagem  minimo 750 ml:Rotulagem contendo, no minimo, nome, composicao e conteudo do produto, data de fabricacao, validade, nome ou marca e CNPJ do fabricante e registro ou notificacao na ANVISA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 20,
+      "descricao": "CLORO, alvejante em embalagem plastica, frasco 2litros:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 21,
+      "descricao": "CONDICIONADOR DE CABELOS:Frasco contendo 2 litros, para todos os tipos de cabelos.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 22,
+      "descricao": "Copo descartavel PP transparente 300 ml. Fardo com 100 unidades.:Copo descartavel PP transparente 300 ml. Fardo com 100 unidades.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 23,
+      "descricao": "CORDA, para varal polietileno, pacote com 10 metros:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 24,
+      "descricao": "CREME dental com fluor , calcio , embalagem de 90 gramas:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 25,
+      "descricao": "CREME dental com fluor, uso adulto, embalagem de 50 gramas:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 26,
+      "descricao": "CREME para cabelos, tipo condicionador, para todos os tipos de cabelos, frasco contendo 2 litros:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 27,
+      "descricao": "DESINFETANTE, uso domestico, concentrado, floral, frasco contendo 2 litros:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 28,
+      "descricao": "DETERGENTE, liquido, biodegradavel, testado e aprovado dermatologicamente, acondicionado, frasco contendo 500ml:Detergente para lavar loucas, Embalagem: Forma e Material: Frasco Plastico em Poliestireno Transparente.Capacidade: 500 ml, Dados Fisico-Quimicos: Aspecto: Liquido Viscoso Cor: Caracteristica da Versao Odor: Caracteristico da Versao pH puro: 6,5  7,5 Solubilidade: Soluvel em agua Viscosidade: 300 cP a 500 cP Densidade a 25C: 1,0100 A 1,0300 g/ml Materia Ativa Anionica (PMm= 360 g/mol): 7,0%  10,0% Ingrediente Ativo: Linear Alquil Benzeno Sulfonato de Sodio Composicao do Produto: Tensoativos Anionicos, Sequestrante, Espessante, Conservantes, Fragrancia, Corante e Agua. ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 29,
+      "descricao": "ESCOVA DENTAL ADULTO, COM FORMATO ANATOMICO, CONFECCIONADA EM MATERIAL ATOXICO, COM CABO EM POLIPROPENO, CERDAS DURAS, EM NYLON FILEIRAS, RETAS, COM PONTAS ARREDONDADAS:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 30,
+      "descricao": "ESCOVA para cabelos, madeira nobre, meia lua com cerdas de nylon:resistente para escovar cabelos grossos.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 31,
+      "descricao": "ESCOVA para dentes, infantil, com formato anatomico, confeccionada em material atoxico, cabo em propileno, cerdas duras, em nylon fileiras, retas com pontas arredondadas:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 32,
+      "descricao": "ESCOVA, para limpeza de vaso sanitario, em nylon, com suporte plastico:Embalagem com dados de identificacao do produto e marca do fabricante.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 33,
+      "descricao": "ESCOVA para roupas, anatomica, de plastico, com cerdas resistentes:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 34,
+      "descricao": "ESMALTE para unhas, frasco 8ml, cores variadas, acetato, nitrocelulose, ultra duracao, secagem rapida, cobertura profissional:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 35,
+      "descricao": "ESPANADOR, eletrostatico, com cabo em polipropileno e cerdas acrilicas, comprimento total 35 cm:Embalagem com dados de identificacao do produto em portugues, procedencia, marca do fabricante e data de fabricacao.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 36,
+      "descricao": "ESPONJA, de la de aco carbono abrasivo, para limpeza em geral, fardo.:la de aco - biodegradavel, sem perfume, embalagem com peso liquido minimo de 60 (sessenta) gramas. FARDO: com 14 pacotinhos com 8 unidades cada, peso liquido minimo de 60gr. marca do fabricante, data de fabricacao e prazo de validade.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 37,
+      "descricao": "ESPONJA, dupla face, 75 X 110mm, sem resina sintetica, para uso geral de limpeza:Um lado, esponja macia para superficies delicadas, coloracao amarela. O outro lado, esponja abrasiva para limpeza pesada, coloracao verde. Embalagem com dados de identificacao do produto e marca do fabricante. Materia prima: Espuma de Poliuretano, fibra sintetica com abrasivo, contendo alto poder espumante.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 38,
+      "descricao": "ESPONJA, dupla face, banho:ESPONJA P/ BANHO, ANTIBACTERICIDA, DUPLA FACE, SENDO UMA DE ESPUMA (MACIA) E A OUTRA DE FIBRA (MEIO ASPERA) TAMANHO APROXIMADO 110 X 75 X 23 MM.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 39,
+      "descricao": "FLANELA, em 100% algodao, bordas overloqueadas em linhas de algodao, dimensoes 40 x 60 cm:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 40,
+      "descricao": "FOSFORO para cozinha, corpo de madeira, tipo longo, caixinha com 200 palitos (UNIDADE):",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 41,
+      "descricao": "Fralda descartavel infantil G. Pacote com 90 unidades, formato anatomico, forro ultra macio, antialergica, camada de gel com alta absorcao, fitas adesivas multiajustaveis. Tamanho G (para criancas com peso de 8 a 12,5 kg).:Fralda descartavel infantil G. Pacote com 90 unidades, formato anatomico, forro ultra macio, antialergica, camada de gel com alta absorcao, fitas adesivas multiajustaveis. Tamanho G (para criancas com peso de 8 a 12,5 kg).",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 42,
+      "descricao": "Fralda descartavel infantil M. Pacote com 90 unidades, formato anatomico, forro ultra macio, antialergica, camada de gel com alta absorcao, fitas adesivas multiajustaveis. Tamanho M (para criancas com peso de 6 a 8 kg).:Fralda descartavel infantil M. Pacote com 90 unidades, formato anatomico, forro ultra macio, antialergica, camada de gel com alta absorcao, fitas adesivas multiajustaveis. Tamanho M (para criancas com peso de 6 a 8 kg).",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 43,
+      "descricao": "Fralda descartavel infantil P. Pacote com 90 unidades, formato anatomico, forro ultra macio, antialergica, camada de gel com alta absorcao, fitas adesivas multiajustaveis. Tamanho P (para criancas com peso de 3 a 6 kg).:Fralda descartavel infantil P. Pacote com 90 unidades, formato anatomico, forro ultra macio, antialergica, camada de gel com alta absorcao, fitas adesivas multiajustaveis. Tamanho P (para criancas com peso de 3 a 6 kg).",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 44,
+      "descricao": "FRALDA DESCARTAVEL  INFANTIL TAMANHO EG:, pacote com 90 fraldas",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 45,
+      "descricao": "GEL capilar, fixador, sem alcool, pote 230gr:",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 46,
+      "descricao": "HIDRATANTE PARA PELE:EM CREME, USO PARA ADULTO, UTILIZACAO PARA CORPO INTEIRO, INDICADO PARA PELE DE TODOS OS TIPOS, EMBALADO EM FRASCO PLASTICO, CONTENDO 200 ML.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 47,
+      "descricao": "Lenco umedecido. Material nao tecido. Dimensoes aproximadas de 15 x 20 cm. Componentes com emoliente, isento de alcool. Caracteristica adicional: hipoalergenico. Uso descartavel. Uso infantil. Pacote contendo 150 unidades.:Lenco umedecido. Material nao tecido. Dimensoes aproximadas de 15 x 20 cm. Componentes com emoliente, isento de alcool. Caracteristica adicional: hipoalergenico. Uso descartavel. Uso infantil. Pacote contendo 150 unidades.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 48,
+      "descricao": "Limpador de Piso, Liquido, Nao Precisa Ser Diluido, Composto de Tensoativo Nao Ionico ,solvente Conservantes,sequestrante,fragrancia e Veicululo, Fragrancia de Flor de Laranjeira, Finalidade:limpa e Da Brilho Em Piso Laminado,acondicionado de Forma Adequada, Produto Sujeito a Verificacao No Ato Da Entrega,aos Procedimentos Adm. Determinados Pela Anvisa,:Galao contendo 2 litros.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 49,
+      "descricao": "LIMPADOR, instantaneo, multiuso:composto de tensoativo nao ionico, coadjuvantes. Embalagem frasco com 500 ml, com dados de identificacao do produto, marca do fabricante, prazo de validade e registro ou notificacao no Ministerio da Saude.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 50,
+      "descricao": "LIMPA PEDRAS:TENSOATIVO ANIONICO, ADJUVANTE, COADJUVANTE, CORANTE E VEICULO.: COM REGISTRO NO MS OU ANVISA. GALAO CONTENDO 2 LITROS.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-4. Termos negativos: ['alimentos', 'dental', 'desinfetante', 'sabonete']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 50
+  },
+  "_pre_filtrado": true,
+  "_score_pre_filtro": -4.0,
+  "_termos_negativos": [
+    "alimentos",
+    "dental",
+    "desinfetante",
+    "sabonete"
+  ],
+  "_processo": "17754177000186-1-000032/2026",
+  "_analisado_em": "2026-04-22T00:59:25.721263+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "heuristica"
+}

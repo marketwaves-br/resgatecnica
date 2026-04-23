@@ -1,0 +1,78 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em serviços financeiros, bancários ou de arrecadação de receitas."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de instituição bancária para prestação de serviços de arrecadação integrada ao PIX de faturas de água/esgoto. Serviço financeiro e administrativo de processamento de pagamentos.",
+    "mercados_predominantes": [
+      "Serviços bancários e financeiros",
+      "Arrecadação de receitas públicas",
+      "Processamento de pagamentos instantâneos (PIX)"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para serviço bancário de arrecadação PIX. Resgatécnica é fornecedora de equipamentos operacionais para emergências. Mercados, tipo de fornecedor e contexto dominante completamente distintos."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço bancário de arrecadação PIX. Nenhuma relação com equipamentos de resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço financeiro-bancário",
+        "Fora do escopo operacional da empresa"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida",
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de serviço bancário. Resgatécnica não é fornecedora de serviços financeiros ou de arrecadação. Incompatibilidade total de mercado e tipo de fornecedor."
+  },
+  "_processo": "19767532000187-1-000001/2026",
+  "_analisado_em": "2026-04-22T01:04:13.243870+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

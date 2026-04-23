@@ -1,0 +1,377 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica, altura/espaço confinado, produtos perigosos, atendimento pré-hospitalar e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em nicho técnico-operacional de emergências. Não atua em alimentação, bebidas, padaria ou catering."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Fornecimento de lanches, produtos de padaria, refrigerantes e sucos para consumo geral (catering/alimentação)",
+    "mercados_predominantes": [
+      "Alimentação e Catering",
+      "Padaria e Confeitaria",
+      "Bebidas (refrigerantes e sucos)",
+      "Distribuição de alimentos"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de alimentação/catering. Resgatécnica é especializada em equipamentos de emergência e operações críticas. Nenhuma sobreposição comercial real."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Lanche (cachorro-quente) é alimento de catering. Fora do escopo de equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento de consumo",
+        "Mercado de catering"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Lanche frio (sanduíche) é alimento de catering. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento de consumo",
+        "Mercado de catering"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Lanche quente (hamburguer) é alimento de catering. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento de consumo",
+        "Mercado de catering"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Lanche quente (frango) é alimento de catering. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento de consumo",
+        "Mercado de catering"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Salgados diversos (coxinha, pastel, empada) são alimentos de catering. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento de consumo",
+        "Mercado de catering"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Biscoito de polvilho é produto de padaria/alimento. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto de padaria",
+        "Alimento de consumo"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bolachas diversas são produtos de padaria/alimento. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto de padaria",
+        "Alimento de consumo"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bolo simples é produto de padaria/alimento. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto de padaria",
+        "Alimento de consumo"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bolo recheado e confeitado é produto de padaria/alimento. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto de padaria",
+        "Alimento de consumo"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mini pão francês recheado é produto de padaria/alimento. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto de padaria",
+        "Alimento de consumo"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mini rosca caseira é produto de padaria/alimento. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto de padaria",
+        "Alimento de consumo"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão de queijo é produto de padaria/alimento. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto de padaria",
+        "Alimento de consumo"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão de queijo recheado é produto de padaria/alimento. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto de padaria",
+        "Alimento de consumo"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão de metro/bengala é produto de padaria/alimento. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto de padaria",
+        "Alimento de consumo"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Broa de fubá é produto de padaria/alimento. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Produto de padaria",
+        "Alimento de consumo"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Refrigerante dietético (bebida) é alimento/bebida de consumo. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Bebida de consumo",
+        "Mercado de alimentos"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Refrigerante cola (bebida) é alimento/bebida de consumo. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Bebida de consumo",
+        "Mercado de alimentos"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Refrigerante cola 2L (bebida) é alimento/bebida de consumo. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Bebida de consumo",
+        "Mercado de alimentos"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Refrigerante guaraná 350ml (bebida) é alimento/bebida de consumo. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Bebida de consumo",
+        "Mercado de alimentos"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Refrigerante guaraná 2L (bebida) é alimento/bebida de consumo. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Bebida de consumo",
+        "Mercado de alimentos"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Refrigerante guaraná zero 2L (bebida) é alimento/bebida de consumo. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Bebida de consumo",
+        "Mercado de alimentos"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Refrigerante guaraná 250ml (bebida) é alimento/bebida de consumo. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Bebida de consumo",
+        "Mercado de alimentos"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Suco integral laranja 300ml (bebida) é alimento/bebida de consumo. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Bebida de consumo",
+        "Mercado de alimentos"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Suco integral laranja 1L (bebida) é alimento/bebida de consumo. Sem relação com equipamentos operacionais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Bebida de consumo",
+        "Mercado de alimentos"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 24
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é de alimentação/catering. Resgatécnica atua em equipamentos de emergência. Sem sobreposição comercial."
+  },
+  "_processo": "47970769000104-1-000134/2026",
+  "_analisado_em": "2026-04-21T19:42:16.043608+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

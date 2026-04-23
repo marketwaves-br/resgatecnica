@@ -1,0 +1,715 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências, não em materiais gráficos ou administrativos genéricos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de materiais gráficos diversos (adesivos, banners, envelopes, cartazes, impressos administrativos e médicos) para secretarias municipais de Andradas/MG.",
+    "mercados_predominantes": [
+      "Gráfica e impressão digital",
+      "Materiais administrativos",
+      "Impressos médicos e formulários",
+      "Sinalização e comunicação visual"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/50 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Adesivo autocolante para sinalização gráfica. Mercado de impressão digital, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado gráfico puro",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Adesivo autocolante sem instalação. Produto gráfico genérico, fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Impressão digital comercial",
+        "Sem aplicação técnica"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Adesivo recortado para sinalização. Produto gráfico, não equipamento de resgate ou proteção.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sinalização gráfica",
+        "Sem uso operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Adesivo recortado sem instalação. Produto gráfico puro, incompatível com portfólio técnico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Impressão digital",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Banner em lona com bastões de madeira. Produto de sinalização comercial, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sinalização comercial",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Banner em lona com ilhós. Produto de sinalização gráfica, não equipamento de resgate ou proteção.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sinalização visual",
+        "Sem aplicação técnica"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Capa de processo para protocolo. Produto administrativo de papelaria, fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem uso técnico"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carne de IPTU e taxas. Impresso administrativo municipal, completamente fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Impresso fiscal",
+        "Sem relação operacional"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carne de ISSQN e taxas. Impresso fiscal municipal, sem qualquer relação com operações de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Impresso fiscal",
+        "Sem contexto técnico"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cartaz 44x64cm em papel couché. Produto de sinalização gráfica, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sinalização gráfica",
+        "Sem especialização"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carteirinha esportiva em papel offset. Produto administrativo/esportivo, fora do escopo técnico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria esportiva",
+        "Sem uso operacional"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Crachá escolar em papel. Produto administrativo escolar, sem relação com operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria escolar",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Crachás de identificação em PVC. Produto administrativo genérico, não equipamento técnico-operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Identificação administrativa",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Envelope branco timbrado. Produto de papelaria administrativa, fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem uso técnico"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Estrutura com ACM adesivado. Sinalização comercial em metalon, não equipamento de resgate ou proteção.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sinalização comercial",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Estrutura com lona. Sinalização gráfica em metalon, não equipamento técnico-operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sinalização comercial",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Faixa com bastões de madeira. Produto de sinalização gráfica, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sinalização gráfica",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ficha de competição em papel. Produto administrativo esportivo, fora do escopo técnico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria esportiva",
+        "Sem uso operacional"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ficha de inscrição em papel. Produto administrativo genérico, sem relação com operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem contexto técnico"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Impresso APAC (autorização de procedimentos ambulatoriais). Formulário médico-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Formulário médico",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Impresso atestado médico. Formulário médico-administrativo, fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Formulário médico",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Impresso autorização de esterilização. Formulário médico-administrativo, não equipamento técnico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Formulário médico",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Impresso avaliação audiológica. Formulário médico especializado, fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Formulário médico",
+        "Sem contexto técnico"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bloco para comunicação interna. Produto de papelaria administrativa, sem relação com operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem uso técnico"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cartão de gestante. Formulário médico-administrativo, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Formulário médico",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 26,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cartão de vacinação adulto. Impresso administrativo de saúde pública. Fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Mercado saúde pública genérico"
+      ]
+    },
+    {
+      "numeroItem": 27,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cartão vacinação feminino/masculino. Impresso administrativo. Sem relação com operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Saúde pública genérica"
+      ]
+    },
+    {
+      "numeroItem": 28,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carteirinha vacinação cães/gatos. Impresso veterinário administrativo. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Veterinária genérica"
+      ]
+    },
+    {
+      "numeroItem": 29,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Certificado concessão jazigos. Impresso administrativo cemitério. Sem aderência operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Gestão cemitério"
+      ]
+    },
+    {
+      "numeroItem": 30,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Controle entrega leite. Bloco administrativo. Fora do nicho de emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Logística alimentar"
+      ]
+    },
+    {
+      "numeroItem": 31,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Etiquetas adesivas para vacinas. Impresso administrativo. Sem relação com equipamentos técnicos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Saúde pública genérica"
+      ]
+    },
+    {
+      "numeroItem": 32,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ficha atendimento ambulatorial. Formulário administrativo hospitalar. Fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Saúde pública genérica"
+      ]
+    },
+    {
+      "numeroItem": 33,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ficha visita domiciliar endemia. Formulário administrativo. Sem aderência ao portfólio.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Saúde pública genérica"
+      ]
+    },
+    {
+      "numeroItem": 34,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ficha notificação laqueadura/vasectomia. Formulário administrativo saúde. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Saúde pública genérica"
+      ]
+    },
+    {
+      "numeroItem": 35,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Folder 15x20cm campanhas diversas. Impresso marketing/comunicação. Sem relação com operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Marketing/comunicação"
+      ]
+    },
+    {
+      "numeroItem": 36,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Guia encaminhamento. Bloco administrativo. Fora do nicho de emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Saúde pública genérica"
+      ]
+    },
+    {
+      "numeroItem": 37,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Nota saída materiais/peças. Bloco administrativo. Sem aderência operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Gestão estoque"
+      ]
+    },
+    {
+      "numeroItem": 38,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Notificação receita B-2. Bloco administrativo farmacêutico. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Farmácia genérica"
+      ]
+    },
+    {
+      "numeroItem": 39,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Notificação receita B azul. Bloco administrativo farmacêutico. Sem aderência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Farmácia genérica"
+      ]
+    },
+    {
+      "numeroItem": 40,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Passagem agendamento social. Bloco administrativo. Fora do nicho operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Gestão social"
+      ]
+    },
+    {
+      "numeroItem": 41,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pedido material limpeza. Bloco administrativo. Sem relação com equipamentos técnicos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Gestão limpeza"
+      ]
+    },
+    {
+      "numeroItem": 42,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Receituário branco. Bloco administrativo farmacêutico. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Farmácia genérica"
+      ]
+    },
+    {
+      "numeroItem": 43,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Receituário controle especial. Bloco administrativo farmacêutico. Sem aderência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Farmácia genérica"
+      ]
+    },
+    {
+      "numeroItem": 44,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Registro diário serviço antivetorial endemia. Bloco administrativo. Fora do nicho.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Saúde pública genérica"
+      ]
+    },
+    {
+      "numeroItem": 45,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Requisição exames. Bloco administrativo. Sem relação com operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Saúde pública genérica"
+      ]
+    },
+    {
+      "numeroItem": 46,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Resumo semanal serviço antivetorial endemia. Bloco administrativo. Fora do escopo.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Saúde pública genérica"
+      ]
+    },
+    {
+      "numeroItem": 47,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Termo consentimento pós informado. Bloco administrativo saúde. Sem aderência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Saúde pública genérica"
+      ]
+    },
+    {
+      "numeroItem": 48,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Livretos 24 páginas. Impresso editorial/marketing. Fora do nicho operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Marketing/comunicação"
+      ]
+    },
+    {
+      "numeroItem": 49,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Livro registro óbitos. Livro administrativo cemitério. Sem relação com equipamentos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Gestão cemitério"
+      ]
+    },
+    {
+      "numeroItem": 50,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Panfleto 15x20cm. Impresso marketing/comunicação. Fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Marketing/comunicação"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 50
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é de materiais gráficos e administrativos genéricos. Resgatécnica é fornecedora especializada em equipamentos técnico-operacionais de emergência. Nenhuma sobreposição comercial real. Todos os 25 itens pertencem a mercados completamente distintos (gráfica, papelaria, impressos médicos). Recomenda-se não participar."
+  },
+  "_processo": "17884412000134-1-000147/2026",
+  "_analisado_em": "2026-04-22T01:08:11.487480+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

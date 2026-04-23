@@ -1,0 +1,78 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções operacionais para emergências. NÃO é fornecedora de serviços de saúde hospitalar ou domiciliar genéricos. Atua em nicho técnico-operacional de resposta a crises, não em gestão de saúde pública ou convênios médicos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviços de saúde especializados em atendimento de decisão judicial. Órgão: Secretaria de Estado da Saúde (SP). Modalidade: Pregão Eletrônico.",
+    "mercados_predominantes": [
+      "Saúde pública/hospitalar",
+      "Gestão de convênios médicos",
+      "Atendimento domiciliar de saúde",
+      "Serviços médicos especializados"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para contratação de serviços de saúde hospitalar/domiciliar e convênios médicos. Resgatécnica é fornecedora de equipamentos operacionais para emergências, não prestadora de serviços de saúde. Mercados completamente distintos."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de saúde hospitalar/domiciliar e convênio médico. Resgatécnica fornece equipamentos operacionais, não serviços de saúde.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de saúde pública/convênios",
+        "Serviço, não equipamento"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é para serviços de saúde hospitalar/domiciliar. Resgatécnica é fornecedora de equipamentos operacionais para emergências. Não há compatibilidade comercial real."
+  },
+  "_processo": "46374500000194-1-002337/2026",
+  "_analisado_em": "2026-04-21T19:47:52.210156+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

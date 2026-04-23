@@ -1,0 +1,13 @@
+RESUMO DA EXPORTAÇÃO POWER BI
+========================================
+Licitações exportadas : 172
+Itens exportados       : 2,548
+Custo LLM total (USD)  : $1.3913
+
+Por modo de processamento:
+  llm             80
+  meepp           72
+  pre_filtro      20
+
+Por parecer geral:
+  NAO_ADERENTE              172

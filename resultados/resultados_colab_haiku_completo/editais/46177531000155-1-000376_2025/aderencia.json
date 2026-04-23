@@ -1,0 +1,559 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio e proteção individual técnica",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial",
+      "Veículos Especiais Customizados"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências. Não é fornecedora genérica de manutenção industrial ou serviços de infraestrutura municipal comum."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para registro de preços de fornecimento e instalação de motobombas para município. Foco em serviços de instalação/manutenção de bombas hidráulicas e de combustível em contexto municipal genérico.",
+    "mercados_predominantes": [
+      "Manutenção industrial municipal",
+      "Infraestrutura pública",
+      "Bombas de uso genérico (não especializado em resgate/emergência)"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/33 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção industrial genérica. Resgatécnica vende motobombas especializadas, não presta serviços de manutenção municipal.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto municipal genérico",
+        "Serviço, não produto"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de manutenção genérica municipal, não fornecimento de motobombas operacionais especializadas.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é manutenção municipal rotineira",
+        "Resgatécnica fornece equipamentos, não serviços de manutenção genérica"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de manutenção genérica municipal, não fornecimento de motobombas operacionais especializadas.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é manutenção municipal rotineira",
+        "Resgatécnica fornece equipamentos, não serviços de manutenção genérica"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de manutenção genérica municipal, não fornecimento de motobombas operacionais especializadas.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é manutenção municipal rotineira",
+        "Resgatécnica fornece equipamentos, não serviços de manutenção genérica"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de manutenção genérica municipal, não fornecimento de motobombas operacionais especializadas.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é manutenção municipal rotineira",
+        "Resgatécnica fornece equipamentos, não serviços de manutenção genérica"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de manutenção genérica municipal, não fornecimento de motobombas operacionais especializadas.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é manutenção municipal rotineira",
+        "Resgatécnica fornece equipamentos, não serviços de manutenção genérica"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de manutenção genérica municipal, não fornecimento de motobombas operacionais especializadas.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é manutenção municipal rotineira",
+        "Resgatécnica fornece equipamentos, não serviços de manutenção genérica"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de manutenção genérica municipal, não fornecimento de motobombas operacionais especializadas.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é manutenção municipal rotineira",
+        "Resgatécnica fornece equipamentos, não serviços de manutenção genérica"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Motobombas",
+      "justificativa": "Serviço de manutenção genérica municipal, não fornecimento de motobombas operacionais especializadas.",
+      "motivos_pro_match": [
+        "Palavra 'bombas' presente no portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto é manutenção municipal rotineira",
+        "Resgatécnica fornece equipamentos, não serviços de manutenção genérica"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 33
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é para serviços de manutenção/instalação de bombas em infraestrutura municipal genérica. Resgatécnica é fornecedora especializada em equipamentos de emergência e operações críticas, não prestadora de serviços de manutenção industrial municipal. Sem aderência comercial real."
+  },
+  "_processo": "46177531000155-1-000376/2025",
+  "_analisado_em": "2026-04-21T19:22:43.721999+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

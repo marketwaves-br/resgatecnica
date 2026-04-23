@@ -1,0 +1,168 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de emergência. Não atua em uniformes administrativos ou vestuário genérico de saúde pública."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Registro de preço de uniformes e calçados para funcionários da Secretaria Municipal de Saúde (ACS, agentes comunitários). Vestuário administrativo e de identificação, não equipamento técnico-operacional.",
+    "mercados_predominantes": [
+      "Vestuário administrativo/corporativo",
+      "Uniformes de saúde pública",
+      "Calçados de uso rotineiro"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de uniformes administrativos para saúde pública. Resgatécnica fornece equipamentos técnico-operacionais de emergência. Mercados, usuários finais e contextos operacionais completamente distintos."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Camiseta UV manga longa para saúde pública. Não é EPI técnico-operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vestuário administrativo",
+        "Contexto saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Camiseta UV manga longa branca. Uniforme administrativo, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uniforme administrativo",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Camiseta UV manga curta branca. Vestuário de identificação para ACS, não EPI técnico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uniforme administrativo",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Camiseta malha PV. Uniforme administrativo genérico, não equipamento de proteção operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vestuário administrativo",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mochila para ACS. Equipamento de transporte administrativo, não mochila tática ou de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Uso administrativo",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Chapéu para ACS. Vestuário de identificação, não capacete ou EPI técnico de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Vestuário administrativo",
+        "Sem proteção técnica"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": "Atendimento Pré-Hospitalar",
+      "subcategoria_portfolio_relacionada": "Coletes",
+      "justificativa": "Palavra 'colete' gera falso positivo. Portfolio tem coletes de resgate/APH. Item é colete de identificação para ACS, não colete técnico-operacional.",
+      "motivos_pro_match": [
+        "Palavra 'colete'"
+      ],
+      "motivos_contra_match": [
+        "Uso administrativo",
+        "Sem função operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Calçado cano baixo microfibra. Calçado administrativo para saúde pública. Não é bota de combate a incêndio, resgate ou mergulho.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Calçado administrativo",
+        "Sem especialização técnica"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 1,
+    "nao_aderente": 7
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de uniformes administrativos para saúde pública. Resgatécnica é fornecedora de equipamentos técnico-operacionais de emergência. Mercados, usuários finais, contextos operacionais e especializações completamente distintos. Nenhum item tem aderência comercial real."
+  },
+  "_processo": "44215846000114-1-000066/2026",
+  "_analisado_em": "2026-04-21T19:39:20.612920+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,82 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em fornecimento de serviços de saúde domiciliar ou locação de equipamentos médicos de uso contínuo."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Locação de concentradores de oxigênio para oxigenoterapia domiciliar em município. Mercado de saúde pública/domiciliar, não emergencial.",
+    "mercados_predominantes": [
+      "Saúde domiciliar",
+      "Oxigenoterapia de longa duração",
+      "Serviços de locação médica"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para locação de equipamento médico de uso domiciliar contínuo. Resgatécnica atua em operações críticas/emergências, não em saúde domiciliar rotineira."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Concentrador de oxigênio para oxigenoterapia domiciliar é equipamento médico de uso contínuo, não operacional de emergência.",
+      "motivos_pro_match": [
+        "Oxigênio mencionado em contexto de APH"
+      ],
+      "motivos_contra_match": [
+        "Locação domiciliar, não emergência",
+        "Saúde rotineira, não resgate crítico"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo operacional. Resgatécnica não fornece serviços de locação de equipamentos médicos domiciliares."
+  },
+  "_processo": "18309724000187-1-000036/2026",
+  "_analisado_em": "2026-04-22T01:04:48.500666+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

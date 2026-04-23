@@ -1,0 +1,120 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em odontologia, medicina dentária ou insumos odontológicos genéricos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para fornecimento de limas endodônticas (instrumentos odontológicos) para Fundo Municipal de Saúde. Mercado: odontologia/endodontia. Comprador: órgão público de saúde.",
+    "mercados_predominantes": [
+      "Odontologia",
+      "Endodontia",
+      "Insumos Médico-Odontológicos",
+      "Saúde Pública"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Limas endodônticas são insumos odontológicos especializados. Resgatécnica não atua em odontologia, medicina dentária ou insumos odontológicos. Contexto dominante é saúde bucal, não emergências/operações críticas."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Lima endodôntica é instrumento odontológico especializado. Resgatécnica não fornece insumos odontológicos ou dentários.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado odontológico",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Lima endodôntica é instrumento odontológico especializado. Resgatécnica não fornece insumos odontológicos ou dentários.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado odontológico",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Lima endodôntica é instrumento odontológico especializado. Resgatécnica não fornece insumos odontológicos ou dentários.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado odontológico",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Lima endodôntica é instrumento odontológico especializado. Resgatécnica não fornece insumos odontológicos ou dentários.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado odontológico",
+        "Fora do escopo operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 4
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "perfil_empresa_resumido"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de insumos odontológicos. Resgatécnica não atua em odontologia. Sem aderência comercial real."
+  },
+  "_processo": "13864377000130-1-000438/2026",
+  "_analisado_em": "2026-04-21T19:40:20.279242+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

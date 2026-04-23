@@ -1,0 +1,169 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. NÃO é fornecedora de sistemas de segurança eletrônica, CFTV, infraestrutura de TI ou equipamentos hospitalares genéricos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição e instalação de sistema de monitoramento por CFTV (circuito fechado de televisão) para hospital municipal, incluindo câmeras IP, gravadores NVR, infraestrutura de rede, nobreak e serviço de instalação.",
+    "mercados_predominantes": [
+      "Segurança eletrônica e vigilância",
+      "Infraestrutura de TI e redes",
+      "Equipamentos hospitalares administrativos",
+      "Serviços de instalação técnica genérica"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de segurança eletrônica e infraestrutura hospitalar. Resgatécnica é fornecedora de equipamentos operacionais para emergências (resgate, incêndio, proteção individual). Nenhum item alinha-se ao portfólio técnico-operacional da empresa."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Câmera IP para CFTV hospitalar. Segurança eletrônica, não equipamento operacional de resgate/emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado segurança eletrônica",
+        "Uso administrativo hospitalar"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gravador NVR para CFTV. Infraestrutura de TI/vigilância, fora do escopo operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Sistema vigilância"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Nobreak senoidal para alimentação de equipamentos CFTV. Infraestrutura elétrica genérica, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura elétrica",
+        "Uso administrativo"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caixa de passagem para CFTV. Acessório de infraestrutura de vigilância, não equipamento de resgate/emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Acessório CFTV",
+        "Infraestrutura vigilância"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Balun conversor de sinal de vídeo para CFTV. Componente de infraestrutura de vigilância, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Componente CFTV",
+        "Infraestrutura vigilância"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Switch Gigabit PoE para rede CFTV. Equipamento de infraestrutura de TI, fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura rede",
+        "Equipamento TI"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Rack 16U para montagem de equipamentos CFTV. Infraestrutura de TI genérica, não operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Equipamento administrativo"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de instalação de sistema CFTV. Instalação de infraestrutura de vigilância, não serviço operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço vigilância",
+        "Infraestrutura hospitalar"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 8
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação 100% fora do escopo operacional. Resgatécnica fornece equipamentos para emergências/resgate. CFTV é mercado de segurança eletrônica e infraestrutura hospitalar administrativa. Nenhuma sinergia comercial real."
+  },
+  "_processo": "18125161000177-1-000015/2026",
+  "_analisado_em": "2026-04-22T01:05:23.229273+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

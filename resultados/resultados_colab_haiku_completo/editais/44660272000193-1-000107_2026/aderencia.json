@@ -1,0 +1,558 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências. Não atua em papelaria, impressos administrativos ou distribuição genérica de escritório."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para aquisição de impressos gráficos personalizados (formulários e materiais de impressão offset) para uso administrativo municipal",
+    "mercados_predominantes": [
+      "Papelaria e impressos administrativos",
+      "Gráfica comercial",
+      "Distribuição de materiais de escritório"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/38 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 2116307,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116308,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116309,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116310,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116311,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116312,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116313,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116314,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116315,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116316,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116317,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116318,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116319,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116320,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116321,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116322,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116323,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116324,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116325,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116326,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116327,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116328,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116329,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116330,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset genérico para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116331,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Impressão A3 offset genérica para uso administrativo municipal. Fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2116320,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset administrativo. Sem relação com resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Mercado gráfico genérico"
+      ]
+    },
+    {
+      "numeroItem": 2116321,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset administrativo. Sem relação com resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Mercado gráfico genérico"
+      ]
+    },
+    {
+      "numeroItem": 2116322,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset administrativo. Sem relação com resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Mercado gráfico genérico"
+      ]
+    },
+    {
+      "numeroItem": 2116323,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset administrativo. Sem relação com resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Mercado gráfico genérico"
+      ]
+    },
+    {
+      "numeroItem": 2116324,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset administrativo. Sem relação com resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Mercado gráfico genérico"
+      ]
+    },
+    {
+      "numeroItem": 2116325,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset administrativo. Sem relação com resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Mercado gráfico genérico"
+      ]
+    },
+    {
+      "numeroItem": 2116326,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset administrativo. Sem relação com resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Mercado gráfico genérico"
+      ]
+    },
+    {
+      "numeroItem": 2116327,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset administrativo. Sem relação com resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Mercado gráfico genérico"
+      ]
+    },
+    {
+      "numeroItem": 2116328,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset administrativo. Sem relação com resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Mercado gráfico genérico"
+      ]
+    },
+    {
+      "numeroItem": 2116329,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset administrativo. Sem relação com resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Mercado gráfico genérico"
+      ]
+    },
+    {
+      "numeroItem": 2116330,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Formulário impresso offset administrativo. Sem relação com resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Mercado gráfico genérico"
+      ]
+    },
+    {
+      "numeroItem": 2116331,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Impressão A3 couche laminada. Material gráfico administrativo genérico, sem relação com operações de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Mercado gráfico genérico"
+      ]
+    },
+    {
+      "numeroItem": 2116332,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Impressão A3 couche laminada. Material gráfico administrativo genérico, sem relação com operações de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Papelaria administrativa",
+        "Mercado gráfico genérico"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 38
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação integralmente fora do nicho comercial da Resgatécnica. Mercado de papelaria e impressos administrativos genéricos não alinha com especialização em equipamentos operacionais de emergência."
+  },
+  "_processo": "44660272000193-1-000107/2026",
+  "_analisado_em": "2026-04-21T19:32:36.588926+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

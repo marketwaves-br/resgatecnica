@@ -1,0 +1,80 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio e proteção individual técnica",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados"
+    ],
+    "observacoes": "Empresa especializada em EPI técnico-operacional e equipamentos de emergência, não em vestuário médico ou terapêutico genérico"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Compra de colete tóracolombar para Secretaria de Estado da Saúde (SP) — contexto médico/hospitalar, não operacional de emergência",
+    "mercados_predominantes": [
+      "Saúde pública",
+      "Vestuário médico/terapêutico"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Colete tóracolombar é dispositivo médico/terapêutico para reabilitação e suporte postural em ambiente hospitalar ou clínico. Resgatécnica atua em operações críticas e emergências, não em vestuário terapêutico de rotina. Não há compatibilidade comercial real."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Colete tóracolombar é dispositivo médico terapêutico para reabilitação postural, não EPI técnico-operacional de emergência. Mercado e finalidade completamente distintos.",
+      "motivos_pro_match": [
+        "Palavra 'colete' aparece em portfólio"
+      ],
+      "motivos_contra_match": [
+        "Contexto médico/terapêutico, não emergencial",
+        "Comprador é Secretaria de Saúde, não órgão de resgate"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "descricao",
+      "eixos_operacionais"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo operacional da Resgatécnica. Colete tóracolombar é insumo médico-hospitalar de rotina, não equipamento de emergência ou proteção técnica operacional."
+  },
+  "_processo": "46374500000194-1-002262/2026",
+  "_analisado_em": "2026-04-21T19:41:20.741278+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

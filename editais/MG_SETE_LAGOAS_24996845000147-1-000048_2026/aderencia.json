@@ -1,0 +1,95 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "resposta a emergências e operações críticas",
+    "tipo_fornecedor": "fornecedora especializada em equipamentos operacionais para resgate, salvamento, combate a incêndio e proteção individual técnica",
+    "macro_areas": [
+      "resgate veicular",
+      "resgate terrestre/BREC",
+      "táticas especiais",
+      "combate a incêndio",
+      "resgate aquático",
+      "proteção individual técnica",
+      "altura e espaço confinado",
+      "produtos perigosos/descontaminação",
+      "atendimento pré-hospitalar",
+      "linha industrial",
+      "soluções customizadas"
+    ],
+    "observacoes": "Empresa especializada em operações críticas e emergências, com foco em equipamentos técnicos de alta especialização. Não é distribuidora genérica de equipamentos industriais comuns."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de equipamentos hidráulicos industriais (bomba submersível e serra rotativa) para saneamento urbano e manutenção de infraestrutura",
+    "mercados_predominantes": [
+      "saneamento e infraestrutura urbana",
+      "hidráulica industrial pesada",
+      "manutenção de valas e estruturas"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação focada em equipamentos hidráulicos industriais genéricos para saneamento urbano. Resgatécnica atua em operações críticas e emergências, não em manutenção rotineira de infraestrutura."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bomba submersível para esgotamento de valas em saneamento urbano. Contexto operacional completamente distinto de resgate e emergências.",
+      "motivos_pro_match": [
+        "Palavra 'bomba' aparece em portfólio"
+      ],
+      "motivos_contra_match": [
+        "Aplicação saneamento urbano rotineiro",
+        "Não é equipamento de resgate/emergência"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.93,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serra rotativa hidráulica para corte de pisos, paredes e metais em manutenção de infraestrutura. Equipamento industrial genérico, não especializado em operações críticas.",
+      "motivos_pro_match": [
+        "Equipamento hidráulico"
+      ],
+      "motivos_contra_match": [
+        "Aplicação manutenção infraestrutura comum",
+        "Fora do escopo de resgate/emergência"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 2
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de saneamento urbano. Resgatécnica é especialista em operações críticas, não fornecedora de equipamentos hidráulicos industriais genéricos para manutenção rotineira."
+  },
+  "_processo": "24996845000147-1-000048/2026",
+  "_analisado_em": "2026-04-23T00:05:17.582978+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,234 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências. Não atua em controle de pragas, desinfecção urbana ou inseticidas/raticidas de uso municipal genérico."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de inseticidas, raticidas, biolarvicidas, moluscidas e acessórios de controle de pragas para uso municipal em Taboão da Serra",
+    "mercados_predominantes": [
+      "Controle de pragas urbano",
+      "Saúde pública municipal",
+      "Desinfecção e higiene ambiental",
+      "Gestão de vetores"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação de inseticidas e raticidas para controle de pragas urbano. Mercado completamente distinto do nicho técnico-operacional de emergências e resgate da Resgatécnica. Nenhum item pertence ao portfólio ou contexto comercial da empresa."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 2096382,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Inseticida sintético para controle de pragas urbano. Mercado de saúde pública municipal, não operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Controle de pragas urbano",
+        "Fora do nicho de resgate"
+      ]
+    },
+    {
+      "numeroItem": 2096383,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Inseticida concentrado emulsionável. Controle de pragas municipal, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Inseticida municipal",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 2096384,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Raticida anticoagulante para controle de roedores urbano. Saúde pública municipal, não resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Raticida municipal",
+        "Controle de pragas"
+      ]
+    },
+    {
+      "numeroItem": 2096385,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Raticida anticoagulante de segunda geração. Controle de roedores urbano, não operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Raticida municipal",
+        "Fora do portfólio"
+      ]
+    },
+    {
+      "numeroItem": 2096386,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Raticida anticoagulante. Controle de pragas urbano, não equipamento técnico-operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Raticida municipal",
+        "Controle de roedores"
+      ]
+    },
+    {
+      "numeroItem": 2096387,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Armadilha adesiva para controle de roedores. Saúde pública municipal, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Controle de pragas",
+        "Fora do nicho"
+      ]
+    },
+    {
+      "numeroItem": 2096388,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caixa porta-isca para raticidas. Acessório de controle de pragas urbano, não operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Controle de pragas",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 2096389,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Biolarvicida para controle de mosquitos. Saúde pública municipal, não resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Controle de vetores",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 2096390,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Biolarvicida concentrado. Controle de mosquitos urbano, não equipamento técnico-operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Controle de vetores",
+        "Fora do escopo"
+      ]
+    },
+    {
+      "numeroItem": 2096391,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Moluscida para controle de moluscos. Saúde pública municipal, não resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Controle de pragas",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 2096392,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Inseticida piretroide para controle de pragas. Saúde pública municipal, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Inseticida municipal",
+        "Controle de pragas"
+      ]
+    },
+    {
+      "numeroItem": 2096393,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Inseticida organofosforado. Controle de pragas urbano, não operações críticas ou resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Inseticida municipal",
+        "Fora do portfólio"
+      ]
+    },
+    {
+      "numeroItem": 2096394,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Inseticida piretroide combinado. Controle de pragas urbano, não equipamento técnico-operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Inseticida municipal",
+        "Controle de pragas"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 13
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de controle de pragas urbano. Mercado completamente distinto. Resgatécnica não atua em inseticidas, raticidas ou saúde pública municipal. Nenhuma sinergia comercial ou técnica."
+  },
+  "_processo": "46523122000163-1-000040/2026",
+  "_analisado_em": "2026-04-21T19:27:12.498333+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

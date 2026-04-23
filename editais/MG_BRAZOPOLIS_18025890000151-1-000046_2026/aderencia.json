@@ -1,0 +1,91 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em operações críticas, emergências e salvamento. Não atua em agricultura, paisagismo ou manutenção de áreas verdes."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de maquinário agrícola para secretaria municipal de agricultura, pecuária e meio ambiente",
+    "mercados_predominantes": [
+      "Agricultura",
+      "Paisagismo",
+      "Manutenção de áreas verdes"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação voltada exclusivamente para maquinário agrícola. Resgatécnica atua em emergências e operações críticas, não em agricultura ou paisagismo."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 2129868,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Podador agrícola/paisagístico. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado agrícola",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 2129869,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Soprador agrícola/paisagístico. Sem relação com operações de resgate ou combate a incêndio.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado agrícola",
+        "Sem aplicação operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 2
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de maquinário agrícola. Resgatécnica não atua em agricultura ou paisagismo. Sem aderência comercial real."
+  },
+  "_processo": "18025890000151-1-000046/2026",
+  "_analisado_em": "2026-04-23T00:05:52.638487+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

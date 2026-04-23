@@ -1,0 +1,134 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos físicos, ferramentas operacionais e EPI técnico-operacional para emergências. Não atua em tecnologia de comunicação digital, IA ou plataformas SaaS."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de solução tecnológica de comunicação digital com inteligência artificial para atendimento municipal via WhatsApp e chat web",
+    "mercados_predominantes": [
+      "Tecnologia da Informação",
+      "Software/SaaS",
+      "Comunicação Digital",
+      "Inteligência Artificial"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de tecnologia digital/IA; Resgatécnica fornece equipamentos físicos de resgate e emergência. Mercados completamente distintos."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Contatos em base de dados é serviço de TI/software, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço digital/TI",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Usuários de plataforma é métrica de software SaaS, não equipamento técnico-operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de plataforma digital",
+        "Sem relação com resgate"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Número WhatsApp é serviço de comunicação digital, não equipamento de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Comunicação digital/TI",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Respostas de assistente IA é serviço de inteligência artificial, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de IA/software",
+        "Mercado completamente distinto"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Implantação de ferramenta digital é serviço de TI/implementação de software.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de implementação TI",
+        "Fora do escopo técnico"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 5
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "portfolio_apoio": [
+      "perfil_empresa_resumido"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é de tecnologia digital/IA para comunicação municipal. Resgatécnica é fornecedora de equipamentos físicos de resgate e emergência. Sem intersecção comercial real."
+  },
+  "_processo": "17947581000176-1-000074/2026",
+  "_analisado_em": "2026-04-22T01:17:41.425208+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

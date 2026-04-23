@@ -1,0 +1,78 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, emergências e salvamento. Não atua em segurança eletrônica, CFTV, alarmes ou monitoramento remoto de infraestrutura."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviço de instalação, manutenção e monitoramento eletrônico 24h de CFTV, sensores e centrais de alarme em prédios públicos municipais",
+    "mercados_predominantes": [
+      "Segurança eletrônica",
+      "Monitoramento remoto de infraestrutura",
+      "Sistemas de CFTV e alarme",
+      "Serviços de vigilância eletrônica"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de segurança eletrônica predial, completamente fora do nicho operacional da Resgatécnica"
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Monitoramento eletrônico de infraestrutura predial não integra portfólio de resgate e emergências operacionais",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Segurança eletrônica predial",
+        "Fora do escopo operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de segurança eletrônica predial. Resgatécnica é fornecedora de equipamentos e soluções para operações críticas de resgate, emergência e combate a incêndio, não de sistemas de vigilância eletrônica ou monitoramento remoto de infraestrutura."
+  },
+  "_processo": "18401059000157-1-000022/2026",
+  "_analisado_em": "2026-04-22T01:03:38.183027+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

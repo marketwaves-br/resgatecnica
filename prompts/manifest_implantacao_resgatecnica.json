@@ -1,0 +1,26 @@
+{
+  "pacote": "resgatecnica_implantacao_llm_v1",
+  "objetivo": "Implantação da triagem semântica de aderência de licitações ao portfólio da Resgatécnica",
+  "arquivos": [
+    "system_prompt_resgatecnica_full.txt",
+    "system_prompt_resgatecnica_local_compacto.txt",
+    "user_template_resgatecnica_full.txt",
+    "user_template_resgatecnica_local_compacto.txt",
+    "output_schema_resgatecnica_full.json",
+    "output_schema_resgatecnica_local_compacto.json",
+    "fallback_rules_modelos_pequenos.md",
+    "deployment_readme_resgatecnica.md",
+    "fmt_estrutura_minima_implantacao.json",
+    "example_payload_api_full.json",
+    "example_openai_responses_request.json",
+    "example_ollama_chat_request.json",
+    "example_ollama_curl.sh",
+    "portfolio_mestre_resgatecnica_lite_v2.json",
+    "portfolio_mestre_resgatecnica_full_v2.json"
+  ],
+  "versoes": {
+    "prompt": "1.0",
+    "schema": "1.0",
+    "fallback": "1.0"
+  }
+}

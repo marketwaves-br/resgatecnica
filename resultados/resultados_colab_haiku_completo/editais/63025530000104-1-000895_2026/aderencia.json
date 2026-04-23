@@ -1,0 +1,182 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em cirurgia, procedimentos hospitalares eletivos ou insumos médico-cirúrgicos genéricos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação de equipamentos cirúrgicos especializados (grampeadores endoscópicos e circulares) e cargas para procedimentos hospitalares eletivos, realizada por universidade pública.",
+    "mercados_predominantes": [
+      "Cirurgia geral e especializada",
+      "Procedimentos endoscópicos",
+      "Insumos médico-cirúrgicos hospitalares"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de insumos médico-cirúrgicos hospitalares. Resgatécnica atua em emergências e operações críticas, não em cirurgia eletiva ou procedimentos hospitalares de rotina."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Grampeador endoscópico é insumo cirúrgico hospitalar, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Cirurgia eletiva",
+        "Mercado hospitalar genérico"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carga para grampeador cirúrgico é consumível médico-cirúrgico, não equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo cirúrgico",
+        "Uso hospitalar eletivo"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Carga para grampeador cirúrgico é consumível médico-cirúrgico, não equipamento operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo cirúrgico",
+        "Uso hospitalar eletivo"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Grampeador endoscópico é insumo cirúrgico hospitalar, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Cirurgia eletiva",
+        "Mercado hospitalar genérico"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Grampeador circular intraluminal é insumo cirúrgico hospitalar, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Cirurgia eletiva",
+        "Mercado hospitalar genérico"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Grampeador circular intraluminal é insumo cirúrgico hospitalar, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Cirurgia eletiva",
+        "Mercado hospitalar genérico"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Grampeador circular intraluminal é insumo cirúrgico hospitalar, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Cirurgia eletiva",
+        "Mercado hospitalar genérico"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Grampeador circular intraluminal é insumo cirúrgico hospitalar, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Cirurgia eletiva",
+        "Mercado hospitalar genérico"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Grampeador endoscópico é insumo cirúrgico hospitalar, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Cirurgia eletiva",
+        "Mercado hospitalar genérico"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 9
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação 100% fora do escopo operacional da Resgatécnica. Mercado de cirurgia eletiva hospitalar é incompatível com especialização em emergências e operações críticas."
+  },
+  "_processo": "63025530000104-1-000895/2026",
+  "_analisado_em": "2026-04-21T19:31:37.220919+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,81 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio e proteção individual técnica",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências, não em materiais esportivos genéricos ou recreativos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de materiais esportivos, equipamentos, uniformes e itens correlatos para atividades esportivas, recreativas e educacionais em município (Secretaria de Esporte e Lazer).",
+    "mercados_predominantes": [
+      "Esportes e recreação",
+      "Educação física escolar",
+      "Atividades recreativas municipais"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação destinada a materiais esportivos e recreativos genéricos. Resgatécnica é fornecedora especializada em equipamentos técnico-operacionais de emergência, não em artigos esportivos escolares ou recreativos."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": "Resgate Veicular",
+      "subcategoria_portfolio_relacionada": "Acessórios Complementares",
+      "justificativa": "Apito de plástico para árbitros/professores educação física. Portfolio contém Apito Fox 40 para resgate operacional. Mesma palavra, contextos completamente distintos.",
+      "motivos_pro_match": [
+        "Palavra 'apito' presente em portfolio"
+      ],
+      "motivos_contra_match": [
+        "Contexto esportivo/educacional vs operacional emergência",
+        "Especificação genérica vs equipamento técnico especializado"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 1,
+    "nao_aderente": 0
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "tags_semanticas",
+      "eixos_transversais"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de esportes/recreação municipal. Resgatécnica não atua em mercado esportivo escolar genérico. Sem aderência comercial real."
+  },
+  "_processo": "18316281000151-1-000054/2026",
+  "_analisado_em": "2026-04-23T00:05:45.076241+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

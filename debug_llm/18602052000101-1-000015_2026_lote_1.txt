@@ -1,0 +1,526 @@
+# processo:      18602052000101-1-000015/2026
+# lote:          1
+# n_itens:       25
+# output_tokens: 8192
+# chars:         23662
+# motivo:        erro_llm: [18602052000101-1-000015/2026] lote 1 — não foi possível extrair JSON válido da resposta. Primeiros 300 chars: ```json
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção 
+# ======================================================================
+
+```json
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, emergências e resgate. Não atua em eventos, locação de estruturas genéricas, sonorização, iluminação de eventos ou infraestrutura de lazer."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Registro de preços para locação de equipamentos e estruturas para eventos municipais (palcos, arquibancadas, banheiros químicos, sonorização, iluminação, camarotes, tendas, geradores, painéis LED, mesas, stands, brigadistas, eletricistas, equipes de apoio)",
+    "mercados_predominantes": [
+      "Locação de estruturas para eventos",
+      "Infraestrutura de lazer e entretenimento",
+      "Serviços de apoio a eventos",
+      "Equipamentos de sonorização e iluminação cênica",
+      "Banheiros químicos e sanitários portáteis",
+      "Estruturas metálicas para eventos"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é exclusivamente para locação de infraestrutura de eventos (palcos, arquibancadas, sonorização, iluminação, camarotes, banheiros químicos, geradores, stands). Resgatécnica é fornecedora especializada em equipamentos de resgate, emergência e operações críticas. Não há compatibilidade comercial real entre o nicho de eventos municipais e o portfólio técnico-operacional da empresa."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 7133966,
+      "descricao": "BACKDROP - PAINEL PARA FIXACAO DE LONA IMPRESSA, MONTADO EM ESTRUTURA DE TRELICA DE ALUMINIO MODELO Q30, MEDINDO 5 METROS DE ALTURA E 3 METROS DE LARGURA, NO FORMATO DE TRAVE, COM PES MEDINDO 70 CENTIMETROS.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Painel decorativo para eventos. Não relacionado a resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura de eventos",
+        "Sem aplicação operacional"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Estrutura alumínio Q30"
+      ],
+      "observacao": "Estrutura Q30 é usada em palcos de resgate, mas contexto aqui é puramente decorativo/eventos."
+    },
+    {
+      "numeroItem": 7133967,
+      "descricao": "BRIGADISTAS DE INCENDIO PARA 6 HORAS, PERIODO NOTURNO. OS BRIGADISTAS DE INCENDIO DEVERAO TER FORMACAO E CERTIFICADOS MINIMOS EXIGIDOS PELO CORPO DE BOMBEIROS DE MINAS GERAIS.",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.55,
+      "categoria_portfolio_relacionada": "Combate a Incêndio",
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Brigadistas para eventos genéricos diferem de operações críticas de combate a incêndio estrutural/florestal.",
+      "motivos_pro_match": [
+        "Formação bombeiros",
+        "Certificação técnica"
+      ],
+      "motivos_contra_match": [
+        "Contexto: evento municipal",
+        "Não operação crítica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Brigadista incêndio"
+      ],
+      "observacao": "Resgatécnica fornece equipamentos e soluções para combate a incêndio operacional, não serviço de brigadistas para eventos."
+    },
+    {
+      "numeroItem": 7133968,
+      "descricao": "ELETRICISTA DE PLANTAO DURANTE TODO O EVENTO COM TODO MATERIAL NECESSARIO (FIOS,CABOS, LAMPADAS, DIJUNTORES,ESTENSOES ETC.)POR CADA EVENTO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Serviço de eletricista para eventos. Fora do escopo de resgate e operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço genérico eventos",
+        "Sem relação emergência"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133969,
+      "descricao": "EQUIPE DE APOIO, CONTROLE DE ACESSO E CARREGADORES, COM CARGA HORARIA DE 08 HORAS POR DIA (DIURNO OU NOTURNO).",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Serviço administrativo de eventos. Sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Apoio administrativo eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133970,
+      "descricao": "LOCACAO DE ARQUIBANCADA COBERTA FABRICADA COM TUBO GALVANIZADO GI DE 2 EM CHAPA13 MM, COM 12 DEGRAUS E 01(UMA) PASSARELA, COM INICIO DO PRIMEIRO PISO A 1,40M DO NIVEL DO CHAO, PASSARELA DE 1,50 M DE LARGURA COM RAMPAS DE ACESSO PARA PESSOAS PORTADORAS DE NECESSIDADES ESPECIAIS...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Arquibancada para eventos. Estrutura metálica genérica, não equipamento de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura eventos",
+        "Sem aplicação operacional"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Estrutura metálica galvanizada"
+      ],
+      "observacao": "Resgatécnica fornece estruturas para operações críticas (tripés, macas, sistemas de altura), não arquibancadas de eventos."
+    },
+    {
+      "numeroItem": 7133971,
+      "descricao": "LOCACAO DE BANHEIRO QUIMICO PNE (PORTADOR DE NECESSIDADES ESPECIAIS). - BANHEIRO QUIMICO, CABINE E TANQUE EM POLIETILENO DE ALTA DENSIDADE, INCLUINDO:VASO SANITARIO,PORTA PAPEL HIGIENICO,PORTA PAPEL TOALHA, DISPENSER DE SABONETE LIQUIDO...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Banheiro químico portátil para eventos. Sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura sanitária eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133972,
+      "descricao": "LOCACAO DE BANHEIROS QUIMICOS, MODELO MASCULINO E FEMININO, TRAVA INTERNA NA PORTA INDICANDO OCUPADO E DESOCUPADO, COM PLACA INDICATIVA DE MASCULINO E FEMININO, 75KG, 2,30 ALTURA, 1,10 LARGURA, 1,20 COMPRIMENTO,TANQUE PARA CAPACIDADE DE NOMINMO 227L E SUPORTE PARA ITENS DE HIGIENIZACAO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Banheiro químico portátil para eventos. Sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura sanitária eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133973,
+      "descricao": "LOCACAO DE CAMAROTES EM FORMATO DE VIP, POSSUINDO MEDIDAS NO MINIMO 2.30 METROS X 3.30 METROS EM 4 ANDARES, REVESTIDAS AS GRADES DA FRENTE E DE TODAS AS LATERAIS COM TECIDO TIPO MALHA NA COR A DEFINIR, POSSUINDO 1 MESA COM NO MINIMO 5 CADEIRAS...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Camarote VIP para eventos. Infraestrutura de lazer, sem relação com resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura eventos VIP",
+        "Sem aplicação operacional"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133974,
+      "descricao": "LOCACAO DE COBERTURA ESTILO GALPAO EM ALUMINIO Q30 COM LONAS ANTICHAMAS, PE DIREITO 7M DE ALTURA DE ACORDO COM AS NORMAS DOS BOMBEIROS (VALOR EM M²)",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.50,
+      "categoria_portfolio_relacionada": "Combate a Incêndio",
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Cobertura com lona antichamas e conformidade bombeiros. Contexto é evento, não operação crítica.",
+      "motivos_pro_match": [
+        "Lona antichamas",
+        "Normas bombeiros"
+      ],
+      "motivos_contra_match": [
+        "Contexto: evento municipal",
+        "Locação infraestrutura genérica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Alumínio Q30 antichamas"
+      ],
+      "observacao": "Resgatécnica fornece estruturas Q30 para operações críticas (palcos de resgate, sistemas de altura), não coberturas de eventos."
+    },
+    {
+      "numeroItem": 7133975,
+      "descricao": "LOCACAO DE DE SONORIZACAO. SISTEMA 16X12 DE AUDIO (SONORIZACAO) MEGA EVENTOS LOCACAO AUDIO (SONORIZACA0) SISTEMA DE AUDIO (SONORIZACAO) QUE DEVERA O ATENDER RIDER TECNICO CONFORME ARTISTAS DE RENOMES NACIONAIS, ESTADUAIS E REGIONAIS...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Sistema de sonorização para eventos. Sem relação com resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sonorização eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133976,
+      "descricao": "LOCACAO DE FECHAMENTO DE TENDAS DIVERSAS, LONA BRANCA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Lona para fechamento de tendas de eventos. Sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133977,
+      "descricao": "LOCACAO DE FECHAMENTO, SENDO PLACAS INDIVIDUAIS DE 2,45 METROS DE ALTURA E 2,30 METROS DE LARGURA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Placas de fechamento para eventos. Sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133978,
+      "descricao": "LOCAÇÃO DE GERADOR MINIMO DE 180 KVA, SILENCIADO, TRÊS FASES, NEUTRO E TERRA COM 50 METROS DE CABO, PARA BACK UP OU STAND BY.",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.45,
+      "categoria_portfolio_relacionada": "Combate a Incêndio",
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Gerador para eventos. Resgatécnica fornece geradores para operações críticas, mas contexto aqui é evento municipal.",
+      "motivos_pro_match": [
+        "Gerador técnico",
+        "Backup energia"
+      ],
+      "motivos_contra_match": [
+        "Contexto: evento municipal",
+        "Não operação crítica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Gerador silenciado"
+      ],
+      "observacao": "Resgatécnica pode fornecer geradores, mas licitação é para eventos, não emergências."
+    },
+    {
+      "numeroItem": 7133979,
+      "descricao": "LOCACAO DE GRADE DE ISOLAMENTO (GRADIL) EM TUBO GALVANIZADO COM DIAMETRO 1 1 ,CHAPA 18 (1.2 MM),TAMANHO 2,00 M X 1,20 M (LXA), CANTOS ARREDONDADOS,ESPACAMENTOS DE 15 CM EM TUBO GALVANIZADO COM DIAMETRO 5/8 E CHAPA 18, PES COM ALTURA DE 20CM, SISTEMA DE FECHAMENTO MACHO E FEMEA, EM CONFORMIDADE COM AS NORMAS ESTABELECIDAS PELO CORPO DE BOMBEIROS.",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.50,
+      "categoria_portfolio_relacionada": "Resgate Terrestre/BREC",
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Grade de isolamento com conformidade bombeiros. Contexto é evento, não operação crítica de resgate.",
+      "motivos_pro_match": [
+        "Normas bombeiros",
+        "Estrutura metálica técnica"
+      ],
+      "motivos_contra_match": [
+        "Contexto: evento municipal",
+        "Isolamento genérico"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Conformidade bombeiros"
+      ],
+      "observacao": "Resgatécnica fornece grades para operações críticas (BREC, resgate), não isolamento de eventos."
+    },
+    {
+      "numeroItem": 7133980,
+      "descricao": "LOCACAO DE ILUMINACAO. EVENTOS DE GRANDE PORTE. LOCACAO DE ILUMINACAO O SISTEMA DE LUZ DEVERAO ATENDER RIDER TECNICO DO ARTISTA A SER CONTRATADO PELO MUNICIPIO,SENDO RECONHECIDO NACIONALMENTE, OU REGIONALMENTE...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Sistema de iluminação cênica para eventos. Sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Iluminação cênica eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133981,
+      "descricao": "LOCACAO DE ILUMINACAO. EVENTOS DE MEDIO PORTE. LOCACAO DE ILUMINACAO O SISTEMA DE LUZ DEVERA ATENDER RIDER TECNICO DO ARTISTA A SER CONTRATADO PELO MUNICIPIO, SENDO RECONHECIDO NACIONALMENTE, OU REGIONALMENTE...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Sistema de iluminação cênica para eventos. Sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Iluminação cênica eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133982,
+      "descricao": "LOCACAO DE MESA: MESA PLASTICA QUADRADA, PRODUZIDA COM 80CM DE COMPRIMENTO E 71CM DE ALTURA, COM QUATRO CADEIRAS, CADA UMA SUPORTANDO ATE 100KG.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Mesa e cadeiras para eventos. Sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mobiliário eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133983,
+      "descricao": "LOCACAO DE PAINEL DE LED: LOCACAO E INSTALACAO DE PAINEL DE LED, P3, 10MM, TAMANHO 6,00X4,00, DE ALTA RESOLUÇÃO, COM TODA ESTRUTURA NECESSÁRIA DE BOXTRUSS EM ALUMINIO Q30 PARA MOINTAGEM.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Painel LED para eventos. Infraestrutura de entretenimento, sem relação com resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Painel LED eventos",
+        "Sem aplicação operacional"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Estrutura Q30 alumínio"
+      ],
+      "observacao": "Q30 é estrutura técnica, mas contexto é puramente cênico/eventos."
+    },
+    {
+      "numeroItem": 7133984,
+      "descricao": "LOCACAO DE PALCO 12X10: PALCO DUAS AGUAS, TAMANHO MINIMO DE 14M X 12M, TETO E COLUNAS EM ALUMINIO Q30, MONTADO A 1,5M DE ALTURA EM RELACAO AO SOLO, COMPOE OS PISOS GRADES (2,5M) E AS TRANCAS (1,25M)...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Palco para eventos. Infraestrutura de entretenimento, sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Palco eventos",
+        "Sem aplicação operacional"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Estrutura Q30 alumínio"
+      ],
+      "observacao": "Resgatécnica fornece palcos para operações críticas (resgate, BREC), não para eventos de entretenimento."
+    },
+    {
+      "numeroItem": 7133985,
+      "descricao": "LOCACAO DE SANITARIO QUIMICO TIPO CONTAINER, ADAPTADO SOBRE CARRETA MOVEL COM REBOQUE, DIVIDIDO EM COMPARTIMENTO MASCULINO E FEMININO, FEMININO: MINIMO DE 10 VASOS SANITARIOS, ESPELHO E DUAS PIAS...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Sanitário químico portátil para eventos. Sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura sanitária eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133986,
+      "descricao": "LOCACAO DE SONORIZACAO. SISTEMA 2X2 DE AUDIO (SONORIZACAO) EVENTOS PEQUENO PORTE SISTEMA DE AUDIO (SONORIZACA0) QUE DEVERAO ATENDER RIDER TECNICO CONFORME ARTISTAS DE RENOMES REGIONAIS...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Sistema de sonorização para eventos. Sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sonorização eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133987,
+      "descricao": "LOCACAO DE SONORIZACAO. SISTEMA 4X4 DE AUDIO (SONORIZACAO )EVENTOS PEQUENO PORTE LOCACAO AUDIO (SONORIZACA0) QUE DEVERAO ATENDER RIDER TECNICO CONFORME ARTISTAS DE RENOMES REGIONAIS...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Sistema de sonorização para eventos. Sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sonorização eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133988,
+      "descricao": "LOCACAO DE SONORIZACAO. SISTEMA 8X8 DE AUDIO (SONORIZACAO) EVENTOS INTERMEDIARIOS LOCACAO AUDIO (SONORIZACAO) SISTEMA DE AUDIO (SONORIZACAO) QUE DEVERAO ATENDER RIDER TECNICO CONFORME ARTISTAS DE RENOMES NACIONAIS...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Sistema de sonorização para eventos. Sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sonorização eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133989,
+      "descricao": "LOCACAO DE SONORIZACAO: SISTEMA DE AUDIO 12X12 LOCACAO AUDIO (SONORIZACA0) SISTEMA DE AUDIO (SONORIZACAO) QUE DEVERAO ATENDER RIDER TECNICO DE:105DB SPL 1W. 1M SPL MAXIMO: 136 DB SPL 1M...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Sistema de sonorização para eventos. Sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Sonorização eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133990,
+      "descricao": "LOCACAO DE STANDS 3 X 3 PAREDES DE DIVISORIAS DOS ESTANDES SERAO EM PLACAS DO TIPO TS FRENTE E VERSO, NA COR BRANCA COM ALTURA IGUAL OU SUPERIOR A 2,20M, ILUMINACAO SERA FEITA POR MEIO DE LAMPADAS OU SPOT DE 100 WATTS...",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Stands para eventos. Infraestrutura de lazer, sem relação com resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura eventos",
+        "Sem especialização técnica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 4,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 21
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCAR

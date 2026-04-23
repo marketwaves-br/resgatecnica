@@ -1,0 +1,11 @@
+{
+  "system_prompt_file": "system_prompt_resgatecnica_full.txt",
+  "user_template_file": "user_template_resgatecnica_full.txt",
+  "schema_file": "output_schema_resgatecnica_full.json",
+  "portfolio_file": "portfolio_mestre_resgatecnica_lite_v2.json",
+  "notes": [
+    "Validar sempre a saída pelo schema.",
+    "Processar em lotes se a licitação for muito grande.",
+    "Reprocessar apenas itens potencialmente aderentes para economizar tokens."
+  ]
+}

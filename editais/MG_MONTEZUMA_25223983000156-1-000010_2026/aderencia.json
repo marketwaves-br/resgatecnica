@@ -1,0 +1,77 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, emergências e salvamento. Não atua em TI, informática ou manutenção de computadores."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Prestação de serviços de assistência técnica, manutenção preventiva e corretiva em equipamentos de informática (computadores, servidores, notebooks, impressoras, redes), incluindo acesso remoto",
+    "mercados_predominantes": [
+      "Tecnologia da Informação",
+      "Manutenção de Hardware",
+      "Suporte Técnico Administrativo"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de TI/informática. Resgatécnica atua em emergências, resgate e operações críticas. Mercados completamente distintos."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de manutenção de TI e informática. Resgatécnica não fornece assistência técnica em computadores, servidores, impressoras ou redes.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado TI completamente fora do escopo",
+        "Sem equipamentos informáticos no portfólio"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de TI/informática. Resgatécnica é especialista em resgate, emergências e operações críticas. Sem sobreposição comercial ou técnica."
+  },
+  "_processo": "25223983000156-1-000010/2026",
+  "_analisado_em": "2026-04-22T01:06:57.692189+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

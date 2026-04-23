@@ -1,0 +1,117 @@
+{
+  "model": "llama3.1:8b",
+  "stream": false,
+  "format": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Triagem compacta de aderencia - Resgatecnica",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "parecer_geral",
+      "itens_analisados",
+      "estatisticas"
+    ],
+    "properties": {
+      "parecer_geral": {
+        "type": "string",
+        "enum": [
+          "ADERENTE",
+          "PARCIALMENTE_ADERENTE",
+          "NAO_ADERENTE"
+        ]
+      },
+      "itens_analisados": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "numeroItem",
+            "descricao",
+            "classificacao",
+            "grau_confianca",
+            "produto_referencia",
+            "justificativa"
+          ],
+          "properties": {
+            "numeroItem": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "descricao": {
+              "type": "string"
+            },
+            "classificacao": {
+              "type": "string",
+              "enum": [
+                "ADERENCIA_DIRETA",
+                "ADERENCIA_PARCIAL_FORTE",
+                "ADERENCIA_PARCIAL_FRACA",
+                "FALSO_POSITIVO_LEXICAL",
+                "NAO_ADERENTE"
+              ]
+            },
+            "grau_confianca": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "produto_referencia": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "justificativa": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "estatisticas": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "aderencia_direta",
+          "aderencia_parcial_forte",
+          "aderencia_parcial_fraca",
+          "falso_positivo_lexical",
+          "nao_aderente"
+        ],
+        "properties": {
+          "aderencia_direta": {
+            "type": "integer"
+          },
+          "aderencia_parcial_forte": {
+            "type": "integer"
+          },
+          "aderencia_parcial_fraca": {
+            "type": "integer"
+          },
+          "falso_positivo_lexical": {
+            "type": "integer"
+          },
+          "nao_aderente": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "<conteúdo de system_prompt_resgatecnica_local_compacto.txt>"
+    },
+    {
+      "role": "user",
+      "content": "<conteúdo de user_template_resgatecnica_local_compacto.txt com placeholders preenchidos>"
+    }
+  ],
+  "options": {
+    "temperature": 0.1,
+    "num_ctx": 8192
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em operações críticas e emergências, não atua em manutenção predial, limpeza industrial ou climatização de ambientes administrativos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para serviços de limpeza e higienização de aparelhos de ar-condicionado e climatizadores em unidades escolares da Secretaria Municipal de Educação.",
+    "mercados_predominantes": [
+      "Manutenção predial e climatização",
+      "Limpeza industrial de equipamentos HVAC",
+      "Serviços de higienização em ambientes administrativos"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence a mercado de manutenção predial e climatização, completamente distinto do nicho de operações críticas e emergências da Resgatécnica."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado janela 12k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado janela 18k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado janela 30k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado split 9k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado split 12k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado split 18k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado split 24k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado split 30k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado split 36k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado split inverter 9k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado split inverter 12k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado split inverter 18k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado split inverter 24k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado split inverter 30k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado split inverter 32k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado split inverter 36k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado piso-teto 36k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de ar-condicionado piso-teto 58k btus. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de climatizador evaporativo INOVARE P5. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de climatizador evaporativo INOVARE P7. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de climatizador evaporativo INOVARE P11. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de climatizador evaporativo INOVARE P16. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de limpeza predial de climatizador evaporativo INOVARE KLW260 INVENT. Mercado de manutenção climatização, não emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Fora do nicho operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 23
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de manutenção predial climatização. Resgatécnica atua em operações críticas emergenciais, não em manutenção predial rotineira."
+  },
+  "_processo": "49576416000141-1-000356/2025",
+  "_analisado_em": "2026-04-21T18:22:13.853698+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

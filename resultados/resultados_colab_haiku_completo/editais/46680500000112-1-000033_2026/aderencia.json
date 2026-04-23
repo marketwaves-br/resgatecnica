@@ -1,0 +1,288 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em nicho técnico-operacional de emergências. Não atua em eletrodomésticos, equipamentos de escritório genéricos ou infraestrutura administrativa comum."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de eletrodomésticos e equipamentos de infraestrutura para Secretaria de Assistência Social e APAE. Foco em substituição de equipamentos obsoletos e adequação de infraestrutura administrativa/institucional.",
+    "mercados_predominantes": [
+      "Eletrodomésticos residenciais e comerciais leves",
+      "Equipamentos de escritório e infraestrutura",
+      "Eletrônicos de consumo genéricos",
+      "Climatização e ventilação comercial"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação totalmente desalinhada com portfólio Resgatécnica. Nenhum item pertence ao nicho de operações críticas, emergências ou resgate. Todos os itens são eletrodomésticos, equipamentos administrativos ou infraestrutura institucional genérica."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Smart TV para uso institucional. Equipamento de entretenimento/comunicação genérico, sem relação com operações de emergência ou resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Eletrodoméstico genérico",
+        "Sem contexto operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Tela de projeção retrátil para apresentações. Equipamento de infraestrutura administrativa, sem aplicação em resgate ou emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura administrativa",
+        "Sem uso operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Estabilizador de tensão para proteção de equipamentos eletrônicos. Componente de infraestrutura elétrica genérica, não relacionado a operações de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura elétrica genérica",
+        "Sem aplicação em emergências"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Sanduicheira elétrica para uso doméstico/comercial leve. Equipamento de cozinha genérico, totalmente fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de cozinha",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pipoqueira elétrica para uso doméstico. Equipamento de entretenimento/cozinha, sem qualquer relação com operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de entretenimento",
+        "Sem aplicação técnica"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Forno micro-ondas para uso doméstico/institucional. Equipamento de cozinha genérico, sem aplicação em resgate ou emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de cozinha",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bebedouro elétrico de coluna para garrafão. Equipamento de infraestrutura institucional genérica, sem relação com operações de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura institucional",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ar condicionado split Hi Wall para climatização. Equipamento de infraestrutura predial genérica, sem aplicação em operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Climatização predial",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Impressora multifuncional com tanque de tinta. Equipamento de escritório genérico, totalmente desalinhado com portfólio de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de escritório",
+        "Sem aplicação técnica"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fogão industrial 6 bocas para cozinha. Equipamento de cozinha comercial, sem relação com operações de resgate ou emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de cozinha",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Lavadora de alta pressão elétrica para limpeza doméstica. Palavra 'alta pressão' não indica compatibilidade com resgate. Equipamento de limpeza genérico, não técnico-operacional.",
+      "motivos_pro_match": [
+        "Menção 'alta pressão'"
+      ],
+      "motivos_contra_match": [
+        "Limpeza doméstica",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Refrigerador duplex para uso institucional. Equipamento de cozinha/infraestrutura genérica, sem aplicação em operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de cozinha",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Caixa de som portátil Bluetooth. Equipamento de entretenimento/áudio genérico, sem relação com resgate ou emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento de entretenimento",
+        "Sem aplicação técnica"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Chuveiro elétrico multitemperaturas. Equipamento de infraestrutura predial genérica, sem aplicação em operações de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura predial",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Refletor LED 500W para iluminação externa. Equipamento de infraestrutura de iluminação genérica. Não é lanterna técnica de resgate (diferente de lanternas operacionais do portfólio).",
+      "motivos_pro_match": [
+        "Iluminação LED"
+      ],
+      "motivos_contra_match": [
+        "Infraestrutura predial",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Bebedouro industrial 50 litros com refrigeração. Equipamento de infraestrutura institucional genérica, sem relação com operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura institucional",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ventilador de parede oscilante 50cm. Equipamento de climatização/infraestrutura genérica, sem aplicação em operações de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura predial",
+        "Sem contexto operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 1,
+    "nao_aderente": 16
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação totalmente fora do nicho comercial Resgatécnica. Nenhum item pertence a operações críticas, resgate, emergências ou proteção individual técnica. Mercado dominante é eletrodomésticos e infraestrutura administrativa genérica. Não recomenda-se participação."
+  },
+  "_processo": "46680500000112-1-000033/2026",
+  "_analisado_em": "2026-04-21T19:26:55.865349+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

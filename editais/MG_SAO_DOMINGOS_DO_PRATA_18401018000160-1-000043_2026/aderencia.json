@@ -1,0 +1,168 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, emergências e salvamento. Não atua em transporte de passageiros comercial ou logística de viagens."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Serviço de transporte rodoviário de passageiros em viagens municipais, intermunicipais e interestaduais. Fretamento de veículos (minivans, vans, ônibus, micro-ônibus) com motorista, combustível e manutenção.",
+    "mercados_predominantes": [
+      "Transporte de passageiros comercial",
+      "Logística de viagens",
+      "Serviços de fretamento"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de transporte comercial de passageiros. Resgatécnica fornece equipamentos para emergências e operações críticas, não serviços de fretamento ou transporte de passageiros."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fretamento de minivan/furgão para viagens intermunicipais. Transporte comercial de passageiros, fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte comercial passageiros",
+        "Fora escopo emergências"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fretamento de van para viagens intermunicipais. Serviço de transporte de passageiros, incompatível com portfólio de equipamentos de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte comercial passageiros",
+        "Fora escopo emergências"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fretamento de ônibus para viagens intermunicipais. Serviço de transporte de passageiros, não relacionado a equipamentos ou operações de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte comercial passageiros",
+        "Fora escopo emergências"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fretamento de micro-ônibus para viagens intermunicipais. Serviço de transporte de passageiros, incompatível com atuação da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte comercial passageiros",
+        "Fora escopo emergências"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fretamento de van para viagens municipais. Serviço de transporte de passageiros, fora do escopo de equipamentos e operações de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte comercial passageiros",
+        "Fora escopo emergências"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fretamento de ônibus para viagens municipais. Serviço de transporte de passageiros, não relacionado a equipamentos ou operações de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte comercial passageiros",
+        "Fora escopo emergências"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fretamento de micro-ônibus para viagens municipais. Serviço de transporte de passageiros, incompatível com portfólio de equipamentos de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte comercial passageiros",
+        "Fora escopo emergências"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Fretamento de ônibus para viagens interestaduais. Serviço de transporte de passageiros, fora do escopo operacional da empresa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte comercial passageiros",
+        "Fora escopo emergências"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 8
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é de transporte comercial de passageiros. Resgatécnica é fornecedora de equipamentos para emergências e operações críticas. Não há compatibilidade comercial real."
+  },
+  "_processo": "18401018000160-1-000043/2026",
+  "_analisado_em": "2026-04-22T01:07:22.949057+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

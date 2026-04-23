@@ -1,0 +1,49 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "Limpeza e higienização completa de ar-condicionado com mão de obra e peças disponibilizadas pela contratada (Modelo: Janela, Tecnologia: Convencional, Potência: 12.000 btus) - necessária a utilização de escada ou andaime",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Não há itens relacionados à limpeza e manutenção em portfolio"
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "Limpeza e higienização completa de ar-condicionado com mão de obra e peças disponibilizadas pela contratada (Modelo: Split, Tecnologia: Convencional, Potência: 9.000 btus) - necessária a utilização de escada ou andaime",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços divergem da categoria do fornecedor"
+    },
+    {
+      "numeroItem": 5,
+      "descricao": "Limpeza e higienização completa de ar-condicionado com mão de obra e peças disponibilizadas pela contratada (Modelo: Split, Tecnologia: Convencional, Potência: 12.000 btus) - necessária a utilização de escada ou andaime",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços divergem da categoria do fornecedor"
+    },
+    {
+      "numeroItem": 6,
+      "descricao": "Limpeza e higienização completa de ar-condicionado com mão de obra e peças disponibilizadas pela contratada (Modelo: Split, Tecnologia: Convencional, Potência: 18.000 btus) - necessária a utilização de escada ou andaime",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "produto_referencia": null,
+      "justificativa": "Serviços divergem da categoria do fornecedor"
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 4
+  },
+  "_processo": "49576416000141-1-000356/2025",
+  "_analisado_em": "2026-04-21T17:41:21.334165+00:00",
+  "_modo": "compacto",
+  "_provedor": "ollama",
+  "_modelo": "qwen2.5:14b"
+}

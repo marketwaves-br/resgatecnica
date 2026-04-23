@@ -1,0 +1,403 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em operações críticas, emergências e resgate. Não atua em ferração equina, veterinária ou ferramentas genéricas de manutenção industrial comum."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de ferraduras, cravos, ferramentas manuais genéricas e equipamentos de manutenção/soldagem para órgão de segurança pública estadual",
+    "mercados_predominantes": [
+      "Ferração equina e equipamentos para animais",
+      "Ferramentas manuais de manutenção industrial comum",
+      "Equipamentos de soldagem e corte genéricos",
+      "Suprimentos veterinários"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/26 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cravo para ferração equina. Mercado veterinário/equestre, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferração equina",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ferradura para equinos. Mercado veterinário/equestre, não resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferração equina",
+        "Sem aplicação em resgate"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ferradura para equinos. Mercado veterinário/equestre, não resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferração equina",
+        "Sem aplicação em resgate"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ferradura para equinos. Mercado veterinário/equestre, não resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferração equina",
+        "Sem aplicação em resgate"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ferradura para equinos. Mercado veterinário/equestre, não resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferração equina",
+        "Sem aplicação em resgate"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ferradura para equinos. Mercado veterinário/equestre, não resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferração equina",
+        "Sem aplicação em resgate"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ferradura para equinos. Mercado veterinário/equestre, não resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferração equina",
+        "Sem aplicação em resgate"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ferradura para equinos. Mercado veterinário/equestre, não resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferração equina",
+        "Sem aplicação em resgate"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Esmerilhadeira portátil genérica. Ferramenta de manutenção industrial comum, não especializada em resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção industrial genérica",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Gás de petróleo (GLP). Combustível genérico, não ar respirável ou gases operacionais de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Combustível genérico",
+        "Não ar respirável"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Machadinha genérica. Ferramenta manual comum, não especializada em resgate ou combate a incêndio.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Disco de desbaste para esmerilhadeira. Consumível de manutenção industrial genérica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Consumível genérico",
+        "Manutenção industrial"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Torquês (chave de fenda). Ferramenta manual genérica, não especializada em resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Alicate genérico. Ferramenta manual comum, não especializada em resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Torquês (chave de fenda). Ferramenta manual genérica, não especializada em resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Equipamento/acessório animal. Mercado veterinário/equestre, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Veterinário/equestre",
+        "Fora do escopo"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Martelo genérico. Ferramenta manual comum, não especializada em resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Marreta genérica. Ferramenta manual comum, não especializada em resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Marreta genérica. Ferramenta manual comum, não especializada em resgate ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Sem especialização técnica"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.94,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ferramenta genérica sem especificação. Descrição vaga, não alinha-se a portfólio especializado.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Descrição vaga",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.94,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ferramenta genérica sem especificação. Descrição vaga, não alinha-se a portfólio especializado.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Descrição vaga",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.94,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ferramenta genérica sem especificação. Descrição vaga, não alinha-se a portfólio especializado.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Descrição vaga",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Material veterinário para saúde animal. Mercado veterinário, não operacional de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Veterinário",
+        "Fora do escopo"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Avental de soldador. EPI genérico de soldagem, não EPI técnico-operacional de resgate/emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "EPI soldagem genérica",
+        "Não operacional crítico"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.96,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Macho (ferramenta de rosca). Ferramenta manual genérica de manutenção, não especializada.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Ferramenta genérica",
+        "Manutenção industrial"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ferradura é item de equitação/ferraria, mercado completamente distinto de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado equestre/ferraria",
+        "Sem aplicação em operações críticas"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 26
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação 100% fora do escopo. Ferração equina, ferramentas genéricas e suprimentos veterinários não alinham-se ao portfólio especializado de resgate, emergências e operações críticas da Resgatécnica."
+  },
+  "_processo": "46377800000127-1-001169/2026",
+  "_analisado_em": "2026-04-21T19:46:15.167265+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

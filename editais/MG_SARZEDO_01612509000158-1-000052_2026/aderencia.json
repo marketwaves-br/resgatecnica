@@ -1,0 +1,77 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, emergências e resgate. Não atua em transporte de passageiros urbano/rodoviário comercial."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviço de transporte rodoviário de passageiros (alunos) em ônibus urbano/rodoviário com especificações técnicas de conforto e segurança",
+    "mercados_predominantes": [
+      "Transporte de passageiros urbano/rodoviário",
+      "Serviços educacionais de mobilidade",
+      "Logística comercial de transporte"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para serviço de transporte de passageiros em ônibus comercial. Resgatécnica atua em equipamentos e soluções para emergências/resgate, não em transporte de passageiros."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 7322967,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de transporte rodoviário de passageiros. Mercado completamente distinto do portfólio Resgatécnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Transporte comercial passageiros",
+        "Fora do escopo emergências/resgate"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação fora do escopo operacional. Resgatécnica não fornece serviços de transporte de passageiros comercial."
+  },
+  "_processo": "01612509000158-1-000052/2026",
+  "_analisado_em": "2026-04-23T00:05:00.174492+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

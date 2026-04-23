@@ -1,0 +1,106 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua em publicações, comunicação institucional ou serviços administrativos genéricos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Serviços de publicação de atos oficiais municipais em diários oficiais e jornais de circulação",
+    "mercados_predominantes": [
+      "Comunicação institucional",
+      "Publicação de atos oficiais",
+      "Mídia impressa e digital"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para serviços de publicação administrativa. Resgatécnica é fornecedora de equipamentos de emergência e resgate. Mercados completamente distintos."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Publicação em Diário Oficial da União é serviço administrativo-legal. Fora do escopo de equipamentos de resgate e emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo, não equipamento",
+        "Mercado de comunicação institucional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Publicação em Diário Oficial de Minas Gerais é serviço de comunicação oficial municipal. Sem relação com operações de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo-legal",
+        "Publicação oficial, não equipamento"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Publicação em jornal diário de grande circulação é serviço de mídia e comunicação. Completamente desalinhado com portfólio de equipamentos de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de mídia e comunicação",
+        "Sem relação com resgate ou emergência"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 3
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é para serviços de publicação administrativa. Resgatécnica é fornecedora de equipamentos técnico-operacionais de emergência. Mercados completamente distintos. Sem aderência comercial real."
+  },
+  "_processo": "18137935000180-1-000031/2026",
+  "_analisado_em": "2026-04-23T00:05:27.149106+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

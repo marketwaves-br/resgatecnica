@@ -1,0 +1,142 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, emergências e salvamento. Não atua em transporte escolar ou serviços de mobilidade civil comum."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para contratação de serviço de transporte escolar gratuito de alunos da rede pública municipal. Foco exclusivo em mobilidade educacional civil, com custos fixos e variáveis por tipo de veículo (micro-ônibus e ônibus).",
+    "mercados_predominantes": [
+      "Transporte escolar público",
+      "Mobilidade educacional",
+      "Serviços municipais de educação"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de transporte escolar municipal. Resgatécnica é fornecedora especializada em equipamentos e soluções para emergências, resgate e operações críticas. Não há compatibilidade comercial, operacional ou de nicho entre transporte escolar civil e o portfólio técnico-operacional da empresa."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Transporte escolar é serviço de mobilidade educacional municipal. Resgatécnica fornece equipamentos para emergências e resgate, não serviços de transporte civil.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado completamente distinto",
+        "Sem equipamentos ou serviços de transporte escolar"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Transporte escolar é serviço de mobilidade educacional municipal. Resgatécnica fornece equipamentos para emergências e resgate, não serviços de transporte civil.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado completamente distinto",
+        "Sem equipamentos ou serviços de transporte escolar"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Transporte escolar é serviço de mobilidade educacional municipal. Resgatécnica fornece equipamentos para emergências e resgate, não serviços de transporte civil.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado completamente distinto",
+        "Sem equipamentos ou serviços de transporte escolar"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Transporte escolar é serviço de mobilidade educacional municipal. Resgatécnica fornece equipamentos para emergências e resgate, não serviços de transporte civil.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado completamente distinto",
+        "Sem equipamentos ou serviços de transporte escolar"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Transporte escolar é serviço de mobilidade educacional municipal. Resgatécnica fornece equipamentos para emergências e resgate, não serviços de transporte civil.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado completamente distinto",
+        "Sem equipamentos ou serviços de transporte escolar"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Transporte escolar é serviço de mobilidade educacional municipal. Resgatécnica fornece equipamentos para emergências e resgate, não serviços de transporte civil.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado completamente distinto",
+        "Sem equipamentos ou serviços de transporte escolar"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 6
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de transporte escolar municipal não pertence ao nicho operacional da Resgatécnica. Sem compatibilidade comercial, técnica ou de mercado."
+  },
+  "_processo": "46362927000172-1-000146/2026",
+  "_analisado_em": "2026-04-21T19:24:54.202852+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,391 @@
+# processo:      18602052000101-1-000015/2026
+# lote:          2
+# n_itens:       25
+# output_tokens: 8192
+# chars:         22283
+# motivo:        erro_llm: [18602052000101-1-000015/2026] lote 2 — não foi possível extrair JSON válido da resposta. Primeiros 300 chars: ```json
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção 
+# ======================================================================
+
+```json
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. NÃO é fornecedora de eventos, estruturas de palco, iluminação artística, sonorização ou infraestrutura de entretenimento."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Registro de preços para locação de equipamentos e estruturas para eventos municipais (tablados, tendas, palcos, iluminação artística, sonorização, camarotes, arquibancadas, banheiros químicos, geradores, grades de isolamento)",
+    "mercados_predominantes": [
+      "Locação de infraestrutura para eventos",
+      "Entretenimento e produção de eventos",
+      "Iluminação cênica/artística",
+      "Sonorização profissional",
+      "Estruturas temporárias para eventos"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de eventos municipais. Resgatécnica fornece equipamentos operacionais de emergência, não infraestrutura de entretenimento."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 7133991,
+      "descricao": "LOCACAO DE TABLADO PARA EVENTOS DE PEQUENO PORTE: COM NO MINIMO 09 METROS DE LARGURA X 09 METROS COMPRIMENTO, ALTURA DO PISO ATE O CHAO NO MAXIMO 100 CM, MONTADO EM ESTRUTURA METALICA SENDO TRELICAS DE SUSTENTACAO DO PISO EM ACO, PISO DE MADEIRA DE 81 M2, EM MADERITE NAVAL DE 18 MM COM MOLDURA DE FERRO, O TABLADO DEVERA ESTAR NIVELADO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Tablado para eventos. Resgatécnica não fornece infraestrutura de entretenimento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Produto: infraestrutura cênica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133992,
+      "descricao": "LOCACAO DE TENDAS TAMANHO 10X10M EM FORMATO PIRAMIDAL, BASE EM ESTRUTURA METALICA, LONA BRANCA ANTI CHAMAS E CALHA PARA CAPTACAO E ESCOAMENTO DE AGUAS PLUVIAIS.",
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Produtos Perigosos",
+      "subcategoria_portfolio_relacionada": "Descontaminação",
+      "produto_referencia": "Tenda de Descontaminação",
+      "justificativa": "Lona anti-chamas é superficial. Tenda de descontaminação é para hazmat, não eventos.",
+      "motivos_pro_match": [
+        "Lona anti-chamas"
+      ],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Finalidade: infraestrutura cênica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Anti-chamas ≠ descontaminação"
+      ],
+      "observacao": "Semelhança apenas verbal. Tenda de descontaminação Resgatécnica é para resposta a hazmat, não para eventos."
+    },
+    {
+      "numeroItem": 7133993,
+      "descricao": "LOCACAO DE TENDAS TAMANHO 3X3M EM FORMATO PIRAMIDAL, BASE EM ESTRUTURA METALICA, LONA BRANCA ANTI CHAMAS E CALHA PARA CAPTACAO E ESCOAMENTO DE AGUAS PLUVIAIS.",
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Produtos Perigosos",
+      "subcategoria_portfolio_relacionada": "Descontaminação",
+      "produto_referencia": "Tenda de Descontaminação",
+      "justificativa": "Lona anti-chamas é superficial. Tenda de descontaminação é para hazmat, não eventos.",
+      "motivos_pro_match": [
+        "Lona anti-chamas"
+      ],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Finalidade: infraestrutura cênica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Anti-chamas ≠ descontaminação"
+      ],
+      "observacao": "Mesmo padrão: semelhança lexical enganosa. Tenda de descontaminação Resgatécnica é operacional, não para eventos."
+    },
+    {
+      "numeroItem": 7133994,
+      "descricao": "LOCACAO DE TENDAS TAMANHO 5X5M EM FORMATO PIRAMIDAL, BASE EM ESTRUTURA METALICA, LONA BRANCA ANTI-CHAMAS CALHA PARA CAPTACAO E ESCOAMENTO DE AGUAS PLUVIAIS.",
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Produtos Perigosos",
+      "subcategoria_portfolio_relacionada": "Descontaminação",
+      "produto_referencia": "Tenda de Descontaminação",
+      "justificativa": "Lona anti-chamas é superficial. Tenda de descontaminação é para hazmat, não eventos.",
+      "motivos_pro_match": [
+        "Lona anti-chamas"
+      ],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Finalidade: infraestrutura cênica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Anti-chamas ≠ descontaminação"
+      ],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133995,
+      "descricao": "LOCACAO DE TENDAS TAMANHO 6X6 M EM FORMATO PIRAMIDAL, BASE EM ESTRUTURA METALICA, LONA BRANCA ANTI-CHAMAS E CALHA PARA CAPTACAO E ESCOAMENTO DE AGUAS PLUVIAIS.",
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Produtos Perigosos",
+      "subcategoria_portfolio_relacionada": "Descontaminação",
+      "produto_referencia": "Tenda de Descontaminação",
+      "justificativa": "Lona anti-chamas é superficial. Tenda de descontaminação é para hazmat, não eventos.",
+      "motivos_pro_match": [
+        "Lona anti-chamas"
+      ],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Finalidade: infraestrutura cênica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Anti-chamas ≠ descontaminação"
+      ],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133996,
+      "descricao": "LOCACAO DE TENDAS TAMANHO 8X8M EM FORMATO PIRAMIDAL, BASE EM ESTRUTURA METALICA, LONA BRANCA ANTI CHAMAS E CALHA PARA CAPTACAO E ESCOAMENTO DE AGUAS PLUVIAIS.",
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.92,
+      "categoria_portfolio_relacionada": "Produtos Perigosos",
+      "subcategoria_portfolio_relacionada": "Descontaminação",
+      "produto_referencia": "Tenda de Descontaminação",
+      "justificativa": "Lona anti-chamas é superficial. Tenda de descontaminação é para hazmat, não eventos.",
+      "motivos_pro_match": [
+        "Lona anti-chamas"
+      ],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Finalidade: infraestrutura cênica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Anti-chamas ≠ descontaminação"
+      ],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133997,
+      "descricao": "PALCO COM COBERTURA EM ALUMINIO COM 10 METROS DE FRENTE X 8 METROS DE PROFUNDIDADE X 2 METROS DE ALTURA DO CHÃO ATE O PISO, FECHAMENTOS NAS LATERAIS EM TECIDO PRETO, COBERTURA EM LONA ANTICHAMAS, ESCADA DE ACESSO E AREA DE SERVICO COM MEDIDA NO MINIMO 3 METROS X 4 METROS, COM 2 CAMARINS ESTILO OCTANORME MEDIDAS APROXIMADAMENTE 5/4 COM PISO (CARPETADO).",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Palco para eventos. Resgatécnica não fornece infraestrutura de entretenimento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Produto: palco cênico"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7133998,
+      "descricao": "PROJETO E EXECUCAO (CORPO DE BOMBEIROS) TODO O PROJETO DO CORPO DE BOMBEIROS E EXECUCAO DO MESMO (PLACAS, EXTINTORES, LAUDOS, LAMPADAS DE EMERGENCIA E TAXAS), ONDE O AVCB DEVERA SER ENTREGUE A ADMINISTRACAO, ANTES DO INICIO DO EVENTO (UM PROJETO PARA CADA SERVIÇO REALIZADO).",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.65,
+      "categoria_portfolio_relacionada": "Combate a Incêndio",
+      "subcategoria_portfolio_relacionada": "Combate a Incêndio Estrutural",
+      "produto_referencia": "Extintor Portátil RFC POLY Portex",
+      "justificativa": "Projeto AVCB é serviço de consultoria. Resgatécnica fornece equipamentos, não projetos.",
+      "motivos_pro_match": [
+        "Extintores mencionados",
+        "Corpo de Bombeiros"
+      ],
+      "motivos_contra_match": [
+        "Serviço de consultoria",
+        "Não é fornecimento de equipamentos"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Extintores ≠ projeto AVCB"
+      ],
+      "observacao": "Resgatécnica fornece extintores, não projetos de segurança contra incêndio. Contexto é evento, não operação crítica."
+    },
+    {
+      "numeroItem": 7133999,
+      "descricao": "SISTEMA DE ILUMINACAO EVENTOS PEQUENO PORTE LOCACAO DE ILUMINACAO O SISTEMA DE LUZ DEVERAO ATENDER RIDER TECNICO DO ARTISTA A SER CONTRATADO PELO MUNICIPIO, SENDO RECONHECIDO NACIONALMENTE, OU REGIONALMENTE, TENDO A EMPRESA A CIENCIA QUE DEVERA CUMPRIR NA INTEGRA, E SENDO ESTAS ESPECIFICACOES MINIMAS: ILUMINACAO 01 CONTROLADOR MA COM DUAS TELAS TOUCH, COM 08 UNIVERSOS DE SAIDAS DE DMX COMPATIVEL COM TODO SISTEMA MA, 08 UNIDADE MOVING BEAM 9R COM BORDA DE LED 3 EM 1 (BEAM,WASH,SPOT) MODELO DE REFERENCIA BEAM 9R OS EQUIPAMENTO DEVERAO ESTAR COM CAPA DE CHUVA APROPRIADA PARA SER USADO EM AMBIENTES EXTERNOS AS CAPAS DEVEM SER TANTO PARAUSO SUSPENSO OU NO CHAO , O EQUIPAMENTO DEVE CONTER CABO DE ACO DE SEGURANCA CONTRA QUEDA 08 UNIDADE MOVING LED MAC AURA LED MODELO DE REFERENCIA MACAURA LED OS EQUIPAMENTO DEVERAO ESTAR COM CAPA DE CHUVA APROPRIADA PARA SER USADO EM AMBIENTES EXTERNOS AS CAPAS DEVEM SER TANTO PARAUSO SUSPENSO OU NO CHAO , O EQUIPAMENTO DEVE CONTER CABO DE ACO DE SEGURANCA CONTRA QUEDA 12 CANHOES PAR LED RGBWAUV02 SPLITTER COM 1 ENTRADA 1 SAIDA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Iluminação artística para eventos. Resgatécnica não fornece equipamentos de entretenimento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Produto: iluminação cênica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Resgatécnica fornece lanternas operacionais (resgate, incêndio), não iluminação artística para eventos."
+    },
+    {
+      "numeroItem": 7177920,
+      "descricao": "BACKDROP - PAINEL PARA FIXACAO DE LONA IMPRESSA, MONTADO EM ESTRUTURA DE TRELICA DE ALUMINIO MODELO Q30, MEDINDO 5 METROS DE ALTURA E 3 METROS DE LARGURA, NO FORMATO DE TRAVE, COM PES MEDINDO 70 CENTIMETROS.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Backdrop para eventos. Resgatécnica não fornece infraestrutura de entretenimento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Produto: infraestrutura cênica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7177921,
+      "descricao": "BRIGADISTAS DE INCENDIO PARA 6 HORAS/DIA, PERIODO NOTURNO. OS BRIGADISTAS DE INCENDIO DEVERAO TER FORMACAO E CERTIFICADOS MINIMOS EXIGIDOS PELO CORPO DE BOMBEIROS DE MINAS GERAIS.",
+      "classificacao": "ADERENCIA_PARCIAL_FRACA",
+      "grau_confianca": 0.60,
+      "categoria_portfolio_relacionada": "Combate a Incêndio",
+      "subcategoria_portfolio_relacionada": "Combate a Incêndio Estrutural",
+      "produto_referencia": null,
+      "justificativa": "Serviço de brigadistas. Resgatécnica fornece equipamentos, não serviços de pessoal.",
+      "motivos_pro_match": [
+        "Combate a incêndio",
+        "Corpo de Bombeiros"
+      ],
+      "motivos_contra_match": [
+        "Serviço de pessoal",
+        "Contexto: eventos municipais"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Brigadistas ≠ equipamentos"
+      ],
+      "observacao": "Resgatécnica fornece equipamentos para bombeiros, não serviços de pessoal para eventos."
+    },
+    {
+      "numeroItem": 7177922,
+      "descricao": "ELETRICISTA DE PLANTAO DURANTE TODO O EVENTO COM TODO MATERIAL NECESSARIO (FIOS, CABOS, LAMPADAS, DIJUNTORES, ESTENSOES ETC.) POR CADA EVENTO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Serviço de eletricista para eventos. Resgatécnica não fornece serviços de infraestrutura.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de pessoal",
+        "Contexto: eventos municipais"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7177923,
+      "descricao": "EQUIPE DE APOIO, CONTROLE DE ACESSO E CARREGADORES, COM CARGA HORARIA DE 08 HORAS POR DIA (DIURNO OU NOTURNO).",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Serviço de pessoal para eventos. Resgatécnica não fornece serviços de infraestrutura.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de pessoal",
+        "Contexto: eventos municipais"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7177924,
+      "descricao": "LOCACAO DE ARQUIBANCADA COBERTA FABRICADA COM TUBO GALVANIZADO GI DE 2 EM CHAPA 13 MM, COM 12 DEGRAUS E 01(UMA) PASSARELA, COM INICIO DO PRIMEIRO PISO A 1,40M DO NIVEL DO CHAO, PASSARELA DE 1,50 M DE LARGURA COM RAMPAS DE ACESSO PARA PESSOAS PORTADORAS DE NECESSIDADES ESPECIAIS E QUEBRA-DEGRAUS ENTRE INTERVALOS DOS ASSENTOS DA ARQUIBANCADA, ASSENTO ANTIDERRAPANTE MEDINDO DE 0,55 M DE LARGURA, FABRICADO COM METALON 7030 GI NA CHAPA DE 3 MM COM MADERITE DE 17MM E COM REFORCOS DE SEGURANCA EM INTERVALO DE 15 CM, ENCAIXES DE FIXADORES DOS DEGRAUS COM PINOS, ESCADA DE ACESSO COM 2,30 M DE LARGURA E ESPELHO DE DEGRAUS DE 15 CM, PARAPEITO DE 1,50M DE ALTURA, GRADE DE PROTECAO DE 2,00M DE ALTURA NA TRASEIRA E NAS LATERAIS COM INTERVALOS DE VAO LIVRE DE 15 CM, SENDO TODA A FERRAGEM GALVANIZADA, COM TRAVAMENTO EM GRADES E PINOS E SAPATAS DE SUSTENTACAO DE 30 POR 30 CM, OBEDECENDO TODAS AS NORMAS DA ABNT E SISTEMA DE SEGURANCA CONFORME A INSTRUCAO TECNICA N. 37 EXIGIDAS PELO CORPO DE BOMBEIRO DO ESTADO DE MINAS GERAIS. TODAS AS ARQUIBANCADAS SAO FECHADAS POR LONA NIGHTANDDAY (SAIA) EM TODO O SEU PERIMETRO TRASEIRO. METRO LINEAR",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Arquibancada para eventos. Resgatécnica não fornece infraestrutura de entretenimento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Produto: infraestrutura cênica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Menção a normas ABNT e Corpo de Bombeiros é superficial. Produto é infraestrutura de eventos, não equipamento operacional."
+    },
+    {
+      "numeroItem": 7177925,
+      "descricao": "LOCACAO DE BANHEIRO QUIMICO PNE (PORTADOR DE NECESSIDADES ESPECIAIS). - BANHEIRO QUIMICO, CABINE E TANQUE EM POLIETILENO DE ALTA DENSIDADE, INCLUINDO: VASO SANITARIO, PORTA PAPEL HIGIENICO, PORTA PAPEL TOALHA, DISPENSER DE SABONETE LIQUIDO. COM FORNECIMENTO DE PRODUTO QUIMICO BACTERICIDA. CARACTERISTICAS GERAIS DAS CABINES: COBERTURA INCLINADA, COM CANALETAS PARA IMPEDIR A ENTRADA DE CHUVA, COBERTURA TRANSLUCIDA, PERMITINDO A ENTRADA DE A LUZ SOLAR OU ARTIFICIAL, TRINCO INDICADOR DE OCUPADO/LIVRE, TUBO DE RESPIRO, TELAS PARA CIRCULACAO INTERNA DE AR, BARRAS DE APOIO NAS LATERAIS E AO FUNDO, PISO ANTIDERRAPANTE. COM INDICACAO DE: MASCULINO OU FEMININO MANUTENCAO E LIMPEZA DAS CABINAS, SEMPRE QUE NECESSARIO, PARA A ADEQUADA UTILIZACAO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Banheiro químico para eventos. Resgatécnica não fornece infraestrutura de eventos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Produto: infraestrutura sanitária"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7177926,
+      "descricao": "LOCACAO DE BANHEIROS QUIMICOS, MODELO MASCULINO E FEMININO, TRAVA INTERNA NA PORTA INDICANDO OCUPADO E DESOCUPADO, COM PLACA INDICATIVA DE MASCULINO E FEMININO, 75KG, 2,30 ALTURA, 1,10 LARGURA, 1,20 COMPRIMENTO, TANQUE PARA CAPACIDADE DE NOMINMO 227L E SUPORTE PARA ITENS DE HIGIENIZACAO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Banheiro químico para eventos. Resgatécnica não fornece infraestrutura de eventos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Produto: infraestrutura sanitária"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7177927,
+      "descricao": "LOCACAO DE CAMAROTES EM FORMATO DE VIP, POSSUINDO MEDIDAS NO MINIMO 2.30 METROS X 3.30 METROS EM 4 ANDARES, REVESTIDAS AS GRADES DA FRENTE E DE TODAS AS LATERAIS COM TECIDO TIPO MALHA NA COR A DEFINIR, POSSUINDO 1 MESA COM NO MINIMO 5 CADEIRAS SENDO AMBOS PROPORCIONAIS, TODOS OS CAMAROTES DEVEM POSSUIR LAMPADAS E FIACAO COMPLETA (SENDO AS LAMPADAS EM CADA CAMAROTE). A ESTRUTURA DO CAMAROTE DEVE SER FABRICADA COM TUBOS GALVANIZADOS OU FERRO (SEM SINAL DE CORROSAO), COM 02 (DUAS) ESCADAS NAS LATERAIS (COM LONA NIGHTANDDAY EM TODO PERIMETRO (TRASEIRA E LATERAL). OBEDECENDO TODAS AS NORMAS DA ABNT E SISTEMA DE SEGURA CORPO DE BOMBEIROS DO ESTADO DE MINAS GERAIS.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "produto_referencia": null,
+      "justificativa": "Camarote para eventos. Resgatécnica não fornece infraestrutura de entretenimento.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Produto: infraestrutura cênica"
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": null
+    },
+    {
+      "numeroItem": 7177928,
+      "descricao": "LOCACAO DE COBERTURA ESTILO GALPAO EM ALUMINIO Q30 COM LONAS ANTICHAMAS, PE DIREITO 7M DE ALTURA DE ACORDO COM AS NORMAS DOS BOMBEIROS (VALOR EM M²)",
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.85,
+      "categoria_portfolio_relacionada": "Combate a Incêndio",
+      "subcategoria_portfolio_relacionada": "Combate a Incêndio Estrutural",
+      "produto_referencia": null,
+      "justificativa": "Lona anti-chamas e normas bombeiros são superficiais. Cobertura é para eventos, não operação.",
+      "motivos_pro_match": [
+        "Lona anti-chamas",
+        "Normas bombeiros"
+      ],
+      "motivos_contra_match": [
+        "Contexto: eventos municipais",
+        "Produto: infraestrutura cênica"
+      ],
+      "sinais_lexicais_enganosos": [
+        "Anti-chamas ≠ equipamento operacional"
+      ],
+      "observacao": "Semelhança lexical enganosa. Cobertura para eventos, não para operações críticas."
+    },
+    {
+      "numeroItem": 7177929,
+      "descricao": "LOCACAO DE DE SONORIZACAO. SISTEMA 16X12 DE AUDIO (SONORIZACAO) MEGA EVENTOS LOCACAO AUDIO (SONORIZACAO) SISTEMA DE AUDIO (SONORIZACAO) QUE DEVERA O ATENDER RIDER TECNICO CONFORME ARTISTAS DE RENOMES NACIONAIS, ESTADUAIS E REGIONAIS EM CARATER PARA MEGA E GRANDES EVENTOS, SENDO CONTRATADO(S) PELO MUNICIPIO, ONDE PODERA SER UNICA OU VARIAS APRESENTACOES, TENDO A CIENCIA QUE DEVERA CUMPRIR NA INTEGRA, E SENDO ESTAS ESPECIFICACOES MINIMAS: SISTEMA DE PA LINE EQUIPAMENTOS DISPONIVEIS PARA O EVENTO, 32 UNID. CAIXAS ACUSTICA LINE ARRAY PASSIVA CONFORME SEGUINTES CARACTERISTICAS, SENSIBILIDADE: 105DB SPL 1W. 1M SPL MAXIMO: 136 DB SPL 1M COBERTURA HORIZONTAL: 120 RESPOSTA DE FREQUENCIA: 80 HZ- 20 KHZ (/- 3 DB) COM SOFTWARE DE ALINHAMENTO 24 UNID. CAIXAS ACUSTICA SUB GRAVES PASSIVA CONFORME SEGUINTES CARACTERISTICAS, SENSIBILIDADE: 106 DB SPL 1W.1M SPL CIA: 30 HZ -250HZ (/- 3 DB) COM SOFTWARE DE ALINHAMENTO PROJETO DE SISTEMA ATRAVES DE SOFTWARE DE ALINHAMENTO E PROJECA0 E INCLINACA0 (P.A 16X12 DE CADA LADO) OBS.: TODO O SISTEMA DE AUDIO ACIMA MENCIONADOS COM DEVIDOS CABOS E ACESSORIOS CONFORME A BAIXO, 04 UNID. SISTEMA DE ELEVACAO PA BUMPER 04 UNID. MANILHA /ANILHA P/ 2T. 5/8 P/ ELEVACAO CONF. ABNT. 02 UNID. TALHAS MANUAL 2 T. C/ 10 MTS DE CORRENTE C/ FREIO 02 UNID. TALHAS ELETRICA 2T. C/ 12 MTS DE CORRENTE C/ FREIO 08 UNID. CINTAS 2 TONELADAS X 1MT P/ ELEVACAO CONF. ABNT. 16 UNID. CABOS 18MTS SPEAKON NL4(4X4.0MM) EXTRAFLEX 12 UNID. CABOS 12MTS...",

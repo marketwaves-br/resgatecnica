@@ -1,0 +1,715 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio e proteção individual técnica",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências, não atua em distribuição genérica de peças automotivas de manutenção de frota."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de pneus de primeira linha para manutenção de frota municipal genérica (Prefeitura de Timburi/SP). Mercado de suprimentos automotivos de rotina, sem contexto de emergência ou operação crítica.",
+    "mercados_predominantes": [
+      "Distribuição automotiva genérica",
+      "Manutenção de frota municipal",
+      "Pneus para veículos comerciais e utilitários"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/50 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu genérico para manutenção de frota municipal. Sem contexto de emergência ou operação crítica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado automotivo genérico",
+        "Sem especialização técnica operacional"
+      ]
+    },
+    {
+      "numeroItem": 26,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu automotivo genérico para manutenção de frota municipal. Sem relação com operações de emergência ou resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado de distribuição automotiva comum",
+        "Manutenção de frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 27,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu liso para manutenção de frota. Sem contexto operacional de emergência ou resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 28,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu liso para manutenção de frota. Sem contexto operacional de emergência ou resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 29,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu com 20 lonas para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 30,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu com 20 lonas para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 31,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu com 16 lonas para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 32,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu com 16 lonas para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 33,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu 18R14C para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 34,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu 18R14C para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 35,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu com 16 lonas para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 36,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu com 16 lonas para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 37,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu liso 1000X20 para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 38,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu liso 1000X20 para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 39,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu borrachudo 1000X20 para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 40,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu borrachudo 1000X20 para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 41,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu borrachudo para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 42,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu borrachudo para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 43,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu liso para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 44,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu liso para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 45,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu diagonal com 12 lonas para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 46,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu diagonal com 12 lonas para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 47,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu com 16 lonas para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 48,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu com 16 lonas para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 49,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu com 16 lonas para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    },
+    {
+      "numeroItem": 50,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pneu com 16 lonas para manutenção de frota. Sem relação com equipamentos de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pneu de manutenção comum",
+        "Frota municipal"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 50
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de pneus para manutenção de frota municipal genérica. Completamente fora do nicho técnico-operacional de emergências da Resgatécnica. Sem compatibilidade comercial real."
+  },
+  "_processo": "46223715000104-1-000017/2026",
+  "_analisado_em": "2026-04-21T19:43:39.915710+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

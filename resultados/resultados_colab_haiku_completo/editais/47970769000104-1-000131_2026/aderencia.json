@@ -1,0 +1,298 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica, altura/espaço confinado, produtos perigosos, atendimento pré-hospitalar e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências, não atua em alimentação escolar ou distribuição de alimentos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de pães diversos para merenda escolar municipal",
+    "mercados_predominantes": [
+      "Alimentação escolar",
+      "Distribuição de alimentos",
+      "Panificação comercial"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é exclusivamente de alimentos para merenda escolar. Resgatécnica atua em emergências e operações críticas, não em alimentação escolar ou panificação."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão tipo hot dog para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão tipo hot dog para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão tipo hot dog 25g para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão tipo hot dog 25g para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão tipo hambúrguer 50g para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão tipo hambúrguer 50g para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão tipo hambúrguer 25g para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão tipo hambúrguer 25g para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão francês 50g para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão francês 50g para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão francês 25g para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão francês 25g para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão tipo hot dog integral para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão tipo hot dog integral para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão sem glúten e sem lactose para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão sem glúten e sem lactose para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão sem leite e sem ovo para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Pão sem leite e sem ovo para merenda escolar. Mercado alimentar, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Alimento escolar",
+        "Fora do ramo"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 18
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de alimentos para merenda escolar. Resgatécnica não atua em alimentação escolar ou panificação. Mercado completamente distinto do portfólio técnico-operacional da empresa."
+  },
+  "_processo": "47970769000104-1-000131/2026",
+  "_analisado_em": "2026-04-21T19:39:56.039817+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

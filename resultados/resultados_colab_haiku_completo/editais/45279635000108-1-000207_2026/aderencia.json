@@ -1,0 +1,77 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual",
+      "Altura e Espaço Confinado",
+      "Veículos Especiais Customizados",
+      "Produtos Perigosos",
+      "Atendimento Pré-Hospitalar",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. Não atua como fornecedora de equipamentos hospitalares genéricos ou de diagnóstico médico."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Aquisição de equipamento hospitalar especializado (monitor fetal gemelar cardiotocógrafo) para diagnóstico obstétrico em ambiente de saúde da mulher",
+    "mercados_predominantes": [
+      "Saúde hospitalar",
+      "Diagnóstico obstétrico",
+      "Equipamentos médicos de monitorização"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de equipamentos hospitalares de diagnóstico médico. Resgatécnica atua em resposta a emergências operacionais, não em fornecimento de equipamentos de diagnóstico hospitalar genérico."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Monitor fetal cardiotocógrafo é equipamento de diagnóstico obstétrico hospitalar. Não se enquadra em nenhuma macro-área da Resgatécnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Equipamento diagnóstico hospitalar genérico",
+        "Fora do escopo operacional de emergências"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação completamente fora do escopo comercial e operacional da Resgatécnica. Não há compatibilidade de mercado, tipo de cliente ou especialização técnica."
+  },
+  "_processo": "45279635000108-1-000207/2026",
+  "_analisado_em": "2026-04-21T19:36:59.111659+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

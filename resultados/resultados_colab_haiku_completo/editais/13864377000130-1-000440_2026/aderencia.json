@@ -1,0 +1,284 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica, altura/espaço confinado, produtos perigosos, atendimento pré-hospitalar e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais para emergências. NÃO é distribuidora de insumos hospitalares genéricos, odontológicos ou de varejo médico comum."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação de cateteres balão para cirurgias vasculares em ambiente hospitalar. Compra de OPME (Órteses, Próteses e Materiais Especiais) para procedimentos de angioplastia coronariana e vascular. Fornecedor esperado: distribuidora médico-hospitalar especializada em insumos cirúrgicos.",
+    "mercados_predominantes": [
+      "Saúde hospitalar",
+      "Insumos cirúrgicos",
+      "Materiais de OPME",
+      "Distribuição médica"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de insumos hospitalares cirúrgicos genéricos. Resgatécnica é fornecedora de equipamentos técnico-operacionais para emergências e operações críticas, não distribuidora de OPME hospitalar. Sem sobreposição comercial real."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão para angioplastia coronariana é insumo cirúrgico hospitalar especializado. Resgatécnica não fornece OPME vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar especializado",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão para angioplastia coronariana é insumo cirúrgico hospitalar especializado. Resgatécnica não fornece OPME vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar especializado",
+        "Não é equipamento operacional"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Cateter balão é insumo cirúrgico hospitalar genérico. Resgatécnica não fornece OPME ou insumos de cirurgia vascular.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado hospitalar genérico",
+        "Não é equipamento operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 17
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": []
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de OPME hospitalar. Resgatécnica é fornecedora de equipamentos técnico-operacionais para emergências, não distribuidora de insumos cirúrgicos hospitalares. Mercados completamente distintos. Sem aderência comercial real."
+  },
+  "_processo": "13864377000130-1-000440/2026",
+  "_analisado_em": "2026-04-21T19:40:48.666664+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

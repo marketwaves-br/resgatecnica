@@ -1,0 +1,82 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, emergências e salvamento. Não atua em serviços administrativos genéricos, turismo ou agenciamento de viagens."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Serviço de agenciamento de viagens aéreas (emissão, remarcação, cancelamento de passagens) para universidade pública",
+    "mercados_predominantes": [
+      "Turismo e viagens",
+      "Serviços administrativos de agências de viagem",
+      "Gestão de deslocamentos corporativos"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é de serviço administrativo de agenciamento de viagens aéreas. Resgatécnica é fornecedora especializada em equipamentos de emergência e operações críticas. Não há compatibilidade comercial, operacional ou de nicho."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de agenciamento de viagens aéreas. Mercado completamente distinto de operações críticas e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço administrativo turístico",
+        "Sem relação com resgate ou emergência"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional",
+      "tipo_fornecimento"
+    ],
+    "portfolio_apoio": [
+      "perfil_empresa_resumido",
+      "macro_ramos_atuacao"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de serviço administrativo de turismo. Fora do escopo operacional, comercial e técnico da Resgatécnica. Sem oportunidade de negócio."
+  },
+  "_processo": "44392215000170-1-000098/2025",
+  "_analisado_em": "2026-04-21T19:21:58.206448+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

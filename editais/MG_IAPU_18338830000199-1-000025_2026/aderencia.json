@@ -1,0 +1,716 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e atendimento pré-hospitalar",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos operacionais de emergência, não em medicamentos genéricos para saúde da família"
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Registro de preços para aquisição de medicamentos genéricos injetáveis (ampolas) para atender pacientes da Estratégia de Saúde da Família em município de Minas Gerais",
+    "mercados_predominantes": [
+      "Farmacêutico/Medicamentos genéricos",
+      "Saúde pública municipal",
+      "Distribuição hospitalar/clínica"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Agregado de 2 lotes. Aderentes: 0/50 (0%)."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento hormonal injetável. Resgatécnica não fornece medicamentos genéricos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Vitamina injetável. Medicamento genérico para saúde da família, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento hemostático injetável. Medicamento genérico, não equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento cardíaco injetável. Medicamento genérico para saúde da família.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Água para injeção. Insumo farmacêutico genérico, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo farmacêutico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento oftalmológico/antiespasmódico injetável. Medicamento genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antiemético injetável. Medicamento genérico para saúde da família.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antiespasmódico injetável. Medicamento genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antiespasmódico injetável. Medicamento genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Antibiótico injetável. Medicamento genérico para saúde da família.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento anti-inflamatório injetável. Medicamento genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento anti-inflamatório injetável. Medicamento genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento opioide injetável. Medicamento genérico para saúde da família.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Eletrólito injetável. Insumo farmacêutico genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo farmacêutico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Solução salina injetável. Insumo farmacêutico genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Insumo farmacêutico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 16,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento vitamínico injetável. Medicamento genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 17,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento corticoide injetável. Medicamento genérico para saúde da família.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 18,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento anti-inflamatório injetável. Medicamento genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 19,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento analgésico injetável. Medicamento genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 20,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento corticoide injetável. Medicamento genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 21,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento vasoativo injetável. Medicamento genérico para saúde da família.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 22,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento vasoativo injetável. Medicamento genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 23,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento anticonvulsivante injetável. Medicamento genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 24,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antagonista de benzodiazepínico injetável. Medicamento genérico.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 25,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento diurético injetável. Medicamento genérico para saúde da família.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Fora do ramo operacional"
+      ]
+    },
+    {
+      "numeroItem": 26,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento genérico (glicose injetável) para saúde pública. Fora do escopo operacional de resgate e emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública municipal"
+      ]
+    },
+    {
+      "numeroItem": 27,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento psiquiátrico genérico (haloperidol). Não relacionado a operações de resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 28,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento psiquiátrico genérico (haloperidol decanoato). Fora do escopo de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 29,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento corticoide genérico (hidrocortisona). Não é equipamento ou insumo operacional de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 30,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento corticoide genérico (hidrocortisona 500mg). Fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 31,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.95,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Lidocaína é anestésico genérico para saúde pública. Embora exista em contexto de APH, aqui é medicamento de rotina hospitalar, não equipamento operacional.",
+      "motivos_pro_match": [
+        "Menção a anestésico"
+      ],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 32,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento contraceptivo genérico (medroxiprogesterona). Não relacionado a resgate ou emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 33,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento analgésico genérico (morfina). Embora usado em APH, aqui é insumo de saúde pública municipal, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 34,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento contraceptivo genérico (noretisterona + estradiol). Fora do escopo de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 35,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antiemético genérico (ondasetrona 2mg). Não é equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 36,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antiemético genérico (ondasetrona 4mg). Fora do escopo de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 37,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento analgésico genérico (petidina). Embora usado em APH, aqui é insumo de saúde pública, não equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 38,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento anti-histamínico genérico (prometazina). Não é equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 39,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento analgésico genérico (tramadol). Embora usado em APH, aqui é insumo de saúde pública municipal.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 40,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico genérico (benzilpenicilina 1.200.000). Fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 41,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico genérico (benzilpenicilina 60.000). Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 42,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico genérico (ceftriaxona 500mg). Fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 43,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antibiótico genérico (ceftriaxona 1g). Não é equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 44,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antiparkinsoniano genérico (biperideno). Fora do escopo de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 45,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento anticonvulsivante genérico (fenobarbital). Não é equipamento operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 46,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento anticonvulsivante genérico (fenitoína). Fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 47,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento sedativo genérico (diazepam). Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 48,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento antipsicótico genérico (decanoato de zuclopentixol). Fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 49,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento hormonal genérico (acetato de goserelina). Não é equipamento de resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    },
+    {
+      "numeroItem": 50,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Medicamento hormonal genérico (leuprorrelina). Fora do escopo operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Medicamento genérico",
+        "Saúde pública"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 1,
+    "nao_aderente": 49
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "unidadeMedida"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de medicamentos genéricos. Resgatécnica é fornecedora de equipamentos operacionais de emergência, não de medicamentos. Nenhuma compatibilidade comercial real."
+  },
+  "_processo": "18338830000199-1-000025/2026",
+  "_analisado_em": "2026-04-22T01:13:37.745845+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

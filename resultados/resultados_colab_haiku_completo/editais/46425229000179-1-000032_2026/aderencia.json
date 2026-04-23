@@ -1,0 +1,131 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, emergências e salvamento. Não atua em telecomunicações, infraestrutura de rede ou serviços de conectividade."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviços de telecomunicações e infraestrutura de rede para interligação de unidades públicas municipais, incluindo internet dedicada, rede MPLS/VLAN, telefonia IP-SIP, Wi-Fi público e infraestrutura técnica associada.",
+    "mercados_predominantes": [
+      "Telecomunicações",
+      "Infraestrutura de Rede",
+      "Serviços de Conectividade",
+      "Telefonia IP",
+      "Tecnologia da Informação"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence ao mercado de telecomunicações e TI. Resgatécnica atua em emergências e operações críticas. Sem intersecção comercial real."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Internet dedicada é serviço de telecomunicações. Resgatécnica não fornece conectividade ou serviços de rede.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Mercado telecomunicações",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "MPLS/VLAN são tecnologias de rede corporativa. Não relacionadas a resgate, emergência ou operações críticas.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura TI",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Telefonia IP-SIP é serviço de telecomunicações corporativo. Resgatécnica não fornece PABX ou troncos telefônicos.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço telecomunicações",
+        "Fora do portfólio"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Ramais IP-SIP são componentes de infraestrutura telefônica corporativa. Sem relação com operações de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Telefonia corporativa",
+        "Mercado distinto"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Wi-Fi público gerenciado é serviço de infraestrutura de rede. Resgatécnica não fornece soluções de conectividade wireless corporativa.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Infraestrutura rede",
+        "Fora do escopo"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 5
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de telecomunicações. Resgatécnica atua em emergências/resgate. Sem compatibilidade comercial."
+  },
+  "_processo": "46425229000179-1-000032/2026",
+  "_analisado_em": "2026-04-21T19:30:46.596313+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

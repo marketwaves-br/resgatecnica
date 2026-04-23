@@ -1,0 +1,104 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, emergências e salvamento. Não atua em serviços de mobilidade urbana, pedágios ou pagamento eletrônico."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviço de pagamento eletrônico com identificação automática veicular (TAG) para acesso em pedágios de frota municipal",
+    "mercados_predominantes": [
+      "Mobilidade urbana",
+      "Gestão de frota municipal",
+      "Serviços de pedágio",
+      "Tecnologia de identificação veicular"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação refere-se exclusivamente a serviços de pagamento eletrônico e acesso a pedágios. Resgatécnica atua em equipamentos e soluções para emergências, resgate e operações críticas. Não há intersecção comercial, operacional ou técnica."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de pagamento eletrônico para pedágios. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de pedágio",
+        "Mercado administrativo municipal"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de pagamento eletrônico para pedágios. Fora do escopo de resgate e emergências.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de pedágio",
+        "Mercado administrativo municipal"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mensalidade de pagamento eletrônico para acesso a pedágios. Não relacionado a equipamentos ou serviços de emergência.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço de pedágio",
+        "Tecnologia de pagamento"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 3
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de serviço de pagamento eletrônico para pedágios. Completamente fora do nicho de resgate, emergências e operações críticas da Resgatécnica. Sem oportunidade comercial."
+  },
+  "_processo": "46422408000152-1-000129/2026",
+  "_analisado_em": "2026-04-21T19:35:30.268616+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

@@ -1,0 +1,791 @@
+{
+  "parecer_geral": "NAO_ADERENTE",
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "descricao": "COLCHÃO  PARA BERÇO INFANTIL, COM ESPUMA DE POLIURETANO, DENSIDADE 18, E 10 CM DE ALTURA, REVESTIDO COM COURVIN IMPERMEÁVEL, COM ESPESSURA DE 8 MM, NA COR AZUL, NAS DIMENSÕES 130CM X 60CM X 10CM (C X L X A), SENDO QUE O COURVIN DEVERÁ TER UMA COSTURA INDUSTRIAL NA LATERAL DO COMPRIMENTO E ACABAMENTO NA LATERAL DA LARGURA, E NA LATERAL DO COMPRIMENTO DEVERÁ CONTER 2 (DOIS) ILHOSES EM CADA LADO PARA VENTILAÇÃO INTERNA. GARANTIA MÍNIMA: MESMA FORNECIDA PELO FABRICANTE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 2,
+      "descricao": "COLCHÃO DE SOLTEIRO  MATERIAL:ESPUMA EXTRA FIRME ALTA RESISTÊNCIA, DENSIDADE:D-33, TECIDO DE REVESTIMENTO:SINTÉTICO NAPA COURINO, TAMANHO LARGURA X COMPRIMENTO:0,78 X 1,88 M, TAMANHO ALTURA:0,18 M, CARACTERÍSTICAS ADICIONAIS:TECIDO IMPERMEÁVEL E LAVÁVEL.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 3,
+      "descricao": "AR CONDICIONADO  APARELHO AR CONDICIONADO, TIPO:SPLIT HI WALL,  MODELO:SPLIT INVERTER, CAPACIDADE  REFRIGERAÇÃO:12.000 BTUH, TENSÃO:220 V, FREQÜÊNCIA:60  HZ, CARACTERÍSTICAS ADICIONAIS:COM CONTROLE REMOTO  SEM FIO, CARACTERÍSTICAS ADICIONAIS 1:CONTROLE  REMOTO SFIO, QUENTEFRIO, SELO PROCEL, GARANTIA:1 ANO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 4,
+      "descricao": "AR CONDICIONADO 18.000 BTUS  CLASSE MÍNIMA EM EFICIÊNCIA ENERGÉTICA: “B”  CONTROLE DE TEMPERATURA DIGITAL (16°C A 32°C)  MODO DE OPERAÇÃO: COOL, DRY, FAN E FEEL  FUNÇÃO: SLEEP, SWING, TIMER  CONTROLE DE VENTILAÇÃO (AUTO, MÉDIO, BAIXO E AUTOMÁTICO)  VAZÃO DE AR MÁXIMA: 500 M³/H  POTÊNCIA SONORA UNIDADE INTERNA: 44 DB (A)  POTÊNCIA SONORA UNIDADE EXTERNA: 57 DB (A)  VOLTAGEM 220V. TOP DISCHARGE: UNIDADE EXTERNA EM FORMATO TOP DISCHARGE, OTIMIZAÇÃO DE ESPAÇO NA INSTALAÇÃO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 5,
+      "descricao": "AR CONDICIONADO 9.000 BTUS  CLASSE MÍNIMA EM EFICIÊNCIA ENERGÉTICA: “B”  CONTROLE DE TEMPERATURA DIGITAL (16°C A 32°C)  MODO DE OPERAÇÃO: COOL, DRY, FAN E FEEL  FUNÇÃO: SLEEP, SWING, TIMER  CONTROLE DE VENTILAÇÃO (AUTO, MÉDIO, BAIXO E AUTOMÁTICO)  VAZÃO DE AR MÁXIMA: 500 M³/H  POTÊNCIA SONORA UNIDADE INTERNA: 44 DB (A)  POTÊNCIA SONORA UNIDADE EXTERNA: 57 DB (A)  VOLTAGEM 220V. TOP DISCHARGE: UNIDADE EXTERNA EM FORMATO TOP DISCHARGE, OTIMIZAÇÃO DE ESPAÇO NA INSTALAÇÃO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 6,
+      "descricao": "ARMÁRIO EM AÇO DUAS PORTAS E QUATRO  PRATELEIRAS  REMOVÍVEIS E AJUSTÁVEIS. DIMENSÕES E TOLERÂNCIAS LARGURA: 900 MM, PROFUNDIDADE: 400 MM, ALTURA: 1980 MM (TOLERÂNCIA +/- 10%) CARACTERÍSTICAS: CORPO, DIVISÓRIAS E PORTAS EM CHAPA DE AÇO LAMINADO A FRIO - CHAPA 22 (0,75 MM). ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 7,
+      "descricao": "ARMARIO ROUPEIRO 08 PORTAS",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 8,
+      "descricao": "ARQUIVO DE AÇO PARA PASTA SUSPENSA DE 04 GAVETAS  ARQUIVO DESLIZANTE EM AÇO COM QUATRO GAVETAS MONTADAS SOBRE TRILHOS TELESCÓPICOS QUE PERMITAM ABERTURA TOTAL. DIMENSÕES E TOLERÂNCIAS ALTURA: 1330 MM +/- 10 MM  LARGURA: 470 MM +/- 10 MM  PROFUNDIDADE: 710 MM +/- 10 MM  TOLERÂNCIAS PARA CAMADA DE TINTA: MÍNIMO 40 MICROMETROS /MÁXIMO 100 MICROMETROS.    ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 9,
+      "descricao": "BEBEDOURO DE ÁGUA DE COLUNA,NATURAL E GELADA CAPACIDADE ATÉ 20 LITROS EM INOX 110 V POTENCIA 90 WATTS  BEBEDOURO ELETRICO, DE GARRAFAO, COM CAPACIDADE DE RESFRIAMENTO DE 2,8 L/H COM TEMPERATURA AMBIENTE DE 25 GRAUS CELSIUS, GABINETE EM AÇO INOXIDÁVEL, TAMPA, BASE, PINGADEIRA, SUPORTE PARA PINGADEIRA E FUNIL EM PLASTICO DE ALTO IMPACTO, COM 2 TORNEIRAS, UMA PARA AGUA GELADA E OUTRA PARA AGUA NATURAL, ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 10,
+      "descricao": "BEBEDOURO INDUSTRIAL  ELÉTRICO, 100LTS INOX 220V COR INOX (2 TORNEIRAS GELADAS E 1 TORNEIRA NATURAL).",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 11,
+      "descricao": "CADEIRA ALTA PARA ALIMENTAÇÃO DE CRIANÇAS  CADEIRA ALTA DE ALIMENTAÇÃO INFANTIL DOBRÁVEL, COM BANDEJA REMOVÍVEL. DIMENSÕES E TOLERÂNCIAS: ALTURA: 1050 MM +/- 50 MM  LARGURA: 560 MM +/- 50 MM  PROFUNDIDADE: 680 MM +/- 50 MM   PROTEÇÃO LATERAL: MÍNIMO DE 140 MM, MEDIDOS DO TOPO DA PROTEÇÃO LATERAL À SUPERFÍCIE DO ASSENTO  ALTURA DO ENCOSTO: MÍNIMA DE 250 MM, MEDIDOS NA POSIÇÃO VERTICAL  ÂNGULO DO ENCOSTO: ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 12,
+      "descricao": "CADEIRA FIXA EMPILHAVEL  A ESTRUTURA É COMPOSTA DE TUBOS DE AÇO 1010 /1020, SENDO OS PÉS E SUPORTES DO ASSENTO E ENCOSTO FABRICADOS EM TUBOS OBLONGOS 16X30 COM 1.5MM DE ESPESSURA DE PAREDE SOLDADOS COM SOLDA MIG Á DUAS TRAVESSAS HORIZONTAIS DE TUBOS DE AÇO 7/8 X 1,2MM DE ESPESSURA FORMANDO UM CONJUNTO ESTRUTURAL EMPILHÁVEL. ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 13,
+      "descricao": "CADEIRA GIRATÓRIA COM BRAÇO - MODELO 01, COR PRETA  CADEIRA ESCRITÓRIO, MATERIAL ESTRUTURA:TUBO AÇO,  MATERIAL REVESTIMENTO ASSENTO E ENCOSTO:COURO  SINTÉTICO, MATERIAL ENCOSTO:ESPUMA POLIURETANO  INJETADO, MATERIAL ASSENTO:ESPUMA POLIURETANO  INJETADO, TIPO BASE:GIRATÓRIAREGULAGEM ALTURA  PISTÃO GÁS, TIPO ENCOSTO:ESPALDAR MÉDIO REGULÁVEL,  APOIO BRAÇO:COM BRAÇOS REGULÁVEIS,  CARACTERÍSTICAS ADICIONAIS:ERGONÔMICA, ESPUMA 55 A  60 KGM3, 5 PÉS, RODÍZIOS.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 14,
+      "descricao": "CAFETEIRA INDUSTRIAL  INOX DE 20 LITROS.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 15,
+      "descricao": "CONDICIONADOR DE AR TIPO SPLIT , HI WALL DE PAREDE CAPACIDADE MÍNIMA DE REFRIGERAÇÃO 30000BTU's  CLASSE MÍNIMA EM EFICIÊNCIA ENERGÉTICA: “B”  CONTROLE DE TEMPERATURA DIGITAL (16°C A 32°C)  MODO DE OPERAÇÃO: COOL, DRY, FAN E FEEL  FUNÇÃO: SLEEP, SWING, TIMER  CONTROLE DE VENTILAÇÃO (AUTO, MÉDIO, BAIXO E AUTOMÁTICO)  VAZÃO DE AR MÁXIMA: 500 M³/H  POTÊNCIA SONORA UNIDADE INTERNA: 44 DB (A)  POTÊNCIA SONORA UNIDADE EXTERNA: 57 DB (A)  VOLTAGEM 220V. TOP DISCHARGE: UNIDADE EXTERNA EM FORMATO TOP DISCHARGE, OTIMIZAÇÃO DE ESPAÇO NA INSTALAÇÃO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 16,
+      "descricao": "CONDICIONADOR DE AR TIPO SPLIT, HI WALL DE PAREDE CAPACIDADE MÍNIMA DE REFRIGERAÇÃO 24.000BTU's  CLASSE MÍNIMA EM EFICIÊNCIA ENERGÉTICA: “B”  CONTROLE DE TEMPERATURA DIGITAL (16°C A 32°C)  MODO DE OPERAÇÃO: COOL, DRY, FAN E FEEL  FUNÇÃO: SLEEP, SWING, TIMER  CONTROLE DE VENTILAÇÃO (AUTO, MÉDIO, BAIXO E AUTOMÁTICO)  VAZÃO DE AR MÁXIMA: 500 M³/H  POTÊNCIA SONORA UNIDADE INTERNA: 44 DB (A)  POTÊNCIA SONORA UNIDADE EXTERNA: 57 DB (A)  VOLTAGEM 220V. TOP DISCHARGE: UNIDADE EXTERNA EM FORMATO TOP DISCHARGE, OTIMIZAÇÃO DE ESPAÇO NA INSTALAÇÃO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 17,
+      "descricao": "CONJUNTO ALUNO TAMANHO 05  PARA ALUNO TAMANHO JUVENIL, SENDO A ALTURA DO ALUNO COMPREENDIDA ENTRE 1,46 E 1,76 M (CONJUNTO “VERDE”). CONJUNTO COMPOSTO DE: A) 1 (UMA) MESA COM TAMPO EM ABS (ACRILONITRILA BUTADIENO ESTIRENO), VIRGEM, ISENTO DE CARGAS MINERAIS, INJETADO NA COR VERDE (VER REFERÊNCIA), ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 18,
+      "descricao": "CONJUNTO ALUNO TAMANHO 06  CONJUNTO PARA ALUNO TAMANHO ADULTO, SENDO A ALTURA DO ALUNO COMPREENDIDA ENTRE 1,59 E 1,88 M (CONJUNTO “AZUL”).CONJUNTO COMPOSTO DE: A) 1 (UMA) MESA COM TAMPO EM ABS (ACRILONITRILABUTADIENO ESTIRENO), VIRGEM, ISENTO DE CARGAS MINERAIS,INJETADO NA COR AZUL (VER REFERÊNCIAS), DOTADO DE PORCAS COM FLANGE, COM ROSCA MÉTRICA M6, COINJETADAS E, DE TRAVESSA ESTRUTURAL EM NYLON “6.0” (POLIAMIDA) ADITIVADO COM CONJUNTO ALUNO TAMANHO 06 CONJUNTO PARA ALUNO TAMANHO ADULTO, ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 19,
+      "descricao": "CONJUNTO ESCOLAR PARA PROFESSOR (MESA E CADEIRA)  CONJUNTO COMPOSTO DE: A) 1 (UMA) MESA COM TAMPO EM MDP, REVESTIDO NA FACE SUPERIOR DE LAMINADO MELAMÍNICO DE ALTA PRESSÃO E NA FACE INFERIOR COM CHAPA DE BALANCEAMENTO, PAINEL FRONTAL EM MDP OU MDF, REVESTIDO NAS DUAS FACES EM LAMINADO MELAMÍNICO BP, MONTADO SOBRE ESTRUTURA TUBULAR DE AÇO. B) 1 (UMA) CADEIRA EMPILHÁVEL, COM ASSENTO E ENCOSTO EM POLIPROPILENO INJETADO,",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 20,
+      "descricao": "CONJUNTO REFEITÓRIO COM TAMPO INJETADO ADULTO 8 LUGARES  MESA CONFECCIONADA EM RESINA ABS 3200MM DE COMPRIMENTO POR 800MM DE LARGURA (TOLERÂNCIA +/- 10%). TAMPO FIXADO A ESTRUTURA POR MEIOS DE PARAFUSOS, ALTURA MÍNIMA TAMPO/CHÃO 760MM (TOLERÂNCIA +/- 10%). BASE DO TAMPO DA MESA EM TUBO QUADRADO MEDINDO 25MM X 25MM POSICIONADO SOB O TAMPO, FABRICADA PELO PROCESSO DE CONFORMAÇÃO MECÂNICA POR DOBRAMENTO, ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 21,
+      "descricao": "CONJUNTO REFEITÓRIO COM TAMPO INJETADO INFANTIL 8 LUGARES  CONJUNTO REFEITÓRIO COM TAMPO INJETADO INFANTIL 8 LUGARES MESA CONFECCIONADA EM RESINA ABS, MEDINDO MÍNIMO 2400MM DE COMPRIMENTO POR 800MM DE LARGURA. TAMPO FIXADO A ESTRUTURA POR MEIOS DE PARAFUSOS. ALTURA MÍNIMA TAMPO/CHÃO 590MM. BASE DO TAMPO DA MESA EM TUBO QUADRADO MEDINDO MÍNIMO 25MM X 25MM POSICIONADO SOB O TAMPO, FABRICADA PELO PROCESSO DE CONFORMAÇÃO MECÂNICA POR DOBRAMENTO, ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 22,
+      "descricao": "CONJUNTO REFEITÓRIO COM TAMPO JUVENIL 8 LUGARES  MESA CONFECCIONADA EM RESINA ABS 2400MM DE COMPRIMENTO POR 800MM DE LARGURA (TOLERÂNCIA +/- 10%). TAMPO FIXADO A ESTRUTURA POR MEIOS DE PARAFUSOS. ALTURA MÍNIMA TAMPO/CHÃO 640MM. BASE DO TAMPO DA MESA EM TUBO QUADRADO MEDINDO 25MM X 25MM POSICIONADO SOB O TAMPO, FABRICADA PELO PROCESSO DE CONFORMAÇÃO MECÂNICA POR DOBRAMENTO,  ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 23,
+      "descricao": "CORTINA DE AR  DE 1,5 MT.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 24,
+      "descricao": "CORTINA DE AR  DE 2 MT.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 25,
+      "descricao": "ESCANINHO COM 32 PORTAS  ESCANINHO, ACABAMENTO  SUPERFICIAL:PINTURA ESMALTE SINTÉTICO, COR:BEGE,  ALTURA:1,90 M, LARGURA:1,20 M, PROFUNDIDADE:0,42 M,  CARACTERÍSTICAS ADICIONAIS:COM 32  COMPARTIMENTOS COM PORTAS E PORTA-CA,  APLICAÇÃO:GUARDAR ROUPAS E OBJETOS PESSOAIS,  TRATAMENTO SUPERFICIAL:ANTIFERRUGINOSO POR  FOSFATIZAÇÃO",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 26,
+      "descricao": "ESTANTE DE AÇO REFORÇADA  METÁLICA, MATERIAL: AÇO, ALTURA: 2,00 M, LARGURA: 0,92 M, PROFUNDIDADE: 0,40 M, TIPO PRATELEIRAS: REGULÁVEIS, QUANTIDADE PRATELEIRAS: 6 UN, TRATAMENTO SUPERFICIAL: PINTURA ELETROSTÁTICA, CARACTERÍSTICAS ADICIONAIS: COM REFORÇO E CAPACIDADE DE 25 KG POR BANDEJA.  - TOLERÂNCIA: ATÉ + 2 MM PARA LARGURA E PROFUNDIDADE, +/- 1 MM PARA ESPESSURA E +/- 10 MM PARA ALTURA. GARANTIA MÍNIMA: MESMA FORNECIDA PELO FABRICANTE. INCLUSO MONTAGEM.  ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 27,
+      "descricao": "FOGÃO INDUSTRIAL 04 BOCAS  FOGÃO INDUSTRIAL 04 BOCAS 30X30 COM FORNO  ESTRUTURA TODA EM AÇO.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 28,
+      "descricao": "FORNO DE MICROONDAS  ORNO MICROONDAS 42 LITROS MATERIAL DE AÇO  INOXIDAVEL 110V COR BRANCA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 29,
+      "descricao": "FORNO ELETRICO  FORNO ELÉTRICO 46LTS COR PRATA OU PRETO 127V.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 30,
+      "descricao": "FRAGMENTADORA DE PAPEIS  TIPO DE FRAGMENTAÇÃO COMPATÍVEL: PAPÉIS, CD/DVD, CARTÃO DE BANCO  CAPACIDADE DO CESTO: 24 A 30 LITROS. CAPACIDADE MÁXIMA DE FOLHAS PARA FRAGMENTAR: 15 OU MAIS FOLHAS, PADRÃO 75G. TAMANHO DO CORTE DO PAPEL: PARTÍCULAS MÁXIMAS 4X80MM. FENDA DE ABERTURA: 220 A 230MM.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 31,
+      "descricao": "FREEZER DOMESTICO HORIZONTAL  FREEZER, TIPO:HORIZONTAL, CAPACIDADE:546 L, ALTURA:94,40 CM, LARGURA:166,50 CM, PROFUNDIDADE:69 CM, QUANTIDADE TAMPAS:2 UN, SISTEMA DEGELO:MANUAL, COR:BRANCA, TENSÃO ALIMENTAÇÃO:110/220V V, CARACTERÍSTICAS ADICIONAIS:DRENO FRONTAL",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 32,
+      "descricao": "GELADEIRA  GELADEIRA 342LT 110V COR BRANCA FROSTFREE",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 33,
+      "descricao": "LIQUIDIFICADOR INDUSTRIAL 04 LITROS  LIQUIDIFICADOR INDUSTRIAL ALTA ROTAÇÃO 18000Rpm 4  LITROS COPO DE INOX COM TAMPA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 34,
+      "descricao": "LONGARINA EM POLIPROPILENO 03 LUGARES SEM APOIO DE BRAÇOS  MATERIAL ASSENTO E  ENCOSTO:POLIPROPILENO, COR:CINZA, QUANTIDADE  ASSENTOS:3 UN, CARACTERÍSTICAS ADICIONAIS:SEM BRAÇO,  COMPRIMENTO LONGARINA:APROXIMADAMENTE 1,65 CM,  LARGURA LONGARINA:APROXIMADAMENTE 63 CM, MATERIAL  ESTRUTURA:TUBO AÇO, ACABAMENTO SUPERFICIAL  LONGARINA:PINTURA ELETROSTÁTICA EM EPÓXI-PÓ, COR  LONGARINA:PRATA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 35,
+      "descricao": "MAQUINA DE CORTAR CABELO  COM FIO, TIPO MOTOR:VIBRATÓRIO, CARACTERÍSTICAS ADICIONAIS: LÂMINA ANTIFERRUGEM, REGULADOR DO NÍVEL DE CORTE, ACESSÓRIOS:4 PENTES, PROTETOR DE LÂMINA E PINCEL LIMPEZA, ÓLE, TENSÃO DE ALIMENTAÇÃO: 110/127 V.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 36,
+      "descricao": "MAQUINA DE LAVAR ROUPAS  LAVADORA DE ROUPAS COM ABERTURA DE TAMPA SUPERIOR E CAPACIDADE DE ROUPA SECA E/OU MOLHADA DE 15KG. CONSUMO PRÓXIMO DE 0,023KWH COM PELO MENOS 5 CICLOS DE LAVAGEM, FILTRO, ALÇAS LATERAIS,4 NÍVEIS DE ÁGUA, NÍVEL AUTOMÁTICO DE ÁGUA E NÍVEL DE FILTRAGEM, SISTEMA DE URBILHONAMENTO VERTICAL, VISOR DE DISPLAY DIGITAL, PROGRAMAS PESADO, CAMA E BANHO, DIA A DIA, DELICADO E RAPIDO, CESTO DE INOX, PÉS NIVELADORES, SISTEMA DE ELIMINAÇÃO DE FIAPOS, DISPENSER INDIVIDUAIS, TAMPO DE VIDRO TEMPERADO, MANUAL INCLUSO, VOLTAGEM 110V. GARANTIA MÍNIMA: MESMA FORNECIDA PELO FABRICANTE.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 37,
+      "descricao": "MAQUINA DE LAVAR ROUPAS INDUSTRIAL   MÁQUINA DE LAVAR ROUPA, TIPO: EXTRATORA, CAPACIDADE: 30 KG, APLICAÇÃO: INDUSTRIAL, OPERAÇÃO: AUTOMÁTICA, FUNÇÕES: LAVAR E CENTRIFUGAR, MATERIAL GABINETE: AÇO INOXIDÁVEL, MATERIAL CESTO: AÇO INOXIDÁVEL, TENSÃO: 220 V, FREQÜÊNCIA: 60 HZ, CICLO DE OPERAÇÃO: PROGRAMÁVEL, SISTEMA DE CONTROLE: DIGITAL, NÍVEL DE RUÍDO: REDUZIDO, EFICIÊNCIA: ALTO RENDIMENTO, ESTRUTURA: RESISTENTE À CORROSÃO, CARACTERÍSTICAS ADICIONAIS: ALTO DESEMPENHO EM PROCESSOS CONTÍNUOS, FÁCIL LIMPEZA E MANUTENÇÃO, GARANTIA: 1 ANO    ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 38,
+      "descricao": "MESA DE AÇO INOX  MESA AÇO INOX COM BORDAS, com medidas aproximadamente de  120CMX85X85CM.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 39,
+      "descricao": "MESA DE MADEIRA REV.FORMICA  MDF CONFECCIONADOS NAS MEDIDAS DE 1,00m x 1,00mx H: 0,80m. MDF 15MM COR AREIA PÉS EM ESTRUTURA METÁLICA COR PRETA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 40,
+      "descricao": "MESA DE REUNIAO  TAMPO CONSTITUÍDO EM MDP DE 25 MM DE ESPESSURA, REVESTIDA EM LAMINADO MELAMÍNICO DE BAIXA PRESSÃO TEXTURIZADO EM AMBAS AS FACES, BORDA COM ACABAMENTO EM FITA DE PVC DE 3 MM DE ESPESSURA, COLADA A QUENTE PELO SISTEMA HOLT-MELT EM TODO SEU PERÍMETRO, COM RAIO MÍNIMO DE 2.5 MM. ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 41,
+      "descricao": "MESA DE TRABALHO  PLATAFORMA PARA ATENDIMENTO, 2 LUGARES FRENTE A FRENTE COM DIVISORIA ESTRUTURA DE AÇO E TAMPO MDF MINIMO 40MM ESPESSURA, TAMANHO APROXIMADO 120X130",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 42,
+      "descricao": "MESA DUO ESTACAO DE TRABALHO  - DUPLA:LARGURA 1,30M PROFUNDIDADE: 1,30M X ALTURA 80 TAMPO EM MDF 15MM FREIJÓ. PÉS EM ESTRUTURA METÁLICA COR PRETA. 2 PASSA FIOS EM PVC. DIVISÓRIA DE VIDRO  2 CRIADOS MUDOS INDIVIDUAL LARGURA 0,40 PROFUNDIDADE: 0,40 ALTURA 0,60 - COM 3 GAVETAS, DE RODIZIO. PUXADOR ACOPLADO DE METAL.PUXADOR ACOPLADO DE METAL.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 43,
+      "descricao": "MESA INFANTIL C/ 04 CADEIRAS COLORIDAS  C4 CADEIRAS COLORIDAS POLIPROPILENO ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 44,
+      "descricao": "MESA PARA ESCRITORIO  MATERIAL ESTRUTURA:AçO CARBONO, MATERIAL TAMPO:MADEIRA MDF, REVESTIMENTO TAMPO:LAMINADO MELAMÍNICO BAIXA PRESSÃO, LARGURA:160 CM, PROFUNDIDADE:0,60 M, ALTURA:75 CM, PADRÃO ACABAMENTO TAMPO:BORDAS PVC 2 MM  ESPESSURA, ESPESSURA TAMPO:25 MM, CARACTERÍSTICAS ADICIONAIS 1:ESTRUTURA COM RODÍZIOS, GUIA DE PASSAGEM DE CABOS  ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 45,
+      "descricao": "TANQUINHO  TANQUINHO MÁQUINA LAVAR ROUPA, TIPO TANQUINHO SEMIAUTOMÁTICO, CAPACIDADE 20KG, APLICAÇÃO DOMÉSTICA, TIPO DE ABERTURA: SUPERIOR, NO MÍNIMO 2 DISPENSERS, DESLIGAMENTO AUTOMÁTICO E TIMER COM PROGRAMAÇÃO), POTÊNCIA MÍNIMA: 550W, MATERIAL POLIPROPILENO, SISTEMA DE LAVAGEM POR TURBILHONAMENTO. CARACTERÍSTICAS ADICIONAIS: COM NO MÍNIMO 5 PROGRAMAS DE LAVAGEM, VOLTAGEM 110V. COR BRANCA. GARANTIA MÍNIMA: MESMA FORNECIDA PELO FABRICANTE  MARCA REFERÊNCIA: SUGGAR, COLORMAQ.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 46,
+      "descricao": "TELEVISOR LED  TIPO SMART TV COR PRETA, TELA PLANA DE LED COM TAMANHO MINIMO DE 50 POLEGADAS COM DESIGN SLIM  VISOR ULTRA HD (4K) COM RESOLUÇÃO DE IMAGEM 3840X2160  FREQUÊNCIA DE TELA DE NO MÍNIMO 120 HZ  ÁUDIO COM POTÊNCIA SONORA (RMS) MÍNIMA DE 20W  CONVERGÊNCIA COM ESPELHAMENTO DA TV PARA MOBILE E DO SMARTPHONE PARA TV  CONEXÃO DLNA  WIFI DIRECT  NAVEGADOR WEB  COM PROCESSADOR QUAD CORE OU DUAL CORE  CONECTIVIDADE MÍNIMA: HDMI = 3 CONEXÕES, USB = 2 ",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 47,
+      "descricao": "VENTILADOR DE COLUNA  VENTILADOR, TIPO:COLUNA, POTÊNCIA MOTOR:200 W,  TENSÃO ALIMENTAÇÃO:110/220 V, CARACTERÍSTICAS  ADICIONAIS:OSCILANTE, REGULAGEM DE ALTURA E  VELOCIDADE, MATERIAL:AÇO E PLÁSTICO, DIÂMETRO:60 CM,  COR:PRETA",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    },
+    {
+      "numeroItem": 48,
+      "descricao": "VENTILADOR DE PAREDE  REGULAGEM VERTICAL, GRADE METÁLICA NA COR PRETA, GRADE COM DIÂMETRO MÍNIMO DE 60 CM, MÍNIMO DE 6 PÁS, 3 VELOCIDADES FIXAS OU DESLIZANTES ATRAVÉS DE CHAVE SELETORA, MÍNIMO 1200 RPM, POTÊNCIA MÍNIMA 150W, BIVOLT, GARANTIA MÍNIMA: MESMA FORNECIDA PELO FABRICANTE E MANUAL DE INSTRUÇÕES EM PORTUGUÊS. MARCA REFERÊNCIA, IGUAL OUSIMILAR A: VENTISOL, BRITÂNIA, VENTIDELTA.",
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.85,
+      "produto_referencia": null,
+      "justificativa": "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica.",
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Pré-filtro heurístico: score=-2. Termos negativos: ['mesa e cadeira', 'estante de aco']. Contexto dominante claramente não-aderente ao portfólio da Resgatécnica."
+      ],
+      "sinais_lexicais_enganosos": [],
+      "observacao": "Classificado por pré-filtro heurístico sem análise LLM."
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 48
+  },
+  "_pre_filtrado": true,
+  "_score_pre_filtro": -2.0,
+  "_termos_negativos": [
+    "mesa e cadeira",
+    "estante de aco"
+  ],
+  "_processo": "18278051000145-1-000326/2025",
+  "_analisado_em": "2026-04-22T00:59:24.588025+00:00",
+  "_modo": "full",
+  "_provedor": "pre_filtro",
+  "_modelo": "heuristica"
+}

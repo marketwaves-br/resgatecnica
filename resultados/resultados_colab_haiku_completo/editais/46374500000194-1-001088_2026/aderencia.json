@@ -1,0 +1,77 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos e soluções para operações críticas, emergências e salvamento. Não atua em serviços clínicos, terapêuticos ou de reabilitação multidisciplinar."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Contratação de serviços de tratamento multidisciplinar em atendimento a ação judicial pela Secretaria de Estado da Saúde de SP. Foco em reabilitação e desenvolvimento psicomotor.",
+    "mercados_predominantes": [
+      "Saúde pública",
+      "Serviços clínicos e terapêuticos",
+      "Reabilitação e desenvolvimento infantil"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação é para serviços de tratamento clínico-terapêutico multidisciplinar. Resgatécnica fornece equipamentos e soluções para operações críticas e emergências, não serviços de reabilitação ou atendimento clínico."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.99,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Serviço de tratamento clínico-terapêutico multidisciplinar para desenvolvimento psicomotor. Fora do escopo de equipamentos e soluções operacionais da Resgatécnica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Serviço clínico, não equipamento",
+        "Mercado saúde pública, não emergências"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 1
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação é para serviços clínicos de reabilitação. Resgatécnica é fornecedora de equipamentos operacionais para emergências. Sem aderência comercial real."
+  },
+  "_processo": "46374500000194-1-001088/2026",
+  "_analisado_em": "2026-04-21T19:24:33.943697+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

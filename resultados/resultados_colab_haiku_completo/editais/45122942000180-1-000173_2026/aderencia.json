@@ -1,0 +1,198 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em equipamentos técnico-operacionais de alta especialização para emergências. Não atua em limpeza predial, higienização hospitalar genérica ou manutenção de pisos."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação para aquisição de materiais de limpeza e tratamento de pisos vinílicos e granilite para secretaria de saúde municipal. Foco em produtos de higienização, desinfecção e manutenção de superfícies em ambiente hospitalar/administrativo.",
+    "mercados_predominantes": [
+      "Limpeza predial e hospitalar",
+      "Higienização de superfícies",
+      "Manutenção de pisos",
+      "Desinfecção genérica"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Licitação pertence a mercado de limpeza predial e higienização hospitalar genérica. Resgatécnica é fornecedora especializada em equipamentos técnico-operacionais de emergência. Nenhum item alinha-se ao portfólio de resgate, combate a incêndio, proteção individual operacional ou atendimento pré-hospitalar especializado."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Limpador para pisos genérico. Higienização predial, não operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Limpeza predial genérica",
+        "Fora do escopo operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Removedor de acabamento para pisos. Manutenção predial, não resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção de pisos",
+        "Sem contexto emergencial"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Impermeabilizante acrílico para pisos. Tratamento de superfícies prediais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Tratamento predial",
+        "Sem aplicação operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.97,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Desinfetante genérico para superfícies. Higienização hospitalar comum, não EPI técnico-operacional.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Desinfecção genérica",
+        "Não é EPI especializado"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Disco removedor para tratamento de piso. Equipamento de manutenção predial, não resgate.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção de piso",
+        "Sem aplicação emergencial"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mop ergonômico com reservatório. Ferramenta de limpeza predial genérica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Limpeza predial",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mop de microfibra para limpeza de pisos. Equipamento de higienização predial.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Limpeza de pisos",
+        "Sem especialização operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Mop de microfibra para coleta de poeira. Ferramenta de limpeza predial genérica.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Limpeza predial",
+        "Sem aplicação emergencial"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Suporte plano e cabo de alumínio para limpeza. Equipamento de manutenção predial.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Manutenção predial",
+        "Sem contexto operacional"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "NAO_ADERENTE",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Base seladora e impermeabilizante para pisos. Tratamento de superfícies prediais.",
+      "motivos_pro_match": [],
+      "motivos_contra_match": [
+        "Tratamento predial",
+        "Sem aplicação emergencial"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 0,
+    "nao_aderente": 10
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome",
+      "contexto_operacional"
+    ],
+    "portfolio_apoio": [
+      "tipo_fornecimento"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "materialOuServicoNome"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de limpeza predial. Resgatécnica não atua em higienização hospitalar genérica ou manutenção de pisos. Mercados completamente distintos. Sem oportunidade comercial."
+  },
+  "_processo": "45122942000180-1-000173/2026",
+  "_analisado_em": "2026-04-21T19:34:37.983348+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}

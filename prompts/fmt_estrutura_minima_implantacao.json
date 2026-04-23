@@ -1,0 +1,43 @@
+{
+  "empresa": {
+    "nome": "Resgatécnica",
+    "ramo_principal": "resposta a emergências e operações críticas",
+    "macro_areas": [
+      "resgate veicular",
+      "resgate terrestre/BREC",
+      "táticas especiais",
+      "combate a incêndio",
+      "resgate aquático",
+      "proteção individual técnica",
+      "altura e espaço confinado",
+      "produtos perigosos/descontaminação",
+      "atendimento pré-hospitalar",
+      "linha industrial",
+      "soluções customizadas"
+    ]
+  },
+  "portfolio": [
+    {
+      "categoria": "Resgate Veicular",
+      "subcategoria": "Acessórios Complementares",
+      "nome": "Plataforma de Resgate",
+      "descricao_curta": "Plataforma para operações de resgate veicular, acesso e suporte técnico-operacional.",
+      "tags_semanticas": [
+        "resgate",
+        "veicular",
+        "suporte operacional",
+        "emergência"
+      ]
+    }
+  ],
+  "itens_licitacao": [
+    {
+      "numeroItem": 1,
+      "descricao": "Capacete com jugular para trabalho em altura",
+      "unidadeMedida": "Unidade",
+      "informacaoComplementar": null,
+      "ncmNbsCodigo": null,
+      "materialOuServicoNome": "Material"
+    }
+  ]
+}

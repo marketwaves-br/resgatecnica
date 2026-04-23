@@ -1,0 +1,87 @@
+{
+  "PORTFOLIO": [
+    {
+      "label": "Ferramentas Manuais",
+      "grupo": "ferramentas_manuais",
+      "produtos": [
+        "ferramenta_manual_combinada_HCT_5111",
+        "ferramenta_manual_combinada_HCT_5114",
+        "ferramenta_manual_combinada_tatica_HCT_5114ST",
+        "alavanca_hooligan_10500177"
+      ]
+    },
+    {
+      "label": "Ferramentas Hidráulicas",
+      "grupo": "ferramentas_hidraulicas",
+      "produtos": [
+        "abre_portas_hidraulico_DR200_12000323",
+        "abre_portas_hidraulico_HDO100_12000269",
+        "abre_portas_door_blaster_HDB90ST"
+      ]
+    },
+    {
+      "label": "Ferramentas a Bateria",
+      "grupo": "ferramentas_a_bateria",
+      "produtos": [
+        "abre_portas_bateria_GDR200EVO3_12000324"
+      ]
+    },
+    {
+      "label": "Equipamentos Pneumáticos",
+      "grupo": "equipamentos_pneumaticos",
+      "produtos": [
+        "almofada_pneumatica_HLB11",
+        "almofada_pneumatica_HLB16",
+        "almofada_pneumatica_HLB2",
+        "almofada_pneumatica_HLB21",
+        "sistema_vedacao_vazamentos",
+        "sistema_drenagem_vazamentos"
+      ]
+    },
+    {
+      "label": "Resgate em Altura",
+      "grupo": "resgate_em_altura",
+      "produtos": [
+        "ascensor_punho_10500100",
+        "ascensor_punho_10500101",
+        "corda_dinamica_ambition_10_5mm_11000211",
+        "cinto_paraquedista_ergo_pro_antichamas_10501312",
+        "capacete_multim",
+        "actsafe_ACX_power_ascender_RGT_POA_001",
+        "actsafe_ICX_power_ascender_RGT_POA_030_1_EU",
+        "actsafe_RCX_rescue_ascender_RGT_POA_017"
+      ]
+    },
+    {
+      "label": "Combate a Incêndio",
+      "grupo": "combate_a_incendio",
+      "produtos": [
+        "abafador_incendio_cabo_aluminio_11500002",
+        "abafador_incendio_cabo_madeira_11500003",
+        "abafador_3M_Peltor_X4A",
+        "bolsa_resgate_essencial_100_11500019",
+        "EPR_PROPAK_SIGMA_11000398",
+        "visor_full_face_air_transparente_11000428"
+      ]
+    },
+    {
+      "label": "Comunicação e Monitoramento",
+      "grupo": "comunicacao_monitoramento",
+      "produtos": [
+        "sistema_comunicacao_EPIC3",
+        "sistema_rastreamento_PakTracker",
+        "sistema_telemetria_ScottMonitor"
+      ]
+    },
+    {
+      "label": "Produtos Perigosos",
+      "grupo": "produtos_perigosos",
+      "produtos": [
+        "lanca_vedacao_vazamento",
+        "saco_drenagem_vazamento_11000673",
+        "saco_vedacao_tubos_FS",
+        "saco_derivacao_FS"
+      ]
+    }
+  ]
+}

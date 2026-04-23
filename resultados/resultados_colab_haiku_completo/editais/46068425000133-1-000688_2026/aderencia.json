@@ -1,0 +1,292 @@
+{
+  "empresa_analisada": "Resgatécnica",
+  "perfil_semantico_empresa": {
+    "ramo_principal": "Resposta a emergências e operações críticas",
+    "tipo_fornecedor": "Fabricante, representante e distribuidora de equipamentos operacionais para resgate, salvamento, combate a incêndio, proteção individual técnica e soluções customizadas",
+    "macro_areas": [
+      "Resgate Veicular",
+      "Resgate Terrestre/BREC",
+      "Táticas Especiais",
+      "Combate a Incêndio",
+      "Resgate Aquático",
+      "Proteção Individual Técnica",
+      "Altura e Espaço Confinado",
+      "Produtos Perigosos/Descontaminação",
+      "Atendimento Pré-Hospitalar",
+      "Veículos Especiais Customizados",
+      "Linha Industrial"
+    ],
+    "observacoes": "Empresa especializada em EPI técnico-operacional para emergências, não em insumos hospitalares genéricos ou procedimentos clínicos de rotina."
+  },
+  "resumo_licitacao": {
+    "contexto_dominante": "Licitação de luvas cirúrgicas para universidade estadual (UNICAMP). Mercado hospitalar genérico, procedimentos cirúrgicos de rotina, ambiente clínico controlado.",
+    "mercados_predominantes": [
+      "Saúde hospitalar genérica",
+      "Procedimentos cirúrgicos de rotina",
+      "Insumos médicos administrativos"
+    ],
+    "parecer_geral": "NAO_ADERENTE",
+    "justificativa_geral": "Luvas cirúrgicas são insumos hospitalares genéricos para procedimentos clínicos de rotina. Resgatécnica fornece EPI técnico-operacional para emergências, resgate e combate a incêndio, não insumos hospitalares administrativos."
+  },
+  "itens_analisados": [
+    {
+      "numeroItem": 1,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 2,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 3,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 4,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 5,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 6,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 7,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 8,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 9,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 10,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 11,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 12,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 13,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 14,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    },
+    {
+      "numeroItem": 15,
+      "classificacao": "FALSO_POSITIVO_LEXICAL",
+      "grau_confianca": 0.98,
+      "categoria_portfolio_relacionada": null,
+      "subcategoria_portfolio_relacionada": null,
+      "justificativa": "Palavra 'luva' gera falso positivo. Luva cirúrgica é insumo hospitalar genérico; Resgatécnica fornece luvas técnicas para resgate/incêndio.",
+      "motivos_pro_match": [
+        "Palavra 'luva' presente"
+      ],
+      "motivos_contra_match": [
+        "Contexto hospitalar genérico",
+        "Não é EPI técnico-operacional"
+      ]
+    }
+  ],
+  "estatisticas": {
+    "aderencia_direta": 0,
+    "aderencia_parcial_forte": 0,
+    "aderencia_parcial_fraca": 0,
+    "falso_positivo_lexical": 15,
+    "nao_aderente": 0
+  },
+  "campos_realmente_usados": {
+    "portfolio": [
+      "categoria",
+      "subcategoria",
+      "nome"
+    ],
+    "portfolio_apoio": [
+      "descricao",
+      "eixos_operacionais"
+    ],
+    "itens": [
+      "descricao"
+    ],
+    "itens_apoio": [
+      "ncmNbsCodigo"
+    ]
+  },
+  "recomendacao_comercial": {
+    "deve_priorizar": false,
+    "nivel_prioridade": "DESCARTAR",
+    "motivo": "Licitação de insumos hospitalares genéricos (luvas cirúrgicas). Resgatécnica é especializada em EPI técnico-operacional para emergências, resgate e combate a incêndio. Mercados completamente distintos. Sem aderência comercial real."
+  },
+  "_processo": "46068425000133-1-000688/2026",
+  "_analisado_em": "2026-04-21T19:35:21.404858+00:00",
+  "_modo": "full",
+  "_provedor": "anthropic",
+  "_modelo": "claude-haiku-4-5"
+}
