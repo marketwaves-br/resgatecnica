@@ -283,13 +283,25 @@ def _gerar_js(dados_json: str) -> str:
         "  if (!s || s.length < 10) return '\u2014';\n"
         "  return s.substring(8,10) + '/' + s.substring(5,7) + '/' + s.substring(0,4);\n"
         "}\n\n"
+        "function scorePrincipal(lic) {\n"
+        "  return (lic.score_bid !== undefined) ? lic.score_bid : (lic.score_max || 0);\n"
+        "}\n\n"
         "function abrirPainel(lic) {\n"
-        "  var cor = corScore(lic.score_max);\n"
+        "  var score = scorePrincipal(lic);\n"
+        "  var cor = corScore(score);\n"
         "  var html = '<div id=\"painel-fechar\" onclick=\"fecharPainel()\"><span>Detalhes da licita\u00e7\u00e3o</span><span>\u2715</span></div>';\n"
         "  html += '<div id=\"painel-conteudo\">';\n"
         "  html += '<p class=\"painel-titulo\">' + (lic.objeto || '\u2014') + '</p>';\n"
         "  html += '<p class=\"painel-orgao\">' + (lic.orgao || '') + '</p>';\n"
-        "  html += '<span class=\"score-badge\" style=\"background:' + cor + '\">Score ' + lic.score_max.toFixed(3) + '</span>';\n"
+        "  html += '<span class=\"score-badge\" style=\"background:' + cor + '\">Score ' + score.toFixed(3) + '</span>';\n"
+        "  if (lic.score_bid !== undefined) {\n"
+        "    html += '<div style=\"font-size:11px;color:#666;margin-bottom:10px\">';\n"
+        "    if (lic.score_top1 !== undefined) html += 'top1=' + lic.score_top1.toFixed(3);\n"
+        "    if (lic.densidade_relevancia !== undefined) html += '&nbsp;&nbsp;dens=' + lic.densidade_relevancia.toFixed(2);\n"
+        "    if (lic.peso_contexto !== undefined) html += '&nbsp;&nbsp;ctx=' + lic.peso_contexto.toFixed(2);\n"
+        "    if (lic.penalizacao_variancia) html += '&nbsp;&nbsp;<span style=\"color:#E53935\">\u26a0 var</span>';\n"
+        "    html += '</div>';\n"
+        "  }\n"
         "  html += '<div class=\"painel-campo\"><span class=\"painel-label\">Munic\u00edpio</span><span class=\"painel-valor\">' + (lic.municipio || '\u2014') + ' / ' + (lic.uf || '') + '</span></div>';\n"
         "  html += '<div class=\"painel-campo\"><span class=\"painel-label\">Valor est.</span><span class=\"painel-valor\">' + fmtBRL(lic.valor_estimado) + '</span></div>';\n"
         "  html += '<div class=\"painel-campo\"><span class=\"painel-label\">Encerramento</span><span class=\"painel-valor\">' + fmtData(lic.data_encerramento) + '</span></div>';\n"
@@ -320,11 +332,12 @@ def _gerar_js(dados_json: str) -> str:
         "  var visiveis = 0;\n"
         "  dados.forEach(function(lic) {\n"
         "    if (!lic.lat || !lic.lon) return;\n"
-        "    if (lic.score_max < threshold) return;\n"
+        "    var s = scorePrincipal(lic);\n"
+        "    if (s < threshold) return;\n"
         "    visiveis++;\n"
         "    var circulo = L.circleMarker([lic.lat, lic.lon], {\n"
         "      radius: raioValor(lic.valor_estimado),\n"
-        "      fillColor: corScore(lic.score_max),\n"
+        "      fillColor: corScore(s),\n"
         "      color: '#fff',\n"
         "      weight: 1.5,\n"
         "      opacity: 0.9,\n"
@@ -333,7 +346,7 @@ def _gerar_js(dados_json: str) -> str:
         "    circulo.on('click', function() { abrirPainel(lic); });\n"
         "    circulo.bindTooltip(\n"
         "      '<b>' + (lic.municipio || '') + '</b><br>' +\n"
-        "      'Score: ' + lic.score_max.toFixed(3) + '<br>' +\n"
+        "      'Score: ' + s.toFixed(3) + '<br>' +\n"
         "      fmtBRL(lic.valor_estimado),\n"
         "      {sticky: true}\n"
         "    );\n"
@@ -361,7 +374,9 @@ def gerar_html(
     # Adicionar lat/lon aos dados
     dados_mapa = []
     for lic in licitacoes:
-        if lic["score_max"] < threshold:
+        # Fallback gracioso: usa score_bid (Sprint 1) ou score_max (arquivos antigos)
+        score_lic = lic.get("score_bid", lic.get("score_max", 0.0))
+        if score_lic < threshold:
             continue
         chave = f"{lic['municipio']}_{lic['uf']}"
         coord = coords.get(chave)
@@ -445,8 +460,8 @@ def main() -> None:
     licitacoes = dados.get("licitacoes", dados) if isinstance(dados, dict) else dados
 
     print(f"  {len(licitacoes):,} licitações com score >= {meta.get('threshold', '?')}")
-    acima = [l for l in licitacoes if l["score_max"] >= args.threshold]
-    print(f"  {len(acima):,} com score >= {args.threshold:.2f} (filtro do mapa)")
+    acima = [l for l in licitacoes if l.get("score_bid", l.get("score_max", 0)) >= args.threshold]
+    print(f"  {len(acima):,} com score_bid >= {args.threshold:.2f} (filtro do mapa)")
 
     # Geocodificar municípios
     cache = _carregar_cache_coords()

@@ -166,12 +166,30 @@ _STOP_WORDS_PT = {
     "ter", "tipo", "um", "uma", "uns", "umas", "à", "às",
 }
 
+# Stop words de domínio — termos genéricos de editais que aparecem em TODA licitação
+# e não discriminam o nicho da Resgatécnica (ex.: "fornecimento de equipamento" →
+# "fornecimento" e "equipamento" são ruído; o substantivo específico é o que diferencia).
+# ATENÇÃO: ao alterar esta lista, apagar .embeddings_cache/ para forçar reindexação.
+_STOP_WORDS_DOMINIO = {
+    "unidade", "fornecimento", "atendimento", "aquisição", "aquisicao",
+    "sistema", "técnico", "tecnico", "operacional", "militar",
+    "equipamento", "equipamentos", "material", "materiais",
+    "item", "itens", "serviço", "servico", "serviços", "servicos",
+    "conjunto", "conjuntos", "processo", "processos",
+    "instalação", "instalacao", "instalações", "instalacoes",
+    "manutenção", "manutencao", "manutenções", "manutencoes",
+    "tipo", "número", "numero", "modelo", "capacidade",
+    "especificação", "especificacao", "padrão", "padrao",
+}
+
+_STOP_WORDS_TFIDF = _STOP_WORDS_PT | _STOP_WORDS_DOMINIO
+
 
 def _normalizar_tfidf(texto: str) -> str:
-    """Normalização para TF-IDF: minúsculas, remove stop words PT, preserva acentos."""
+    """Normalização para TF-IDF: minúsculas, remove stop words PT e de domínio, preserva acentos."""
     texto = texto.lower()
     texto = re.sub(r'[^\w\sáàâãéèêíïóôõúüçñ]', ' ', texto)
-    tokens = [t for t in texto.split() if t not in _STOP_WORDS_PT and len(t) > 1]
+    tokens = [t for t in texto.split() if t not in _STOP_WORDS_TFIDF and len(t) > 1]
     return " ".join(tokens)
 
 

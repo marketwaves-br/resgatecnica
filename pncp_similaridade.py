@@ -23,6 +23,12 @@ import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+from pncp_filtros import (
+    pre_filtrar_licitacao,
+    peso_contexto_licitacao,
+    calcular_score_bid,
+)
+
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -154,6 +160,7 @@ def processar(args, portfolio_path: Path, editais_path: Path) -> None:
     n_prazo = 0
     n_situacao = 0
     n_meepp = 0
+    n_pre_filtro = 0
     n_score_baixo = 0
     n_processadas = 0
     max_proc = args.max or len(licitacoes)
@@ -204,18 +211,32 @@ def processar(args, portfolio_path: Path, editais_path: Path) -> None:
             n_meepp += 1
             continue
 
+        # Filtro 5 — pré-filtro contextual (port do pncp_agente.py)
+        pf = pre_filtrar_licitacao(objeto, itens)
+        if pf.decisao == "DESCARTAR":
+            n_pre_filtro += 1
+            continue
+
         n_processadas += 1
 
-        # Calcular scores
+        # Peso de contexto baseado no objetoCompra
+        peso_ctx = peso_contexto_licitacao(objeto)
+
+        # Calcular scores — coletamos scores de TODOS os itens elegíveis,
+        # incluindo os zerados por _NEGATIVOS_ITEM, pois entram no cálculo de densidade.
         scored: list[dict] = []
+        scores_todos: list[float] = []  # inclui zeros — para calcular_score_bid
         for item in elegiveis:
             desc = (item.get("descricao") or "").strip()
             if not desc:
+                scores_todos.append(0.0)
                 continue
             # Filtro negativo: itens claramente fora do domínio da Resgatécnica
             if _NEGATIVOS_ITEM.search(desc):
+                scores_todos.append(0.0)
                 continue
             sc = indice.score_maximo(desc)
+            scores_todos.append(sc)
             top = indice.top_k(desc, k=1)
             produto_ref = top[0][1] if top else ""
             scored.append({
@@ -234,7 +255,10 @@ def processar(args, portfolio_path: Path, editais_path: Path) -> None:
         score_max   = scored[0]["score"]
         score_medio = sum(s["score"] for s in scored) / len(scored)
 
-        if score_max < args.threshold:
+        # score_bid — nova métrica principal (substitui score_max)
+        bid = calcular_score_bid(scores_todos, len(elegiveis), peso_ctx)
+
+        if bid["score_bid"] < args.threshold:
             n_score_baixo += 1
             continue
 
@@ -248,8 +272,25 @@ def processar(args, portfolio_path: Path, editais_path: Path) -> None:
             "valor_estimado":   round(valor, 2),
             "data_encerramento": data_enc[:10] if data_enc else "",
             "link":             link,
+            # ── nova métrica principal ──
+            "score_bid":            round(bid["score_bid"], 4),
+            "score_top1":           round(bid["score_top1"], 4),
+            "score_top3_medio":     round(bid["score_top3_medio"], 4),
+            "densidade_relevancia": round(bid["densidade_relevancia"], 4),
+            "n_itens_relevantes":   bid["n_itens_relevantes"],
+            "penalizacao_variancia": bid["penalizacao_variancia"],
+            "peso_contexto":        round(bid["peso_contexto"], 2),
+            # ── mantido para compatibilidade retroativa com radar antigo ──
             "score_max":        round(score_max, 4),
             "score_medio":      round(score_medio, 4),
+            # ── pré-filtro contextual ──
+            "pre_filtro": {
+                "decisao":   pf.decisao,
+                "score":     pf.score,
+                "positivos": pf.positivos[:5],
+                "negativos": pf.negativos[:5],
+                "ncm_hit":   pf.ncm_hit,
+            },
             "n_itens_elegiveis": len(elegiveis),
             "top_itens":        scored[:TOP_ITENS_POR_LICITACAO],
             "backend":          indice.backend,
@@ -257,10 +298,10 @@ def processar(args, portfolio_path: Path, editais_path: Path) -> None:
         })
 
         if n_processadas % 50 == 0:
-            print(f"  [{n_processadas:4d}] score_max={score_max:.3f}  {municipio} — {objeto[:50]}")
+            print(f"  [{n_processadas:4d}] bid={bid['score_bid']:.3f}  {municipio} — {objeto[:50]}")
 
-    # 3. Ordenar por score descendente
-    resultados.sort(key=lambda x: -x["score_max"])
+    # 3. Ordenar por score_bid descendente
+    resultados.sort(key=lambda x: -x["score_bid"])
 
     # 4. Salvar
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
@@ -277,6 +318,7 @@ def processar(args, portfolio_path: Path, editais_path: Path) -> None:
         }, f, ensure_ascii=False, indent=2)
 
     # 5. Resumo
+    n_penalizadas = sum(1 for r in resultados if r.get("penalizacao_variancia"))
     print(f"""
 {'='*60}
 RESUMO
@@ -286,11 +328,13 @@ Licitações no arquivo       : {len(licitacoes):>6,}
   Filtradas (prazo)         : {n_prazo:>6,}
   Sem pasta/itens           : {n_sem_pasta:>6,}
   ME/EPP exclusivo          : {n_meepp:>6,}
+  Pré-filtro contextual     : {n_pre_filtro:>6,}
   Score abaixo do threshold : {n_score_baixo:>6,}
-  APROVADAS (score >= {args.threshold:.2f})  : {len(resultados):>6,}
+  APROVADAS (score_bid >= {args.threshold:.2f}): {len(resultados):>6,}
+    com penalização variância: {n_penalizadas:>5,}
 
-Score médio aprovadas       : {sum(r['score_max'] for r in resultados)/len(resultados):.3f}  (se > 0)
-Score máximo encontrado     : {max((r['score_max'] for r in resultados), default=0):.3f}
+score_bid médio aprovadas   : {sum(r['score_bid'] for r in resultados)/len(resultados):.3f}  (se > 0)
+score_bid máximo encontrado : {max((r['score_bid'] for r in resultados), default=0):.3f}
 
 Saída salva em: {OUTPUT_FILE}
 {'='*60}
