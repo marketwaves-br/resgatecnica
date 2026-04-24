@@ -617,6 +617,8 @@ class IndicePortfolio:
                 "urgencia",
                 "emergencia",
                 "ambulancia",
+                "minivan",       # "contratação empresa... transporte de pacientes em minivan"
+                "transporte sanitario",
             ]
         )
 
@@ -682,9 +684,9 @@ class IndicePortfolio:
 
             if intencao_servico_aph:
                 if "atendimento pre hospitalar" in cat:
-                    bonus += 0.12
+                    bonus += 0.20  # aumentado de 0.12 — "contratação empresa especializada" precisa de sinal APH mais forte
                 if "resgate e evacuacao" in sub:
-                    bonus += 0.10
+                    bonus += 0.16  # aumentado de 0.10
                 if "imobilizadores" in sub or "kits prontos" in sub:
                     bonus += 0.04
                 if "bolsas" in sub:

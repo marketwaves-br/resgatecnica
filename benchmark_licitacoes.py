@@ -54,6 +54,11 @@ def _matches(text: str, selected_labels: set[str]) -> set[str]:
 
 def _scenario_type(text: str) -> str:
     text = text.lower()
+    # Aquisição veicular explícita tem precedência quando "veículo tipo" aparece no início
+    # da descrição (título), não em qualquer posição — evita falso positivo em
+    # "locação de ambulância... veículo tipo D" onde "locação + ambulância" é APH.
+    if re.match(r"\s*ve[ií]culo\s+tipo\b", text) or re.search(r"\baquisic[aã]o\s+de\s+ve[ií]culo", text):
+        return "aquisicao_veicular"
     if re.search(r"\b(servi[cç]o|contrata[cç][aã]o|loca[cç][aã]o|presta[cç][aã]o)\b", text):
         if re.search(r"\b(uti m[oó]vel|uti movel|ambul[aâ]ncia|ambulancia|remo[cç][aã]o|remocao|transporte de pacientes)\b", text):
             return "servico_aph"
