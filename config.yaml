@@ -1,0 +1,148 @@
+# =============================================================================
+# config.yaml — Configurações do pipeline Resgatécnica
+# =============================================================================
+#
+# PRIORIDADE DE PARÂMETROS:
+#   1. Argumentos CLI (--threshold 0.15)     ← maior prioridade
+#   2. Este arquivo (config.yaml)
+#   3. Defaults internos dos scripts          ← menor prioridade
+#
+# Para usar outro arquivo: python pncp_similaridade.py --config meu_config.yaml
+#
+# Para desativar: renomeie para config.yaml.bak ou delete.
+#
+# Formatos aceitos: config.yaml, config.yml, config.json
+# =============================================================================
+
+
+# -----------------------------------------------------------------------------
+# PIPELINE ZERO-CUSTO — pncp_similaridade.py
+# -----------------------------------------------------------------------------
+pipeline:
+
+  # Backend de similaridade
+  #   semantic  → bge-m3 (recomendado, precisa de sentence-transformers)
+  #   tfidf     → TF-IDF scikit-learn (mais rápido, sem GPU, menos preciso)
+  #   auto      → tenta semantic, cai para tfidf se não disponível
+  backend: semantic
+
+  # Score mínimo (score_bid) para uma licitação aparecer no resultado.
+  # Subir → menos resultados, mais certeiros
+  # Descer → mais resultados, mais ruído
+  threshold: 0.10
+
+  # Score mínimo para licitações com pré-filtro AMBÍGUO (objeto genérico).
+  # Normalmente um pouco acima do threshold principal.
+  threshold_ambiguo: 0.20
+
+  # Dias mínimos até o encerramento da proposta.
+  # Licitações encerrando antes disso são filtradas automaticamente.
+  dias_minimos_preparo: 7
+
+  # Número de candidatos do portfólio recuperados por item (retrieval)
+  top_k_retrieval: 10
+
+  # Número de candidatos gravados no JSON para debug
+  top_k_debug_json: 5
+
+  # Modelos HuggingFace (baixados automaticamente na primeira execução)
+  retrieval_model: BAAI/bge-m3
+  reranker_model: BAAI/bge-reranker-v2-m3
+
+  # Arquivos de entrada/saída
+  # portfolio:   prompts/portfolio_mestre_resgatecnica_lite_v2.json
+  # licitacoes:  pncp_licitacoes.json
+  # editais:     editais
+  # output:      pncp_similaridades.json
+
+
+# -----------------------------------------------------------------------------
+# BENCHMARK — benchmark_licitacoes.py
+# -----------------------------------------------------------------------------
+benchmark:
+
+  backend: semantic
+
+  # Padrões a buscar nos editais.
+  # Cada item é uma chave do dict PATTERNS definido no script.
+  # Chaves disponíveis: ambulancia, uti_movel, simples_remocao, furgoneta,
+  #                     minivan, viatura, transporte_sanitario, remocao_terrestre
+  #
+  # Para testar um novo produto, adicione a regex em PATTERNS (benchmark_licitacoes.py)
+  # e inclua a chave aqui.
+  patterns:
+    - ambulancia
+    - uti_movel
+    - minivan
+    - simples_remocao
+    - furgoneta
+    - viatura
+
+  # Número máximo de casos por rodada (0 = sem limite)
+  max_cases: 40
+
+  # Top-k candidatos por item no reranker
+  top_k: 5
+
+
+# -----------------------------------------------------------------------------
+# CALIBRAÇÃO — bônus e penalidades de _ajustar_scores_consulta (pncp_embeddings.py)
+# -----------------------------------------------------------------------------
+#
+# Estes valores controlam QUANTO o retrieval favorece/penaliza cada categoria
+# quando detecta um tipo específico de intenção na descrição do item.
+#
+# COMO CALIBRAR:
+#   1. Rode: python benchmark_licitacoes.py
+#   2. Rode: python resumo_resultados.py benchmark
+#   3. Identifique o padrão dos mismatches (ex: APH indo para veicular)
+#   4. Ajuste o bônus correspondente (+0.02 a +0.05 por vez)
+#   5. Repita até mismatch_counts ficar vazio ou aceitável
+#
+# REGRA DE OURO: mude UM valor por vez para saber o que causou a melhora.
+#
+calibracao:
+
+  # --- intencao_servico_aph ---
+  # Ativado quando: texto tem "contratação/serviço/locação" + "ambulância/uti móvel/remoção/minivan/..."
+  # Objetivo: elevar candidatos APH quando o edital é sobre SERVIÇO de transporte/resgate
+
+  # Bônus para entradas da categoria "Atendimento Pré-Hospitalar"
+  bonus_servico_aph_categoria: 0.20
+
+  # Bônus para subcategoria "Resgate e Evacuação"
+  bonus_servico_aph_resgate_evacuacao: 0.16
+
+  # Bônus para subcategoria "Bolsas"
+  bonus_servico_aph_bolsas: 0.08
+
+  # Bônus para produtos com oxigênio/resgate avançado/resgate básico
+  bonus_servico_aph_oxigenio: 0.06
+
+  # Penalidade para categoria "Veículos Especiais" em contexto de serviço APH
+  # (serviço de transporte não é aquisição de veículo)
+  penalidade_servico_aph_veicular: 0.08
+
+  # --- intencao_veicular_forte ---
+  # Ativado quando: texto menciona ambulância/furgoneta/minivan/viatura diretamente
+  # Objetivo: puxar para categoria veicular quando o item é claramente um veículo
+
+  # Bônus para "Veículos Especiais Customizados"
+  bonus_veicular_forte_categoria: 0.18
+
+  # Bônus para "Resgate Veicular"
+  bonus_veicular_forte_resgate: 0.07
+
+  # Penalidade para bolsas/coletes quando intenção é veicular
+  # (não faz sentido rankear kit de bolsas no topo de uma busca por ambulância)
+  penalidade_veicular_bolsas_coletes: 0.12
+
+  # --- intencao_viatura_rodoviaria ---
+  # Ativado quando: texto menciona furgão/pick-up/4x4/tipo A/B/C/simples remoção
+  # Objetivo: favorecer "Soluções customizadas de mobilidade operacional"
+
+  # Bônus para subcategoria "Soluções customizadas de mobilidade operacional"
+  bonus_viatura_rodoviaria_mobilidade: 0.18
+
+  # Penalidade para motocicletas quando intenção é viatura rodoviária tipo furgão/pick-up
+  penalidade_viatura_rodoviaria_moto: 0.14

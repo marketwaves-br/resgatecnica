@@ -29,11 +29,13 @@ from pncp_filtros import (
     peso_contexto_licitacao,
     pre_filtrar_licitacao,
 )
+from pncp_config import carregar_config, obter
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-# ── Configuração ──────────────────────────────────────────────────────────────
+# ── Configuração — defaults (sobrescritos por config.yaml se presente) ────────
+# Para usar em IDE sem CLI, edite os valores aqui OU crie/edite config.yaml.
 
 PORTFOLIO_FILE   = Path("prompts/portfolio_mestre_resgatecnica_lite_v2.json")
 LICITACOES_FILE  = Path("pncp_licitacoes.json")
@@ -51,6 +53,19 @@ TOP_K_RETRIEVAL         = 10
 TOP_K_DEBUG_JSON        = 5
 RETRIEVAL_MODELO_PADRAO = "BAAI/bge-m3"
 RERANKER_MODELO_PADRAO  = "BAAI/bge-reranker-v2-m3"
+
+# Aplica config.yaml sobre os defaults acima
+_CFG = carregar_config()
+if _CFG:
+    _p = _CFG.get("pipeline", {})
+    BACKEND_PADRAO          = _p.get("backend",          BACKEND_PADRAO)
+    THRESHOLD_MINIMO        = float(_p.get("threshold",          THRESHOLD_MINIMO))
+    THRESHOLD_AMBIGUO       = float(_p.get("threshold_ambiguo",  THRESHOLD_AMBIGUO))
+    DIAS_MINIMOS_PREPARO    = int(_p.get("dias_minimos_preparo",  DIAS_MINIMOS_PREPARO))
+    TOP_K_RETRIEVAL         = int(_p.get("top_k_retrieval",       TOP_K_RETRIEVAL))
+    TOP_K_DEBUG_JSON        = int(_p.get("top_k_debug_json",      TOP_K_DEBUG_JSON))
+    RETRIEVAL_MODELO_PADRAO = _p.get("retrieval_model",   RETRIEVAL_MODELO_PADRAO)
+    RERANKER_MODELO_PADRAO  = _p.get("reranker_model",    RERANKER_MODELO_PADRAO)
 
 FUSO_BRASILIA = timezone(timedelta(hours=-3))
 
@@ -536,9 +551,11 @@ Saída salva em: {OUTPUT_FILE}
 
 def main() -> None:
     p = argparse.ArgumentParser(description="Análise por similaridade — zero custo LLM")
+    p.add_argument("--config",     default=None,
+                   help="Arquivo de configuração YAML/JSON (default: config.yaml se existir)")
     p.add_argument("--backend",    default=BACKEND_PADRAO, choices=["auto", "tfidf", "semantic"])
     p.add_argument("--threshold",  type=float, default=THRESHOLD_MINIMO,
-                   help="Score mínimo para incluir no output (default: 0.10)")
+                   help=f"Score mínimo para incluir no output (default: {THRESHOLD_MINIMO})")
     p.add_argument("--max",        type=int, default=0,
                    help="Limitar número de licitações processadas (0 = todas)")
     p.add_argument("--retrieval-model", default=RETRIEVAL_MODELO_PADRAO,
@@ -551,7 +568,19 @@ def main() -> None:
                    help="Quantidade de candidatos gravados no JSON para debug")
     p.add_argument("--portfolio",  default=str(PORTFOLIO_FILE))
     p.add_argument("--editais",    default=str(EDITAIS_DIR))
+
+    # Suporte a IDE: permite chamar main() com lista de args explícita
+    # Exemplo Jupyter/Spyder: main(["--threshold", "0.12", "--max", "50"])
     args = p.parse_args()
+
+    # Config explícito via --config sobrescreve o carregado no módulo
+    if args.config:
+        from pncp_config import carregar_config as _cc
+        _extra = _cc(args.config).get("pipeline", {})
+        if _extra.get("backend")         and args.backend    == BACKEND_PADRAO:   args.backend    = _extra["backend"]
+        if _extra.get("threshold")       and args.threshold  == THRESHOLD_MINIMO: args.threshold  = float(_extra["threshold"])
+        if _extra.get("retrieval_model") and args.retrieval_model == RETRIEVAL_MODELO_PADRAO: args.retrieval_model = _extra["retrieval_model"]
+        if _extra.get("reranker_model")  and args.reranker_model  == RERANKER_MODELO_PADRAO:  args.reranker_model  = _extra["reranker_model"]
 
     portfolio_path = Path(args.portfolio)
     editais_path   = Path(args.editais)

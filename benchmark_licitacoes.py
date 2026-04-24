@@ -4,15 +4,29 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 from pathlib import Path
 
 from pncp_embeddings import IndicePortfolio
 from pncp_reranker import PortfolioReranker
+from pncp_config import carregar_config
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 EDITAIS_DIR = Path("editais")
 PORTFOLIO_FILE = Path("prompts/portfolio_mestre_resgatecnica_lite_v2.json")
 DEFAULT_OUTPUT = Path("benchmark_licitacoes.json")
+
+# ── Defaults — sobrescritos por config.yaml se presente ──────────────────────
+# Para usar em IDE sem CLI, edite os valores aqui OU crie/edite config.yaml.
+
+_CFG             = carregar_config()
+_CFG_BENCH       = _CFG.get("benchmark", {})
+BACKEND_PADRAO   = _CFG_BENCH.get("backend",    "semantic")
+MAX_CASES_PADRAO = int(_CFG_BENCH.get("max_cases", 40))
+TOP_K_PADRAO     = int(_CFG_BENCH.get("top_k",      5))
+PATTERNS_PADRAO  = _CFG_BENCH.get("patterns", ["ambulancia", "uti_movel", "minivan"])
 
 
 PATTERNS: dict[str, str] = {
@@ -113,15 +127,28 @@ def _iter_matching_items(editais_dir: Path, selected_labels: set[str], max_cases
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Benchmark local de retrieval/rerank em editais/*/itens.json")
-    parser.add_argument("--patterns", nargs="+", choices=sorted(PATTERNS), default=["ambulancia", "uti_movel", "minivan"])
-    parser.add_argument("--max-cases", type=int, default=40)
-    parser.add_argument("--top-k", type=int, default=5)
-    parser.add_argument("--backend", choices=["semantic", "tfidf", "auto"], default="semantic")
-    parser.add_argument("--retrieval-model", default="BAAI/bge-m3")
-    parser.add_argument("--reranker-model", default="BAAI/bge-reranker-v2-m3")
+    parser.add_argument("--config",    default=None,
+                        help="Arquivo de configuração YAML/JSON (default: config.yaml se existir)")
+    parser.add_argument("--patterns",  nargs="+", choices=sorted(PATTERNS), default=PATTERNS_PADRAO)
+    parser.add_argument("--max-cases", type=int,  default=MAX_CASES_PADRAO)
+    parser.add_argument("--top-k",     type=int,  default=TOP_K_PADRAO)
+    parser.add_argument("--backend",   choices=["semantic", "tfidf", "auto"], default=BACKEND_PADRAO)
+    parser.add_argument("--retrieval-model", default=_CFG.get("pipeline", {}).get("retrieval_model", "BAAI/bge-m3"))
+    parser.add_argument("--reranker-model",  default=_CFG.get("pipeline", {}).get("reranker_model",  "BAAI/bge-reranker-v2-m3"))
     parser.add_argument("--no-rerank", action="store_true")
-    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--output",    type=Path, default=DEFAULT_OUTPUT)
+
+    # Suporte a IDE: permite chamar main() com lista de args explícita
+    # Exemplo Jupyter/Spyder: main(["--patterns", "ambulancia", "colete_balistico", "--max-cases", "20"])
     args = parser.parse_args()
+
+    # Config explícito via --config (sobrescreve o carregado no módulo)
+    if args.config:
+        from pncp_config import carregar_config as _cc
+        _extra = _cc(args.config).get("benchmark", {})
+        if _extra.get("patterns")   and args.patterns  == PATTERNS_PADRAO:   args.patterns  = _extra["patterns"]
+        if _extra.get("max_cases")  and args.max_cases == MAX_CASES_PADRAO:   args.max_cases = int(_extra["max_cases"])
+        if _extra.get("backend")    and args.backend   == BACKEND_PADRAO:    args.backend   = _extra["backend"]
 
     selected = set(args.patterns)
     cases = _iter_matching_items(EDITAIS_DIR, selected, args.max_cases)

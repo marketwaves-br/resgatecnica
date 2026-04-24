@@ -106,6 +106,54 @@ EMBEDDING_THRESHOLD_DEFAULT = 0.30
 # Thresholds avaliados no estudo
 THRESHOLDS_ESTUDO = [0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.50, 0.60]
 
+# ── Bônus/penalidades de calibração (ajustáveis via config.yaml) ──────────────
+# Estes valores controlam _ajustar_scores_consulta(). Edite diretamente aqui
+# ou via config.yaml → seção "calibracao" (o config.yaml tem precedência).
+
+BONUS_SERVICO_APH_CATEGORIA          = 0.20  # "atendimento pre hospitalar" em intencao_servico_aph
+BONUS_SERVICO_APH_RESGATE_EVA        = 0.16  # "resgate e evacuacao" em intencao_servico_aph
+BONUS_SERVICO_APH_BOLSAS             = 0.08  # "bolsas" em intencao_servico_aph
+BONUS_SERVICO_APH_OXIGENIO           = 0.06  # produtos com oxigênio/resgate em intencao_servico_aph
+PENALIDADE_SERVICO_APH_VEICULAR      = 0.08  # "veiculos especiais" em intencao_servico_aph
+BONUS_VEICULAR_FORTE_CATEGORIA       = 0.18  # "veiculos especiais customizados" em intencao_veicular_forte
+BONUS_VEICULAR_FORTE_RESGATE         = 0.07  # "resgate veicular" em intencao_veicular_forte
+PENALIDADE_VEICULAR_BOLSAS_COLETES   = 0.12  # bolsas/coletes em intencao_veicular_forte
+BONUS_VIATURA_ROD_MOBILIDADE         = 0.18  # "mobilidade operacional" em intencao_viatura_rodoviaria
+PENALIDADE_VIATURA_ROD_MOTO          = 0.14  # motocicletas em intencao_viatura_rodoviaria
+
+
+def _aplicar_config_calibracao(cfg: dict) -> None:
+    """Sobrescreve constantes de calibração com valores do config.yaml."""
+    global BONUS_SERVICO_APH_CATEGORIA, BONUS_SERVICO_APH_RESGATE_EVA
+    global BONUS_SERVICO_APH_BOLSAS, BONUS_SERVICO_APH_OXIGENIO
+    global PENALIDADE_SERVICO_APH_VEICULAR
+    global BONUS_VEICULAR_FORTE_CATEGORIA, BONUS_VEICULAR_FORTE_RESGATE
+    global PENALIDADE_VEICULAR_BOLSAS_COLETES
+    global BONUS_VIATURA_ROD_MOBILIDADE, PENALIDADE_VIATURA_ROD_MOTO
+
+    c = cfg.get("calibracao", {})
+    if not c:
+        return
+
+    BONUS_SERVICO_APH_CATEGORIA        = float(c.get("bonus_servico_aph_categoria",        BONUS_SERVICO_APH_CATEGORIA))
+    BONUS_SERVICO_APH_RESGATE_EVA      = float(c.get("bonus_servico_aph_resgate_evacuacao", BONUS_SERVICO_APH_RESGATE_EVA))
+    BONUS_SERVICO_APH_BOLSAS           = float(c.get("bonus_servico_aph_bolsas",            BONUS_SERVICO_APH_BOLSAS))
+    BONUS_SERVICO_APH_OXIGENIO         = float(c.get("bonus_servico_aph_oxigenio",          BONUS_SERVICO_APH_OXIGENIO))
+    PENALIDADE_SERVICO_APH_VEICULAR    = float(c.get("penalidade_servico_aph_veicular",     PENALIDADE_SERVICO_APH_VEICULAR))
+    BONUS_VEICULAR_FORTE_CATEGORIA     = float(c.get("bonus_veicular_forte_categoria",      BONUS_VEICULAR_FORTE_CATEGORIA))
+    BONUS_VEICULAR_FORTE_RESGATE       = float(c.get("bonus_veicular_forte_resgate",        BONUS_VEICULAR_FORTE_RESGATE))
+    PENALIDADE_VEICULAR_BOLSAS_COLETES = float(c.get("penalidade_veicular_bolsas_coletes",  PENALIDADE_VEICULAR_BOLSAS_COLETES))
+    BONUS_VIATURA_ROD_MOBILIDADE       = float(c.get("bonus_viatura_rodoviaria_mobilidade", BONUS_VIATURA_ROD_MOBILIDADE))
+    PENALIDADE_VIATURA_ROD_MOTO        = float(c.get("penalidade_viatura_rodoviaria_moto",  PENALIDADE_VIATURA_ROD_MOTO))
+
+
+# Aplica config.yaml automaticamente ao importar o módulo
+try:
+    from pncp_config import carregar_config as _carregar_config
+    _aplicar_config_calibracao(_carregar_config())
+except Exception:
+    pass  # config opcional — falha silenciosa
+
 
 @dataclass(frozen=True)
 class PortfolioEntry:
@@ -654,9 +702,9 @@ class IndicePortfolio:
 
             if intencao_veicular_forte:
                 if "veiculos especiais customizados" in cat:
-                    bonus += 0.18
+                    bonus += BONUS_VEICULAR_FORTE_CATEGORIA
                 if "resgate veicular" in cat:
-                    bonus += 0.07
+                    bonus += BONUS_VEICULAR_FORTE_RESGATE
                 if any(t in sub for t in ["motocicletas", "veiculos", "evacuacao"]):
                     bonus += 0.04
                 if any(t in prod for t in ["sherp", "search and rescue", "firefighting"]):
@@ -666,17 +714,17 @@ class IndicePortfolio:
                 # candidatos APH de suporte continuam úteis, mas não devem
                 # dominar o topo contra itens do universo veicular.
                 if "bolsas" in sub or "coletes" in sub:
-                    bonus -= 0.12
+                    bonus -= PENALIDADE_VEICULAR_BOLSAS_COLETES
                 if any(t in prod for t in ["cadeira", "prancha", "colar", "bolsa", "colete"]):
                     bonus -= 0.10
 
             if intencao_viatura_rodoviaria:
                 if "solucoes customizadas de mobilidade operacional" in sub:
-                    bonus += 0.18
+                    bonus += BONUS_VIATURA_ROD_MOBILIDADE
                 if "veiculos especiais customizados" in cat:
                     bonus += 0.04
                 if "motocicletas operacionais" in sub or "motocicleta para combate a incendio" in sub:
-                    bonus -= 0.14
+                    bonus -= PENALIDADE_VIATURA_ROD_MOTO
                 if "veiculos anfibios e todo terreno" in sub:
                     bonus -= 0.08
                 if any(t in prod for t in ["sherp", "firefighting", "the ark", "motocicleta", "bmw"]):
@@ -684,21 +732,21 @@ class IndicePortfolio:
 
             if intencao_servico_aph:
                 if "atendimento pre hospitalar" in cat:
-                    bonus += 0.20  # aumentado de 0.12 — "contratação empresa especializada" precisa de sinal APH mais forte
+                    bonus += BONUS_SERVICO_APH_CATEGORIA
                 if "resgate e evacuacao" in sub:
-                    bonus += 0.16  # aumentado de 0.10
+                    bonus += BONUS_SERVICO_APH_RESGATE_EVA
                 if "imobilizadores" in sub or "kits prontos" in sub:
                     bonus += 0.04
                 if "bolsas" in sub:
-                    bonus += 0.08
+                    bonus += BONUS_SERVICO_APH_BOLSAS
                 if "veiculos especiais customizados" in cat:
-                    bonus -= 0.08
+                    bonus -= PENALIDADE_SERVICO_APH_VEICULAR
                 if "resgate e evacuacao" in sub and "cadeira" in prod:
                     bonus -= 0.14
                 if any(t in prod for t in ["kit parto", "kit queimadura"]):
                     bonus -= 0.08
                 if any(t in prod for t in ["oxigenio", "resgate avancado", "resgate basico"]):
-                    bonus += 0.06
+                    bonus += BONUS_SERVICO_APH_OXIGENIO
 
             if ("resgate aquatico" in cat) and (termos_ambul or termos_veic):
                 bonus -= 0.05
