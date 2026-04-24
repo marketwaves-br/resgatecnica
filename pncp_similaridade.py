@@ -20,13 +20,14 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import math
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from pncp_filtros import (
-    pre_filtrar_licitacao,
-    peso_contexto_licitacao,
     calcular_score_bid,
+    peso_contexto_licitacao,
+    pre_filtrar_licitacao,
 )
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -41,10 +42,15 @@ OUTPUT_FILE      = Path("pncp_similaridades.json")
 
 BACKEND_PADRAO          = "auto"         # auto | tfidf | semantic
 THRESHOLD_MINIMO        = 0.10           # licitações abaixo disso são descartadas
+THRESHOLD_AMBIGUO       = 0.20           # ambíguas precisam de evidência mais forte
 DIAS_MINIMOS_PREPARO    = 7
 SITUACOES_INVALIDAS     = {2, 3, 4}
 TIPOS_BENEFICIO_ELEGIVEIS = {4, 5}       # exclui exclusivos ME/EPP (1, 3)
 TOP_ITENS_POR_LICITACAO = 5              # itens de maior score por licitação no output
+TOP_K_RETRIEVAL         = 10
+TOP_K_DEBUG_JSON        = 5
+RETRIEVAL_MODELO_PADRAO = "BAAI/bge-m3"
+RERANKER_MODELO_PADRAO  = "BAAI/bge-reranker-v2-m3"
 
 FUSO_BRASILIA = timezone(timedelta(hours=-3))
 
@@ -66,8 +72,15 @@ _NEGATIVOS_ITEM = _re.compile(
     # Limpeza / jardinagem
     r'|vassoura|rodo\b|balde\b|detergente|desinfetante|sabão|sabonete'
     r'|jardinagem|adubo|fertilizante|semente'
+    # Climatização / utilidades prediais
+    r'|ar\s*condicionado|split\b|btu(?:s)?\b|climatiza(?:ç|c)[aã]o'
     # Material didático
     r'|livro\b|apostila|material did[aá]tico|did[aá]tico'
+    # Seguros e serviços técnicos genéricos
+    r'|seguro\b|ap[oó]lice|franquia\b|frota\b'
+    r'|pcmso|ltcat|aso\b|pgr\b|medicina do trabalho'
+    r'|engenharia de seguran[çc]a'
+    r'|stent\b|hipoclorito|condutiv[ií]metro'
     # Esportes / materiais esportivos
     r'|esportivo|esporte\b|futebol|futsal|society\b'
     r'|goleiro|árbitro|arbitro|apito\b'
@@ -128,10 +141,111 @@ def _itens_elegiveis(itens: list[dict]) -> list[dict]:
     return [i for i in itens if i.get("tipoBeneficio") in TIPOS_BENEFICIO_ELEGIVEIS]
 
 
+def _calibrar_score_item(score_retrieval: float, reranqueados: list[dict]) -> tuple[float, float]:
+    """
+    Converte retrieval + rerank em score final conservador do item.
+
+    Regras:
+      - sem rerank: usa score de retrieval
+      - com rerank: score final fica ancorado no retrieval
+      - diferença top1-top2 aumenta confiança; empate derruba confiança
+    """
+    if not reranqueados:
+        return score_retrieval, 0.0
+
+    top1 = reranqueados[0]
+    top2 = reranqueados[1] if len(reranqueados) > 1 else None
+    raw1 = float(top1.get("raw_score", 0.0))
+    raw2 = float(top2.get("raw_score", 0.0)) if top2 else 0.0
+    gap = max(0.0, raw1 - raw2)
+
+    # O score final fica ancorado no retrieval do candidato vencedor.
+    score_base = float(top1.get("candidate", {}).get("score", score_retrieval))
+
+    # Raw score negativo indica que o reranker não gostou do par; penaliza,
+    # mas sem zerar automaticamente. Raw positivo preserva mais do retrieval.
+    if raw1 <= 0:
+        fator_raw = 0.55
+    elif raw1 <= 2.0:
+        fator_raw = 0.75
+    else:
+        fator_raw = 0.95
+
+    # Gap entre top1 e top2 mede confiança relativa do rerank.
+    fator_gap = 0.85 + 0.15 * min(1.0, gap / 2.0)
+    score_final = score_base * fator_raw * fator_gap
+    return min(score_final, 1.0), gap
+
+
+def _threshold_ajustado(
+    threshold_base: float,
+    prefiltro,
+    peso_contexto: float,
+    objeto: str,
+) -> float:
+    """
+    Ajusta threshold em casos fortemente positivos de ambulância/APH/remoção,
+    sem afrouxar o restante do pipeline.
+    """
+    threshold = threshold_base
+    obj = (objeto or "").lower()
+
+    epi_generico = (
+        ("equipamento" in obj or "equipamentos" in obj)
+        and ("prote" in obj)
+        and ("individual" in obj)
+    )
+    ancora_resgate = any(
+        termo in obj
+        for termo in (
+            "resgate",
+            "salvamento",
+            "socorro",
+            "aph",
+            "ambul",
+            "incênd",
+            "incend",
+            "bombeiro",
+            "balíst",
+            "balist",
+            "tátic",
+            "tatic",
+            "desencarcer",
+        )
+    )
+
+    # Compras genéricas de EPI sem âncora operacional continuam sendo um dos
+    # principais falsos positivos residuais. Nesses casos, exigimos evidência
+    # mais forte sem prejudicar ambulância/APH e outros objetos claramente
+    # aderentes.
+    if epi_generico and not ancora_resgate:
+        threshold = max(threshold, 0.26)
+
+    if prefiltro.decisao == "AMBIGUO":
+        return max(threshold, THRESHOLD_AMBIGUO)
+    fortes_objeto = (
+        "ambul" in obj
+        or "uti movel" in obj
+        or "uti móvel" in obj
+        or "furgoneta" in obj
+        or "simples remo" in obj
+        or "remoção" in obj
+        or "remocao" in obj
+    )
+    fortes_prefiltro = any(
+        t in {"ambulancia", "aph", "socorro", "uti movel"}
+        for t in getattr(prefiltro, "positivos", [])
+    )
+    if peso_contexto >= 1.0 and (fortes_objeto or fortes_prefiltro):
+        return min(threshold, 0.08)
+    return threshold
+
+
 # ── Pipeline principal ────────────────────────────────────────────────────────
 
 def processar(args, portfolio_path: Path, editais_path: Path) -> None:
     from pncp_embeddings import IndicePortfolio
+    from pncp_reranker import PortfolioReranker
 
     # 1. Carregar portfólio e construir índice
     print(f"Carregando portfólio de {portfolio_path}...")
@@ -142,8 +256,21 @@ def processar(args, portfolio_path: Path, editais_path: Path) -> None:
     indice = IndicePortfolio.carregar_ou_construir(
         portfolio_path,
         backend=args.backend,
+        modelo=args.retrieval_model,
     )
     print(f"  Índice pronto: {indice.n_produtos} produtos | backend={indice.backend}")
+
+    reranker = None
+    reranker_status = "disabled"
+    reranker_error = ""
+    try:
+        reranker = PortfolioReranker(model_name=args.reranker_model)
+        reranker_status = "active"
+        print(f"  Reranker pronto: {args.reranker_model}")
+    except Exception as e:
+        reranker_status = "fallback"
+        reranker_error = str(e)
+        print(f"  [aviso] Reranker indisponível — usando ranking bruto do retrieval: {e}")
 
     # 2. Carregar licitações
     print(f"\nCarregando {LICITACOES_FILE}...")
@@ -160,7 +287,7 @@ def processar(args, portfolio_path: Path, editais_path: Path) -> None:
     n_prazo = 0
     n_situacao = 0
     n_meepp = 0
-    n_pre_filtro = 0
+    n_prefiltro = 0
     n_score_baixo = 0
     n_processadas = 0
     max_proc = args.max or len(licitacoes)
@@ -211,40 +338,80 @@ def processar(args, portfolio_path: Path, editais_path: Path) -> None:
             n_meepp += 1
             continue
 
-        # Filtro 5 — pré-filtro contextual (port do pncp_agente.py)
-        pf = pre_filtrar_licitacao(objeto, itens)
-        if pf.decisao == "DESCARTAR":
-            n_pre_filtro += 1
+        # Filtro 5 — pré-filtro contextual do agente
+        prefiltro = pre_filtrar_licitacao(objeto, elegiveis)
+        if prefiltro.decisao == "DESCARTAR":
+            n_prefiltro += 1
             continue
 
         n_processadas += 1
 
-        # Peso de contexto baseado no objetoCompra
-        peso_ctx = peso_contexto_licitacao(objeto)
-
-        # Calcular scores — coletamos scores de TODOS os itens elegíveis,
-        # incluindo os zerados por _NEGATIVOS_ITEM, pois entram no cálculo de densidade.
+        # Calcular scores
         scored: list[dict] = []
-        scores_todos: list[float] = []  # inclui zeros — para calcular_score_bid
+        scores_itens: list[float] = []
+        lic_fallback_rerank = False
         for item in elegiveis:
             desc = (item.get("descricao") or "").strip()
             if not desc:
-                scores_todos.append(0.0)
                 continue
             # Filtro negativo: itens claramente fora do domínio da Resgatécnica
             if _NEGATIVOS_ITEM.search(desc):
-                scores_todos.append(0.0)
+                scores_itens.append(0.0)
                 continue
-            sc = indice.score_maximo(desc)
-            scores_todos.append(sc)
-            top = indice.top_k(desc, k=1)
-            produto_ref = top[0][1] if top else ""
+
+            recuperados = indice.top_k_candidatos(desc, k=args.top_k_retrieval)
+            if not recuperados:
+                scores_itens.append(0.0)
+                continue
+
+            score_retrieval = float(recuperados[0]["score"])
+            produto_ref = recuperados[0]["label"]
+            score_item = score_retrieval
+            score_rerank_top1 = score_retrieval
+            score_rerank_gap = 0.0
+            produto_ref_rerank = produto_ref
+            reranqueados: list[dict] = []
+
+            if reranker is not None:
+                try:
+                    reranqueados = reranker.rerank(desc, recuperados, top_k=args.top_k_debug_json)
+                except Exception:
+                    reranqueados = []
+                    lic_fallback_rerank = True
+
+            if reranqueados:
+                score_rerank_top1 = float(reranqueados[0]["score"])
+                score_item, score_rerank_gap = _calibrar_score_item(score_retrieval, reranqueados)
+                produto_ref_rerank = reranqueados[0]["label"]
+            else:
+                lic_fallback_rerank = lic_fallback_rerank or (reranker is not None)
+
+            scores_itens.append(score_item)
             scored.append({
-                "score":       sc,
+                "score":       score_item,
+                "score_retrieval": score_retrieval,
+                "score_rerank_top1": score_rerank_top1,
+                "score_rerank_gap": score_rerank_gap,
                 "descricao":   desc[:120],
-                "produto_ref": produto_ref,
+                "produto_ref": produto_ref_rerank,
+                "produto_ref_rerank": produto_ref_rerank,
                 "numeroItem":  item.get("numeroItem"),
                 "valor":       item.get("valorTotal") or 0.0,
+                "top_candidatos_recuperados": [
+                    {
+                        "id": c["id"],
+                        "label": c["label"],
+                        "score": round(float(c["score"]), 4),
+                    } for c in recuperados[:args.top_k_debug_json]
+                ],
+                "top_candidatos_reranqueados": [
+                    {
+                        "candidate_id": c["candidate_id"],
+                        "label": c["label"],
+                        "score": round(float(c["score"]), 4),
+                        "raw_score": round(float(c["raw_score"]), 4),
+                    } for c in reranqueados[:args.top_k_debug_json]
+                ],
             })
 
         if not scored:
@@ -254,11 +421,23 @@ def processar(args, portfolio_path: Path, editais_path: Path) -> None:
         scored.sort(key=lambda x: -x["score"])
         score_max   = scored[0]["score"]
         score_medio = sum(s["score"] for s in scored) / len(scored)
+        score_retrieval_max = max(s.get("score_retrieval", 0.0) for s in scored)
+        peso_contexto = peso_contexto_licitacao(objeto)
+        score_bid_info = calcular_score_bid(
+            scores_itens=scores_itens,
+            n_elegiveis=len(elegiveis),
+            peso_contexto=peso_contexto,
+        )
+        score_bid = score_bid_info["score_bid"]
 
-        # score_bid — nova métrica principal (substitui score_max)
-        bid = calcular_score_bid(scores_todos, len(elegiveis), peso_ctx)
+        threshold_aplicado = _threshold_ajustado(
+            args.threshold,
+            prefiltro,
+            peso_contexto,
+            objeto,
+        )
 
-        if bid["score_bid"] < args.threshold:
+        if score_bid < threshold_aplicado:
             n_score_baixo += 1
             continue
 
@@ -272,36 +451,40 @@ def processar(args, portfolio_path: Path, editais_path: Path) -> None:
             "valor_estimado":   round(valor, 2),
             "data_encerramento": data_enc[:10] if data_enc else "",
             "link":             link,
-            # ── nova métrica principal ──
-            "score_bid":            round(bid["score_bid"], 4),
-            "score_top1":           round(bid["score_top1"], 4),
-            "score_top3_medio":     round(bid["score_top3_medio"], 4),
-            "densidade_relevancia": round(bid["densidade_relevancia"], 4),
-            "n_itens_relevantes":   bid["n_itens_relevantes"],
-            "penalizacao_variancia": bid["penalizacao_variancia"],
-            "peso_contexto":        round(bid["peso_contexto"], 2),
-            # ── mantido para compatibilidade retroativa com radar antigo ──
-            "score_max":        round(score_max, 4),
+            "score_max":        round(score_retrieval_max, 4),
             "score_medio":      round(score_medio, 4),
-            # ── pré-filtro contextual ──
-            "pre_filtro": {
-                "decisao":   pf.decisao,
-                "score":     pf.score,
-                "positivos": pf.positivos[:5],
-                "negativos": pf.negativos[:5],
-                "ncm_hit":   pf.ncm_hit,
-            },
+            "score_bid":        round(score_bid, 4),
+            "score_top1":       round(score_bid_info["score_top1"], 4),
+            "score_top3_medio": round(score_bid_info["score_top3_medio"], 4),
+            "score_rerank_top1": round(scored[0].get("score_rerank_top1", 0.0), 4),
+            "produto_ref_rerank": scored[0].get("produto_ref_rerank", ""),
+            "densidade_relevancia": round(score_bid_info["densidade_relevancia"], 4),
+            "n_itens_relevantes": score_bid_info["n_itens_relevantes"],
+            "penalizacao_variancia": score_bid_info["penalizacao_variancia"],
+            "peso_contexto":    round(score_bid_info["peso_contexto"], 4),
+            "prefiltro_decisao": prefiltro.decisao,
+            "prefiltro_score":  round(prefiltro.score, 4),
+            "prefiltro_positivos": prefiltro.positivos[:10],
+            "prefiltro_negativos": prefiltro.negativos[:10],
+            "prefiltro_ncm_hit": prefiltro.ncm_hit,
+            "threshold_aplicado": round(threshold_aplicado, 4),
+            "fallback_rerank": lic_fallback_rerank or reranker_status != "active",
             "n_itens_elegiveis": len(elegiveis),
             "top_itens":        scored[:TOP_ITENS_POR_LICITACAO],
+            "top_candidatos_recuperados": scored[0].get("top_candidatos_recuperados", []),
+            "top_candidatos_reranqueados": scored[0].get("top_candidatos_reranqueados", []),
             "backend":          indice.backend,
             "modelo":           indice.modelo,
         })
 
         if n_processadas % 50 == 0:
-            print(f"  [{n_processadas:4d}] bid={bid['score_bid']:.3f}  {municipio} — {objeto[:50]}")
+            print(
+                f"  [{n_processadas:4d}] score_bid={score_bid:.3f} "
+                f"(max={score_max:.3f}) {municipio} — {objeto[:50]}"
+            )
 
-    # 3. Ordenar por score_bid descendente
-    resultados.sort(key=lambda x: -x["score_bid"])
+    # 3. Ordenar por score descendente
+    resultados.sort(key=lambda x: (-x["score_bid"], -x["score_max"]))
 
     # 4. Salvar
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
@@ -310,7 +493,15 @@ def processar(args, portfolio_path: Path, editais_path: Path) -> None:
                 "gerado_em":    agora.isoformat(),
                 "backend":      indice.backend,
                 "modelo":       indice.modelo,
+                "retrieval_backend": indice.backend,
+                "retrieval_model": indice.modelo,
+                "reranker_model": args.reranker_model,
+                "reranker_status": reranker_status,
+                "reranker_error": reranker_error,
+                "top_k_retrieval": args.top_k_retrieval,
+                "top_k_debug_json": args.top_k_debug_json,
                 "threshold":    args.threshold,
+                "metrica_principal": "score_bid",
                 "total":        len(resultados),
                 "n_processadas": n_processadas,
             },
@@ -318,7 +509,9 @@ def processar(args, portfolio_path: Path, editais_path: Path) -> None:
         }, f, ensure_ascii=False, indent=2)
 
     # 5. Resumo
-    n_penalizadas = sum(1 for r in resultados if r.get("penalizacao_variancia"))
+    score_bid_medio = (sum(r['score_bid'] for r in resultados) / len(resultados)) if resultados else 0.0
+    score_bid_max = max((r['score_bid'] for r in resultados), default=0.0)
+    score_max_medio = (sum(r['score_max'] for r in resultados) / len(resultados)) if resultados else 0.0
     print(f"""
 {'='*60}
 RESUMO
@@ -328,13 +521,13 @@ Licitações no arquivo       : {len(licitacoes):>6,}
   Filtradas (prazo)         : {n_prazo:>6,}
   Sem pasta/itens           : {n_sem_pasta:>6,}
   ME/EPP exclusivo          : {n_meepp:>6,}
-  Pré-filtro contextual     : {n_pre_filtro:>6,}
-  Score abaixo do threshold : {n_score_baixo:>6,}
-  APROVADAS (score_bid >= {args.threshold:.2f}): {len(resultados):>6,}
-    com penalização variância: {n_penalizadas:>5,}
+  Pré-filtro contextual     : {n_prefiltro:>6,}
+  Score_bid abaixo threshold: {n_score_baixo:>6,}
+  APROVADAS (score_bid >= {args.threshold:.2f})  : {len(resultados):>6,}
 
-score_bid médio aprovadas   : {sum(r['score_bid'] for r in resultados)/len(resultados):.3f}  (se > 0)
-score_bid máximo encontrado : {max((r['score_bid'] for r in resultados), default=0):.3f}
+Score_bid médio aprovadas   : {score_bid_medio:.3f}  (se > 0)
+Score_bid máximo encontrado : {score_bid_max:.3f}
+Score_max médio aprovado    : {score_max_medio:.3f}  (se > 0)
 
 Saída salva em: {OUTPUT_FILE}
 {'='*60}
@@ -348,6 +541,14 @@ def main() -> None:
                    help="Score mínimo para incluir no output (default: 0.10)")
     p.add_argument("--max",        type=int, default=0,
                    help="Limitar número de licitações processadas (0 = todas)")
+    p.add_argument("--retrieval-model", default=RETRIEVAL_MODELO_PADRAO,
+                   help="Modelo HuggingFace para retrieval semântico")
+    p.add_argument("--reranker-model", default=RERANKER_MODELO_PADRAO,
+                   help="Modelo HuggingFace para reranking item × produto")
+    p.add_argument("--top-k-retrieval", type=int, default=TOP_K_RETRIEVAL,
+                   help="Quantidade de candidatos recuperados por item")
+    p.add_argument("--top-k-debug-json", type=int, default=TOP_K_DEBUG_JSON,
+                   help="Quantidade de candidatos gravados no JSON para debug")
     p.add_argument("--portfolio",  default=str(PORTFOLIO_FILE))
     p.add_argument("--editais",    default=str(EDITAIS_DIR))
     args = p.parse_args()

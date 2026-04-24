@@ -265,10 +265,21 @@ _CONTEXTOS_INCOMPATIVEIS_RAW = [
     "limpeza predial", "serviço de limpeza", "servico de limpeza",
     "obra civil", "obras civis", "reforma predial",
     "seguro veicular",
+    "seguro total", "seguro da frota",
     "locação de veículos", "locacao de veiculos",
+    "veículos automotores", "veiculos automotores",
+    "veículo de passeio", "veiculo de passeio",
+    "minivan",
     "transporte escolar",
     "pneus", "peças automotivas", "pecas automotivas",
     "troca de óleo", "troca de oleo",
+    "ar condicionado",
+    "medicina do trabalho",
+    "engenharia de segurança", "engenharia de seguranca",
+    "pcmso", "ltcat", "pgr", "aso",
+    "stent", "materiais medico hospitalares", "materiais médico hospitalares",
+    "gerador de hipoclorito", "condutivimetro", "condutivímetro",
+    "adaptacao veicular", "adaptação veicular",
 ]
 
 # Contextos impossíveis — objeto é tão claramente fora do escopo que merece 0.00.
@@ -278,6 +289,12 @@ _CONTEXTOS_IMPOSSIVEIS_RAW = [
     "gêneros alimentícios", "generos alimenticios",
     "material didático", "material didatico",
     "livros didáticos", "livros didaticos",
+    "ar condicionado",
+    "seguro total", "seguro da frota", "seguro veicular",
+    "medicina do trabalho", "engenharia de segurança", "engenharia de seguranca",
+    "pcmso", "ltcat", "pgr", "aso",
+    "stent", "materiais medico hospitalares", "materiais médico hospitalares",
+    "gerador de hipoclorito", "condutivimetro", "condutivímetro",
 ]
 
 

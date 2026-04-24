@@ -48,6 +48,8 @@ import hashlib
 import json
 import re
 import sys
+import unicodedata
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Literal
 
@@ -84,6 +86,7 @@ PORTFOLIO_FILE  = Path("prompts/portfolio_mestre_resgatecnica_lite_v2.json")
 EDITAIS_DIR     = Path("editais")
 RELATORIO_FILE  = Path("embeddings_viabilidade.txt")
 CACHE_DIR       = Path(".embeddings_cache")   # pasta para cache de vetores
+CACHE_SCHEMA_VERSION = "v4_base_text_aph_aliases"
 
 # Backend padrão: "auto" tenta semantic, cai para tfidf se não disponível
 BACKEND_PADRAO  = "auto"
@@ -103,6 +106,17 @@ EMBEDDING_THRESHOLD_DEFAULT = 0.30
 # Thresholds avaliados no estudo
 THRESHOLDS_ESTUDO = [0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.50, 0.60]
 
+
+@dataclass(frozen=True)
+class PortfolioEntry:
+    id: str
+    label: str
+    texto: str
+    texto_base: str
+    categoria: str
+    subcategoria: str
+    produto: str
+
 # ── Classes de aderência ──────────────────────────────────────────────────────
 ClassLabel = Literal[
     "ADERENCIA_DIRETA", "ADERENCIA_PARCIAL_FORTE",
@@ -120,7 +134,7 @@ NEGATIVOS  = {"FALSO_POSITIVO_LEXICAL", "NAO_ADERENTE",
 # Extração de textos do portfólio
 # ══════════════════════════════════════════════════════════════════════════════
 
-def _textos_portfolio(portfolio: dict) -> list[tuple[str, str]]:
+def _entradas_portfolio(portfolio: dict) -> list[PortfolioEntry]:
     """
     Extrai textos de todos os produtos do portfólio.
     Cada entrada: (texto_enriquecido, label_para_log).
@@ -129,7 +143,8 @@ def _textos_portfolio(portfolio: dict) -> list[tuple[str, str]]:
     palavras_chave = " ".join(
         portfolio.get("perfil_empresa_resumido", {}).get("palavras_chave_dominio", [])
     )
-    entradas: list[tuple[str, str]] = []
+    entradas: list[PortfolioEntry] = []
+    idx = 0
 
     for cat in portfolio.get("categorias_resumidas", []):
         cat_nome  = cat.get("categoria_canonica", "")
@@ -138,15 +153,155 @@ def _textos_portfolio(portfolio: dict) -> list[tuple[str, str]]:
 
         for sub in cat.get("subcategorias_chave", []):
             sub_nome = sub.get("subcategoria", "")
-            for produto in sub.get("exemplos_produtos", []):
-                texto = (
-                    f"{produto} {sub_nome} {cat_nome} "
-                    f"{ctx_op} {tipo_forn} {palavras_chave}"
+            produtos = sub.get("exemplos_produtos", [])
+            status = str(sub.get("status", ""))
+            entradas_sub = list(produtos)
+
+            # O portfolio lite registra algumas subcategorias confirmadas no
+            # catalogo, mas sem itens estruturados. Criamos uma entrada
+            # sintetica local para retrieval, preservando o JSON-fonte.
+            if (not entradas_sub) and ("confirmada_no_catalogo" in status):
+                entradas_sub.append(sub_nome)
+
+            for produto in entradas_sub:
+                aliases: list[str] = []
+                cat_lower = cat_nome.lower()
+                sub_lower = sub_nome.lower()
+                prod_lower = str(produto).lower()
+
+                if "veículos especiais" in cat_lower or "veiculos especiais" in cat_lower:
+                    aliases.extend([
+                        "viatura especial",
+                        "veículo operacional",
+                        "veiculo operacional",
+                        "viatura",
+                        "ambulância",
+                        "ambulancia",
+                        "unidade móvel",
+                        "unidade movel",
+                        "ambulância de simples remoção",
+                        "ambulancia de simples remocao",
+                        "transporte sanitário",
+                        "transporte sanitario",
+                    ])
+                if "atendimento pré-hospitalar" in cat_lower or "atendimento pre-hospitalar" in cat_lower:
+                    aliases.extend([
+                        "aph",
+                        "atendimento pré-hospitalar",
+                        "atendimento pre-hospitalar",
+                        "socorro",
+                        "urgência",
+                        "urgencia",
+                        "emergência",
+                        "emergencia",
+                        "ambulância",
+                        "ambulancia",
+                        "resgate",
+                        "remoção",
+                        "remocao",
+                        "uti móvel",
+                        "uti movel",
+                        "transporte de paciente",
+                        "transporte inter-hospitalar",
+                        "transporte intra-hospitalar",
+                        "transporte sanitário",
+                        "transporte sanitario",
+                        "suporte básico",
+                        "suporte basico",
+                        "suporte avançado",
+                        "suporte avancado",
+                        "ambulância tipo a",
+                        "ambulancia tipo a",
+                        "ambulância tipo b",
+                        "ambulancia tipo b",
+                        "ambulância tipo d",
+                        "ambulancia tipo d",
+                    ])
+                if "resgate veicular" in cat_lower:
+                    aliases.extend([
+                        "resgate veicular",
+                        "salvamento veicular",
+                        "desencarceramento",
+                    ])
+                if "motocicletas operacionais" in sub_lower:
+                    aliases.extend(["motocicleta operacional", "motocicleta de emergência"])
+                if "resgate e evacuação" in sub_lower or "resgate e evacuacao" in sub_lower:
+                    aliases.extend([
+                        "evacuação",
+                        "evacuacao",
+                        "remoção",
+                        "remocao",
+                        "transporte de paciente",
+                        "transporte sanitário",
+                        "transporte sanitario",
+                    ])
+                if "bolsas" in sub_lower:
+                    aliases.extend([
+                        "kit aph",
+                        "suporte básico",
+                        "suporte avançado",
+                        "ambulância",
+                        "ambulancia",
+                    ])
+                if "coletes" in sub_lower:
+                    aliases.extend(["socorrista", "resgate", "aph"])
+                if "motobombas" in sub_lower or "bombas" in sub_lower:
+                    aliases.extend(["unidade de resgate", "equipamento embarcado"])
+                if "prancha" in prod_lower or "colar" in prod_lower or "dea" in prod_lower:
+                    aliases.extend(["ambulância", "ambulancia", "aph", "urgência", "emergência"])
+                if "bolsa para transporte" in prod_lower:
+                    aliases.extend(["ambulância", "ambulancia", "resgate"])
+                if "resgate básico" in prod_lower or "resgate avançado" in prod_lower:
+                    aliases.extend(["ambulância", "ambulancia", "aph", "socorro"])
+                if "oxigênio" in prod_lower or "oxigenio" in prod_lower:
+                    aliases.extend(["ambulância", "ambulancia", "suporte respiratório", "suporte respiratorio"])
+                if "veículo" in cat_lower or "veiculo" in cat_lower:
+                    aliases.extend(["ambulância", "ambulancia", "furgão", "furgoneta", "minivan"])
+                if "mobilidade operacional" in sub_lower:
+                    aliases.extend([
+                        "ambulância",
+                        "ambulancia",
+                        "viatura de resgate",
+                        "veículo de remoção",
+                        "veiculo de remocao",
+                        "uti móvel",
+                        "uti movel",
+                        "transporte sanitário",
+                        "transporte sanitario",
+                    ])
+                if "combate a incêndio" in sub_lower or "combate a incendio" in sub_lower:
+                    aliases.extend(["viatura operacional", "veículo especial", "veiculo especial"])
+                if "todo-terreno" in sub_lower or "todo terreno" in sub_lower:
+                    aliases.extend(["veículo especial", "veiculo especial", "resgate em área remota"])
+
+                texto_base = " ".join(
+                    part for part in [produto, sub_nome, " ".join(sorted(set(aliases)))] if part
+                ).strip()
+                texto = " ".join(
+                    part for part in [texto_base, cat_nome, ctx_op, tipo_forn, palavras_chave]
+                    if part
                 )
-                entradas.append((texto, f"{cat_nome} > {sub_nome} > {produto[:40]}"))
+                entradas.append(PortfolioEntry(
+                    id=f"prod_{idx:04d}",
+                    label=f"{cat_nome} > {sub_nome} > {produto[:40]}",
+                    texto=texto,
+                    texto_base=texto_base,
+                    categoria=cat_nome,
+                    subcategoria=sub_nome,
+                    produto=produto,
+                ))
+                idx += 1
 
     if not entradas:
-        entradas.append((palavras_chave, "global"))
+        entradas.append(PortfolioEntry(
+            id="global_0000",
+            label="global",
+            texto=palavras_chave,
+            texto_base=palavras_chave,
+            categoria="",
+            subcategoria="",
+            produto="",
+        ))
 
     return entradas
 
@@ -166,31 +321,20 @@ _STOP_WORDS_PT = {
     "ter", "tipo", "um", "uma", "uns", "umas", "à", "às",
 }
 
-# Stop words de domínio — termos genéricos de editais que aparecem em TODA licitação
-# e não discriminam o nicho da Resgatécnica (ex.: "fornecimento de equipamento" →
-# "fornecimento" e "equipamento" são ruído; o substantivo específico é o que diferencia).
-# ATENÇÃO: ao alterar esta lista, apagar .embeddings_cache/ para forçar reindexação.
-_STOP_WORDS_DOMINIO = {
-    "unidade", "fornecimento", "atendimento", "aquisição", "aquisicao",
-    "sistema", "técnico", "tecnico", "operacional", "militar",
-    "equipamento", "equipamentos", "material", "materiais",
-    "item", "itens", "serviço", "servico", "serviços", "servicos",
-    "conjunto", "conjuntos", "processo", "processos",
-    "instalação", "instalacao", "instalações", "instalacoes",
-    "manutenção", "manutencao", "manutenções", "manutencoes",
-    "tipo", "número", "numero", "modelo", "capacidade",
-    "especificação", "especificacao", "padrão", "padrao",
-}
-
-_STOP_WORDS_TFIDF = _STOP_WORDS_PT | _STOP_WORDS_DOMINIO
-
 
 def _normalizar_tfidf(texto: str) -> str:
-    """Normalização para TF-IDF: minúsculas, remove stop words PT e de domínio, preserva acentos."""
+    """Normalização para TF-IDF: minúsculas, remove stop words PT, preserva acentos."""
     texto = texto.lower()
     texto = re.sub(r'[^\w\sáàâãéèêíïóôõúüçñ]', ' ', texto)
-    tokens = [t for t in texto.split() if t not in _STOP_WORDS_TFIDF and len(t) > 1]
+    tokens = [t for t in texto.split() if t not in _STOP_WORDS_PT and len(t) > 1]
     return " ".join(tokens)
+
+
+def _normalizar_consulta(texto: str) -> str:
+    nfkd = unicodedata.normalize("NFKD", texto or "")
+    texto = "".join(c for c in nfkd if not unicodedata.combining(c)).lower()
+    texto = re.sub(r"[^\w\s]", " ", texto)
+    return " ".join(texto.split())
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -216,6 +360,7 @@ class IndicePortfolio:
         self._backend: str = ""
         self._modelo: str = ""
         self._labels: list[str] = []
+        self._entries: list[PortfolioEntry] = []
         self._n: int = 0
 
         # Backend TF-IDF
@@ -242,16 +387,17 @@ class IndicePortfolio:
         portfolio_path: se fornecido, tenta carregar/salvar cache de vetores
         """
         backend_real = self._resolver_backend(backend)
-        entradas     = _textos_portfolio(portfolio)
-        self._labels = [lbl for _, lbl in entradas]
+        entradas     = _entradas_portfolio(portfolio)
+        self._entries = entradas
+        self._labels = [e.label for e in entradas]
         self._n      = len(entradas)
 
         if backend_real == "semantic":
             self._construir_semantico(
-                [t for t, _ in entradas], modelo, portfolio_path
+                [e.texto_base for e in entradas], modelo, portfolio_path
             )
         else:
-            self._construir_tfidf([t for t, _ in entradas])
+            self._construir_tfidf([e.texto_base for e in entradas])
 
         return self
 
@@ -338,7 +484,7 @@ class IndicePortfolio:
         CACHE_DIR.mkdir(exist_ok=True)
         modelo_slug = re.sub(r'[^a-zA-Z0-9_-]', '_', modelo)
         phash = _hash_portfolio(portfolio_path)
-        return CACHE_DIR / f"portfolio_{modelo_slug}_{phash}.npy"
+        return CACHE_DIR / f"portfolio_{modelo_slug}_{phash}_{CACHE_SCHEMA_VERSION}.npy"
 
     def _carregar_cache(
         self, cache_path: Path | None, portfolio_path: Path | None
@@ -379,14 +525,184 @@ class IndicePortfolio:
 
     def top_k(self, texto_item: str, k: int = 5) -> list[tuple[float, str]]:
         """Retorna os k produtos mais similares com seus scores (debug)."""
+        candidatos = self.top_k_candidatos(texto_item, k=k)
+        return [(c["score"], c["label"]) for c in candidatos]
+
+    def top_k_candidatos(self, texto_item: str, k: int = 5) -> list[dict]:
+        """Retorna os k produtos mais similares com metadados estruturados."""
         if not texto_item or not texto_item.strip():
             return []
         if self._backend == "semantic":
             sims = self._sims_semantico(texto_item)
         else:
             sims = self._sims_tfidf(texto_item)
+        sims = self._ajustar_scores_consulta(sims, texto_item)
         idx_top = sims.argsort()[::-1][:k]
-        return [(float(sims[i]), self._labels[i]) for i in idx_top if sims[i] > 0]
+        resultados: list[dict] = []
+        for i in idx_top:
+            score = float(sims[i])
+            if score <= 0:
+                continue
+            entry = self._entries[i]
+            resultados.append({
+                "id": entry.id,
+                "label": entry.label,
+                "score": score,
+                "categoria": entry.categoria,
+                "subcategoria": entry.subcategoria,
+                "produto": entry.produto,
+                "texto": entry.texto,
+                "texto_base": entry.texto_base,
+            })
+        return resultados
+
+    def _ajustar_scores_consulta(self, sims: "np.ndarray", texto_item: str) -> "np.ndarray":
+        """
+        Aplica pequenos bônus/penalidades heurísticos por domínio para consultas
+        conhecidas, sem substituir o retrieval vetorial.
+        """
+        texto = _normalizar_consulta(texto_item)
+        termos_ambul = any(t in texto for t in ["ambulancia", "furgoneta", "uti movel", "simples remocao", "remocao"])
+        termos_veic = any(t in texto for t in ["veiculo", "furgao", "minivan", "viatura"])
+        termos_aph = any(t in texto for t in ["aph", "urgencia", "emergencia", "socorro"])
+        termos_servico = any(
+            t in texto
+            for t in [
+                "servico",
+                "contratacao",
+                "prestacao",
+                "locacao",
+                "transporte de pacientes",
+                "transporte de paciente",
+                "transporte de urgencia",
+                "transporte sanitario",
+                "transporte inter hospitalar",
+                "remocao terrestre",
+            ]
+        )
+        intencao_veicular_forte = any(
+            t in texto
+            for t in [
+                "ambulancia",
+                "furgoneta",
+                "furgao",
+                "minivan",
+                "viatura",
+                "veiculo automotor",
+                "uti movel",
+            ]
+        )
+        intencao_viatura_rodoviaria = any(
+            t in texto
+            for t in [
+                "furgao",
+                "furgoneta",
+                "pick up",
+                "pickup",
+                "4 x 4",
+                "4x4",
+                "minivan",
+                "tipo a",
+                "tipo b",
+                "tipo c",
+                "simples remocao",
+                "transporte sanitario",
+            ]
+        )
+        intencao_servico_aph = termos_servico and any(
+            t in texto
+            for t in [
+                "uti movel",
+                "remocao",
+                "urgencia",
+                "emergencia",
+                "ambulancia",
+            ]
+        )
+
+        if not (termos_ambul or termos_veic or termos_aph):
+            return sims
+
+        ajustados = sims.copy()
+        for i, entry in enumerate(self._entries):
+            cat = _normalizar_consulta(entry.categoria)
+            sub = _normalizar_consulta(entry.subcategoria)
+            prod = _normalizar_consulta(entry.produto)
+            bonus = 0.0
+
+            if termos_ambul or termos_aph:
+                if "atendimento pre hospitalar" in cat:
+                    bonus += 0.10
+                if "veiculos especiais customizados" in cat:
+                    bonus += 0.06
+                if "resgate e evacuacao" in sub:
+                    bonus += 0.05
+                if "bolsas" in sub or "kit" in sub:
+                    bonus += 0.04
+                if any(t in prod for t in ["oxigenio", "resgate", "evacuacao", "socorrista"]):
+                    bonus += 0.03
+
+            if termos_veic:
+                if "veiculos especiais customizados" in cat:
+                    bonus += 0.12
+                if "resgate veicular" in cat:
+                    bonus += 0.05
+                if any(t in prod for t in ["sherp", "motocicleta", "resgate"]):
+                    bonus += 0.02
+
+            if intencao_veicular_forte:
+                if "veiculos especiais customizados" in cat:
+                    bonus += 0.18
+                if "resgate veicular" in cat:
+                    bonus += 0.07
+                if any(t in sub for t in ["motocicletas", "veiculos", "evacuacao"]):
+                    bonus += 0.04
+                if any(t in prod for t in ["sherp", "search and rescue", "firefighting"]):
+                    bonus += 0.04
+
+                # Quando a consulta fala explicitamente de ambulância/viatura,
+                # candidatos APH de suporte continuam úteis, mas não devem
+                # dominar o topo contra itens do universo veicular.
+                if "bolsas" in sub or "coletes" in sub:
+                    bonus -= 0.12
+                if any(t in prod for t in ["cadeira", "prancha", "colar", "bolsa", "colete"]):
+                    bonus -= 0.10
+
+            if intencao_viatura_rodoviaria:
+                if "solucoes customizadas de mobilidade operacional" in sub:
+                    bonus += 0.18
+                if "veiculos especiais customizados" in cat:
+                    bonus += 0.04
+                if "motocicletas operacionais" in sub or "motocicleta para combate a incendio" in sub:
+                    bonus -= 0.14
+                if "veiculos anfibios e todo terreno" in sub:
+                    bonus -= 0.08
+                if any(t in prod for t in ["sherp", "firefighting", "the ark", "motocicleta", "bmw"]):
+                    bonus -= 0.06
+
+            if intencao_servico_aph:
+                if "atendimento pre hospitalar" in cat:
+                    bonus += 0.12
+                if "resgate e evacuacao" in sub:
+                    bonus += 0.10
+                if "imobilizadores" in sub or "kits prontos" in sub:
+                    bonus += 0.04
+                if "bolsas" in sub:
+                    bonus += 0.08
+                if "veiculos especiais customizados" in cat:
+                    bonus -= 0.08
+                if "resgate e evacuacao" in sub and "cadeira" in prod:
+                    bonus -= 0.14
+                if any(t in prod for t in ["kit parto", "kit queimadura"]):
+                    bonus -= 0.08
+                if any(t in prod for t in ["oxigenio", "resgate avancado", "resgate basico"]):
+                    bonus += 0.06
+
+            if ("resgate aquatico" in cat) and (termos_ambul or termos_veic):
+                bonus -= 0.05
+
+            ajustados[i] = max(0.0, float(ajustados[i]) + bonus)
+        return ajustados
 
     def _score_tfidf(self, texto: str) -> float:
         vec = self._vec_tfidf.transform([_normalizar_tfidf(texto)])
